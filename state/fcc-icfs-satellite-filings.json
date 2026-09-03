@@ -4,6 +4,25 @@
   "items": [
     {
       "category": "Launch and Operating Authority",
+      "description": "Sirius XM Radio LLC; Call sign/Auth ID: S00935",
+      "first_seen_at": "2026-09-03T21:06:25.849282+00:00",
+      "guid": "SAT-LOA-20260727-00312",
+      "metadata": {
+        "applicant": "Sirius XM Radio LLC",
+        "call_sign": "S00935",
+        "file_number": "SAT-LOA-20260727-00312",
+        "filing_type": "LOA",
+        "record_id": "0aa2ee5acf528f1058a3fe052f851c1f",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-09-03T20:01:29+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20260727-00312 \u2014 Sirius XM Radio LLC \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20260727-00312"
+    },
+    {
+      "category": "Launch and Operating Authority",
       "description": "Turion Space Corp.; Call sign/Auth ID: S00933",
       "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
       "guid": "SAT-LOA-20260527-00216",
