@@ -5,6 +5,17 @@
     {
       "category": "Announcement",
       "description": null,
+      "first_seen_at": "2026-09-03T16:29:28.386618+00:00",
+      "guid": "inspace-announcement-attachment-3125cc26ac87c710ec2ea7fd3ad717bf",
+      "metadata": {},
+      "published_at": null,
+      "source_id": "inspace",
+      "title": "Results : Engagement of Young Professionals - Legal Directorate 2026",
+      "url": "https://www.inspace.gov.in/inspace/sys_attachment.do?sys_id=3125cc26ac87c710ec2ea7fd3ad717bf"
+    },
+    {
+      "category": "Announcement",
+      "description": null,
       "first_seen_at": "2026-09-03T07:00:14.737163+00:00",
       "guid": "inspace-announcement-f5c269f7309dd83d9f2f8a3eb6f3648d875c2995843b762e11014faf0bd79067",
       "metadata": {},
@@ -212,6 +223,6 @@
       "url": "https://www.inspace.gov.in/inspace?id=veneto_space_meetings"
     }
   ],
-  "previous_visible_count": 19,
+  "previous_visible_count": 20,
   "schema_version": 1
 }
