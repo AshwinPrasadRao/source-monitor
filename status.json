@@ -55,7 +55,7 @@
       "feed_title": "DoT / WPC \u2014 Spectrum and Satellite Administration",
       "item_count": 2,
       "last_new_item_time": "2026-09-03T06:46:01.406994+00:00",
-      "last_successful_check": "2026-09-03T07:07:14.371647+00:00",
+      "last_successful_check": "2026-09-03T07:15:41.756517+00:00",
       "official_upstream_urls": [
         "https://www.dot.gov.in/cms/wp-json/document/documents?document_category=gazette-notifications&limit=100&page=1",
         "https://www.dot.gov.in/documents/gazettes-notifications",
@@ -201,6 +201,6 @@
       "warnings": []
     }
   ],
-  "generated_at": "2026-09-03T07:07:14.371647+00:00",
+  "generated_at": "2026-09-03T07:15:41.756517+00:00",
   "project": "The Orrery Source Monitor"
 }

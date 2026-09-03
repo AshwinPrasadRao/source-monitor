@@ -68,7 +68,9 @@ replace a satisfactory native subscription.
   service-page prose is not itself a feed item. The DoT edge rejected the
   project URL in the default User-Agent during the 2026-09-03 live test, while
   accepting the shorter identifying token `OrrerySourceMonitor/0.1`; the JSON
-  request therefore uses that token and the official page as its Referer.
+  request therefore uses that token and the official page as its Referer. The
+  eServices host appears with and without `www`; both forms normalize to the
+  same host before GUID deduplication.
 
 ## NSIL
 

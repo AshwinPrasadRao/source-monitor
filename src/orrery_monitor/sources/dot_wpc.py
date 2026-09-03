@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import re
+from urllib.parse import urlsplit, urlunsplit
 
 from bs4 import BeautifulSoup
 
@@ -135,7 +136,7 @@ def parse_eservices_html(
             valid_count += 1
             if published < cutoff:
                 continue
-            url = canonical_url(base_url, str(link["href"]))
+            url = normalize_eservices_url(base_url, str(link["href"]))
             category = _cell(row, "view-name-table-column")
             service = _cell(row, "view-field-services-type-table-column")
             records.append(
@@ -171,7 +172,7 @@ def parse_eservices_html(
         valid_count += 1
         if published < cutoff:
             continue
-        url = canonical_url(base_url, str(link["href"]))
+        url = normalize_eservices_url(base_url, str(link["href"]))
         records.append(
             FeedItem(
                 source_id="dot_wpc",
@@ -189,6 +190,16 @@ def parse_eservices_html(
 
 def _cell(row, header: str) -> str:
     return clean_text(row.select_one(f'[headers="{header}"]'))
+
+
+def normalize_eservices_url(base_url: str, value: str) -> str:
+    url = canonical_url(base_url, value)
+    parts = urlsplit(url)
+    if parts.hostname == "eservices.dot.gov.in":
+        return urlunsplit(
+            (parts.scheme, "www.eservices.dot.gov.in", parts.path, parts.query, "")
+        )
+    return url
 
 
 def _matches(item: FeedItem, filters: dict) -> bool:

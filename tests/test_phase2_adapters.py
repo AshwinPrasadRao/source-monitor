@@ -102,7 +102,7 @@ def test_phase2_duplicate_inputs_keep_stable_guids() -> None:
         html, "https://www.eservices.dot.gov.in/", context("dot_wpc")
     )[0]
     second = parse_eservices_html(
-        html, "https://www.eservices.dot.gov.in/", context("dot_wpc")
+        html, "https://eservices.dot.gov.in/", context("dot_wpc")
     )[0]
 
     assert [item.guid for item in first] == [item.guid for item in second]
