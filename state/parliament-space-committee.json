@@ -1,0 +1,98 @@
+{
+  "feed_config_hash": "56c289ba41ed1bfee37fb3f5d2e24131524a9262c6a732902950fb21aa9fadde",
+  "feed_id": "parliament-space-committee",
+  "items": [
+    {
+      "category": "Demands for Grants",
+      "description": null,
+      "first_seen_at": "2026-09-03T06:46:06.841444+00:00",
+      "guid": "RS-report-410",
+      "metadata": {
+        "document_type": "Demands for Grants",
+        "report_number": 410
+      },
+      "published_at": "2026-03-25T00:00:00+00:00",
+      "source_id": "parliament_space",
+      "title": "Report 410 \u2014 DEMANDS FOR GRANTS (2026-2027) OF THE DEPARTMENT OF SPACE (DEMAND NO. 95)",
+      "url": "https://bucketapi.rajyasabha.digital/public-bucket/committee_file/ReportFile/19/217/410_2026_3_12.pdf"
+    },
+    {
+      "category": "Press Release",
+      "description": null,
+      "first_seen_at": "2026-09-03T06:46:06.841444+00:00",
+      "guid": "RS-press-910",
+      "metadata": {
+        "press_id": 910,
+        "related_report_numbers": [
+          410
+        ]
+      },
+      "published_at": "2026-03-25T00:00:00+00:00",
+      "source_id": "parliament_space",
+      "title": "Press Release on 410th Report on Demands for Grants (2025-26) of the Department of Space",
+      "url": "https://bucketapi.rajyasabha.digital/public-bucket/committee_file/Press_ReleaseFile/19/217/910P_2026_3_17.pdf"
+    },
+    {
+      "category": "Action Taken Report",
+      "description": null,
+      "first_seen_at": "2026-09-03T06:46:06.841444+00:00",
+      "guid": "RS-report-398",
+      "metadata": {
+        "document_type": "Action Taken Report",
+        "report_number": 398
+      },
+      "published_at": "2025-08-08T00:00:00+00:00",
+      "source_id": "parliament_space",
+      "title": "Report 398 \u2014 Action Taken by the Government on the Recommendations/Observations contained in the Three Hundred Ninety First Report of the Department-related Parliamentary Standing Committee on Science and Technology, Environment, Forests and Climate Change on the Demands for Grants (2025-26) of the Department of Space",
+      "url": "https://bucketapi.rajyasabha.digital/public-bucket/committee_file/ReportFile/19/201/398_2025_8_14.pdf"
+    },
+    {
+      "category": "Press Release",
+      "description": null,
+      "first_seen_at": "2026-09-03T06:46:06.841444+00:00",
+      "guid": "RS-press-804",
+      "metadata": {
+        "press_id": 804,
+        "related_report_numbers": [
+          398
+        ]
+      },
+      "published_at": "2025-08-08T00:00:00+00:00",
+      "source_id": "parliament_space",
+      "title": "Press Release on Action Taken Reports of DRPSC on Science and Technology",
+      "url": "https://bucketapi.rajyasabha.digital/public-bucket/committee_file/Press_ReleaseFile/19/201/804P_2025_8_18.pdf"
+    },
+    {
+      "category": "Demands for Grants",
+      "description": null,
+      "first_seen_at": "2026-09-03T06:46:06.841444+00:00",
+      "guid": "RS-report-391",
+      "metadata": {
+        "document_type": "Demands for Grants",
+        "report_number": 391
+      },
+      "published_at": "2025-03-25T00:00:00+00:00",
+      "source_id": "parliament_space",
+      "title": "Report 391 \u2014 DEMANDS FOR GRANTS (2025-2026) OF THE DEPARTMENT OF SPACE (DEMAND NO. 95)",
+      "url": "https://bucketapi.rajyasabha.digital/public-bucket/committee_file/ReportFile/19/201/391_2025_8_14.pdf"
+    },
+    {
+      "category": "Press Release",
+      "description": null,
+      "first_seen_at": "2026-09-03T06:46:06.841444+00:00",
+      "guid": "RS-press-770",
+      "metadata": {
+        "press_id": 770,
+        "related_report_numbers": [
+          391
+        ]
+      },
+      "published_at": "2025-03-25T00:00:00+00:00",
+      "source_id": "parliament_space",
+      "title": "Press Release on 391st Report on Demands for Grants (2025-26) of the Department of Space",
+      "url": "https://bucketapi.rajyasabha.digital/public-bucket/committee_file/Press_ReleaseFile/19/201/770P_2025_3_16.pdf"
+    }
+  ],
+  "previous_visible_count": 47,
+  "schema_version": 1
+}

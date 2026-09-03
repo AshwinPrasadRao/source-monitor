@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>NSIL News</title>
+    <link>https://www.nsilindia.co.in/news</link>
+    <description>Official commercial and institutional news from NSIL.</description>
+    <atom:link href="https://ashwinprasadrao.github.io/source-monitor/feeds/nsil-news.xml" rel="self" type="application/rss+xml"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 02 Sep 2026 12:51:48 +0000</lastBuildDate>
+    <item>
+      <title>NSIL provides LEOP And TTC Support To M/S Galaxeye Space for their Satellite Mission ‘Drishti"</title>
+      <link>https://www.nsilindia.co.in/news-details/771</link>
+      <guid isPermaLink="false">https://www.nsilindia.co.in/news-details/771</guid>
+      <category>News</category>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0530</pubDate>
+    </item>
+    <item>
+      <title>Technology Transfer of ISRO Navigation Sensors to Industry</title>
+      <link>https://www.nsilindia.co.in/news-details/769</link>
+      <guid isPermaLink="false">https://www.nsilindia.co.in/news-details/769</guid>
+      <category>News</category>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0530</pubDate>
+    </item>
+    <item>
+      <title>MoU with KELTRON</title>
+      <link>https://www.nsilindia.co.in/news-details/767</link>
+      <guid isPermaLink="false">https://www.nsilindia.co.in/news-details/767</guid>
+      <category>News</category>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0530</pubDate>
+    </item>
+    <item>
+      <title>MoU with Dhuruva</title>
+      <link>https://www.nsilindia.co.in/news-details/766</link>
+      <guid isPermaLink="false">https://www.nsilindia.co.in/news-details/766</guid>
+      <category>News</category>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0530</pubDate>
+    </item>
+    <item>
+      <title>NSIL Signs Reseller Agreement with M/s Galaxeye</title>
+      <link>https://www.nsilindia.co.in/news-details/763</link>
+      <guid isPermaLink="false">https://www.nsilindia.co.in/news-details/763</guid>
+      <category>News</category>
+      <pubDate>Fri, 13 Feb 2026 00:00:00 +0530</pubDate>
+    </item>
+    <item>
+      <title>Inauguration of new NSIL office at GIFT City, Gandhinagar, Gujarat</title>
+      <link>https://www.nsilindia.co.in/news-details/761</link>
+      <guid isPermaLink="false">https://www.nsilindia.co.in/news-details/761</guid>
+      <category>News</category>
+      <pubDate>Thu, 12 Feb 2026 00:00:00 +0530</pubDate>
+    </item>
+    <item>
+      <title>Technology Transfer Event at NSIL</title>
+      <link>https://www.nsilindia.co.in/news-details/759</link>
+      <guid isPermaLink="false">https://www.nsilindia.co.in/news-details/759</guid>
+      <category>News</category>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 +0530</pubDate>
+    </item>
+    <item>
+      <title>NSIL Demonstrates GSAT-N2 High-Throughput Satellite Capability to Assam Government Officials</title>
+      <link>https://www.nsilindia.co.in/news-details/757</link>
+      <guid isPermaLink="false">https://www.nsilindia.co.in/news-details/757</guid>
+      <category>News</category>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 +0530</pubDate>
+    </item>
+    <item>
+      <title>Update on PSLV-C62 / EOS-N1 Mission</title>
+      <link>https://www.nsilindia.co.in/news-details/756</link>
+      <guid isPermaLink="false">https://www.nsilindia.co.in/news-details/756</guid>
+      <category>News</category>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 +0530</pubDate>
+    </item>
+    <item>
+      <title>PSLV-C62 / EOS-N1 Mission</title>
+      <link>https://www.nsilindia.co.in/news-details/755</link>
+      <guid isPermaLink="false">https://www.nsilindia.co.in/news-details/755</guid>
+      <category>News</category>
+      <pubDate>Thu, 08 Jan 2026 00:00:00 +0530</pubDate>
+    </item>
+    <item>
+      <title>Launch of BlueBird Block-2 ccommunication satellite of AST Space Mobile, USA on-board ISRO’s LVM3 launcher</title>
+      <link>https://www.nsilindia.co.in/news-details/751</link>
+      <guid isPermaLink="false">https://www.nsilindia.co.in/news-details/751</guid>
+      <category>News</category>
+      <pubDate>Mon, 29 Dec 2025 00:00:00 +0530</pubDate>
+    </item>
+    <item>
+      <title>NSIL Launch Service Requisition</title>
+      <link>https://www.nsilindia.co.in/launch-service-requisition</link>
+      <guid isPermaLink="false">https://www.nsilindia.co.in/launch-service-requisition</guid>
+      <category>News</category>
+      <pubDate>Thu, 13 Nov 2025 00:00:00 +0530</pubDate>
+    </item>
+  </channel>
+</rss>

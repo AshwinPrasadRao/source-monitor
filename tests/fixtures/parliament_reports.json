@@ -1,0 +1,25 @@
+{
+  "success": true,
+  "data": {
+    "records": [
+      {
+        "subjectOfTheReport": "Demands for Grants (2025-26) of the Department of Space",
+        "reportNo": 391,
+        "dateOfPresentation": "25/03/2025",
+        "url": "https://sansad.in/getFile/report-391.pdf"
+      },
+      {
+        "subjectOfTheReport": "Action Taken by the Government on the 391st Report on Demands for Grants (2025-26) of the Department of Space",
+        "reportNo": 398,
+        "dateOfPresentation": "08/08/2025",
+        "url": "https://sansad.in/getFile/report-398.pdf"
+      },
+      {
+        "subjectOfTheReport": "Demands for Grants of the Department of Science and Technology",
+        "reportNo": 399,
+        "dateOfPresentation": "08/08/2025",
+        "url": "https://sansad.in/getFile/report-399.pdf"
+      }
+    ]
+  }
+}

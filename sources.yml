@@ -1,0 +1,209 @@
+site_base_url: https://ashwinprasadrao.github.io/source-monitor
+default_retention: 300
+
+sources:
+  - id: inspace
+    name: IN-SPACe
+    adapter: inspace
+    enabled: true
+    retrieval_mode: api
+    upstream_urls:
+      - https://www.inspace.gov.in/inspace
+      - https://www.inspace.gov.in/api/now/sp/page?id=inspace_index
+    feeds:
+      - id: inspace-announcements
+        title: IN-SPACe Announcements
+        description: Official announcements from IN-SPACe.
+        output: feeds/inspace-announcements.xml
+        official_link: https://www.inspace.gov.in/inspace
+      - id: inspace-updates
+        title: IN-SPACe Updates
+        description: Official updates from IN-SPACe.
+        output: feeds/inspace-updates.xml
+        official_link: https://www.inspace.gov.in/inspace
+
+  - id: pib_space
+    name: PIB — Department of Space
+    adapter: pib_space
+    enabled: true
+    retrieval_mode: rss-filter
+    upstream_urls:
+      - https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=1
+    feeds:
+      - id: pib-department-of-space
+        title: PIB — Department of Space
+        description: PIB releases explicitly originating from the Department of Space.
+        output: feeds/pib-department-of-space.xml
+        official_link: https://www.pib.gov.in/ViewRss.aspx?lang=1&reg=1
+
+  - id: dot_wpc
+    name: DoT / WPC Space Administration
+    adapter: dot_wpc
+    enabled: true
+    retrieval_mode: api+html
+    upstream_urls:
+      - https://www.dot.gov.in/cms/wp-json/document/documents?document_category=gazette-notifications&limit=100&page=1
+      - https://www.dot.gov.in/documents/gazettes-notifications
+      - https://www.eservices.dot.gov.in/
+      - https://www.eservices.dot.gov.in/circular-notifications-others
+      - https://www.eservices.dot.gov.in/satellite-license
+      - https://www.eservices.dot.gov.in/resources
+    filters:
+      concepts:
+        - WPC
+        - satellite
+        - frequency assignment
+        - spectrum
+        - satellite licence
+        - satellite license
+        - Satellite Earth Station Gateway Provider
+        - GMPCS
+        - VSAT
+        - NGSO
+        - GSO
+        - satellite network
+        - SACFA
+        - TT&C
+        - orbital coordination
+        - frequency coordination
+        - satellite authorisation
+        - space-to-ground
+        - earth station
+    feeds:
+      - id: dot-wpc-space
+        title: DoT / WPC — Spectrum and Satellite Administration
+        description: Official Indian spectrum and satellite-administration publications.
+        output: feeds/dot-wpc-space.xml
+        official_link: https://www.eservices.dot.gov.in/circular-notifications-others
+
+  - id: nsil
+    name: NewSpace India Limited
+    adapter: nsil
+    enabled: true
+    retrieval_mode: html
+    upstream_urls:
+      - https://www.nsilindia.co.in/news
+      - https://www.nsilindia.co.in/tenders
+    feeds:
+      - id: nsil-news
+        title: NSIL News
+        description: Official commercial and institutional news from NSIL.
+        output: feeds/nsil-news.xml
+        official_link: https://www.nsilindia.co.in/news
+      - id: nsil-procurement
+        title: NSIL Procurement
+        description: Official tenders, RFIs, EOIs, and procurement notices from NSIL.
+        output: feeds/nsil-procurement.xml
+        official_link: https://www.nsilindia.co.in/tenders
+
+  - id: isro
+    name: ISRO Press Releases
+    adapter: isro
+    enabled: true
+    retrieval_mode: html
+    upstream_urls:
+      - https://www.isro.gov.in/Press.html
+    feeds:
+      - id: isro-press
+        title: ISRO Press Releases
+        description: Institutional press releases from ISRO's dedicated archive.
+        output: feeds/isro-press.xml
+        official_link: https://www.isro.gov.in/Press.html
+
+  - id: idex
+    name: iDEX / Defence Innovation Organisation
+    adapter: idex
+    enabled: true
+    retrieval_mode: html
+    upstream_urls:
+      - https://idex.gov.in/notices
+      - https://www.idex.gov.in/
+      - https://www.idex.gov.in/bulletin/details
+    feeds:
+      - id: idex-notices
+        title: iDEX Notices
+        description: Official notices from iDEX and the Defence Innovation Organisation.
+        output: feeds/idex-notices.xml
+        official_link: https://idex.gov.in/notices
+      - id: idex-news
+        title: iDEX News Updates
+        description: Official programme and challenge news from iDEX.
+        output: feeds/idex-news.xml
+        official_link: https://www.idex.gov.in/
+
+  - id: drdo
+    name: DRDO Space Technology
+    adapter: drdo
+    enabled: true
+    retrieval_mode: html
+    upstream_urls:
+      - https://drdo.gov.in/drdo/documents/press-release
+      - https://drdo.gov.in/drdo/en/documents/press-release/archive
+      - https://drdo.gov.in/drdo/en/archive
+    filters:
+      primary_terms:
+        - space
+        - satellite
+        - counterspace
+        - counter-space
+        - directed energy
+        - missile warning
+        - missile tracking
+        - space domain awareness
+        - SSA
+        - space-based
+        - space borne
+        - spaceborne
+        - Defence Space Agency
+        - orbital
+        - re-entry
+      contextual_groups:
+        - all_contexts: [RF, radio frequency, electronic warfare]
+          require_any: [space, satellite, orbital]
+        - all_contexts: [quantum]
+          require_any: [timing, sensing, PNT, navigation]
+        - all_contexts: [launch]
+          require_any: [space, satellite, orbital]
+    feeds:
+      - id: drdo-space-tech
+        title: DRDO — Space Technology and Foresight
+        description: Selective official DRDO releases relevant to military space power.
+        output: feeds/drdo-space-tech.xml
+        official_link: https://drdo.gov.in/drdo/documents/press-release
+
+  - id: parliament_space
+    name: Parliament Space Committee
+    adapter: parliament_space
+    enabled: true
+    retrieval_mode: api
+    upstream_urls:
+      - https://sansad.in/rs/pressRelease
+      - https://sansad.in/rs/committees/committee-meetings
+      - https://integration.rajyasabha.digital/committee-integration/api/v1/web/committee-reports?mstCommId=19&page=1&size=100
+      - https://integration.rajyasabha.digital/committee-integration/api/v1/web/GetPress_relese_committee?mstCommId=19
+    filters:
+      committee_id: 19
+      explicit_terms: [Department of Space]
+    feeds:
+      - id: parliament-space-committee
+        title: Parliament Standing Committee — Department of Space
+        description: Reports and notices explicitly pertaining to the Department of Space.
+        output: feeds/parliament-space-committee.xml
+        official_link: https://sansad.in/rs/pressRelease
+
+  - id: fcc_icfs
+    name: FCC ICFS Satellite Space Station Filings
+    adapter: fcc_icfs
+    enabled: true
+    retrieval_mode: api
+    upstream_urls:
+      - https://fccprod.servicenowservices.com/icfs
+    filters:
+      subsystem: SAT
+      filing_types: [NEW, PDR, PPL, LFS, LOA, L/A, MOD, MPL, AMD, APL, RPL, ASG, ASG314, ASG316, T/C, T/C315, T/C316, T/CASG316]
+    feeds:
+      - id: fcc-icfs-satellite-filings
+        title: FCC ICFS — Satellite Space Station Filings
+        description: Raw public Satellite Space Station filings in FCC ICFS.
+        output: feeds/fcc-icfs-satellite-filings.xml
+        official_link: https://fccprod.servicenowservices.com/icfs

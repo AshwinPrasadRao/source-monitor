@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>Press Information Bureau</title>
+  <link>https://pib.gov.in/</link><description>Government of India press releases</description>
+  <item><title>Space department release</title>
+    <link>https://www.pib.gov.in/PressReleasePage.aspx?PRID=2295424&amp;reg=3&amp;lang=2</link>
+    <guid>https://www.pib.gov.in/PressReleasePage.aspx?PRID=2295424</guid>
+    <pubDate>Thu, 06 Aug 2026 09:16:00 GMT</pubDate><description>Official release</description></item>
+  <item><title>Another ministry release</title>
+    <link>https://www.pib.gov.in/PressReleasePage.aspx?PRID=2295000</link>
+    <guid>https://www.pib.gov.in/PressReleasePage.aspx?PRID=2295000</guid>
+    <pubDate>Wed, 05 Aug 2026 09:00:00 GMT</pubDate></item>
+  <item><title>Temporarily unavailable release</title>
+    <link>https://www.pib.gov.in/PressReleasePage.aspx?PRID=2294000</link>
+    <guid>https://www.pib.gov.in/PressReleasePage.aspx?PRID=2294000</guid></item>
+</channel></rss>

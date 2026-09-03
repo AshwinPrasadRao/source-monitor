@@ -1,0 +1,813 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>FCC ICFS — Satellite Space Station Filings</title>
+    <link>https://fccprod.servicenowservices.com/icfs</link>
+    <description>Raw public Satellite Space Station filings in FCC ICFS.</description>
+    <atom:link href="https://ashwinprasadrao.github.io/source-monitor/feeds/fcc-icfs-satellite-filings.xml" rel="self" type="application/rss+xml"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 03 Sep 2026 06:57:10 +0000</lastBuildDate>
+    <item>
+      <title>SAT-LOA-20260527-00216 — Turion Space Corp. — Launch and Operating Authority</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-LOA-20260527-00216</link>
+      <description>Turion Space Corp.; Call sign/Auth ID: S00933</description>
+      <guid isPermaLink="false">SAT-LOA-20260527-00216</guid>
+      <category>Launch and Operating Authority</category>
+      <pubDate>Wed, 02 Sep 2026 23:54:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20260819-00342 — Intelsat License LLC — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20260819-00342</link>
+      <description>Intelsat License LLC; Call sign/Auth ID: S3083</description>
+      <guid isPermaLink="false">SAT-MOD-20260819-00342</guid>
+      <category>Modification</category>
+      <pubDate>Wed, 19 Aug 2026 19:39:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20260814-00339 — Astranis Projects USA LLC — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20260814-00339</link>
+      <description>Astranis Projects USA LLC; Call sign/Auth ID: S00784</description>
+      <guid isPermaLink="false">SAT-MOD-20260814-00339</guid>
+      <category>Modification</category>
+      <pubDate>Fri, 14 Aug 2026 23:50:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20260814-00337 — Astranis Projects USA LLC — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20260814-00337</link>
+      <description>Astranis Projects USA LLC; Call sign/Auth ID: S00784</description>
+      <guid isPermaLink="false">SAT-MOD-20260814-00337</guid>
+      <category>Modification</category>
+      <pubDate>Fri, 14 Aug 2026 21:11:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20260814-00338 — SES Americom, Inc. — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20260814-00338</link>
+      <description>SES Americom, Inc.; Call sign/Auth ID: S2826</description>
+      <guid isPermaLink="false">SAT-MOD-20260814-00338</guid>
+      <category>Modification</category>
+      <pubDate>Fri, 14 Aug 2026 20:45:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20260813-00336 — Intelsat License LLC — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20260813-00336</link>
+      <description>Intelsat License LLC; Call sign/Auth ID: S2687</description>
+      <guid isPermaLink="false">SAT-MOD-20260813-00336</guid>
+      <category>Modification</category>
+      <pubDate>Thu, 13 Aug 2026 17:53:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-LOA-20260806-00329 — Oligo Space — Launch and Operating Authority</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-LOA-20260806-00329</link>
+      <description>Oligo Space; Call sign/Auth ID: S00926</description>
+      <guid isPermaLink="false">SAT-LOA-20260806-00329</guid>
+      <category>Launch and Operating Authority</category>
+      <pubDate>Thu, 13 Aug 2026 13:42:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-ASG-20260812-00334 — Hughes Network Systems, LLC — Assignment</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-ASG-20260812-00334</link>
+      <description>Hughes Network Systems, LLC</description>
+      <guid isPermaLink="false">SAT-ASG-20260812-00334</guid>
+      <category>Assignment</category>
+      <pubDate>Wed, 12 Aug 2026 21:29:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-T/C-20260720-00302 — Iridium Constellation LLC — Transfer of Control</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-T%2FC-20260720-00302</link>
+      <description>Iridium Constellation LLC</description>
+      <guid isPermaLink="false">SAT-T/C-20260720-00302</guid>
+      <category>Transfer of Control</category>
+      <pubDate>Tue, 11 Aug 2026 00:22:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-LOA-20260730-00323 — Care Weather Technologies — Launch and Operating Authority</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-LOA-20260730-00323</link>
+      <description>Care Weather Technologies; Call sign/Auth ID: S00924</description>
+      <guid isPermaLink="false">SAT-LOA-20260730-00323</guid>
+      <category>Launch and Operating Authority</category>
+      <pubDate>Fri, 07 Aug 2026 21:50:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20260717-00296 — DISH Operating L.L.C. — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20260717-00296</link>
+      <description>DISH Operating L.L.C.; Call sign/Auth ID: S2931</description>
+      <guid isPermaLink="false">SAT-MOD-20260717-00296</guid>
+      <category>Modification</category>
+      <pubDate>Fri, 07 Aug 2026 19:52:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-T/C-20260727-00313 — Capella Space Corp. — Transfer of Control</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-T%2FC-20260727-00313</link>
+      <description>Capella Space Corp.</description>
+      <guid isPermaLink="false">SAT-T/C-20260727-00313</guid>
+      <category>Transfer of Control</category>
+      <pubDate>Fri, 07 Aug 2026 15:09:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-APL-20260804-00325 — ASTRA (GB) Limited — Amendment to PDR/PPL</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-APL-20260804-00325</link>
+      <description>ASTRA (GB) Limited; Call sign/Auth ID: S2935</description>
+      <guid isPermaLink="false">SAT-APL-20260804-00325</guid>
+      <category>Amendment to PDR/PPL</category>
+      <pubDate>Tue, 04 Aug 2026 22:46:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20260729-00318 — AST &amp; Science, LLC — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20260729-00318</link>
+      <description>AST &amp; Science, LLC; Call sign/Auth ID: S3065</description>
+      <guid isPermaLink="false">SAT-MOD-20260729-00318</guid>
+      <category>Modification</category>
+      <pubDate>Fri, 31 Jul 2026 23:27:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20260626-00258 — BlackSky Global LLC — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20260626-00258</link>
+      <description>BlackSky Global LLC; Call sign/Auth ID: S3032</description>
+      <guid isPermaLink="false">SAT-MOD-20260626-00258</guid>
+      <category>Modification</category>
+      <pubDate>Fri, 31 Jul 2026 18:25:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20260730-00322 — Intelsat License LLC — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20260730-00322</link>
+      <description>Intelsat License LLC; Call sign/Auth ID: S2406</description>
+      <guid isPermaLink="false">SAT-MOD-20260730-00322</guid>
+      <category>Modification</category>
+      <pubDate>Fri, 31 Jul 2026 01:30:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-LOA-20260601-00224 — Kuiper Systems LLC — Launch and Operating Authority</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-LOA-20260601-00224</link>
+      <description>Kuiper Systems LLC; Call sign/Auth ID: S00917</description>
+      <guid isPermaLink="false">SAT-LOA-20260601-00224</guid>
+      <category>Launch and Operating Authority</category>
+      <pubDate>Sat, 25 Jul 2026 01:35:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-LOA-20260716-00294 — SES Americom, Inc. — Launch and Operating Authority</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-LOA-20260716-00294</link>
+      <description>SES Americom, Inc.; Call sign/Auth ID: S00915</description>
+      <guid isPermaLink="false">SAT-LOA-20260716-00294</guid>
+      <category>Launch and Operating Authority</category>
+      <pubDate>Thu, 23 Jul 2026 03:18:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-LOA-20260720-00301 — Intelsat License LLC — Launch and Operating Authority</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-LOA-20260720-00301</link>
+      <description>Intelsat License LLC; Call sign/Auth ID: S00913</description>
+      <guid isPermaLink="false">SAT-LOA-20260720-00301</guid>
+      <category>Launch and Operating Authority</category>
+      <pubDate>Thu, 23 Jul 2026 03:13:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-LOA-20260722-00307 — Intelsat License LLC — Launch and Operating Authority</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-LOA-20260722-00307</link>
+      <description>Intelsat License LLC; Call sign/Auth ID: S00911</description>
+      <guid isPermaLink="false">SAT-LOA-20260722-00307</guid>
+      <category>Launch and Operating Authority</category>
+      <pubDate>Thu, 23 Jul 2026 03:08:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-LOA-20260722-00308 — SES Americom, Inc. — Launch and Operating Authority</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-LOA-20260722-00308</link>
+      <description>SES Americom, Inc.; Call sign/Auth ID: S00909</description>
+      <guid isPermaLink="false">SAT-LOA-20260722-00308</guid>
+      <category>Launch and Operating Authority</category>
+      <pubDate>Thu, 23 Jul 2026 03:03:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-LOA-20260722-00309 — Intelsat License LLC — Launch and Operating Authority</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-LOA-20260722-00309</link>
+      <description>Intelsat License LLC; Call sign/Auth ID: S00907</description>
+      <guid isPermaLink="false">SAT-LOA-20260722-00309</guid>
+      <category>Launch and Operating Authority</category>
+      <pubDate>Thu, 23 Jul 2026 02:57:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-LOA-20260722-00310 — Intelsat License LLC — Launch and Operating Authority</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-LOA-20260722-00310</link>
+      <description>Intelsat License LLC; Call sign/Auth ID: S00905</description>
+      <guid isPermaLink="false">SAT-LOA-20260722-00310</guid>
+      <category>Launch and Operating Authority</category>
+      <pubDate>Thu, 23 Jul 2026 02:53:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-LOA-20260722-00311 — Intelsat License LLC — Launch and Operating Authority</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-LOA-20260722-00311</link>
+      <description>Intelsat License LLC; Call sign/Auth ID: S00903</description>
+      <guid isPermaLink="false">SAT-LOA-20260722-00311</guid>
+      <category>Launch and Operating Authority</category>
+      <pubDate>Thu, 23 Jul 2026 02:45:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20260720-00300 — Venturi Astrolab, Inc. — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20260720-00300</link>
+      <description>Venturi Astrolab, Inc.; Call sign/Auth ID: S00733</description>
+      <guid isPermaLink="false">SAT-MOD-20260720-00300</guid>
+      <category>Modification</category>
+      <pubDate>Wed, 22 Jul 2026 14:37:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20260720-00303 — Umbra Lab Inc — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20260720-00303</link>
+      <description>Umbra Lab Inc; Call sign/Auth ID: S3220</description>
+      <guid isPermaLink="false">SAT-MOD-20260720-00303</guid>
+      <category>Modification</category>
+      <pubDate>Tue, 21 Jul 2026 01:46:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20260720-00299 — Planet Labs PBC — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20260720-00299</link>
+      <description>Planet Labs PBC; Call sign/Auth ID: S2912</description>
+      <guid isPermaLink="false">SAT-MOD-20260720-00299</guid>
+      <category>Modification</category>
+      <pubDate>Mon, 20 Jul 2026 22:12:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-AMD-20260716-00293 — Intelsat License LLC — Amendment</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-AMD-20260716-00293</link>
+      <description>Intelsat License LLC; Call sign/Auth ID: S00796</description>
+      <guid isPermaLink="false">SAT-AMD-20260716-00293</guid>
+      <category>Amendment</category>
+      <pubDate>Thu, 16 Jul 2026 15:40:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20260519-00203 — Loft Orbital Solutions Inc. — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20260519-00203</link>
+      <description>Loft Orbital Solutions Inc.; Call sign/Auth ID: S3181</description>
+      <guid isPermaLink="false">SAT-MOD-20260519-00203</guid>
+      <category>Modification</category>
+      <pubDate>Wed, 15 Jul 2026 21:24:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20260715-00291 — Planet Labs PBC — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20260715-00291</link>
+      <description>Planet Labs PBC; Call sign/Auth ID: S2912</description>
+      <guid isPermaLink="false">SAT-MOD-20260715-00291</guid>
+      <category>Modification</category>
+      <pubDate>Wed, 15 Jul 2026 17:57:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-LOA-20260626-00261 — ICEYE US, Inc. — Launch and Operating Authority</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-LOA-20260626-00261</link>
+      <description>ICEYE US, Inc.; Call sign/Auth ID: S00894</description>
+      <guid isPermaLink="false">SAT-LOA-20260626-00261</guid>
+      <category>Launch and Operating Authority</category>
+      <pubDate>Mon, 13 Jul 2026 16:52:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-ASG-20260710-00286 — DISH Operating L.L.C. — Assignment</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-ASG-20260710-00286</link>
+      <description>DISH Operating L.L.C.</description>
+      <guid isPermaLink="false">SAT-ASG-20260710-00286</guid>
+      <category>Assignment</category>
+      <pubDate>Sat, 11 Jul 2026 00:34:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-ASG-20260710-00285 — DISH Operating L.L.C. — Assignment</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-ASG-20260710-00285</link>
+      <description>DISH Operating L.L.C.</description>
+      <guid isPermaLink="false">SAT-ASG-20260710-00285</guid>
+      <category>Assignment</category>
+      <pubDate>Sat, 11 Jul 2026 00:06:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-LOA-20260513-00196 — Loft Orbital Solutions Inc. — Launch and Operating Authority</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-LOA-20260513-00196</link>
+      <description>Loft Orbital Solutions Inc.; Call sign/Auth ID: S00892</description>
+      <guid isPermaLink="false">SAT-LOA-20260513-00196</guid>
+      <category>Launch and Operating Authority</category>
+      <pubDate>Thu, 09 Jul 2026 20:26:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-AMD-20260408-00161 — Intuitive Machines — Amendment</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-AMD-20260408-00161</link>
+      <description>Intuitive Machines; Call sign/Auth ID: S3235</description>
+      <guid isPermaLink="false">SAT-AMD-20260408-00161</guid>
+      <category>Amendment</category>
+      <pubDate>Tue, 07 Jul 2026 05:56:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-LOA-20260701-00266 — Astra Space Platform Services, LLC — Launch and Operating Authority</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-LOA-20260701-00266</link>
+      <description>Astra Space Platform Services, LLC; Call sign/Auth ID: S00889</description>
+      <guid isPermaLink="false">SAT-LOA-20260701-00266</guid>
+      <category>Launch and Operating Authority</category>
+      <pubDate>Tue, 07 Jul 2026 03:49:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-LOA-20260630-00264 — Space Exploration Holdings, LLC — Launch and Operating Authority</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-LOA-20260630-00264</link>
+      <description>Space Exploration Holdings, LLC; Call sign/Auth ID: S00887</description>
+      <guid isPermaLink="false">SAT-LOA-20260630-00264</guid>
+      <category>Launch and Operating Authority</category>
+      <pubDate>Tue, 07 Jul 2026 02:49:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-LOA-20260629-00262 — LTS Systems II, LLC — Launch and Operating Authority</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-LOA-20260629-00262</link>
+      <description>LTS Systems II, LLC; Call sign/Auth ID: S00885</description>
+      <guid isPermaLink="false">SAT-LOA-20260629-00262</guid>
+      <category>Launch and Operating Authority</category>
+      <pubDate>Tue, 07 Jul 2026 02:40:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20260630-00265 — Theia Holdings A, Inc. — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20260630-00265</link>
+      <description>Theia Holdings A, Inc.; Call sign/Auth ID: S2986</description>
+      <guid isPermaLink="false">SAT-MOD-20260630-00265</guid>
+      <category>Modification</category>
+      <pubDate>Tue, 07 Jul 2026 02:23:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-APL-20260623-00250 — ASTRA (GB) Limited — Amendment to PDR/PPL</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-APL-20260623-00250</link>
+      <description>ASTRA (GB) Limited; Call sign/Auth ID: S2935</description>
+      <guid isPermaLink="false">SAT-APL-20260623-00250</guid>
+      <category>Amendment to PDR/PPL</category>
+      <pubDate>Tue, 07 Jul 2026 02:22:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20260703-00275 — Space Exploration Holdings, LLC — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20260703-00275</link>
+      <description>Space Exploration Holdings, LLC; Call sign/Auth ID: S3069/2992</description>
+      <guid isPermaLink="false">SAT-MOD-20260703-00275</guid>
+      <category>Modification</category>
+      <pubDate>Mon, 06 Jul 2026 23:08:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-LOA-20260621-00247 — CesiumAstro, Inc — Launch and Operating Authority</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-LOA-20260621-00247</link>
+      <description>CesiumAstro, Inc; Call sign/Auth ID: S00880</description>
+      <guid isPermaLink="false">SAT-LOA-20260621-00247</guid>
+      <category>Launch and Operating Authority</category>
+      <pubDate>Mon, 06 Jul 2026 22:43:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-PDR-20260615-00239 — WorldVu Satellites Limited — Petition for Declaratory Ruling</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-PDR-20260615-00239</link>
+      <description>WorldVu Satellites Limited; Call sign/Auth ID: S00878</description>
+      <guid isPermaLink="false">SAT-PDR-20260615-00239</guid>
+      <category>Petition for Declaratory Ruling</category>
+      <pubDate>Mon, 06 Jul 2026 22:18:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-PDR-20260702-00271 — Rivada Space Networks, GmBH — Petition for Declaratory Ruling</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-PDR-20260702-00271</link>
+      <description>Rivada Space Networks, GmBH; Call sign/Auth ID: S00877</description>
+      <guid isPermaLink="false">SAT-PDR-20260702-00271</guid>
+      <category>Petition for Declaratory Ruling</category>
+      <pubDate>Mon, 06 Jul 2026 20:02:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-APL-20260625-00252 — Telesat LEO U.S. Inc. — Amendment to PDR/PPL</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-APL-20260625-00252</link>
+      <description>Telesat LEO U.S. Inc.; Call sign/Auth ID: S2976</description>
+      <guid isPermaLink="false">SAT-APL-20260625-00252</guid>
+      <category>Amendment to PDR/PPL</category>
+      <pubDate>Mon, 06 Jul 2026 19:40:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20260626-00259 — Loft Orbital Solutions Inc. — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20260626-00259</link>
+      <description>Loft Orbital Solutions Inc.; Call sign/Auth ID: S3227</description>
+      <guid isPermaLink="false">SAT-MOD-20260626-00259</guid>
+      <category>Modification</category>
+      <pubDate>Thu, 02 Jul 2026 22:06:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20260626-00260 — Loft Orbital Solutions Inc. — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20260626-00260</link>
+      <description>Loft Orbital Solutions Inc.; Call sign/Auth ID: S3199</description>
+      <guid isPermaLink="false">SAT-MOD-20260626-00260</guid>
+      <category>Modification</category>
+      <pubDate>Thu, 02 Jul 2026 22:03:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-LOA-20260513-00197 — Intuitive Machines — Launch and Operating Authority</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-LOA-20260513-00197</link>
+      <description>Intuitive Machines; Call sign/Auth ID: S00871</description>
+      <guid isPermaLink="false">SAT-LOA-20260513-00197</guid>
+      <category>Launch and Operating Authority</category>
+      <pubDate>Thu, 02 Jul 2026 03:56:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-PDR-20260427-00175 — Spire Global, Inc. — Petition for Declaratory Ruling</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-PDR-20260427-00175</link>
+      <description>Spire Global, Inc.; Call sign/Auth ID: S00870</description>
+      <guid isPermaLink="false">SAT-PDR-20260427-00175</guid>
+      <category>Petition for Declaratory Ruling</category>
+      <pubDate>Sat, 27 Jun 2026 01:11:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20260626-00257 — Intelsat License LLC — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20260626-00257</link>
+      <description>Intelsat License LLC; Call sign/Auth ID: S2414</description>
+      <guid isPermaLink="false">SAT-MOD-20260626-00257</guid>
+      <category>Modification</category>
+      <pubDate>Fri, 26 Jun 2026 14:54:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-LOA-20260624-00251 — Orbital Compute Inc. — Launch and Operating Authority</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-LOA-20260624-00251</link>
+      <description>Orbital Compute Inc.; Call sign/Auth ID: S00867</description>
+      <guid isPermaLink="false">SAT-LOA-20260624-00251</guid>
+      <category>Launch and Operating Authority</category>
+      <pubDate>Wed, 24 Jun 2026 14:45:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20260618-00245 — Blue Origin, LLC — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20260618-00245</link>
+      <description>Blue Origin, LLC; Call sign/Auth ID: S3206</description>
+      <guid isPermaLink="false">SAT-MOD-20260618-00245</guid>
+      <category>Modification</category>
+      <pubDate>Thu, 18 Jun 2026 17:29:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20260616-00241 — Vantor License Inc. — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20260616-00241</link>
+      <description>Vantor License Inc.; Call sign/Auth ID: S2348</description>
+      <guid isPermaLink="false">SAT-MOD-20260616-00241</guid>
+      <category>Modification</category>
+      <pubDate>Tue, 16 Jun 2026 19:28:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-APL-20260521-00205 — Globalstar Licensee LLC — Amendment to PDR/PPL</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-APL-20260521-00205</link>
+      <description>Globalstar Licensee LLC; Call sign/Auth ID: S3223</description>
+      <guid isPermaLink="false">SAT-APL-20260521-00205</guid>
+      <category>Amendment to PDR/PPL</category>
+      <pubDate>Fri, 05 Jun 2026 19:07:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20260519-00204 — Muon Space Inc. — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20260519-00204</link>
+      <description>Muon Space Inc.; Call sign/Auth ID: S3173</description>
+      <guid isPermaLink="false">SAT-MOD-20260519-00204</guid>
+      <category>Modification</category>
+      <pubDate>Thu, 04 Jun 2026 00:35:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20260603-00225 — WorldVu Satellites Limited — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20260603-00225</link>
+      <description>WorldVu Satellites Limited; Call sign/Auth ID: S2963</description>
+      <guid isPermaLink="false">SAT-MOD-20260603-00225</guid>
+      <category>Modification</category>
+      <pubDate>Wed, 03 Jun 2026 16:30:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-LOA-20251230-00409 — Impulse Space, Inc. — Launch and Operating Authority</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-LOA-20251230-00409</link>
+      <description>Impulse Space, Inc.; Call sign/Auth ID: S00824</description>
+      <guid isPermaLink="false">SAT-LOA-20251230-00409</guid>
+      <category>Launch and Operating Authority</category>
+      <pubDate>Wed, 03 Jun 2026 01:31:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-AMD-20260530-00221 — Impulse Space, Inc. — Amendment</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-AMD-20260530-00221</link>
+      <description>Impulse Space, Inc.; Call sign/Auth ID: S00824</description>
+      <guid isPermaLink="false">SAT-AMD-20260530-00221</guid>
+      <category>Amendment</category>
+      <pubDate>Wed, 03 Jun 2026 01:31:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20260511-00194 — Sidus Space, Inc. — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20260511-00194</link>
+      <description>Sidus Space, Inc.; Call sign/Auth ID: S3175</description>
+      <guid isPermaLink="false">SAT-MOD-20260511-00194</guid>
+      <category>Modification</category>
+      <pubDate>Sat, 30 May 2026 23:30:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-LOA-20260507-00191 — SES Americom, Inc. — Launch and Operating Authority</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-LOA-20260507-00191</link>
+      <description>SES Americom, Inc.; Call sign/Auth ID: S00849</description>
+      <guid isPermaLink="false">SAT-LOA-20260507-00191</guid>
+      <category>Launch and Operating Authority</category>
+      <pubDate>Thu, 28 May 2026 20:18:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-AMD-20260528-00218 — SES Americom, Inc. — Amendment</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-AMD-20260528-00218</link>
+      <description>SES Americom, Inc.; Call sign/Auth ID: S00849</description>
+      <guid isPermaLink="false">SAT-AMD-20260528-00218</guid>
+      <category>Amendment</category>
+      <pubDate>Thu, 28 May 2026 20:18:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20260504-00184 — Capella Space Corp. — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20260504-00184</link>
+      <description>Capella Space Corp.; Call sign/Auth ID: S3178</description>
+      <guid isPermaLink="false">SAT-MOD-20260504-00184</guid>
+      <category>Modification</category>
+      <pubDate>Thu, 28 May 2026 17:36:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-T/C-20260426-00174 — Amazon.com, Inc. — Transfer of Control</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-T%2FC-20260426-00174</link>
+      <description>Amazon.com, Inc.</description>
+      <guid isPermaLink="false">SAT-T/C-20260426-00174</guid>
+      <category>Transfer of Control</category>
+      <pubDate>Tue, 26 May 2026 22:12:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20251118-00324 — HawkEye 360, Inc. — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20251118-00324</link>
+      <description>HawkEye 360, Inc.; Call sign/Auth ID: S3042</description>
+      <guid isPermaLink="false">SAT-MOD-20251118-00324</guid>
+      <category>Modification</category>
+      <pubDate>Tue, 26 May 2026 19:52:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-AMD-20260512-00195 — HawkEye 360, Inc. — Amendment</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-AMD-20260512-00195</link>
+      <description>HawkEye 360, Inc.; Call sign/Auth ID: S3042</description>
+      <guid isPermaLink="false">SAT-AMD-20260512-00195</guid>
+      <category>Amendment</category>
+      <pubDate>Tue, 26 May 2026 19:52:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-LOA-20260219-00090 — Space Sciences &amp; Engineering LLC — Launch and Operating Authority</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-LOA-20260219-00090</link>
+      <description>Space Sciences &amp; Engineering LLC; Call sign/Auth ID: S00821</description>
+      <guid isPermaLink="false">SAT-LOA-20260219-00090</guid>
+      <category>Launch and Operating Authority</category>
+      <pubDate>Thu, 21 May 2026 15:22:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-AMD-20260515-00202 — Space Sciences &amp; Engineering LLC — Amendment</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-AMD-20260515-00202</link>
+      <description>Space Sciences &amp; Engineering LLC; Call sign/Auth ID: S00821</description>
+      <guid isPermaLink="false">SAT-AMD-20260515-00202</guid>
+      <category>Amendment</category>
+      <pubDate>Thu, 21 May 2026 15:22:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20260430-00183 — The Tomorrow Companies, Inc. — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20260430-00183</link>
+      <description>The Tomorrow Companies, Inc.; Call sign/Auth ID: S3156</description>
+      <guid isPermaLink="false">SAT-MOD-20260430-00183</guid>
+      <category>Modification</category>
+      <pubDate>Wed, 20 May 2026 16:38:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20260508-00192 — Sierra Nevada Company, LLC — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20260508-00192</link>
+      <description>Sierra Nevada Company, LLC; Call sign/Auth ID: S3214</description>
+      <guid isPermaLink="false">SAT-MOD-20260508-00192</guid>
+      <category>Modification</category>
+      <pubDate>Thu, 14 May 2026 14:16:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-LOA-20260323-00135 — Cowboy Space Corp. — Launch and Operating Authority</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-LOA-20260323-00135</link>
+      <description>Cowboy Space Corp.; Call sign/Auth ID: S00851</description>
+      <guid isPermaLink="false">SAT-LOA-20260323-00135</guid>
+      <category>Launch and Operating Authority</category>
+      <pubDate>Mon, 11 May 2026 22:11:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-LOA-20260120-00035 — Vast, Inc. — Launch and Operating Authority</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-LOA-20260120-00035</link>
+      <description>Vast, Inc.; Call sign/Auth ID: S00847</description>
+      <guid isPermaLink="false">SAT-LOA-20260120-00035</guid>
+      <category>Launch and Operating Authority</category>
+      <pubDate>Tue, 05 May 2026 20:56:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20260430-00177 — Space Sciences &amp; Engineering LLC — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20260430-00177</link>
+      <description>Space Sciences &amp; Engineering LLC; Call sign/Auth ID: S3185</description>
+      <guid isPermaLink="false">SAT-MOD-20260430-00177</guid>
+      <category>Modification</category>
+      <pubDate>Mon, 04 May 2026 21:39:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20260430-00182 — Space Sciences &amp; Engineering LLC — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20260430-00182</link>
+      <description>Space Sciences &amp; Engineering LLC; Call sign/Auth ID: S3153</description>
+      <guid isPermaLink="false">SAT-MOD-20260430-00182</guid>
+      <category>Modification</category>
+      <pubDate>Mon, 04 May 2026 21:36:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20260425-00171 — ICEYE US, Inc. — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20260425-00171</link>
+      <description>ICEYE US, Inc.; Call sign/Auth ID: S00806</description>
+      <guid isPermaLink="false">SAT-MOD-20260425-00171</guid>
+      <category>Modification</category>
+      <pubDate>Tue, 28 Apr 2026 21:36:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20260425-00172 — ICEYE US, Inc. — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20260425-00172</link>
+      <description>ICEYE US, Inc.; Call sign/Auth ID: S00757</description>
+      <guid isPermaLink="false">SAT-MOD-20260425-00172</guid>
+      <category>Modification</category>
+      <pubDate>Tue, 28 Apr 2026 21:31:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-LOA-20260331-00143 — Rogue Space Systems Corporation — Launch and Operating Authority</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-LOA-20260331-00143</link>
+      <description>Rogue Space Systems Corporation; Call sign/Auth ID: S00839</description>
+      <guid isPermaLink="false">SAT-LOA-20260331-00143</guid>
+      <category>Launch and Operating Authority</category>
+      <pubDate>Wed, 15 Apr 2026 00:50:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-LOA-20260327-00139 — Oligo Space — Launch and Operating Authority</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-LOA-20260327-00139</link>
+      <description>Oligo Space; Call sign/Auth ID: S00837</description>
+      <guid isPermaLink="false">SAT-LOA-20260327-00139</guid>
+      <category>Launch and Operating Authority</category>
+      <pubDate>Fri, 03 Apr 2026 13:57:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20260401-00149 — Intelsat License LLC — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20260401-00149</link>
+      <description>Intelsat License LLC; Call sign/Auth ID: S2972</description>
+      <guid isPermaLink="false">SAT-MOD-20260401-00149</guid>
+      <category>Modification</category>
+      <pubDate>Thu, 02 Apr 2026 01:55:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-AMD-20260325-00136 — Intelsat License LLC — Amendment</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-AMD-20260325-00136</link>
+      <description>Intelsat License LLC; Call sign/Auth ID: S00827</description>
+      <guid isPermaLink="false">SAT-AMD-20260325-00136</guid>
+      <category>Amendment</category>
+      <pubDate>Wed, 25 Mar 2026 19:55:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-LOA-20260220-00092 — Astranis Projects USA LLC — Launch and Operating Authority</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-LOA-20260220-00092</link>
+      <description>Astranis Projects USA LLC; Call sign/Auth ID: S00833</description>
+      <guid isPermaLink="false">SAT-LOA-20260220-00092</guid>
+      <category>Launch and Operating Authority</category>
+      <pubDate>Wed, 25 Mar 2026 01:42:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20260310-00120 — Loft Orbital Solutions Inc. — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20260310-00120</link>
+      <description>Loft Orbital Solutions Inc.; Call sign/Auth ID: S3181</description>
+      <guid isPermaLink="false">SAT-MOD-20260310-00120</guid>
+      <category>Modification</category>
+      <pubDate>Fri, 20 Mar 2026 01:50:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-LOA-20260310-00118 — Blue Origin, LLC — Launch and Operating Authority</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-LOA-20260310-00118</link>
+      <description>Blue Origin, LLC; Call sign/Auth ID: S00830</description>
+      <guid isPermaLink="false">SAT-LOA-20260310-00118</guid>
+      <category>Launch and Operating Authority</category>
+      <pubDate>Thu, 19 Mar 2026 19:11:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-LOA-20260128-00047 — ICEYE US, Inc. — Launch and Operating Authority</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-LOA-20260128-00047</link>
+      <description>ICEYE US, Inc.; Call sign/Auth ID: S00806</description>
+      <guid isPermaLink="false">SAT-LOA-20260128-00047</guid>
+      <category>Launch and Operating Authority</category>
+      <pubDate>Tue, 17 Mar 2026 20:41:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-AMD-20260312-00123 — ICEYE US, Inc. — Amendment</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-AMD-20260312-00123</link>
+      <description>ICEYE US, Inc.; Call sign/Auth ID: S00806</description>
+      <guid isPermaLink="false">SAT-AMD-20260312-00123</guid>
+      <category>Amendment</category>
+      <pubDate>Tue, 17 Mar 2026 20:41:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-LOA-20260316-00129 — Intelsat License LLC — Launch and Operating Authority</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-LOA-20260316-00129</link>
+      <description>Intelsat License LLC; Call sign/Auth ID: S00827</description>
+      <guid isPermaLink="false">SAT-LOA-20260316-00129</guid>
+      <category>Launch and Operating Authority</category>
+      <pubDate>Tue, 17 Mar 2026 01:56:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20250327-00083 — Intelsat License LLC — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20250327-00083</link>
+      <description>Intelsat License LLC; Call sign/Auth ID: S2160</description>
+      <guid isPermaLink="false">SAT-MOD-20250327-00083</guid>
+      <category>Modification</category>
+      <pubDate>Tue, 17 Mar 2026 01:12:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-AMD-20260313-00124 — Intelsat License LLC — Amendment</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-AMD-20260313-00124</link>
+      <description>Intelsat License LLC; Call sign/Auth ID: S2160</description>
+      <guid isPermaLink="false">SAT-AMD-20260313-00124</guid>
+      <category>Amendment</category>
+      <pubDate>Tue, 17 Mar 2026 01:12:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20260304-00115 — DISH Operating L.L.C. — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20260304-00115</link>
+      <description>DISH Operating L.L.C.; Call sign/Auth ID: S2694</description>
+      <guid isPermaLink="false">SAT-MOD-20260304-00115</guid>
+      <category>Modification</category>
+      <pubDate>Thu, 05 Mar 2026 20:08:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-LOA-20250701-00127 — CesiumAstro, Inc — Launch and Operating Authority</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-LOA-20250701-00127</link>
+      <description>CesiumAstro, Inc; Call sign/Auth ID: S00816</description>
+      <guid isPermaLink="false">SAT-LOA-20250701-00127</guid>
+      <category>Launch and Operating Authority</category>
+      <pubDate>Wed, 04 Mar 2026 01:05:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20260227-00099 — Basalt Technologies Corp. — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20260227-00099</link>
+      <description>Basalt Technologies Corp.; Call sign/Auth ID: S3225</description>
+      <guid isPermaLink="false">SAT-MOD-20260227-00099</guid>
+      <category>Modification</category>
+      <pubDate>Mon, 02 Mar 2026 20:38:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20241231-00299 — Intelsat License LLC — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20241231-00299</link>
+      <description>Intelsat License LLC; Call sign/Auth ID: S2408</description>
+      <guid isPermaLink="false">SAT-MOD-20241231-00299</guid>
+      <category>Modification</category>
+      <pubDate>Sat, 28 Feb 2026 04:52:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-AMD-20260227-00102 — Intelsat License LLC — Amendment</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-AMD-20260227-00102</link>
+      <description>Intelsat License LLC; Call sign/Auth ID: S2408</description>
+      <guid isPermaLink="false">SAT-AMD-20260227-00102</guid>
+      <category>Amendment</category>
+      <pubDate>Sat, 28 Feb 2026 04:52:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20260227-00101 — Intelsat License LLC — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20260227-00101</link>
+      <description>Intelsat License LLC; Call sign/Auth ID: S2406</description>
+      <guid isPermaLink="false">SAT-MOD-20260227-00101</guid>
+      <category>Modification</category>
+      <pubDate>Sat, 28 Feb 2026 03:50:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20260227-00100 — DISH Operating L.L.C. — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20260227-00100</link>
+      <description>DISH Operating L.L.C.; Call sign/Auth ID: S2738</description>
+      <guid isPermaLink="false">SAT-MOD-20260227-00100</guid>
+      <category>Modification</category>
+      <pubDate>Fri, 27 Feb 2026 20:28:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-LOA-20251215-00383 — Katalyst Space Technologies — Launch and Operating Authority</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-LOA-20251215-00383</link>
+      <description>Katalyst Space Technologies; Call sign/Auth ID: S00770</description>
+      <guid isPermaLink="false">SAT-LOA-20251215-00383</guid>
+      <category>Launch and Operating Authority</category>
+      <pubDate>Fri, 20 Feb 2026 18:42:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-AMD-20260216-00089 — Katalyst Space Technologies — Amendment</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-AMD-20260216-00089</link>
+      <description>Katalyst Space Technologies; Call sign/Auth ID: S00770</description>
+      <guid isPermaLink="false">SAT-AMD-20260216-00089</guid>
+      <category>Amendment</category>
+      <pubDate>Fri, 20 Feb 2026 18:42:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-T/C-20260203-00080 — Lynk Global, Inc. — Transfer of Control</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-T%2FC-20260203-00080</link>
+      <description>Lynk Global, Inc.</description>
+      <guid isPermaLink="false">SAT-T/C-20260203-00080</guid>
+      <category>Transfer of Control</category>
+      <pubDate>Sat, 14 Feb 2026 00:01:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-AMD-20260213-00088 — Anduril Industries, Inc. — Amendment</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-AMD-20260213-00088</link>
+      <description>Anduril Industries, Inc.; Call sign/Auth ID: S00800</description>
+      <guid isPermaLink="false">SAT-AMD-20260213-00088</guid>
+      <category>Amendment</category>
+      <pubDate>Fri, 13 Feb 2026 20:06:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-T/C-20260205-00082 — The Tomorrow Companies, Inc. — Transfer of Control</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-T%2FC-20260205-00082</link>
+      <description>The Tomorrow Companies, Inc.</description>
+      <guid isPermaLink="false">SAT-T/C-20260205-00082</guid>
+      <category>Transfer of Control</category>
+      <pubDate>Mon, 09 Feb 2026 17:43:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-PDR-20251209-00376 — Telesat Canada — Petition for Declaratory Ruling</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-PDR-20251209-00376</link>
+      <description>Telesat Canada; Call sign/Auth ID: S00808</description>
+      <guid isPermaLink="false">SAT-PDR-20251209-00376</guid>
+      <category>Petition for Declaratory Ruling</category>
+      <pubDate>Fri, 06 Feb 2026 18:38:18 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

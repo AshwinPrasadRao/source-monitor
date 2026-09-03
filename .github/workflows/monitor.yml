@@ -1,0 +1,106 @@
+name: Monitor official sources
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 0,6,12,18 * * *"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: source-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: python -m pip install -e '.[test]'
+
+      - name: Run tests
+        run: |
+          ruff check src tests
+          pytest -p no:cacheprovider
+
+      - name: Run all monitors
+        id: monitors
+        continue-on-error: true
+        run: python -m orrery_monitor.runner --all --status-json
+
+      - name: Validate all feeds
+        run: python -m orrery_monitor.runner --validate-only
+
+      - name: Build Pages artifact
+        run: python -m orrery_monitor.site --output _site
+
+      - name: Detect substantive, health, or monthly status change
+        id: changes
+        shell: bash
+        run: |
+          substantive=false
+          health_changed=false
+          heartbeat=false
+          commit=false
+          if [[ -n "$(git status --porcelain -- feeds state)" ]]; then
+            substantive=true
+          fi
+          if git cat-file -e HEAD:status.json 2>/dev/null; then
+            old_health="$(git show HEAD:status.json | jq -Sc '[.feeds[] | {feed_id,status,warnings,error}]')"
+            new_health="$(jq -Sc '[.feeds[] | {feed_id,status,warnings,error}]' status.json)"
+            if [[ "$old_health" != "$new_health" ]]; then
+              health_changed=true
+            fi
+          else
+            health_changed=true
+          fi
+          last_status_commit="$(git log -1 --format=%ct -- status.json 2>/dev/null || true)"
+          now="$(date +%s)"
+          if [[ -z "$last_status_commit" ]] || (( now - last_status_commit >= 2419200 )); then
+            heartbeat=true
+          fi
+          if [[ "$substantive" == true || "$health_changed" == true || "$heartbeat" == true ]]; then
+            commit=true
+          fi
+          echo "commit=$commit" >> "$GITHUB_OUTPUT"
+
+      - name: Commit updated monitor artifacts
+        if: steps.changes.outputs.commit == 'true'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add feeds state status.json site/index.html
+          if ! git diff --cached --quiet; then
+            git commit -m "Update monitored sources"
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Report partial monitor failure
+        if: steps.monitors.outcome == 'failure'
+        run: |
+          echo "One or more source adapters failed; prior feeds were preserved and status was deployed."
+          exit 1

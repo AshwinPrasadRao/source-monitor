@@ -1,0 +1,44 @@
+{
+  "feed_config_hash": "7d824b97d033b48f528bceb8dc3d7df67edbb0b2712c5be093cdeda42a1f3ae6",
+  "feed_id": "dot-wpc-space",
+  "items": [
+    {
+      "category": "Gazette Notifications",
+      "description": null,
+      "first_seen_at": "2026-09-03T06:46:01.406994+00:00",
+      "guid": "DOT-70860",
+      "metadata": {
+        "categories": [
+          "Gazette Notifications",
+          "Gazette Notifications",
+          "Orders and Notices"
+        ],
+        "official_record_id": 70860,
+        "service": ""
+      },
+      "published_at": "2026-06-18T00:00:00+00:00",
+      "source_id": "dot_wpc",
+      "title": "Draft Telecommunications (Spectrum Assignment by Administrative Process) Rules, 2026",
+      "url": "https://www.dot.gov.in/documents/gazettes-notifications/draft-telecommunications-spectrum-assignment-by-administrative-process-rules-2026"
+    },
+    {
+      "category": "Gazette Notifications",
+      "description": null,
+      "first_seen_at": "2026-09-03T06:46:01.406994+00:00",
+      "guid": "DOT-63201",
+      "metadata": {
+        "categories": [
+          "Gazette Notifications"
+        ],
+        "official_record_id": 63201,
+        "service": ""
+      },
+      "published_at": "2025-12-01T00:00:00+00:00",
+      "source_id": "dot_wpc",
+      "title": "Draft Telecommunications Sharing, Trading and Leasing of Spectrum Rules, 2025",
+      "url": "https://www.dot.gov.in/documents/gazettes-notifications/draft-telecommunications-sharing-trading-and-leasing-of-spectrum-rules-2025-2"
+    }
+  ],
+  "previous_visible_count": 95,
+  "schema_version": 1
+}

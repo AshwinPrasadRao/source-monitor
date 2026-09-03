@@ -1,0 +1,63 @@
+{
+  "feed_config_hash": "99afa9f3b54a1bce3b6055a83219a8689162898424145232fc92432dff82ec47",
+  "feed_id": "idex-notices",
+  "items": [
+    {
+      "category": "Notice",
+      "description": null,
+      "first_seen_at": "2026-09-03T06:46:00.271880+00:00",
+      "guid": "https://idex.gov.in/uploads/notice/EOI.pdf",
+      "metadata": {},
+      "published_at": "2026-08-06T00:00:00+00:00",
+      "source_id": "idex",
+      "title": "EXPRESSION OF INTEREST FOR EMPANELMENT OF TESTING, EVALUATION & CERTIFICATION EXPERTS FOR DEFENCE INNOVATION PROJECTS UNDER iDEX",
+      "url": "https://idex.gov.in/uploads/notice/EOI.pdf"
+    },
+    {
+      "category": "Notice",
+      "description": null,
+      "first_seen_at": "2026-09-03T06:46:00.271880+00:00",
+      "guid": "https://idex.gov.in/uploads/notice/Advertisement for PM Team -DIO July 2026.pdf",
+      "metadata": {},
+      "published_at": "2026-07-08T00:00:00+00:00",
+      "source_id": "idex",
+      "title": "ADVERTISEMENT FOR HIRING OF PROFESSIONALS ON CONTRACT BASIS FOR PROJECT MANAGEMENT TEAM",
+      "url": "https://idex.gov.in/uploads/notice/Advertisement for PM Team -DIO July 2026.pdf"
+    },
+    {
+      "category": "Notice",
+      "description": null,
+      "first_seen_at": "2026-09-03T06:46:00.271880+00:00",
+      "guid": "https://idex.gov.in/uploads/notice/Advertisement for Legal Team -DIO July 2026.pdf",
+      "metadata": {},
+      "published_at": "2026-07-08T00:00:00+00:00",
+      "source_id": "idex",
+      "title": "ADVERTISEMENT FOR HIRING OF PROFESSIONALS ON CONTRACT BASIS FOR LEGAL TEAM",
+      "url": "https://idex.gov.in/uploads/notice/Advertisement for Legal Team -DIO July 2026.pdf"
+    },
+    {
+      "category": "Notice",
+      "description": null,
+      "first_seen_at": "2026-09-03T06:46:00.271880+00:00",
+      "guid": "https://idex.gov.in/uploads/notice/Advertisement for Financial Services Team -DIO July 2026.pdf",
+      "metadata": {},
+      "published_at": "2026-07-08T00:00:00+00:00",
+      "source_id": "idex",
+      "title": "ADVERTISEMENT FOR HIRING OF PROFESSIONALS ON CONTRACT BASIS FOR FINANCIAL SERVICES TEAM",
+      "url": "https://idex.gov.in/uploads/notice/Advertisement for Financial Services Team -DIO July 2026.pdf"
+    },
+    {
+      "category": "Notice",
+      "description": null,
+      "first_seen_at": "2026-09-03T06:46:00.271880+00:00",
+      "guid": "https://idex.gov.in/uploads/notice/Circular no. 31.pdf",
+      "metadata": {},
+      "published_at": "2026-06-19T00:00:00+00:00",
+      "source_id": "idex",
+      "title": "Circular No 31",
+      "url": "https://idex.gov.in/uploads/notice/Circular no. 31.pdf"
+    }
+  ],
+  "previous_visible_count": 26,
+  "schema_version": 1
+}

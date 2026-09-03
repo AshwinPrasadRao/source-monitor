@@ -1,0 +1,14 @@
+.DS_Store
+.pytest_cache/
+_site/
+pytest-cache-files-*/
+.ruff_cache/
+.venv/
+__pycache__/
+*.egg-info/
+build/
+dist/
+
+# Generated during monitoring. The committed production copies are added
+# deliberately once source adapters are enabled.
+site/status.json

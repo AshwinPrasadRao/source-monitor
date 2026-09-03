@@ -1,0 +1,19 @@
+{
+  "feed_config_hash": "71bd908e86c13b9efcb45bdbf91ef4953f729424065bb010beaba321313d26b0",
+  "feed_id": "drdo-space-tech",
+  "items": [
+    {
+      "category": "Press Release",
+      "description": null,
+      "first_seen_at": "2026-09-03T06:46:43.446843+00:00",
+      "guid": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2273706&reg=48&lang=1",
+      "metadata": {},
+      "published_at": "2026-06-16T12:00:00+00:00",
+      "source_id": "drdo",
+      "title": "Seven CSIR Technologies Licensed to Industry; Bharatiya Nirdeshak Dravyas Released and Quantum Sensing Components Delivered to DRDO",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2273706&reg=48&lang=1"
+    }
+  ],
+  "previous_visible_count": 21,
+  "schema_version": 1
+}

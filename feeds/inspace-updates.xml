@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>IN-SPACe Updates</title>
+    <link>https://www.inspace.gov.in/inspace</link>
+    <description>Official updates from IN-SPACe.</description>
+    <atom:link href="https://ashwinprasadrao.github.io/source-monitor/feeds/inspace-updates.xml" rel="self" type="application/rss+xml"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 03 Sep 2026 07:00:14 +0000</lastBuildDate>
+    <item>
+      <title>AIAA Region VII Student Conference, Adelaide, Australia, 30 Nov - 1 Dec, 2026 (Abstracts due 31 July, 2026)</title>
+      <link>https://www.inspace.gov.in/inspace/sys_attachment.do?sys_id=3cacdaff3b650b1063ff0a34c3e45a96</link>
+      <guid isPermaLink="false">inspace-update-attachment-3cacdaff3b650b1063ff0a34c3e45a96</guid>
+      <category>Update</category>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Singapore Space Summit Booklet</title>
+      <link>https://www.inspace.gov.in/inspace?id=inspace_publications</link>
+      <guid isPermaLink="false">inspace-update-fdbcf4e7de91c0dd07a589000d1ffd510415ff5243ed1f02fd8520c988e7ea61</guid>
+      <category>Update</category>
+      <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>New Year 2026, Message from Chairman IN-SPACe &gt;&gt; View</title>
+      <link>https://www.inspace.gov.in/inspace?id=inspace_publications</link>
+      <guid isPermaLink="false">inspace-update-d5e07e6c190d3cd04157ae02a466d4cc00b2e5bcbe0a3e5a989f5e2d302e921c</guid>
+      <category>Update</category>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ISIEX 2026 - International Space Industry Exhibition</title>
+      <link>https://biz.nikkan.co.jp/eve/isiex/english/</link>
+      <guid isPermaLink="false">inspace-update-ff8c64b1b518129495b422a07902eb3de2a170b671e526850dbab6cb73a72938</guid>
+      <category>Update</category>
+      <pubDate>Fri, 26 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>International Conference on Advances in Aerospace and Energy Systems, IAES-2026, at ISRO Propulsion Complex (IPRC), Mahendragiri.</title>
+      <link>https://www.inspace.gov.in/inspace/sys_attachment.do?sys_id=0d0c6ca99741f210a581f8b0f053af33</link>
+      <guid isPermaLink="false">inspace-update-attachment-0d0c6ca99741f210a581f8b0f053af33</guid>
+      <category>Update</category>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>All India Technical Conference in Hindi. » Read More</title>
+      <link>https://www.ursc.gov.in/AITC2025/</link>
+      <guid isPermaLink="false">inspace-update-c8390f12dea0a61e1acc72b3b93c0934cec5c0b0180c1815f5053872f61acd0a</guid>
+      <category>Update</category>
+      <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>National level Kannada Technical Seminar on "Future of Indian Space Technology - Role of Government and Private Sectors</title>
+      <link>https://www.inspace.gov.in/inspace?id=inspace_opportunities_page</link>
+      <guid isPermaLink="false">inspace-update-83d4939d41cb65282b53100f41e3984cb90a61e3c8172b8a840e18f3bbaf3819</guid>
+      <category>Update</category>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Space Travel Opportunity from The Space Exploration and Research Agency (SERA)</title>
+      <link>https://www.sera.space/</link>
+      <guid isPermaLink="false">inspace-update-d0300829a15d971551c642d869506a97ed0121ff6ec82059b5b16b711aec13c8</guid>
+      <category>Update</category>
+      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>International Conference on Spacecraft Mission Operations (SMOPS-2026), 8-10 April 2026</title>
+      <link>https://www.inspace.gov.in/inspace/sys_attachment.do?sys_id=c81029bc47047250d4bc5b31516d435c</link>
+      <guid isPermaLink="false">inspace-update-attachment-c81029bc47047250d4bc5b31516d435c</guid>
+      <category>Update</category>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

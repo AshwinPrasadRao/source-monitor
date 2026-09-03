@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "ID": 70860,
+      "post_slug": "draft-spectrum-assignment-rules-2026",
+      "post_title": "Draft Telecommunications Spectrum Assignment Rules, 2026",
+      "acf_data": {
+        "title": "Draft Telecommunications Spectrum Assignment Rules, 2026",
+        "date": "18/06/2026"
+      },
+      "documents_category": [{"name": "Gazette Notification"}]
+    },
+    {
+      "ID": 70861,
+      "post_slug": "telephone-numbering-rules-2026",
+      "post_title": "Telephone Numbering Rules, 2026",
+      "acf_data": {
+        "title": "Telephone Numbering Rules, 2026",
+        "date": "19/06/2026"
+      },
+      "documents_category": [{"name": "Gazette Notification"}]
+    }
+  ]
+}

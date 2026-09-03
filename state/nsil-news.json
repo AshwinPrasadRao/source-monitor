@@ -1,0 +1,140 @@
+{
+  "feed_config_hash": "5c216160c64284abe60ec0ef1611e86015c06e73d46ff61ab074c28c276eef63",
+  "feed_id": "nsil-news",
+  "items": [
+    {
+      "category": "News",
+      "description": null,
+      "first_seen_at": "2026-09-02T12:51:48.947469+00:00",
+      "guid": "https://www.nsilindia.co.in/news-details/771",
+      "metadata": {},
+      "published_at": "2026-05-04T00:00:00+05:30",
+      "source_id": "nsil",
+      "title": "NSIL provides LEOP And TTC Support To M/S Galaxeye Space for their Satellite Mission \u2018Drishti\"",
+      "url": "https://www.nsilindia.co.in/news-details/771"
+    },
+    {
+      "category": "News",
+      "description": null,
+      "first_seen_at": "2026-09-02T12:51:48.947469+00:00",
+      "guid": "https://www.nsilindia.co.in/news-details/769",
+      "metadata": {},
+      "published_at": "2026-04-30T00:00:00+05:30",
+      "source_id": "nsil",
+      "title": "Technology Transfer of ISRO Navigation Sensors to Industry",
+      "url": "https://www.nsilindia.co.in/news-details/769"
+    },
+    {
+      "category": "News",
+      "description": null,
+      "first_seen_at": "2026-09-02T12:51:48.947469+00:00",
+      "guid": "https://www.nsilindia.co.in/news-details/767",
+      "metadata": {},
+      "published_at": "2026-04-01T00:00:00+05:30",
+      "source_id": "nsil",
+      "title": "MoU with KELTRON",
+      "url": "https://www.nsilindia.co.in/news-details/767"
+    },
+    {
+      "category": "News",
+      "description": null,
+      "first_seen_at": "2026-09-02T12:51:48.947469+00:00",
+      "guid": "https://www.nsilindia.co.in/news-details/766",
+      "metadata": {},
+      "published_at": "2026-04-01T00:00:00+05:30",
+      "source_id": "nsil",
+      "title": "MoU with Dhuruva",
+      "url": "https://www.nsilindia.co.in/news-details/766"
+    },
+    {
+      "category": "News",
+      "description": null,
+      "first_seen_at": "2026-09-02T12:51:48.947469+00:00",
+      "guid": "https://www.nsilindia.co.in/news-details/763",
+      "metadata": {},
+      "published_at": "2026-02-13T00:00:00+05:30",
+      "source_id": "nsil",
+      "title": "NSIL Signs Reseller Agreement with M/s Galaxeye",
+      "url": "https://www.nsilindia.co.in/news-details/763"
+    },
+    {
+      "category": "News",
+      "description": null,
+      "first_seen_at": "2026-09-02T12:51:48.947469+00:00",
+      "guid": "https://www.nsilindia.co.in/news-details/761",
+      "metadata": {},
+      "published_at": "2026-02-12T00:00:00+05:30",
+      "source_id": "nsil",
+      "title": "Inauguration of new NSIL office at GIFT City, Gandhinagar, Gujarat",
+      "url": "https://www.nsilindia.co.in/news-details/761"
+    },
+    {
+      "category": "News",
+      "description": null,
+      "first_seen_at": "2026-09-02T12:51:48.947469+00:00",
+      "guid": "https://www.nsilindia.co.in/news-details/759",
+      "metadata": {},
+      "published_at": "2026-02-10T00:00:00+05:30",
+      "source_id": "nsil",
+      "title": "Technology Transfer Event at NSIL",
+      "url": "https://www.nsilindia.co.in/news-details/759"
+    },
+    {
+      "category": "News",
+      "description": null,
+      "first_seen_at": "2026-09-02T12:51:48.947469+00:00",
+      "guid": "https://www.nsilindia.co.in/news-details/757",
+      "metadata": {},
+      "published_at": "2026-02-09T00:00:00+05:30",
+      "source_id": "nsil",
+      "title": "NSIL Demonstrates GSAT-N2 High-Throughput Satellite Capability to Assam Government Officials",
+      "url": "https://www.nsilindia.co.in/news-details/757"
+    },
+    {
+      "category": "News",
+      "description": null,
+      "first_seen_at": "2026-09-02T12:51:48.947469+00:00",
+      "guid": "https://www.nsilindia.co.in/news-details/756",
+      "metadata": {},
+      "published_at": "2026-01-16T00:00:00+05:30",
+      "source_id": "nsil",
+      "title": "Update on PSLV-C62 / EOS-N1 Mission",
+      "url": "https://www.nsilindia.co.in/news-details/756"
+    },
+    {
+      "category": "News",
+      "description": null,
+      "first_seen_at": "2026-09-02T12:51:48.947469+00:00",
+      "guid": "https://www.nsilindia.co.in/news-details/755",
+      "metadata": {},
+      "published_at": "2026-01-08T00:00:00+05:30",
+      "source_id": "nsil",
+      "title": "PSLV-C62 / EOS-N1 Mission",
+      "url": "https://www.nsilindia.co.in/news-details/755"
+    },
+    {
+      "category": "News",
+      "description": null,
+      "first_seen_at": "2026-09-02T12:51:48.947469+00:00",
+      "guid": "https://www.nsilindia.co.in/news-details/751",
+      "metadata": {},
+      "published_at": "2025-12-29T00:00:00+05:30",
+      "source_id": "nsil",
+      "title": "Launch of BlueBird Block-2 ccommunication satellite of AST Space Mobile, USA on-board ISRO\u2019s LVM3 launcher",
+      "url": "https://www.nsilindia.co.in/news-details/751"
+    },
+    {
+      "category": "News",
+      "description": null,
+      "first_seen_at": "2026-09-02T12:51:48.947469+00:00",
+      "guid": "https://www.nsilindia.co.in/launch-service-requisition",
+      "metadata": {},
+      "published_at": "2025-11-13T00:00:00+05:30",
+      "source_id": "nsil",
+      "title": "NSIL Launch Service Requisition",
+      "url": "https://www.nsilindia.co.in/launch-service-requisition"
+    }
+  ],
+  "previous_visible_count": 15,
+  "schema_version": 1
+}

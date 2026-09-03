@@ -1,0 +1,107 @@
+{
+  "feed_config_hash": "75a758f698c1fd7e73bf77aec48a8cdf7a85b7b611abd3150603ce08c14e1a1f",
+  "feed_id": "inspace-updates",
+  "items": [
+    {
+      "category": "Update",
+      "description": null,
+      "first_seen_at": "2026-09-03T07:00:14.737163+00:00",
+      "guid": "inspace-update-attachment-3cacdaff3b650b1063ff0a34c3e45a96",
+      "metadata": {},
+      "published_at": "2026-06-25T00:00:00+00:00",
+      "source_id": "inspace",
+      "title": "AIAA Region VII Student Conference, Adelaide, Australia, 30 Nov - 1 Dec, 2026 (Abstracts due 31 July, 2026)",
+      "url": "https://www.inspace.gov.in/inspace/sys_attachment.do?sys_id=3cacdaff3b650b1063ff0a34c3e45a96"
+    },
+    {
+      "category": "Update",
+      "description": null,
+      "first_seen_at": "2026-09-03T07:00:14.737163+00:00",
+      "guid": "inspace-update-fdbcf4e7de91c0dd07a589000d1ffd510415ff5243ed1f02fd8520c988e7ea61",
+      "metadata": {},
+      "published_at": "2026-01-29T00:00:00+00:00",
+      "source_id": "inspace",
+      "title": "Singapore Space Summit Booklet",
+      "url": "https://www.inspace.gov.in/inspace?id=inspace_publications"
+    },
+    {
+      "category": "Update",
+      "description": null,
+      "first_seen_at": "2026-09-03T07:00:14.737163+00:00",
+      "guid": "inspace-update-d5e07e6c190d3cd04157ae02a466d4cc00b2e5bcbe0a3e5a989f5e2d302e921c",
+      "metadata": {},
+      "published_at": "2026-01-01T00:00:00+00:00",
+      "source_id": "inspace",
+      "title": "New Year 2026, Message from Chairman IN-SPACe >> View",
+      "url": "https://www.inspace.gov.in/inspace?id=inspace_publications"
+    },
+    {
+      "category": "Update",
+      "description": null,
+      "first_seen_at": "2026-09-03T07:00:14.737163+00:00",
+      "guid": "inspace-update-ff8c64b1b518129495b422a07902eb3de2a170b671e526850dbab6cb73a72938",
+      "metadata": {},
+      "published_at": "2025-12-26T00:00:00+00:00",
+      "source_id": "inspace",
+      "title": "ISIEX 2026 - International Space Industry Exhibition",
+      "url": "https://biz.nikkan.co.jp/eve/isiex/english/"
+    },
+    {
+      "category": "Update",
+      "description": null,
+      "first_seen_at": "2026-09-03T07:00:14.737163+00:00",
+      "guid": "inspace-update-attachment-0d0c6ca99741f210a581f8b0f053af33",
+      "metadata": {},
+      "published_at": "2025-11-06T00:00:00+00:00",
+      "source_id": "inspace",
+      "title": "International Conference on Advances in Aerospace and Energy Systems, IAES-2026, at ISRO Propulsion Complex (IPRC), Mahendragiri.",
+      "url": "https://www.inspace.gov.in/inspace/sys_attachment.do?sys_id=0d0c6ca99741f210a581f8b0f053af33"
+    },
+    {
+      "category": "Update",
+      "description": null,
+      "first_seen_at": "2026-09-03T07:00:14.737163+00:00",
+      "guid": "inspace-update-c8390f12dea0a61e1acc72b3b93c0934cec5c0b0180c1815f5053872f61acd0a",
+      "metadata": {},
+      "published_at": "2025-10-31T00:00:00+00:00",
+      "source_id": "inspace",
+      "title": "All India Technical Conference in Hindi. \u00bb Read More",
+      "url": "https://www.ursc.gov.in/AITC2025/"
+    },
+    {
+      "category": "Update",
+      "description": null,
+      "first_seen_at": "2026-09-03T07:00:14.737163+00:00",
+      "guid": "inspace-update-83d4939d41cb65282b53100f41e3984cb90a61e3c8172b8a840e18f3bbaf3819",
+      "metadata": {},
+      "published_at": "2025-10-17T00:00:00+00:00",
+      "source_id": "inspace",
+      "title": "National level Kannada Technical Seminar on \"Future of Indian Space Technology - Role of Government and Private Sectors",
+      "url": "https://www.inspace.gov.in/inspace?id=inspace_opportunities_page"
+    },
+    {
+      "category": "Update",
+      "description": null,
+      "first_seen_at": "2026-09-03T07:00:14.737163+00:00",
+      "guid": "inspace-update-d0300829a15d971551c642d869506a97ed0121ff6ec82059b5b16b711aec13c8",
+      "metadata": {},
+      "published_at": "2025-10-10T00:00:00+00:00",
+      "source_id": "inspace",
+      "title": "Space Travel Opportunity from The Space Exploration and Research Agency (SERA)",
+      "url": "https://www.sera.space/"
+    },
+    {
+      "category": "Update",
+      "description": null,
+      "first_seen_at": "2026-09-03T07:00:14.737163+00:00",
+      "guid": "inspace-update-attachment-c81029bc47047250d4bc5b31516d435c",
+      "metadata": {},
+      "published_at": "2025-09-15T00:00:00+00:00",
+      "source_id": "inspace",
+      "title": "International Conference on Spacecraft Mission Operations (SMOPS-2026), 8-10 April 2026",
+      "url": "https://www.inspace.gov.in/inspace/sys_attachment.do?sys_id=c81029bc47047250d4bc5b31516d435c"
+    }
+  ],
+  "previous_visible_count": 10,
+  "schema_version": 1
+}

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>iDEX Notices</title>
+    <link>https://idex.gov.in/notices</link>
+    <description>Official notices from iDEX and the Defence Innovation Organisation.</description>
+    <atom:link href="https://ashwinprasadrao.github.io/source-monitor/feeds/idex-notices.xml" rel="self" type="application/rss+xml"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 03 Sep 2026 06:46:00 +0000</lastBuildDate>
+    <item>
+      <title>EXPRESSION OF INTEREST FOR EMPANELMENT OF TESTING, EVALUATION &amp; CERTIFICATION EXPERTS FOR DEFENCE INNOVATION PROJECTS UNDER iDEX</title>
+      <link>https://idex.gov.in/uploads/notice/EOI.pdf</link>
+      <guid isPermaLink="false">https://idex.gov.in/uploads/notice/EOI.pdf</guid>
+      <category>Notice</category>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ADVERTISEMENT FOR HIRING OF PROFESSIONALS ON CONTRACT BASIS FOR PROJECT MANAGEMENT TEAM</title>
+      <link>https://idex.gov.in/uploads/notice/Advertisement for PM Team -DIO July 2026.pdf</link>
+      <guid isPermaLink="false">https://idex.gov.in/uploads/notice/Advertisement for PM Team -DIO July 2026.pdf</guid>
+      <category>Notice</category>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ADVERTISEMENT FOR HIRING OF PROFESSIONALS ON CONTRACT BASIS FOR LEGAL TEAM</title>
+      <link>https://idex.gov.in/uploads/notice/Advertisement for Legal Team -DIO July 2026.pdf</link>
+      <guid isPermaLink="false">https://idex.gov.in/uploads/notice/Advertisement for Legal Team -DIO July 2026.pdf</guid>
+      <category>Notice</category>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ADVERTISEMENT FOR HIRING OF PROFESSIONALS ON CONTRACT BASIS FOR FINANCIAL SERVICES TEAM</title>
+      <link>https://idex.gov.in/uploads/notice/Advertisement for Financial Services Team -DIO July 2026.pdf</link>
+      <guid isPermaLink="false">https://idex.gov.in/uploads/notice/Advertisement for Financial Services Team -DIO July 2026.pdf</guid>
+      <category>Notice</category>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Circular No 31</title>
+      <link>https://idex.gov.in/uploads/notice/Circular no. 31.pdf</link>
+      <guid isPermaLink="false">https://idex.gov.in/uploads/notice/Circular no. 31.pdf</guid>
+      <category>Notice</category>
+      <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

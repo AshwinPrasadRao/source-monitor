@@ -1,0 +1,1908 @@
+{
+  "feed_config_hash": "8795a8503ac3fdad0ae1b264e7894a6c4f05d38cc60365efbec3b48b69a0811b",
+  "feed_id": "fcc-icfs-satellite-filings",
+  "items": [
+    {
+      "category": "Launch and Operating Authority",
+      "description": "Turion Space Corp.; Call sign/Auth ID: S00933",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-LOA-20260527-00216",
+      "metadata": {
+        "applicant": "Turion Space Corp.",
+        "call_sign": "S00933",
+        "file_number": "SAT-LOA-20260527-00216",
+        "filing_type": "LOA",
+        "record_id": "f3687362cf810b1006fffff42f851c95",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-09-02T23:54:55+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20260527-00216 \u2014 Turion Space Corp. \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20260527-00216"
+    },
+    {
+      "category": "Modification",
+      "description": "Intelsat License LLC; Call sign/Auth ID: S3083",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-MOD-20260819-00342",
+      "metadata": {
+        "applicant": "Intelsat License LLC",
+        "call_sign": "S3083",
+        "file_number": "SAT-MOD-20260819-00342",
+        "filing_type": "MOD",
+        "record_id": "e19537ed3b3a0f107be9f5ac24e45acd",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-08-19T19:39:49+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260819-00342 \u2014 Intelsat License LLC \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260819-00342"
+    },
+    {
+      "category": "Modification",
+      "description": "Astranis Projects USA LLC; Call sign/Auth ID: S00784",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-MOD-20260814-00339",
+      "metadata": {
+        "applicant": "Astranis Projects USA LLC",
+        "call_sign": "S00784",
+        "file_number": "SAT-MOD-20260814-00339",
+        "filing_type": "MOD",
+        "record_id": "85fbab88cfb2cf90c2eff2c42f851c23",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-08-14T23:50:05+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260814-00339 \u2014 Astranis Projects USA LLC \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260814-00339"
+    },
+    {
+      "category": "Modification",
+      "description": "Astranis Projects USA LLC; Call sign/Auth ID: S00784",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-MOD-20260814-00337",
+      "metadata": {
+        "applicant": "Astranis Projects USA LLC",
+        "call_sign": "S00784",
+        "file_number": "SAT-MOD-20260814-00337",
+        "filing_type": "MOD",
+        "record_id": "8d6ae64093f24350ac9c39bfa8373c93",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-08-14T21:11:49+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260814-00337 \u2014 Astranis Projects USA LLC \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260814-00337"
+    },
+    {
+      "category": "Modification",
+      "description": "SES Americom, Inc.; Call sign/Auth ID: S2826",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-MOD-20260814-00338",
+      "metadata": {
+        "applicant": "SES Americom, Inc.",
+        "call_sign": "S2826",
+        "file_number": "SAT-MOD-20260814-00338",
+        "filing_type": "MOD",
+        "record_id": "26b30708cf764fd006fffff42f851c76",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-08-14T20:45:11+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260814-00338 \u2014 SES Americom, Inc. \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260814-00338"
+    },
+    {
+      "category": "Modification",
+      "description": "Intelsat License LLC; Call sign/Auth ID: S2687",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-MOD-20260813-00336",
+      "metadata": {
+        "applicant": "Intelsat License LLC",
+        "call_sign": "S2687",
+        "file_number": "SAT-MOD-20260813-00336",
+        "filing_type": "MOD",
+        "record_id": "04c151b7cf264f90fff6f2670f851cfe",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-08-13T17:53:43+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260813-00336 \u2014 Intelsat License LLC \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260813-00336"
+    },
+    {
+      "category": "Launch and Operating Authority",
+      "description": "Oligo Space; Call sign/Auth ID: S00926",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-LOA-20260806-00329",
+      "metadata": {
+        "applicant": "Oligo Space",
+        "call_sign": "S00926",
+        "file_number": "SAT-LOA-20260806-00329",
+        "filing_type": "LOA",
+        "record_id": "e8644aa5cfae0390fff6f2670f851cbf",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-08-13T13:42:47+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20260806-00329 \u2014 Oligo Space \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20260806-00329"
+    },
+    {
+      "category": "Assignment",
+      "description": "Hughes Network Systems, LLC",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-ASG-20260812-00334",
+      "metadata": {
+        "applicant": "Hughes Network Systems, LLC",
+        "call_sign": null,
+        "file_number": "SAT-ASG-20260812-00334",
+        "filing_type": "ASG",
+        "record_id": "939cfbd7cf660bd006fffff42f851c79",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-08-12T21:29:15+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-ASG-20260812-00334 \u2014 Hughes Network Systems, LLC \u2014 Assignment",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-ASG-20260812-00334"
+    },
+    {
+      "category": "Transfer of Control",
+      "description": "Iridium Constellation LLC",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-T/C-20260720-00302",
+      "metadata": {
+        "applicant": "Iridium Constellation LLC",
+        "call_sign": null,
+        "file_number": "SAT-T/C-20260720-00302",
+        "filing_type": "T/C",
+        "record_id": "86969780cf1e43100729b3842f851c61",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-08-11T00:22:50+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-T/C-20260720-00302 \u2014 Iridium Constellation LLC \u2014 Transfer of Control",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-T%2FC-20260720-00302"
+    },
+    {
+      "category": "Launch and Operating Authority",
+      "description": "Care Weather Technologies; Call sign/Auth ID: S00924",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-LOA-20260730-00323",
+      "metadata": {
+        "applicant": "Care Weather Technologies",
+        "call_sign": "S00924",
+        "file_number": "SAT-LOA-20260730-00323",
+        "filing_type": "LOA",
+        "record_id": "78d896573b56c3507e089b0864e45af1",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-08-07T21:50:09+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20260730-00323 \u2014 Care Weather Technologies \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20260730-00323"
+    },
+    {
+      "category": "Modification",
+      "description": "DISH Operating L.L.C.; Call sign/Auth ID: S2931",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-MOD-20260717-00296",
+      "metadata": {
+        "applicant": "DISH Operating L.L.C.",
+        "call_sign": "S2931",
+        "file_number": "SAT-MOD-20260717-00296",
+        "filing_type": "MOD",
+        "record_id": "57a682cf934203d0af3f981d48373cc1",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-08-07T19:52:33+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260717-00296 \u2014 DISH Operating L.L.C. \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260717-00296"
+    },
+    {
+      "category": "Transfer of Control",
+      "description": "Capella Space Corp.",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-T/C-20260727-00313",
+      "metadata": {
+        "applicant": "Capella Space Corp.",
+        "call_sign": null,
+        "file_number": "SAT-T/C-20260727-00313",
+        "filing_type": "T/C",
+        "record_id": "f57d661e3bd64f107e089b0864e45ad2",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-08-07T15:09:02+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-T/C-20260727-00313 \u2014 Capella Space Corp. \u2014 Transfer of Control",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-T%2FC-20260727-00313"
+    },
+    {
+      "category": "Amendment to PDR/PPL",
+      "description": "ASTRA (GB) Limited; Call sign/Auth ID: S2935",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-APL-20260804-00325",
+      "metadata": {
+        "applicant": "ASTRA (GB) Limited",
+        "call_sign": "S2935",
+        "file_number": "SAT-APL-20260804-00325",
+        "filing_type": "APL",
+        "record_id": "33e95eb0cf2acb50905afe152f851c52",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-08-04T22:46:40+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-APL-20260804-00325 \u2014 ASTRA (GB) Limited \u2014 Amendment to PDR/PPL",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-APL-20260804-00325"
+    },
+    {
+      "category": "Modification",
+      "description": "AST & Science, LLC; Call sign/Auth ID: S3065",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-MOD-20260729-00318",
+      "metadata": {
+        "applicant": "AST & Science, LLC",
+        "call_sign": "S3065",
+        "file_number": "SAT-MOD-20260729-00318",
+        "filing_type": "MOD",
+        "record_id": "1ecdbeb293928350aca833a058373cf3",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-07-31T23:27:05+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260729-00318 \u2014 AST & Science, LLC \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260729-00318"
+    },
+    {
+      "category": "Modification",
+      "description": "BlackSky Global LLC; Call sign/Auth ID: S3032",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-MOD-20260626-00258",
+      "metadata": {
+        "applicant": "BlackSky Global LLC",
+        "call_sign": "S3032",
+        "file_number": "SAT-MOD-20260626-00258",
+        "filing_type": "MOD",
+        "record_id": "47d9e998cf79cb10cd52f1642f851c8f",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-07-31T18:25:27+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260626-00258 \u2014 BlackSky Global LLC \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260626-00258"
+    },
+    {
+      "category": "Modification",
+      "description": "Intelsat License LLC; Call sign/Auth ID: S2406",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-MOD-20260730-00322",
+      "metadata": {
+        "applicant": "Intelsat License LLC",
+        "call_sign": "S2406",
+        "file_number": "SAT-MOD-20260730-00322",
+        "filing_type": "MOD",
+        "record_id": "c73baddbcf560750c2eff2c42f851c0e",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-07-31T01:30:47+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260730-00322 \u2014 Intelsat License LLC \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260730-00322"
+    },
+    {
+      "category": "Launch and Operating Authority",
+      "description": "Kuiper Systems LLC; Call sign/Auth ID: S00917",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-LOA-20260601-00224",
+      "metadata": {
+        "applicant": "Kuiper Systems LLC",
+        "call_sign": "S00917",
+        "file_number": "SAT-LOA-20260601-00224",
+        "filing_type": "LOA",
+        "record_id": "6cb1be9ccfd5cf10b16ffa742f851c0c",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-07-25T01:35:44+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20260601-00224 \u2014 Kuiper Systems LLC \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20260601-00224"
+    },
+    {
+      "category": "Launch and Operating Authority",
+      "description": "SES Americom, Inc.; Call sign/Auth ID: S00915",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-LOA-20260716-00294",
+      "metadata": {
+        "applicant": "SES Americom, Inc.",
+        "call_sign": "S00915",
+        "file_number": "SAT-LOA-20260716-00294",
+        "filing_type": "LOA",
+        "record_id": "71f87d36cfce8f900043f3a42f851c47",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-07-23T03:18:15+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20260716-00294 \u2014 SES Americom, Inc. \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20260716-00294"
+    },
+    {
+      "category": "Launch and Operating Authority",
+      "description": "Intelsat License LLC; Call sign/Auth ID: S00913",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-LOA-20260720-00301",
+      "metadata": {
+        "applicant": "Intelsat License LLC",
+        "call_sign": "S00913",
+        "file_number": "SAT-LOA-20260720-00301",
+        "filing_type": "LOA",
+        "record_id": "dac0fe4893964310aca833a058373c7d",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-07-23T03:13:18+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20260720-00301 \u2014 Intelsat License LLC \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20260720-00301"
+    },
+    {
+      "category": "Launch and Operating Authority",
+      "description": "Intelsat License LLC; Call sign/Auth ID: S00911",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-LOA-20260722-00307",
+      "metadata": {
+        "applicant": "Intelsat License LLC",
+        "call_sign": "S00911",
+        "file_number": "SAT-LOA-20260722-00307",
+        "filing_type": "LOA",
+        "record_id": "d4131cf0cf5e07105b2cf9642f851ca2",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-07-23T03:08:10+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20260722-00307 \u2014 Intelsat License LLC \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20260722-00307"
+    },
+    {
+      "category": "Launch and Operating Authority",
+      "description": "SES Americom, Inc.; Call sign/Auth ID: S00909",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-LOA-20260722-00308",
+      "metadata": {
+        "applicant": "SES Americom, Inc.",
+        "call_sign": "S00909",
+        "file_number": "SAT-LOA-20260722-00308",
+        "filing_type": "LOA",
+        "record_id": "289450f4cf5e07105b2cf9642f851cd2",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-07-23T03:03:34+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20260722-00308 \u2014 SES Americom, Inc. \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20260722-00308"
+    },
+    {
+      "category": "Launch and Operating Authority",
+      "description": "Intelsat License LLC; Call sign/Auth ID: S00907",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-LOA-20260722-00309",
+      "metadata": {
+        "applicant": "Intelsat License LLC",
+        "call_sign": "S00907",
+        "file_number": "SAT-LOA-20260722-00309",
+        "filing_type": "LOA",
+        "record_id": "c996107ccf5e07105b2cf9642f851c91",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-07-23T02:57:15+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20260722-00309 \u2014 Intelsat License LLC \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20260722-00309"
+    },
+    {
+      "category": "Launch and Operating Authority",
+      "description": "Intelsat License LLC; Call sign/Auth ID: S00905",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-LOA-20260722-00310",
+      "metadata": {
+        "applicant": "Intelsat License LLC",
+        "call_sign": "S00905",
+        "file_number": "SAT-LOA-20260722-00310",
+        "filing_type": "LOA",
+        "record_id": "b4ee5c74cf1247105b2cf9642f851c02",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-07-23T02:53:24+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20260722-00310 \u2014 Intelsat License LLC \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20260722-00310"
+    },
+    {
+      "category": "Launch and Operating Authority",
+      "description": "Intelsat License LLC; Call sign/Auth ID: S00903",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-LOA-20260722-00311",
+      "metadata": {
+        "applicant": "Intelsat License LLC",
+        "call_sign": "S00903",
+        "file_number": "SAT-LOA-20260722-00311",
+        "filing_type": "LOA",
+        "record_id": "d07f9474cf1247105b2cf9642f851cf1",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-07-23T02:45:11+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20260722-00311 \u2014 Intelsat License LLC \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20260722-00311"
+    },
+    {
+      "category": "Modification",
+      "description": "Venturi Astrolab, Inc.; Call sign/Auth ID: S00733",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-MOD-20260720-00300",
+      "metadata": {
+        "applicant": "Venturi Astrolab, Inc.",
+        "call_sign": "S00733",
+        "file_number": "SAT-MOD-20260720-00300",
+        "filing_type": "MOD",
+        "record_id": "84712a44cf564310b16ffa742f851c6a",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-07-22T14:37:58+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260720-00300 \u2014 Venturi Astrolab, Inc. \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260720-00300"
+    },
+    {
+      "category": "Modification",
+      "description": "Umbra Lab Inc; Call sign/Auth ID: S3220",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-MOD-20260720-00303",
+      "metadata": {
+        "applicant": "Umbra Lab Inc",
+        "call_sign": "S3220",
+        "file_number": "SAT-MOD-20260720-00303",
+        "filing_type": "MOD",
+        "record_id": "aabb93c4cf52831006fffff42f851cea",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-07-21T01:46:01+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260720-00303 \u2014 Umbra Lab Inc \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260720-00303"
+    },
+    {
+      "category": "Modification",
+      "description": "Planet Labs PBC; Call sign/Auth ID: S2912",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-MOD-20260720-00299",
+      "metadata": {
+        "applicant": "Planet Labs PBC",
+        "call_sign": "S2912",
+        "file_number": "SAT-MOD-20260720-00299",
+        "filing_type": "MOD",
+        "record_id": "c5115a04cfd24310c070f3542f851c9f",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-07-20T22:12:00+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260720-00299 \u2014 Planet Labs PBC \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260720-00299"
+    },
+    {
+      "category": "Amendment",
+      "description": "Intelsat License LLC; Call sign/Auth ID: S00796",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-AMD-20260716-00293",
+      "metadata": {
+        "applicant": "Intelsat License LLC",
+        "call_sign": "S00796",
+        "file_number": "SAT-AMD-20260716-00293",
+        "filing_type": "AMD",
+        "record_id": "a1ab607acf0243d05791bf252f851c08",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-07-16T15:40:08+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-AMD-20260716-00293 \u2014 Intelsat License LLC \u2014 Amendment",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-AMD-20260716-00293"
+    },
+    {
+      "category": "Modification",
+      "description": "Loft Orbital Solutions Inc.; Call sign/Auth ID: S3181",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-MOD-20260519-00203",
+      "metadata": {
+        "applicant": "Loft Orbital Solutions Inc.",
+        "call_sign": "S3181",
+        "file_number": "SAT-MOD-20260519-00203",
+        "filing_type": "MOD",
+        "record_id": "40d3ea4ccf8d071034d6f6152f851cf5",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-07-15T21:24:38+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260519-00203 \u2014 Loft Orbital Solutions Inc. \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260519-00203"
+    },
+    {
+      "category": "Modification",
+      "description": "Planet Labs PBC; Call sign/Auth ID: S2912",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-MOD-20260715-00291",
+      "metadata": {
+        "applicant": "Planet Labs PBC",
+        "call_sign": "S2912",
+        "file_number": "SAT-MOD-20260715-00291",
+        "filing_type": "MOD",
+        "record_id": "6e79f71e3b868bd07be9f5ac24e45a6c",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-07-15T17:57:19+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260715-00291 \u2014 Planet Labs PBC \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260715-00291"
+    },
+    {
+      "category": "Launch and Operating Authority",
+      "description": "ICEYE US, Inc.; Call sign/Auth ID: S00894",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-LOA-20260626-00261",
+      "metadata": {
+        "applicant": "ICEYE US, Inc.",
+        "call_sign": "S00894",
+        "file_number": "SAT-LOA-20260626-00261",
+        "filing_type": "LOA",
+        "record_id": "ed16fa18cfb1cb100043f3a42f851c7a",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-07-13T16:52:19+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20260626-00261 \u2014 ICEYE US, Inc. \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20260626-00261"
+    },
+    {
+      "category": "Assignment",
+      "description": "DISH Operating L.L.C.",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-ASG-20260710-00286",
+      "metadata": {
+        "applicant": "DISH Operating L.L.C.",
+        "call_sign": null,
+        "file_number": "SAT-ASG-20260710-00286",
+        "filing_type": "ASG",
+        "record_id": "4689633893864f90c2fef54958373cb6",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-07-11T00:34:37+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-ASG-20260710-00286 \u2014 DISH Operating L.L.C. \u2014 Assignment",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-ASG-20260710-00286"
+    },
+    {
+      "category": "Assignment",
+      "description": "DISH Operating L.L.C.",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-ASG-20260710-00285",
+      "metadata": {
+        "applicant": "DISH Operating L.L.C.",
+        "call_sign": null,
+        "file_number": "SAT-ASG-20260710-00285",
+        "filing_type": "ASG",
+        "record_id": "666cbeb8cf0ac7905791bf252f851c1c",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-07-11T00:06:05+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-ASG-20260710-00285 \u2014 DISH Operating L.L.C. \u2014 Assignment",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-ASG-20260710-00285"
+    },
+    {
+      "category": "Launch and Operating Authority",
+      "description": "Loft Orbital Solutions Inc.; Call sign/Auth ID: S00892",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-LOA-20260513-00196",
+      "metadata": {
+        "applicant": "Loft Orbital Solutions Inc.",
+        "call_sign": "S00892",
+        "file_number": "SAT-LOA-20260513-00196",
+        "filing_type": "LOA",
+        "record_id": "f9edaa0293f44390c2fef54958373c8e",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-07-09T20:26:01+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20260513-00196 \u2014 Loft Orbital Solutions Inc. \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20260513-00196"
+    },
+    {
+      "category": "Amendment",
+      "description": "Intuitive Machines; Call sign/Auth ID: S3235",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-AMD-20260408-00161",
+      "metadata": {
+        "applicant": "Intuitive Machines",
+        "call_sign": "S3235",
+        "file_number": "SAT-AMD-20260408-00161",
+        "filing_type": "AMD",
+        "record_id": "4b06e4c387448390dd68a9350cbb35ca",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-07-07T05:56:04+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-AMD-20260408-00161 \u2014 Intuitive Machines \u2014 Amendment",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-AMD-20260408-00161"
+    },
+    {
+      "category": "Launch and Operating Authority",
+      "description": "Astra Space Platform Services, LLC; Call sign/Auth ID: S00889",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-LOA-20260701-00266",
+      "metadata": {
+        "applicant": "Astra Space Platform Services, LLC",
+        "call_sign": "S00889",
+        "file_number": "SAT-LOA-20260701-00266",
+        "filing_type": "LOA",
+        "record_id": "f111bf7d3bf107501c9b37ac24e45aaa",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-07-07T03:49:38+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20260701-00266 \u2014 Astra Space Platform Services, LLC \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20260701-00266"
+    },
+    {
+      "category": "Launch and Operating Authority",
+      "description": "Space Exploration Holdings, LLC; Call sign/Auth ID: S00887",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-LOA-20260630-00264",
+      "metadata": {
+        "applicant": "Space Exploration Holdings, LLC",
+        "call_sign": "S00887",
+        "file_number": "SAT-LOA-20260630-00264",
+        "filing_type": "LOA",
+        "record_id": "6ebc82e1cf3d03505a773d242f851c80",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-07-07T02:49:30+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20260630-00264 \u2014 Space Exploration Holdings, LLC \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20260630-00264"
+    },
+    {
+      "category": "Launch and Operating Authority",
+      "description": "LTS Systems II, LLC; Call sign/Auth ID: S00885",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-LOA-20260629-00262",
+      "metadata": {
+        "applicant": "LTS Systems II, LLC",
+        "call_sign": "S00885",
+        "file_number": "SAT-LOA-20260629-00262",
+        "filing_type": "LOA",
+        "record_id": "d5a5d15d3b7903501c9b37ac24e45a15",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-07-07T02:40:33+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20260629-00262 \u2014 LTS Systems II, LLC \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20260629-00262"
+    },
+    {
+      "category": "Modification",
+      "description": "Theia Holdings A, Inc.; Call sign/Auth ID: S2986",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-MOD-20260630-00265",
+      "metadata": {
+        "applicant": "Theia Holdings A, Inc.",
+        "call_sign": "S2986",
+        "file_number": "SAT-MOD-20260630-00265",
+        "filing_type": "MOD",
+        "record_id": "0aa72ba9937943502591081d48373c4a",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-07-07T02:23:17+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260630-00265 \u2014 Theia Holdings A, Inc. \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260630-00265"
+    },
+    {
+      "category": "Amendment to PDR/PPL",
+      "description": "ASTRA (GB) Limited; Call sign/Auth ID: S2935",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-APL-20260623-00250",
+      "metadata": {
+        "applicant": "ASTRA (GB) Limited",
+        "call_sign": "S2935",
+        "file_number": "SAT-APL-20260623-00250",
+        "filing_type": "APL",
+        "record_id": "32e59293932d0710dec6791d48373ccb",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-07-07T02:22:30+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-APL-20260623-00250 \u2014 ASTRA (GB) Limited \u2014 Amendment to PDR/PPL",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-APL-20260623-00250"
+    },
+    {
+      "category": "Modification",
+      "description": "Space Exploration Holdings, LLC; Call sign/Auth ID: S3069/2992",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-MOD-20260703-00275",
+      "metadata": {
+        "applicant": "Space Exploration Holdings, LLC",
+        "call_sign": "S3069/2992",
+        "file_number": "SAT-MOD-20260703-00275",
+        "filing_type": "MOD",
+        "record_id": "f6fd77aa3bb10b501c9b37ac24e45ab5",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-07-06T23:08:08+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260703-00275 \u2014 Space Exploration Holdings, LLC \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260703-00275"
+    },
+    {
+      "category": "Launch and Operating Authority",
+      "description": "CesiumAstro, Inc; Call sign/Auth ID: S00880",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-LOA-20260621-00247",
+      "metadata": {
+        "applicant": "CesiumAstro, Inc",
+        "call_sign": "S00880",
+        "file_number": "SAT-LOA-20260621-00247",
+        "filing_type": "LOA",
+        "record_id": "07d8f936cf6583100043f3a42f851c0c",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-07-06T22:43:13+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20260621-00247 \u2014 CesiumAstro, Inc \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20260621-00247"
+    },
+    {
+      "category": "Petition for Declaratory Ruling",
+      "description": "WorldVu Satellites Limited; Call sign/Auth ID: S00878",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-PDR-20260615-00239",
+      "metadata": {
+        "applicant": "WorldVu Satellites Limited",
+        "call_sign": "S00878",
+        "file_number": "SAT-PDR-20260615-00239",
+        "filing_type": "PDR",
+        "record_id": "35fd0d3c936dc3104176171d48373cb1",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-07-06T22:18:53+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-PDR-20260615-00239 \u2014 WorldVu Satellites Limited \u2014 Petition for Declaratory Ruling",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-PDR-20260615-00239"
+    },
+    {
+      "category": "Petition for Declaratory Ruling",
+      "description": "Rivada Space Networks, GmBH; Call sign/Auth ID: S00877",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-PDR-20260702-00271",
+      "metadata": {
+        "applicant": "Rivada Space Networks, GmBH",
+        "call_sign": "S00877",
+        "file_number": "SAT-PDR-20260702-00271",
+        "filing_type": "PDR",
+        "record_id": "0b126056cf31075051f1b5642f851c40",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-07-06T20:02:16+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-PDR-20260702-00271 \u2014 Rivada Space Networks, GmBH \u2014 Petition for Declaratory Ruling",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-PDR-20260702-00271"
+    },
+    {
+      "category": "Amendment to PDR/PPL",
+      "description": "Telesat LEO U.S. Inc.; Call sign/Auth ID: S2976",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-APL-20260625-00252",
+      "metadata": {
+        "applicant": "Telesat LEO U.S. Inc.",
+        "call_sign": "S2976",
+        "file_number": "SAT-APL-20260625-00252",
+        "filing_type": "APL",
+        "record_id": "d11e49c093b54b102591081d48373c14",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-07-06T19:40:43+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-APL-20260625-00252 \u2014 Telesat LEO U.S. Inc. \u2014 Amendment to PDR/PPL",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-APL-20260625-00252"
+    },
+    {
+      "category": "Modification",
+      "description": "Loft Orbital Solutions Inc.; Call sign/Auth ID: S3227",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-MOD-20260626-00259",
+      "metadata": {
+        "applicant": "Loft Orbital Solutions Inc.",
+        "call_sign": "S3227",
+        "file_number": "SAT-MOD-20260626-00259",
+        "filing_type": "MOD",
+        "record_id": "fd5d3594cffd4b10a015fb642f851c50",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-07-02T22:06:34+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260626-00259 \u2014 Loft Orbital Solutions Inc. \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260626-00259"
+    },
+    {
+      "category": "Modification",
+      "description": "Loft Orbital Solutions Inc.; Call sign/Auth ID: S3199",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-MOD-20260626-00260",
+      "metadata": {
+        "applicant": "Loft Orbital Solutions Inc.",
+        "call_sign": "S3199",
+        "file_number": "SAT-MOD-20260626-00260",
+        "filing_type": "MOD",
+        "record_id": "509bd2d893b50f10af3f981d48373cc5",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-07-02T22:03:21+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260626-00260 \u2014 Loft Orbital Solutions Inc. \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260626-00260"
+    },
+    {
+      "category": "Launch and Operating Authority",
+      "description": "Intuitive Machines; Call sign/Auth ID: S00871",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-LOA-20260513-00197",
+      "metadata": {
+        "applicant": "Intuitive Machines",
+        "call_sign": "S00871",
+        "file_number": "SAT-LOA-20260513-00197",
+        "filing_type": "LOA",
+        "record_id": "8c9b53c23b304390ccebaff764e45a4a",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-07-02T03:56:47+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20260513-00197 \u2014 Intuitive Machines \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20260513-00197"
+    },
+    {
+      "category": "Petition for Declaratory Ruling",
+      "description": "Spire Global, Inc.; Call sign/Auth ID: S00870",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-PDR-20260427-00175",
+      "metadata": {
+        "applicant": "Spire Global, Inc.",
+        "call_sign": "S00870",
+        "file_number": "SAT-PDR-20260427-00175",
+        "filing_type": "PDR",
+        "record_id": "d51ee5893be08710ccebaff764e45a19",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-06-27T01:11:01+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-PDR-20260427-00175 \u2014 Spire Global, Inc. \u2014 Petition for Declaratory Ruling",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-PDR-20260427-00175"
+    },
+    {
+      "category": "Modification",
+      "description": "Intelsat License LLC; Call sign/Auth ID: S2414",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-MOD-20260626-00257",
+      "metadata": {
+        "applicant": "Intelsat License LLC",
+        "call_sign": "S2414",
+        "file_number": "SAT-MOD-20260626-00257",
+        "filing_type": "MOD",
+        "record_id": "ee716118937d8b10c2fef54958373c4a",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-06-26T14:54:35+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260626-00257 \u2014 Intelsat License LLC \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260626-00257"
+    },
+    {
+      "category": "Launch and Operating Authority",
+      "description": "Orbital Compute Inc.; Call sign/Auth ID: S00867",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-LOA-20260624-00251",
+      "metadata": {
+        "applicant": "Orbital Compute Inc.",
+        "call_sign": "S00867",
+        "file_number": "SAT-LOA-20260624-00251",
+        "filing_type": "LOA",
+        "record_id": "044c9da7cfa1871051f1b5642f851cac",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-06-24T14:45:30+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20260624-00251 \u2014 Orbital Compute Inc. \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20260624-00251"
+    },
+    {
+      "category": "Modification",
+      "description": "Blue Origin, LLC; Call sign/Auth ID: S3206",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-MOD-20260618-00245",
+      "metadata": {
+        "applicant": "Blue Origin, LLC",
+        "call_sign": "S3206",
+        "file_number": "SAT-MOD-20260618-00245",
+        "filing_type": "MOD",
+        "record_id": "b7b73cbdcfad0b100043f3a42f851c13",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-06-18T17:29:37+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260618-00245 \u2014 Blue Origin, LLC \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260618-00245"
+    },
+    {
+      "category": "Modification",
+      "description": "Vantor License Inc.; Call sign/Auth ID: S2348",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-MOD-20260616-00241",
+      "metadata": {
+        "applicant": "Vantor License Inc.",
+        "call_sign": "S2348",
+        "file_number": "SAT-MOD-20260616-00241",
+        "filing_type": "MOD",
+        "record_id": "4e5d4acd3b2987107491fcc964e45aa8",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-06-16T19:28:29+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260616-00241 \u2014 Vantor License Inc. \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260616-00241"
+    },
+    {
+      "category": "Amendment to PDR/PPL",
+      "description": "Globalstar Licensee LLC; Call sign/Auth ID: S3223",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-APL-20260521-00205",
+      "metadata": {
+        "applicant": "Globalstar Licensee LLC",
+        "call_sign": "S3223",
+        "file_number": "SAT-APL-20260521-00205",
+        "filing_type": "APL",
+        "record_id": "b85b3f60cf8dc710c2eff2c42f851cbe",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-06-05T19:07:37+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-APL-20260521-00205 \u2014 Globalstar Licensee LLC \u2014 Amendment to PDR/PPL",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-APL-20260521-00205"
+    },
+    {
+      "category": "Modification",
+      "description": "Muon Space Inc.; Call sign/Auth ID: S3173",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-MOD-20260519-00204",
+      "metadata": {
+        "applicant": "Muon Space Inc.",
+        "call_sign": "S3173",
+        "file_number": "SAT-MOD-20260519-00204",
+        "filing_type": "MOD",
+        "record_id": "4b8c0b48cf0147100729b3842f851cc6",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-06-04T00:35:31+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260519-00204 \u2014 Muon Space Inc. \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260519-00204"
+    },
+    {
+      "category": "Modification",
+      "description": "WorldVu Satellites Limited; Call sign/Auth ID: S2963",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-MOD-20260603-00225",
+      "metadata": {
+        "applicant": "WorldVu Satellites Limited",
+        "call_sign": "S2963",
+        "file_number": "SAT-MOD-20260603-00225",
+        "filing_type": "MOD",
+        "record_id": "db6c7af0cf11c75006fffff42f851c5b",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-06-03T16:30:09+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260603-00225 \u2014 WorldVu Satellites Limited \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260603-00225"
+    },
+    {
+      "category": "Launch and Operating Authority",
+      "description": "Impulse Space, Inc.; Call sign/Auth ID: S00824",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-LOA-20251230-00409",
+      "metadata": {
+        "applicant": "Impulse Space, Inc.",
+        "call_sign": "S00824",
+        "file_number": "SAT-LOA-20251230-00409",
+        "filing_type": "LOA",
+        "record_id": "5408acc7dbc2fa1049639f95f39619bb",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-06-03T01:31:19+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20251230-00409 \u2014 Impulse Space, Inc. \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20251230-00409"
+    },
+    {
+      "category": "Amendment",
+      "description": "Impulse Space, Inc.; Call sign/Auth ID: S00824",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-AMD-20260530-00221",
+      "metadata": {
+        "applicant": "Impulse Space, Inc.",
+        "call_sign": "S00824",
+        "file_number": "SAT-AMD-20260530-00221",
+        "filing_type": "AMD",
+        "record_id": "b6e2c7ebcf49c350c2eff2c42f851c65",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-06-03T01:31:19+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-AMD-20260530-00221 \u2014 Impulse Space, Inc. \u2014 Amendment",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-AMD-20260530-00221"
+    },
+    {
+      "category": "Modification",
+      "description": "Sidus Space, Inc.; Call sign/Auth ID: S3175",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-MOD-20260511-00194",
+      "metadata": {
+        "applicant": "Sidus Space, Inc.",
+        "call_sign": "S3175",
+        "file_number": "SAT-MOD-20260511-00194",
+        "filing_type": "MOD",
+        "record_id": "63439669cf7887907cd9f9c41f851c89",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-05-30T23:30:56+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260511-00194 \u2014 Sidus Space, Inc. \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260511-00194"
+    },
+    {
+      "category": "Launch and Operating Authority",
+      "description": "SES Americom, Inc.; Call sign/Auth ID: S00849",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-LOA-20260507-00191",
+      "metadata": {
+        "applicant": "SES Americom, Inc.",
+        "call_sign": "S00849",
+        "file_number": "SAT-LOA-20260507-00191",
+        "filing_type": "LOA",
+        "record_id": "e860191c3b38c750ccebaff764e45afc",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-05-28T20:18:46+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20260507-00191 \u2014 SES Americom, Inc. \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20260507-00191"
+    },
+    {
+      "category": "Amendment",
+      "description": "SES Americom, Inc.; Call sign/Auth ID: S00849",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-AMD-20260528-00218",
+      "metadata": {
+        "applicant": "SES Americom, Inc.",
+        "call_sign": "S00849",
+        "file_number": "SAT-AMD-20260528-00218",
+        "filing_type": "AMD",
+        "record_id": "6f8c41cfcfc90b10b16ffa742f851c70",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-05-28T20:18:46+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-AMD-20260528-00218 \u2014 SES Americom, Inc. \u2014 Amendment",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-AMD-20260528-00218"
+    },
+    {
+      "category": "Modification",
+      "description": "Capella Space Corp.; Call sign/Auth ID: S3178",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-MOD-20260504-00184",
+      "metadata": {
+        "applicant": "Capella Space Corp.",
+        "call_sign": "S3178",
+        "file_number": "SAT-MOD-20260504-00184",
+        "filing_type": "MOD",
+        "record_id": "102d085f93a803502948991d48373c48",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-05-28T17:36:39+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260504-00184 \u2014 Capella Space Corp. \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260504-00184"
+    },
+    {
+      "category": "Transfer of Control",
+      "description": "Amazon.com, Inc.",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-T/C-20260426-00174",
+      "metadata": {
+        "applicant": "Amazon.com, Inc.",
+        "call_sign": null,
+        "file_number": "SAT-T/C-20260426-00174",
+        "filing_type": "T/C",
+        "record_id": "3d801878cfacc310960df56b1f851c95",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-05-26T22:12:47+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-T/C-20260426-00174 \u2014 Amazon.com, Inc. \u2014 Transfer of Control",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-T%2FC-20260426-00174"
+    },
+    {
+      "category": "Modification",
+      "description": "HawkEye 360, Inc.; Call sign/Auth ID: S3042",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-MOD-20251118-00324",
+      "metadata": {
+        "applicant": "HawkEye 360, Inc.",
+        "call_sign": "S3042",
+        "file_number": "SAT-MOD-20251118-00324",
+        "filing_type": "MOD",
+        "record_id": "146299e51b553610dea35396624bcb5f",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-05-26T19:52:02+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20251118-00324 \u2014 HawkEye 360, Inc. \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20251118-00324"
+    },
+    {
+      "category": "Amendment",
+      "description": "HawkEye 360, Inc.; Call sign/Auth ID: S3042",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-AMD-20260512-00195",
+      "metadata": {
+        "applicant": "HawkEye 360, Inc.",
+        "call_sign": "S3042",
+        "file_number": "SAT-AMD-20260512-00195",
+        "filing_type": "AMD",
+        "record_id": "94eaa97d3b3ccf501c9b37ac24e45aef",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-05-26T19:52:02+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-AMD-20260512-00195 \u2014 HawkEye 360, Inc. \u2014 Amendment",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-AMD-20260512-00195"
+    },
+    {
+      "category": "Launch and Operating Authority",
+      "description": "Space Sciences & Engineering LLC; Call sign/Auth ID: S00821",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-LOA-20260219-00090",
+      "metadata": {
+        "applicant": "Space Sciences & Engineering LLC",
+        "call_sign": "S00821",
+        "file_number": "SAT-LOA-20260219-00090",
+        "filing_type": "LOA",
+        "record_id": "0533e4ab1b8fb6103c4edb1ee54bcbe5",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-05-21T15:22:47+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20260219-00090 \u2014 Space Sciences & Engineering LLC \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20260219-00090"
+    },
+    {
+      "category": "Amendment",
+      "description": "Space Sciences & Engineering LLC; Call sign/Auth ID: S00821",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-AMD-20260515-00202",
+      "metadata": {
+        "applicant": "Space Sciences & Engineering LLC",
+        "call_sign": "S00821",
+        "file_number": "SAT-AMD-20260515-00202",
+        "filing_type": "AMD",
+        "record_id": "16195af6cfbc83900043f3a42f851c57",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-05-21T15:22:47+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-AMD-20260515-00202 \u2014 Space Sciences & Engineering LLC \u2014 Amendment",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-AMD-20260515-00202"
+    },
+    {
+      "category": "Modification",
+      "description": "The Tomorrow Companies, Inc.; Call sign/Auth ID: S3156",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-MOD-20260430-00183",
+      "metadata": {
+        "applicant": "The Tomorrow Companies, Inc.",
+        "call_sign": "S3156",
+        "file_number": "SAT-MOD-20260430-00183",
+        "filing_type": "MOD",
+        "record_id": "b77aed0a9364cb102948991d48373cee",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-05-20T16:38:51+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260430-00183 \u2014 The Tomorrow Companies, Inc. \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260430-00183"
+    },
+    {
+      "category": "Modification",
+      "description": "Sierra Nevada Company, LLC; Call sign/Auth ID: S3214",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-MOD-20260508-00192",
+      "metadata": {
+        "applicant": "Sierra Nevada Company, LLC",
+        "call_sign": "S3214",
+        "file_number": "SAT-MOD-20260508-00192",
+        "filing_type": "MOD",
+        "record_id": "6412d120cfb4c7505791bf252f851c19",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-05-14T14:16:32+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260508-00192 \u2014 Sierra Nevada Company, LLC \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260508-00192"
+    },
+    {
+      "category": "Launch and Operating Authority",
+      "description": "Cowboy Space Corp.; Call sign/Auth ID: S00851",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-LOA-20260323-00135",
+      "metadata": {
+        "applicant": "Cowboy Space Corp.",
+        "call_sign": "S00851",
+        "file_number": "SAT-LOA-20260323-00135",
+        "filing_type": "LOA",
+        "record_id": "3eb086f987377e10cc02a8ed3fbb35dc",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-05-11T22:11:13+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20260323-00135 \u2014 Cowboy Space Corp. \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20260323-00135"
+    },
+    {
+      "category": "Launch and Operating Authority",
+      "description": "Vast, Inc.; Call sign/Auth ID: S00847",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-LOA-20260120-00035",
+      "metadata": {
+        "applicant": "Vast, Inc.",
+        "call_sign": "S00847",
+        "file_number": "SAT-LOA-20260120-00035",
+        "filing_type": "LOA",
+        "record_id": "136af6b51b6af2103252ec20f54bcb82",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-05-05T20:56:40+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20260120-00035 \u2014 Vast, Inc. \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20260120-00035"
+    },
+    {
+      "category": "Modification",
+      "description": "Space Sciences & Engineering LLC; Call sign/Auth ID: S3185",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-MOD-20260430-00177",
+      "metadata": {
+        "applicant": "Space Sciences & Engineering LLC",
+        "call_sign": "S3185",
+        "file_number": "SAT-MOD-20260430-00177",
+        "filing_type": "MOD",
+        "record_id": "a8337c863bac8b101c9b37ac24e45a18",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-05-04T21:39:45+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260430-00177 \u2014 Space Sciences & Engineering LLC \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260430-00177"
+    },
+    {
+      "category": "Modification",
+      "description": "Space Sciences & Engineering LLC; Call sign/Auth ID: S3153",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-MOD-20260430-00182",
+      "metadata": {
+        "applicant": "Space Sciences & Engineering LLC",
+        "call_sign": "S3153",
+        "file_number": "SAT-MOD-20260430-00182",
+        "filing_type": "MOD",
+        "record_id": "b984594e93e4cb102591081d48373c23",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-05-04T21:36:44+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260430-00182 \u2014 Space Sciences & Engineering LLC \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260430-00182"
+    },
+    {
+      "category": "Modification",
+      "description": "ICEYE US, Inc.; Call sign/Auth ID: S00806",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-MOD-20260425-00171",
+      "metadata": {
+        "applicant": "ICEYE US, Inc.",
+        "call_sign": "S00806",
+        "file_number": "SAT-MOD-20260425-00171",
+        "filing_type": "MOD",
+        "record_id": "434644ec3b60c3101c9b37ac24e45abd",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-04-28T21:36:58+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260425-00171 \u2014 ICEYE US, Inc. \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260425-00171"
+    },
+    {
+      "category": "Modification",
+      "description": "ICEYE US, Inc.; Call sign/Auth ID: S00757",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-MOD-20260425-00172",
+      "metadata": {
+        "applicant": "ICEYE US, Inc.",
+        "call_sign": "S00757",
+        "file_number": "SAT-MOD-20260425-00172",
+        "filing_type": "MOD",
+        "record_id": "4ab7c0603ba0c3101c9b37ac24e45ae3",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-04-28T21:31:43+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260425-00172 \u2014 ICEYE US, Inc. \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260425-00172"
+    },
+    {
+      "category": "Launch and Operating Authority",
+      "description": "Rogue Space Systems Corporation; Call sign/Auth ID: S00839",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-LOA-20260331-00143",
+      "metadata": {
+        "applicant": "Rogue Space Systems Corporation",
+        "call_sign": "S00839",
+        "file_number": "SAT-LOA-20260331-00143",
+        "filing_type": "LOA",
+        "record_id": "2c37e2d48748c750dd68a9350cbb35b0",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-04-15T00:50:34+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20260331-00143 \u2014 Rogue Space Systems Corporation \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20260331-00143"
+    },
+    {
+      "category": "Launch and Operating Authority",
+      "description": "Oligo Space; Call sign/Auth ID: S00837",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-LOA-20260327-00139",
+      "metadata": {
+        "applicant": "Oligo Space",
+        "call_sign": "S00837",
+        "file_number": "SAT-LOA-20260327-00139",
+        "filing_type": "LOA",
+        "record_id": "bf750e431bff72503216433ee54bcba5",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-04-03T13:57:00+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20260327-00139 \u2014 Oligo Space \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20260327-00139"
+    },
+    {
+      "category": "Modification",
+      "description": "Intelsat License LLC; Call sign/Auth ID: S2972",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-MOD-20260401-00149",
+      "metadata": {
+        "applicant": "Intelsat License LLC",
+        "call_sign": "S2972",
+        "file_number": "SAT-MOD-20260401-00149",
+        "filing_type": "MOD",
+        "record_id": "e31af7a81b804b503216433ee54bcb7f",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-04-02T01:55:38+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260401-00149 \u2014 Intelsat License LLC \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260401-00149"
+    },
+    {
+      "category": "Amendment",
+      "description": "Intelsat License LLC; Call sign/Auth ID: S00827",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-AMD-20260325-00136",
+      "metadata": {
+        "applicant": "Intelsat License LLC",
+        "call_sign": "S00827",
+        "file_number": "SAT-AMD-20260325-00136",
+        "filing_type": "AMD",
+        "record_id": "b2d017921bff7650b2252062f54bcbf6",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-03-25T19:55:08+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-AMD-20260325-00136 \u2014 Intelsat License LLC \u2014 Amendment",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-AMD-20260325-00136"
+    },
+    {
+      "category": "Launch and Operating Authority",
+      "description": "Astranis Projects USA LLC; Call sign/Auth ID: S00833",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-LOA-20260220-00092",
+      "metadata": {
+        "applicant": "Astranis Projects USA LLC",
+        "call_sign": "S00833",
+        "file_number": "SAT-LOA-20260220-00092",
+        "filing_type": "LOA",
+        "record_id": "952b70fbdb0bf610ed9f93d4f3961963",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-03-25T01:42:43+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20260220-00092 \u2014 Astranis Projects USA LLC \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20260220-00092"
+    },
+    {
+      "category": "Modification",
+      "description": "Loft Orbital Solutions Inc.; Call sign/Auth ID: S3181",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-MOD-20260310-00120",
+      "metadata": {
+        "applicant": "Loft Orbital Solutions Inc.",
+        "call_sign": "S3181",
+        "file_number": "SAT-MOD-20260310-00120",
+        "filing_type": "MOD",
+        "record_id": "ca70da211bab765090724000f54bcb4f",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-03-20T01:50:55+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260310-00120 \u2014 Loft Orbital Solutions Inc. \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260310-00120"
+    },
+    {
+      "category": "Launch and Operating Authority",
+      "description": "Blue Origin, LLC; Call sign/Auth ID: S00830",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-LOA-20260310-00118",
+      "metadata": {
+        "applicant": "Blue Origin, LLC",
+        "call_sign": "S00830",
+        "file_number": "SAT-LOA-20260310-00118",
+        "filing_type": "LOA",
+        "record_id": "9e84ada997e376501a6df06ad053af5c",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-03-19T19:11:45+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20260310-00118 \u2014 Blue Origin, LLC \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20260310-00118"
+    },
+    {
+      "category": "Launch and Operating Authority",
+      "description": "ICEYE US, Inc.; Call sign/Auth ID: S00806",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-LOA-20260128-00047",
+      "metadata": {
+        "applicant": "ICEYE US, Inc.",
+        "call_sign": "S00806",
+        "file_number": "SAT-LOA-20260128-00047",
+        "filing_type": "LOA",
+        "record_id": "31a80e9893fe3e1063defb786cba109b",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-03-17T20:41:22+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20260128-00047 \u2014 ICEYE US, Inc. \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20260128-00047"
+    },
+    {
+      "category": "Amendment",
+      "description": "ICEYE US, Inc.; Call sign/Auth ID: S00806",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-AMD-20260312-00123",
+      "metadata": {
+        "applicant": "ICEYE US, Inc.",
+        "call_sign": "S00806",
+        "file_number": "SAT-AMD-20260312-00123",
+        "filing_type": "AMD",
+        "record_id": "8c7a4d521b273a504ff40e1ce54bcb4b",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-03-17T20:41:22+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-AMD-20260312-00123 \u2014 ICEYE US, Inc. \u2014 Amendment",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-AMD-20260312-00123"
+    },
+    {
+      "category": "Launch and Operating Authority",
+      "description": "Intelsat License LLC; Call sign/Auth ID: S00827",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-LOA-20260316-00129",
+      "metadata": {
+        "applicant": "Intelsat License LLC",
+        "call_sign": "S00827",
+        "file_number": "SAT-LOA-20260316-00129",
+        "filing_type": "LOA",
+        "record_id": "191a4ce7872fb210dd68a9350cbb3577",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-03-17T01:56:55+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20260316-00129 \u2014 Intelsat License LLC \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20260316-00129"
+    },
+    {
+      "category": "Modification",
+      "description": "Intelsat License LLC; Call sign/Auth ID: S2160",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-MOD-20250327-00083",
+      "metadata": {
+        "applicant": "Intelsat License LLC",
+        "call_sign": "S2160",
+        "file_number": "SAT-MOD-20250327-00083",
+        "filing_type": "MOD",
+        "record_id": "b5f887a41bdea6104c2b877ae54bcb4c",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-03-17T01:12:01+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20250327-00083 \u2014 Intelsat License LLC \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20250327-00083"
+    },
+    {
+      "category": "Amendment",
+      "description": "Intelsat License LLC; Call sign/Auth ID: S2160",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-AMD-20260313-00124",
+      "metadata": {
+        "applicant": "Intelsat License LLC",
+        "call_sign": "S2160",
+        "file_number": "SAT-AMD-20260313-00124",
+        "filing_type": "AMD",
+        "record_id": "3757282a1b233a504c2b877ae54bcb37",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-03-17T01:12:01+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-AMD-20260313-00124 \u2014 Intelsat License LLC \u2014 Amendment",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-AMD-20260313-00124"
+    },
+    {
+      "category": "Modification",
+      "description": "DISH Operating L.L.C.; Call sign/Auth ID: S2694",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-MOD-20260304-00115",
+      "metadata": {
+        "applicant": "DISH Operating L.L.C.",
+        "call_sign": "S2694",
+        "file_number": "SAT-MOD-20260304-00115",
+        "filing_type": "MOD",
+        "record_id": "b19af3e71b53be104ff40e1ce54bcbde",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-03-05T20:08:19+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260304-00115 \u2014 DISH Operating L.L.C. \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260304-00115"
+    },
+    {
+      "category": "Launch and Operating Authority",
+      "description": "CesiumAstro, Inc; Call sign/Auth ID: S00816",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-LOA-20250701-00127",
+      "metadata": {
+        "applicant": "CesiumAstro, Inc",
+        "call_sign": "S00816",
+        "file_number": "SAT-LOA-20250701-00127",
+        "filing_type": "LOA",
+        "record_id": "98ff63541ba22e1090724000f54bcb83",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-03-04T01:05:55+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20250701-00127 \u2014 CesiumAstro, Inc \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20250701-00127"
+    },
+    {
+      "category": "Modification",
+      "description": "Basalt Technologies Corp.; Call sign/Auth ID: S3225",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-MOD-20260227-00099",
+      "metadata": {
+        "applicant": "Basalt Technologies Corp.",
+        "call_sign": "S3225",
+        "file_number": "SAT-MOD-20260227-00099",
+        "filing_type": "MOD",
+        "record_id": "70ab894697537a107738f21de053afac",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-03-02T20:38:10+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260227-00099 \u2014 Basalt Technologies Corp. \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260227-00099"
+    },
+    {
+      "category": "Modification",
+      "description": "Intelsat License LLC; Call sign/Auth ID: S2408",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-MOD-20241231-00299",
+      "metadata": {
+        "applicant": "Intelsat License LLC",
+        "call_sign": "S2408",
+        "file_number": "SAT-MOD-20241231-00299",
+        "filing_type": "MOD",
+        "record_id": "de3903e41bdea6104c2b877ae54bcb15",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-02-28T04:52:58+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20241231-00299 \u2014 Intelsat License LLC \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20241231-00299"
+    },
+    {
+      "category": "Amendment",
+      "description": "Intelsat License LLC; Call sign/Auth ID: S2408",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-AMD-20260227-00102",
+      "metadata": {
+        "applicant": "Intelsat License LLC",
+        "call_sign": "S2408",
+        "file_number": "SAT-AMD-20260227-00102",
+        "filing_type": "AMD",
+        "record_id": "c2daa78297df325039deff2ad053af04",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-02-28T04:52:58+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-AMD-20260227-00102 \u2014 Intelsat License LLC \u2014 Amendment",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-AMD-20260227-00102"
+    },
+    {
+      "category": "Modification",
+      "description": "Intelsat License LLC; Call sign/Auth ID: S2406",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-MOD-20260227-00101",
+      "metadata": {
+        "applicant": "Intelsat License LLC",
+        "call_sign": "S2406",
+        "file_number": "SAT-MOD-20260227-00101",
+        "filing_type": "MOD",
+        "record_id": "2f82978e97933a1012c3bffce053af28",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-02-28T03:50:53+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260227-00101 \u2014 Intelsat License LLC \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260227-00101"
+    },
+    {
+      "category": "Modification",
+      "description": "DISH Operating L.L.C.; Call sign/Auth ID: S2738",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-MOD-20260227-00100",
+      "metadata": {
+        "applicant": "DISH Operating L.L.C.",
+        "call_sign": "S2738",
+        "file_number": "SAT-MOD-20260227-00100",
+        "filing_type": "MOD",
+        "record_id": "5712fd0a471bf610418b674c926d43af",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-02-27T20:28:24+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260227-00100 \u2014 DISH Operating L.L.C. \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260227-00100"
+    },
+    {
+      "category": "Launch and Operating Authority",
+      "description": "Katalyst Space Technologies; Call sign/Auth ID: S00770",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-LOA-20251215-00383",
+      "metadata": {
+        "applicant": "Katalyst Space Technologies",
+        "call_sign": "S00770",
+        "file_number": "SAT-LOA-20251215-00383",
+        "filing_type": "LOA",
+        "record_id": "06355c9a873db210dc5aeac60cbb351a",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-02-20T18:42:42+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20251215-00383 \u2014 Katalyst Space Technologies \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20251215-00383"
+    },
+    {
+      "category": "Amendment",
+      "description": "Katalyst Space Technologies; Call sign/Auth ID: S00770",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-AMD-20260216-00089",
+      "metadata": {
+        "applicant": "Katalyst Space Technologies",
+        "call_sign": "S00770",
+        "file_number": "SAT-AMD-20260216-00089",
+        "filing_type": "AMD",
+        "record_id": "6e7681629783f2104d74b42ad053afcd",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-02-20T18:42:42+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-AMD-20260216-00089 \u2014 Katalyst Space Technologies \u2014 Amendment",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-AMD-20260216-00089"
+    },
+    {
+      "category": "Transfer of Control",
+      "description": "Lynk Global, Inc.",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-T/C-20260203-00080",
+      "metadata": {
+        "applicant": "Lynk Global, Inc.",
+        "call_sign": null,
+        "file_number": "SAT-T/C-20260203-00080",
+        "filing_type": "T/C",
+        "record_id": "a39caa921b7a3650eb9364eae54bcb23",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-02-14T00:01:24+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-T/C-20260203-00080 \u2014 Lynk Global, Inc. \u2014 Transfer of Control",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-T%2FC-20260203-00080"
+    },
+    {
+      "category": "Amendment",
+      "description": "Anduril Industries, Inc.; Call sign/Auth ID: S00800",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-AMD-20260213-00088",
+      "metadata": {
+        "applicant": "Anduril Industries, Inc.",
+        "call_sign": "S00800",
+        "file_number": "SAT-AMD-20260213-00088",
+        "filing_type": "AMD",
+        "record_id": "d95f7ce91b47ba904b29a682604bcbdf",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-02-13T20:06:57+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-AMD-20260213-00088 \u2014 Anduril Industries, Inc. \u2014 Amendment",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-AMD-20260213-00088"
+    },
+    {
+      "category": "Transfer of Control",
+      "description": "The Tomorrow Companies, Inc.",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-T/C-20260205-00082",
+      "metadata": {
+        "applicant": "The Tomorrow Companies, Inc.",
+        "call_sign": null,
+        "file_number": "SAT-T/C-20260205-00082",
+        "filing_type": "T/C",
+        "record_id": "891c30471bbeb650c0e74223b24bcbe7",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-02-09T17:43:37+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-T/C-20260205-00082 \u2014 The Tomorrow Companies, Inc. \u2014 Transfer of Control",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-T%2FC-20260205-00082"
+    },
+    {
+      "category": "Petition for Declaratory Ruling",
+      "description": "Telesat Canada; Call sign/Auth ID: S00808",
+      "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
+      "guid": "SAT-PDR-20251209-00376",
+      "metadata": {
+        "applicant": "Telesat Canada",
+        "call_sign": "S00808",
+        "file_number": "SAT-PDR-20251209-00376",
+        "filing_type": "PDR",
+        "record_id": "c4cc1d181bf93a90eb9364eae54bcb98",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-02-06T18:38:18+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-PDR-20251209-00376 \u2014 Telesat Canada \u2014 Petition for Declaratory Ruling",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-PDR-20251209-00376"
+    }
+  ],
+  "previous_visible_count": 100,
+  "schema_version": 1
+}

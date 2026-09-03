@@ -1,0 +1,63 @@
+{
+  "result": {
+    "containers": [
+      {
+        "widget": {
+          "name": "IN-SPACe Updates/Space News Widget",
+          "options": {"title": "Updates", "type": "update"},
+          "data": {
+            "updates": [
+              {
+                "date": "June 25, 2026",
+                "link": "?id=inspace_publications",
+                "content": "Singapore Space Summit Booklet"
+              },
+              {
+                "date": "August 08, 2025",
+                "link": "?id=old_update",
+                "content": "Old update outside the initial backfill"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "widget": {
+          "name": "IN-SPACe Launches/Announcement Widget",
+          "options": {"title": "Announcements", "type": "announcement"},
+          "data": {
+            "launches": [
+              {
+                "link": "/inspace/sys_attachment.do?sys_id=abc123",
+                "launchdata": "Results: Seed Fund Use Case Demonstration"
+              },
+              {"link": "", "launchdata": "Announcement without a document link"}
+            ]
+          }
+        }
+      },
+      {
+        "widget": {
+          "name": "IN-SPACe Updates/Space News Widget",
+          "options": {"title": "Space News", "type": "spacenews"},
+          "data": {
+            "updates": [
+              {
+                "date": "July 01, 2026",
+                "link": "https://example.com/news",
+                "content": "Third-party space news must be excluded"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "widget": {
+          "name": "IN-SPACe Launches/Announcement Widget",
+          "options": {"title": "Important Links", "type": "launch"},
+          "data": {"launches": [{"link": "?id=publications", "launchdata": "Publications"}]}
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": [
+    {
+      "pressid": 770,
+      "nmastercomid": 19,
+      "txtpress": "Press Release on 391st Report on Demands for Grants of the Department of Space",
+      "pub_date": "25/03/2025",
+      "rptpressfile_dsp": "https://sansad.in/getFile/press-770.pdf"
+    },
+    {
+      "pressid": 804,
+      "nmastercomid": 19,
+      "txtpress": "Press Release on Action Taken Reports of the Committee",
+      "pub_date": "08/08/2025",
+      "rptpressfile_dsp": "https://sansad.in/getFile/press-804.pdf"
+    },
+    {
+      "pressid": 805,
+      "nmastercomid": 19,
+      "txtpress": "Press Release on environmental policy reports",
+      "pub_date": "08/08/2025",
+      "rptpressfile_dsp": "https://sansad.in/getFile/press-805.pdf"
+    },
+    {
+      "pressid": 806,
+      "nmastercomid": 15,
+      "txtpress": "Department of Space unrelated committee entry",
+      "pub_date": "08/08/2025",
+      "rptpressfile_dsp": "https://sansad.in/getFile/press-806.pdf"
+    }
+  ]
+}

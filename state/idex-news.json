@@ -1,0 +1,73 @@
+{
+  "feed_config_hash": "95677997253f62c40a20f0cdd6d0859e083405a46f51f2418687fa99d7b1180b",
+  "feed_id": "idex-news",
+  "items": [
+    {
+      "category": "News Update",
+      "description": "iDEX and its Startups/MSMEs participated at BharatInnovates2026. Three iDEX winners marked major milestones through strategic partnerships and investment commitments. EyeROV secured a $5 million commitment from Unicorn India Ventures Fund III; CYRAN AI signed an MoU with Safran for AI-led Industry 4.0 transformation; and Crimson Energy Experts partnered with IIT Hyderabad and Dassault Syst\u00e8mes to establish CODENE. These collaborations strengthen India\u2019s deep-tech ecosystem, accelerate technology development and advance Aatmanirbhar Bharat.",
+      "first_seen_at": "2026-09-03T06:46:00.271880+00:00",
+      "guid": "https://www.idex.gov.in/uploads/bulletin/1787222026_4232bff84efba0bf15a2.jpeg",
+      "metadata": {
+        "image_url": "https://www.idex.gov.in/uploads/bulletin/1787222026_4232bff84efba0bf15a2.jpeg"
+      },
+      "published_at": "2026-06-14T00:00:00+00:00",
+      "source_id": "idex",
+      "title": "BharatInnovates2026",
+      "url": "https://www.idex.gov.in/bulletin/details"
+    },
+    {
+      "category": "News Update",
+      "description": "National Defence Industries Conclave 2026, held at Manekshaw Centre, New Delhi, under the theme \u201cAdvanced Manufacturing Technologies.\u201d The conclave presented key perspectives on the growth of India\u2019s defence manufacturing capabilities and highlighted the crucial role of MSMEs in driving self-reliance.",
+      "first_seen_at": "2026-09-03T06:46:00.271880+00:00",
+      "guid": "https://www.idex.gov.in/uploads/bulletin/1787222726_02870a6690f3946d3a0d.jpeg",
+      "metadata": {
+        "image_url": "https://www.idex.gov.in/uploads/bulletin/1787222726_02870a6690f3946d3a0d.jpeg"
+      },
+      "published_at": "2026-03-19T00:00:00+00:00",
+      "source_id": "idex",
+      "title": "National Defence Industries Conclave 2026",
+      "url": "https://www.idex.gov.in/bulletin/details"
+    },
+    {
+      "category": "News Update",
+      "description": "At the National Defence Industries Conclave 2026, Raksha Mantri Shri Rajnath Singh launched DISC-14 and ADITI Challenges 4.0 under iDEX, unveiling 107 problem statements\u201482 under DISC-14 and 25 under ADITI 4.0\u2014from the Defence Forces, Indian Coast Guard and Defence Space Agency. A new initiative featuring 101 innovation challenges from DPSUs was also launched by Raksha Mantri to encourage design-led innovation by MSMEs and start-ups.",
+      "first_seen_at": "2026-09-03T06:46:00.271880+00:00",
+      "guid": "https://www.idex.gov.in/uploads/bulletin/1787222462_8b798bae7ccb199bc0cf.jpeg",
+      "metadata": {
+        "image_url": "https://www.idex.gov.in/uploads/bulletin/1787222462_8b798bae7ccb199bc0cf.jpeg"
+      },
+      "published_at": "2026-03-19T00:00:00+00:00",
+      "source_id": "idex",
+      "title": "DISC 14 & ADITI 4 Launch",
+      "url": "https://www.idex.gov.in/bulletin/details"
+    },
+    {
+      "category": "News Update",
+      "description": "Raksha Mantri Shri Rajnath Singh addressed iDEX startups at 'Raksha Navachar Samvaad: Interaction with iDEX Startups' along with Chief of Defence Staff General Anil Chauhan, Secretary (Defence Production) Shri Sanjeev Kumar, Secretary DDR&D & Chairman DRDO Dr Samir V Kamat & JS(DIP), DDP Shri Amit Satija.",
+      "first_seen_at": "2026-09-03T06:46:00.271880+00:00",
+      "guid": "idex-news-a76638c38d0a1d27df3c183100ec1df77510e48f3fd54d85c44d48e135973364",
+      "metadata": {
+        "image_url": null
+      },
+      "published_at": "2025-10-07T00:00:00+00:00",
+      "source_id": "idex",
+      "title": "Raksha Navachar Samvaad",
+      "url": "https://www.idex.gov.in/bulletin/details"
+    },
+    {
+      "category": "News Update",
+      "description": "iDEX-DIO signed an MoU with EdCIL (India) Ltd. under the ASPIRE program to foster dual-use technologies. The MoU was signed by Joint Secretary (DIP) & Additional CEO, DIO Shri Amit Satija and Joint Secretary (TEL), Ministry of Education & CMD, EdCIL Shri Govind Jaiswal in New Delhi on September 09, 2025.",
+      "first_seen_at": "2026-09-03T06:46:00.271880+00:00",
+      "guid": "https://www.idex.gov.in/uploads/bulletin/1780996186_0b03348935f6507ae08f.webp",
+      "metadata": {
+        "image_url": "https://www.idex.gov.in/uploads/bulletin/1780996186_0b03348935f6507ae08f.webp"
+      },
+      "published_at": "2025-09-09T00:00:00+00:00",
+      "source_id": "idex",
+      "title": "MoU with EdCIL (India) Ltd. under the ASPIRE Program",
+      "url": "https://www.idex.gov.in/bulletin/details"
+    }
+  ],
+  "previous_visible_count": 23,
+  "schema_version": 1
+}

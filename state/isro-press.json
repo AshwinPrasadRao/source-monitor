@@ -1,0 +1,41 @@
+{
+  "feed_config_hash": "21bb10a4c74049315188f6fd22b7898a556a16787098edec6dcc84825fe46eb7",
+  "feed_id": "isro-press",
+  "items": [
+    {
+      "category": "Press Release",
+      "description": null,
+      "first_seen_at": "2026-09-02T12:51:48.580592+00:00",
+      "guid": "https://www.isro.gov.in/3rd_National_Space_Day_2026.html",
+      "metadata": {},
+      "published_at": "2026-08-24T00:00:00+00:00",
+      "source_id": "isro",
+      "title": "3rd National Space Day 2026 celebrated at Ahmedabad",
+      "url": "https://www.isro.gov.in/3rd_National_Space_Day_2026.html"
+    },
+    {
+      "category": "Press Release",
+      "description": null,
+      "first_seen_at": "2026-09-02T12:51:48.580592+00:00",
+      "guid": "https://www.isro.gov.in/first_stage_of_Small_Satellite_Launch_vehicle.html",
+      "metadata": {},
+      "published_at": "2026-08-12T00:00:00+00:00",
+      "source_id": "isro",
+      "title": "ISRO tests an improved version of the first stage of Small Satellite Launch vehicle (SSLV)",
+      "url": "https://www.isro.gov.in/first_stage_of_Small_Satellite_Launch_vehicle.html"
+    },
+    {
+      "category": "Press Release",
+      "description": null,
+      "first_seen_at": "2026-09-02T12:51:48.580592+00:00",
+      "guid": "https://www.isro.gov.in/Atmospheric_Re_entry_of_LVM3_M5_Upper_Stage.html",
+      "metadata": {},
+      "published_at": "2026-08-12T00:00:00+00:00",
+      "source_id": "isro",
+      "title": "Atmospheric Re-entry of LVM3 M5 Upper Stage on 30 July 2026",
+      "url": "https://www.isro.gov.in/Atmospheric_Re_entry_of_LVM3_M5_Upper_Stage.html"
+    }
+  ],
+  "previous_visible_count": 114,
+  "schema_version": 1
+}

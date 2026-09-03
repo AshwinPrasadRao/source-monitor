@@ -1,0 +1,39 @@
+{
+  "result": {
+    "data": {
+      "row_count": 3,
+      "list": [
+        {
+          "number": {"value": "SAT-LOA-20260527-00216", "display_value": "SAT-LOA-20260527-00216"},
+          "submission_date": {"value": "2026-09-02 23:54:55", "display_value": "2026-09-02 19:54:55"},
+          "sys_id": "f3687362cf810b1006fffff42f851c95",
+          "targetTable": "x_fmc_ibfs_form_312",
+          "subsystem": {"value": "SAT", "display_value": "SAT"},
+          "filing_type": {"value": "LOA", "display_value": "Launch and Operating Authority"},
+          "call_sign": {"value": "record-id", "display_value": "S00933"},
+          "applicant_name": {"value": "Turion Space Corp.", "display_value": "Turion Space Corp."}
+        },
+        {
+          "number": {"value": "SES-STA-20260902-02486", "display_value": "SES-STA-20260902-02486"},
+          "submission_date": {"value": "2026-09-02 23:52:44", "display_value": "2026-09-02 19:52:44"},
+          "sys_id": "372405523b430b10f9a3b2ac24e45aa3",
+          "targetTable": "x_fmc_ibfs_form_312",
+          "subsystem": {"value": "SES", "display_value": "SES"},
+          "filing_type": {"value": "STA", "display_value": "Special Temporary Authority"},
+          "call_sign": {"value": "record-id", "display_value": "E250217"},
+          "applicant_name": {"value": "AST & Science, LLC", "display_value": "AST & Science, LLC"}
+        },
+        {
+          "number": {"value": "SAT-MOD-20260819-00342", "display_value": "SAT-MOD-20260819-00342"},
+          "submission_date": {"value": "2026-08-19 19:39:49", "display_value": "2026-08-19 15:39:49"},
+          "sys_id": "e19537ed3b3a0f107be9f5ac24e45acd",
+          "targetTable": "x_fmc_ibfs_form_312",
+          "subsystem": {"value": "SAT", "display_value": "SAT"},
+          "filing_type": {"value": "MOD", "display_value": "Modification"},
+          "call_sign": {"value": "record-id", "display_value": "S2232"},
+          "applicant_name": {"value": "Intelsat License LLC", "display_value": "Intelsat License LLC"}
+        }
+      ]
+    }
+  }
+}

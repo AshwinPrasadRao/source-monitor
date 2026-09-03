@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>DoT / WPC — Spectrum and Satellite Administration</title>
+    <link>https://www.eservices.dot.gov.in/circular-notifications-others</link>
+    <description>Official Indian spectrum and satellite-administration publications.</description>
+    <atom:link href="https://ashwinprasadrao.github.io/source-monitor/feeds/dot-wpc-space.xml" rel="self" type="application/rss+xml"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 03 Sep 2026 06:46:01 +0000</lastBuildDate>
+    <item>
+      <title>Draft Telecommunications (Spectrum Assignment by Administrative Process) Rules, 2026</title>
+      <link>https://www.dot.gov.in/documents/gazettes-notifications/draft-telecommunications-spectrum-assignment-by-administrative-process-rules-2026</link>
+      <guid isPermaLink="false">DOT-70860</guid>
+      <category>Gazette Notifications</category>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Draft Telecommunications Sharing, Trading and Leasing of Spectrum Rules, 2025</title>
+      <link>https://www.dot.gov.in/documents/gazettes-notifications/draft-telecommunications-sharing-trading-and-leasing-of-spectrum-rules-2025-2</link>
+      <guid isPermaLink="false">DOT-63201</guid>
+      <category>Gazette Notifications</category>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

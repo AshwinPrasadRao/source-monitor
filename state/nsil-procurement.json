@@ -1,0 +1,381 @@
+{
+  "feed_config_hash": "8bc193a8947a729cf578d0a6aa80db4eec0e922076909d4d05d84d0f0a162a59",
+  "feed_id": "nsil-procurement",
+  "items": [
+    {
+      "category": "Request for Proposal (RFP)",
+      "description": "Request for Proposal Engagement of Internal Auditor Tender Reference Number in CPPP - NSIL/RFP/IA/2026/02\u200b Tender ID: 2026_NSIL_289625_1\u200b CPPP Link - https://etenders.gov.in/eprocure/app | Closing date: 2026-09-23T14:30:00+05:30 | Status: Open",
+      "first_seen_at": "2026-09-02T12:51:48.947469+00:00",
+      "guid": "2026_NSIL_289625_1",
+      "metadata": {
+        "attachments": [
+          {
+            "title": "Internal Audit RFP Doc",
+            "url": "https://www.nsilindia.co.in/sites/default/files/InternalAuditRFPDoc.pdf"
+          }
+        ],
+        "end_date": "2026-09-23T14:30:00+05:30",
+        "reference": "NSIL/RFP/IA/2026/02\u200b",
+        "start_date": "2026-09-02T15:35:00+05:30",
+        "status": "Open",
+        "tender_id": "2026_NSIL_289625_1"
+      },
+      "published_at": "2026-09-02T15:35:00+05:30",
+      "source_id": "nsil",
+      "title": "Request for Proposal (RFP) \u2014 Request for Proposal Engagement of Internal Auditor",
+      "url": "https://www.nsilindia.co.in/sites/default/files/InternalAuditRFPDoc.pdf"
+    },
+    {
+      "category": "Request for Proposal (RFP)",
+      "description": "Supply and Services of New Website of NSIL\u200b Tender Reference Number in CPPP - NSIL/26-27/IT Website/01\u200b Tender ID: 2026_NSIL_284597_1\u200b CPPP Link - https://etenders.gov.in/eprocure/app | Closing date: 2026-09-14T14:30:00+05:30 | Status: Open",
+      "first_seen_at": "2026-09-02T12:51:48.947469+00:00",
+      "guid": "2026_NSIL_284597_1",
+      "metadata": {
+        "attachments": [
+          {
+            "title": "NIT",
+            "url": "https://www.nsilindia.co.in/sites/default/files/NIT-1_0.pdf"
+          }
+        ],
+        "end_date": "2026-09-14T14:30:00+05:30",
+        "reference": "NSIL/26-27/IT Website/01\u200b",
+        "start_date": "2026-08-12T16:00:00+05:30",
+        "status": "Open",
+        "tender_id": "2026_NSIL_284597_1"
+      },
+      "published_at": "2026-08-12T16:00:00+05:30",
+      "source_id": "nsil",
+      "title": "Request for Proposal (RFP) \u2014 Supply and Services of New Website of NSIL\u200b",
+      "url": "https://www.nsilindia.co.in/sites/default/files/NIT-1_0.pdf"
+    },
+    {
+      "category": "Request for Proposal (RFP)",
+      "description": "Request for Proposal (RFP) for Procurement of dedicated Internet Leased Line (ILL) Connectivity at INCOIS for VCSS project Tender Reference Number in CPPP - NSIL/26-27/ILL/INCOIS/VCSS/ 01 Tender ID: 2026_NSIL_281192_1 CPPP Link - https://etenders.gov.in/ eprocure/app Pre-bid meeting Hosted by NSIL | Closing date: 2026-07-08T14:00:00+05:30 | Status: Close",
+      "first_seen_at": "2026-09-02T12:51:48.947469+00:00",
+      "guid": "2026_NSIL_281192_1",
+      "metadata": {
+        "attachments": [
+          {
+            "title": "NIT",
+            "url": "https://www.nsilindia.co.in/sites/default/files/NIT_1.pdf"
+          },
+          {
+            "title": "RFP Document",
+            "url": "https://www.nsilindia.co.in/sites/default/files/RFPDocument%20%281%29.pdf"
+          },
+          {
+            "title": "Corrigendum",
+            "url": "https://www.nsilindia.co.in/sites/default/files/ILLINCOISVCSSCorrigendum01.pdf"
+          }
+        ],
+        "end_date": "2026-07-08T14:00:00+05:30",
+        "reference": "NSIL/26-27/ILL/INCOIS/VCSS/ 01",
+        "start_date": "2026-06-17T16:35:00+05:30",
+        "status": "Close",
+        "tender_id": "2026_NSIL_281192_1"
+      },
+      "published_at": "2026-06-17T16:35:00+05:30",
+      "source_id": "nsil",
+      "title": "Request for Proposal (RFP) \u2014 Request for Proposal (RFP) for Procurement of dedicated Internet Leased Line (ILL) Connectivity at INCOIS for VCSS project",
+      "url": "https://www.nsilindia.co.in/sites/default/files/NIT_1.pdf"
+    },
+    {
+      "category": "Request for Proposal (RFP)",
+      "description": "Hiring of warehouse and other associated services Tender Reference Number in CPPP - NSIL/26-27/01/Warehouse/02 Tender ID: 2026_NSIL_281068_1 CPPP Link - https://etenders.gov.in/eprocure/app | Closing date: 2026-07-08T14:00:00+05:30 | Status: Close",
+      "first_seen_at": "2026-09-02T12:51:48.947469+00:00",
+      "guid": "2026_NSIL_281068_1",
+      "metadata": {
+        "attachments": [
+          {
+            "title": "Tender Document",
+            "url": "https://www.nsilindia.co.in/sites/default/files/Warehouse02TenderDocument.pdf"
+          }
+        ],
+        "end_date": "2026-07-08T14:00:00+05:30",
+        "reference": "NSIL/26-27/01/Warehouse/02",
+        "start_date": "2026-06-17T10:50:00+05:30",
+        "status": "Close",
+        "tender_id": "2026_NSIL_281068_1"
+      },
+      "published_at": "2026-06-17T10:50:00+05:30",
+      "source_id": "nsil",
+      "title": "Request for Proposal (RFP) \u2014 Hiring of warehouse and other associated services",
+      "url": "https://www.nsilindia.co.in/sites/default/files/Warehouse02TenderDocument.pdf"
+    },
+    {
+      "category": "Expression of Interest (EoI)",
+      "description": "Expression of Interest (EOI) for selection/appointment of an insurance broker cum advisor Tender Reference Number in CPPP - NSIL/26-27/EOI/Insurance Broker Cum Advisor/01 Tender ID: 2026_NSIL_280983_1 CPPP Link - https://etenders.gov.in/eprocure/app Pre-Bid Meeting July 14 , 2026 | 14:30 Hrs to 15:30 Hrs IST | Closing date: 2026-07-22T14:30:00+05:30 | Status: Close",
+      "first_seen_at": "2026-09-02T12:51:48.947469+00:00",
+      "guid": "2026_NSIL_280983_1",
+      "metadata": {
+        "attachments": [
+          {
+            "title": "Expression of Interest (EoI)",
+            "url": "https://www.nsilindia.co.in/sites/default/files/EOIInsuranceBrokerCumAdvisor.pdf"
+          },
+          {
+            "title": "EOI Corrigendum01",
+            "url": "https://www.nsilindia.co.in/sites/default/files/EOICorrigendum01.pdf"
+          }
+        ],
+        "end_date": "2026-07-22T14:30:00+05:30",
+        "reference": "NSIL/26-27/EOI/Insurance Broker Cum Advisor/01",
+        "start_date": "2026-06-16T14:45:00+05:30",
+        "status": "Close",
+        "tender_id": "2026_NSIL_280983_1"
+      },
+      "published_at": "2026-06-16T14:45:00+05:30",
+      "source_id": "nsil",
+      "title": "Expression of Interest (EoI) \u2014 Expression of Interest (EOI) for selection/appointment of an insurance broker cum advisor",
+      "url": "https://www.nsilindia.co.in/sites/default/files/EOIInsuranceBrokerCumAdvisor.pdf"
+    },
+    {
+      "category": "Request for Proposal (RFP)",
+      "description": "Appointment of Cost Auditor under Sec 148 of the Companies Act Tender Reference Number in CPPP - NSIL/26-27/RFP/Cost Audit/01 Tender ID: 2026_NSIL_278206_1 CPPP Link - https://etenders.gov.in/eprocure/app | Closing date: 2026-06-10T14:00:00+05:30 | Status: Close",
+      "first_seen_at": "2026-09-02T12:51:48.947469+00:00",
+      "guid": "2026_NSIL_278206_1",
+      "metadata": {
+        "attachments": [
+          {
+            "title": "RFP Document",
+            "url": "https://www.nsilindia.co.in/sites/default/files/RFPDocument_2.pdf"
+          }
+        ],
+        "end_date": "2026-06-10T14:00:00+05:30",
+        "reference": "NSIL/26-27/RFP/Cost Audit/01",
+        "start_date": "2026-05-20T18:00:00+05:30",
+        "status": "Close",
+        "tender_id": "2026_NSIL_278206_1"
+      },
+      "published_at": "2026-05-20T18:00:00+05:30",
+      "source_id": "nsil",
+      "title": "Request for Proposal (RFP) \u2014 Appointment of Cost Auditor under Sec 148 of the Companies Act",
+      "url": "https://www.nsilindia.co.in/sites/default/files/RFPDocument_2.pdf"
+    },
+    {
+      "category": "Request for Proposal (RFP)",
+      "description": "Supply, Installation, Commissioning, and Maintenance of IT Equipments for NSIL Tender Reference Number in CPPP - NSIL/RFP/IT/INT/2026/01 Tender ID: 2026_NSIL_276916_1 CPPP Link - https://etenders.gov.in/eprocure/app | Closing date: 2026-06-15T14:00:00+05:30 | Status: Close",
+      "first_seen_at": "2026-09-02T12:51:48.947469+00:00",
+      "guid": "2026_NSIL_276916_1",
+      "metadata": {
+        "attachments": [
+          {
+            "title": "Tender Notice",
+            "url": "https://www.nsilindia.co.in/sites/default/files/Tendernotice_1.pdf"
+          }
+        ],
+        "end_date": "2026-06-15T14:00:00+05:30",
+        "reference": "NSIL/RFP/IT/INT/2026/01",
+        "start_date": "2026-05-08T15:45:00+05:30",
+        "status": "Close",
+        "tender_id": "2026_NSIL_276916_1"
+      },
+      "published_at": "2026-05-08T15:45:00+05:30",
+      "source_id": "nsil",
+      "title": "Request for Proposal (RFP) \u2014 Supply, Installation, Commissioning, and Maintenance of IT Equipments for NSIL",
+      "url": "https://www.nsilindia.co.in/sites/default/files/Tendernotice_1.pdf"
+    },
+    {
+      "category": "Request for Proposal (RFP)",
+      "description": "Supply of Laptops and MS Office Tender Reference Number in CPPP - NSIL/26-27/Laptops and MS Office/01Tender ID: 2026_NSIL_274353_1 CPPP Link - https://etenders.gov.in/eprocure/app | Closing date: 2026-04-22T14:00:00+05:30 | Status: Close",
+      "first_seen_at": "2026-09-02T12:51:48.947469+00:00",
+      "guid": "2026_NSIL_274353_1",
+      "metadata": {
+        "attachments": [
+          {
+            "title": "Tender Document-1",
+            "url": "https://www.nsilindia.co.in/sites/default/files/TenderDocument-1.pdf"
+          }
+        ],
+        "end_date": "2026-04-22T14:00:00+05:30",
+        "reference": "NSIL/26-27/Laptops and MS Office/01Tender ID: 2026_NSIL_274353_1",
+        "start_date": "2026-04-09T12:45:00+05:30",
+        "status": "Close",
+        "tender_id": "2026_NSIL_274353_1"
+      },
+      "published_at": "2026-04-09T12:45:00+05:30",
+      "source_id": "nsil",
+      "title": "Request for Proposal (RFP) \u2014 Supply of Laptops and MS Office",
+      "url": "https://www.nsilindia.co.in/sites/default/files/TenderDocument-1.pdf"
+    },
+    {
+      "category": "Request for Proposal (RFP)",
+      "description": "Hiring of warehouse and other associated services Tender ID in CPPP - 2026_NSIL_268956_1 CPPP Link - https://etenders.gov.in/eprocure/app Pre-Bid Meeting March 16 , 2026 | 11:00 Hrs to 13:00 Hrs IST | Closing date: 2026-03-18T14:00:00+05:30 | Status: Close",
+      "first_seen_at": "2026-09-02T12:51:48.947469+00:00",
+      "guid": "https://www.nsilindia.co.in/sites/default/files/TenderDocument.pdf",
+      "metadata": {
+        "attachments": [
+          {
+            "title": "Tender Document",
+            "url": "https://www.nsilindia.co.in/sites/default/files/TenderDocument.pdf"
+          },
+          {
+            "title": "Corrigendum 01.pdf",
+            "url": "https://www.nsilindia.co.in/sites/default/files/WarehouseCorrigendum01.pdf"
+          }
+        ],
+        "end_date": "2026-03-18T14:00:00+05:30",
+        "reference": null,
+        "start_date": "2026-02-27T14:45:00+05:30",
+        "status": "Close",
+        "tender_id": null
+      },
+      "published_at": "2026-02-27T14:45:00+05:30",
+      "source_id": "nsil",
+      "title": "Request for Proposal (RFP) \u2014 Hiring of warehouse and other associated services Tender ID in CPPP - 2026_NSIL_268956_1 CPPP Link - https://etenders.gov.in/eprocure/app Pre-Bid Meeting March 16 , 2026 | 11:00 Hrs to 13:00 Hrs IST",
+      "url": "https://www.nsilindia.co.in/sites/default/files/TenderDocument.pdf"
+    },
+    {
+      "category": "Request for Proposal (RFP)",
+      "description": "Request for Proposal Engagement of Internal Auditor Tender Reference Number in CPPP - NSIL/RFP/IA/2026/01 Tender ID: 2026_NSIL_266585_1 CPPP Link - https://etenders.gov.in/eprocure/app | Closing date: 2026-03-03T14:00:00+05:30 | Status: Tender has been Cancelled and Retendered as NSIL/RFP/IA/2026/02 Close",
+      "first_seen_at": "2026-09-02T12:51:48.947469+00:00",
+      "guid": "2026_NSIL_266585_1",
+      "metadata": {
+        "attachments": [
+          {
+            "title": "RFP Document",
+            "url": "https://www.nsilindia.co.in/sites/default/files/RFPDocument_1.pdf"
+          },
+          {
+            "title": "NIT",
+            "url": "https://www.nsilindia.co.in/sites/default/files/NIT_0.pdf"
+          }
+        ],
+        "end_date": "2026-03-03T14:00:00+05:30",
+        "reference": "NSIL/RFP/IA/2026/01",
+        "start_date": "2026-02-17T14:00:00+05:30",
+        "status": "Tender has been Cancelled and Retendered as NSIL/RFP/IA/2026/02 Close",
+        "tender_id": "2026_NSIL_266585_1"
+      },
+      "published_at": "2026-02-17T14:00:00+05:30",
+      "source_id": "nsil",
+      "title": "Request for Proposal (RFP) \u2014 Request for Proposal Engagement of Internal Auditor",
+      "url": "https://www.nsilindia.co.in/sites/default/files/RFPDocument_1.pdf"
+    },
+    {
+      "category": "Request for Proposal (RFP)",
+      "description": "Supply and Service of Siemens UG Mach1 Perpetual License Tender Reference Number in CPPP - NSIL/25-26/Siemens UG Mach1 Perpetual License/01 Tender ID: 2025_NSIL_260050_1 CPPP Link - https://etenders.gov.in/eprocure/app | Closing date: 2026-01-13T14:00:00+05:30 | Status: Close",
+      "first_seen_at": "2026-09-02T12:51:48.947469+00:00",
+      "guid": "2025_NSIL_260050_1",
+      "metadata": {
+        "attachments": [
+          {
+            "title": "NIT",
+            "url": "https://www.nsilindia.co.in/sites/default/files/NIT.pdf"
+          }
+        ],
+        "end_date": "2026-01-13T14:00:00+05:30",
+        "reference": "NSIL/25-26/Siemens UG Mach1 Perpetual License/01",
+        "start_date": "2025-12-22T15:20:00+05:30",
+        "status": "Close",
+        "tender_id": "2025_NSIL_260050_1"
+      },
+      "published_at": "2025-12-22T15:20:00+05:30",
+      "source_id": "nsil",
+      "title": "Request for Proposal (RFP) \u2014 Supply and Service of Siemens UG Mach1 Perpetual License",
+      "url": "https://www.nsilindia.co.in/sites/default/files/NIT.pdf"
+    },
+    {
+      "category": "Request for Proposal (RFP)",
+      "description": "Supply, Installation, Commissioning, Operation and Maintenance of IT Infrastructure Tender Reference Number in CPPP - NSIL/RFP/IT/UPG/2025/02 Tender ID: 2025_NSIL_259780_1 CPPP Link - https://etenders.gov.in/eprocure/app | Closing date: 2026-01-19T16:00:00+05:30 | Status: Close",
+      "first_seen_at": "2026-09-02T12:51:48.947469+00:00",
+      "guid": "2025_NSIL_259780_1",
+      "metadata": {
+        "attachments": [
+          {
+            "title": "Executive Summary",
+            "url": "https://www.nsilindia.co.in/sites/default/files/ExecutiveSummary%20.pdf"
+          }
+        ],
+        "end_date": "2026-01-19T16:00:00+05:30",
+        "reference": "NSIL/RFP/IT/UPG/2025/02",
+        "start_date": "2025-12-19T16:45:00+05:30",
+        "status": "Close",
+        "tender_id": "2025_NSIL_259780_1"
+      },
+      "published_at": "2025-12-19T16:45:00+05:30",
+      "source_id": "nsil",
+      "title": "Request for Proposal (RFP) \u2014 Supply, Installation, Commissioning, Operation and Maintenance of IT Infrastructure",
+      "url": "https://www.nsilindia.co.in/sites/default/files/ExecutiveSummary%20.pdf"
+    },
+    {
+      "category": "Request for Proposal (RFP)",
+      "description": "Supply of Manpower at NSIL (Ahmedabad) Tender ID in CPPP - 2025_NSIL_259309_01 CPPP Link - https://etenders.gov.in/eprocure/app | Closing date: 2026-01-07T14:00:00+05:30 | Status: Close",
+      "first_seen_at": "2026-09-02T12:51:48.947469+00:00",
+      "guid": "https://www.nsilindia.co.in/sites/default/files/TenderDocument%20.pdf",
+      "metadata": {
+        "attachments": [
+          {
+            "title": "RFP Document",
+            "url": "https://www.nsilindia.co.in/sites/default/files/TenderDocument%20.pdf"
+          }
+        ],
+        "end_date": "2026-01-07T14:00:00+05:30",
+        "reference": null,
+        "start_date": "2025-12-17T14:30:00+05:30",
+        "status": "Close",
+        "tender_id": null
+      },
+      "published_at": "2025-12-17T14:30:00+05:30",
+      "source_id": "nsil",
+      "title": "Request for Proposal (RFP) \u2014 Supply of Manpower at NSIL (Ahmedabad) Tender ID in CPPP - 2025_NSIL_259309_01 CPPP Link - https://etenders.gov.in/eprocure/app",
+      "url": "https://www.nsilindia.co.in/sites/default/files/TenderDocument%20.pdf"
+    },
+    {
+      "category": "Request for Proposal (RFP)",
+      "description": "Supply, Installation and Commissioning of DBNet stations (operating in X and L Band) for weather satellite data reception Tender ID in CPPP - 2025_NSIL_253661_1 CPPP Link - https://etenders.gov.in/eprocure/app Pre-Bid Meeting November 07, 2025 | 11:00 Hrs to 13:00 Hrs | Closing date: 2025-11-26T14:00:00+05:30 | Status: Close",
+      "first_seen_at": "2026-09-02T12:51:48.947469+00:00",
+      "guid": "https://www.nsilindia.co.in/sites/default/files/RFPDocument_0.pdf",
+      "metadata": {
+        "attachments": [
+          {
+            "title": "RFP Document",
+            "url": "https://www.nsilindia.co.in/sites/default/files/RFPDocument_0.pdf"
+          },
+          {
+            "title": "NCMRWF Corrigendum01",
+            "url": "https://www.nsilindia.co.in/sites/default/files/NCMRWFCorrigendum01.pdf"
+          },
+          {
+            "title": "Corrigendum 2- Clarification Response",
+            "url": "https://www.nsilindia.co.in/sites/default/files/ClarificationResponseNCMRWFCorrigendum02.pdf"
+          }
+        ],
+        "end_date": "2025-11-26T14:00:00+05:30",
+        "reference": null,
+        "start_date": "2025-10-29T16:00:00+05:30",
+        "status": "Close",
+        "tender_id": null
+      },
+      "published_at": "2025-10-29T16:00:00+05:30",
+      "source_id": "nsil",
+      "title": "Request for Proposal (RFP) \u2014 Supply, Installation and Commissioning of DBNet stations (operating in X and L Band) for weather satellite data reception Tender ID in CPPP - 2025_NSIL_253661_1 CPPP Link - https://etenders.gov.in/eprocure/app Pre-Bid Meeting November 07, 2025 | 11:00 Hrs to 13:00 Hrs",
+      "url": "https://www.nsilindia.co.in/sites/default/files/RFPDocument_0.pdf"
+    },
+    {
+      "category": "Request for Proposal (RFP)",
+      "description": "Supply, Installation and Commissioning of S X-band with Ka-band ready Full motion antenna for LEO satellites Tender ID in CPPP - 2025_NSIL_253159_1\u200b CPPP Link - https://etenders.gov.in/eprocure/app | Closing date: 2025-11-12T13:00:00+05:30 | Status: Close",
+      "first_seen_at": "2026-09-02T12:51:48.947469+00:00",
+      "guid": "https://www.nsilindia.co.in/sites/default/files/ExecutiveSummary_0.pdf",
+      "metadata": {
+        "attachments": [
+          {
+            "title": "Executive Summary",
+            "url": "https://www.nsilindia.co.in/sites/default/files/ExecutiveSummary_0.pdf"
+          }
+        ],
+        "end_date": "2025-11-12T13:00:00+05:30",
+        "reference": null,
+        "start_date": "2025-10-22T10:00:00+05:30",
+        "status": "Close",
+        "tender_id": null
+      },
+      "published_at": "2025-10-22T10:00:00+05:30",
+      "source_id": "nsil",
+      "title": "Request for Proposal (RFP) \u2014 Supply, Installation and Commissioning of S X-band with Ka-band ready Full motion antenna for LEO satellites Tender ID in CPPP - 2025_NSIL_253159_1\u200b CPPP Link - https://etenders.gov.in/eprocure/app",
+      "url": "https://www.nsilindia.co.in/sites/default/files/ExecutiveSummary_0.pdf"
+    }
+  ],
+  "previous_visible_count": 20,
+  "schema_version": 1
+}

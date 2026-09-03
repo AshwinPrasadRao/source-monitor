@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Parliament Standing Committee — Department of Space</title>
+    <link>https://sansad.in/rs/pressRelease</link>
+    <description>Reports and notices explicitly pertaining to the Department of Space.</description>
+    <atom:link href="https://ashwinprasadrao.github.io/source-monitor/feeds/parliament-space-committee.xml" rel="self" type="application/rss+xml"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 03 Sep 2026 06:46:06 +0000</lastBuildDate>
+    <item>
+      <title>Report 410 — DEMANDS FOR GRANTS (2026-2027) OF THE DEPARTMENT OF SPACE (DEMAND NO. 95)</title>
+      <link>https://bucketapi.rajyasabha.digital/public-bucket/committee_file/ReportFile/19/217/410_2026_3_12.pdf</link>
+      <guid isPermaLink="false">RS-report-410</guid>
+      <category>Demands for Grants</category>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Press Release on 410th Report on Demands for Grants (2025-26) of the Department of Space</title>
+      <link>https://bucketapi.rajyasabha.digital/public-bucket/committee_file/Press_ReleaseFile/19/217/910P_2026_3_17.pdf</link>
+      <guid isPermaLink="false">RS-press-910</guid>
+      <category>Press Release</category>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Report 398 — Action Taken by the Government on the Recommendations/Observations contained in the Three Hundred Ninety First Report of the Department-related Parliamentary Standing Committee on Science and Technology, Environment, Forests and Climate Change on the Demands for Grants (2025-26) of the Department of Space</title>
+      <link>https://bucketapi.rajyasabha.digital/public-bucket/committee_file/ReportFile/19/201/398_2025_8_14.pdf</link>
+      <guid isPermaLink="false">RS-report-398</guid>
+      <category>Action Taken Report</category>
+      <pubDate>Fri, 08 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Press Release on Action Taken Reports of DRPSC on Science and Technology</title>
+      <link>https://bucketapi.rajyasabha.digital/public-bucket/committee_file/Press_ReleaseFile/19/201/804P_2025_8_18.pdf</link>
+      <guid isPermaLink="false">RS-press-804</guid>
+      <category>Press Release</category>
+      <pubDate>Fri, 08 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Report 391 — DEMANDS FOR GRANTS (2025-2026) OF THE DEPARTMENT OF SPACE (DEMAND NO. 95)</title>
+      <link>https://bucketapi.rajyasabha.digital/public-bucket/committee_file/ReportFile/19/201/391_2025_8_14.pdf</link>
+      <guid isPermaLink="false">RS-report-391</guid>
+      <category>Demands for Grants</category>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Press Release on 391st Report on Demands for Grants (2025-26) of the Department of Space</title>
+      <link>https://bucketapi.rajyasabha.digital/public-bucket/committee_file/Press_ReleaseFile/19/201/770P_2025_3_16.pdf</link>
+      <guid isPermaLink="false">RS-press-770</guid>
+      <category>Press Release</category>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

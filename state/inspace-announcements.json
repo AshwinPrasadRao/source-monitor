@@ -1,0 +1,217 @@
+{
+  "feed_config_hash": "b264171247dcb3b60593c4cea401110f9af62f0df1c4ea6a59cf4ed5bc71debd",
+  "feed_id": "inspace-announcements",
+  "items": [
+    {
+      "category": "Announcement",
+      "description": null,
+      "first_seen_at": "2026-09-03T07:00:14.737163+00:00",
+      "guid": "inspace-announcement-f5c269f7309dd83d9f2f8a3eb6f3648d875c2995843b762e11014faf0bd79067",
+      "metadata": {},
+      "published_at": null,
+      "source_id": "inspace",
+      "title": "Results \u2013 Satellite Bus as a Service Initiative",
+      "url": "https://www.inspace.gov.in/inspace?id=results_sbaas"
+    },
+    {
+      "category": "Announcement",
+      "description": null,
+      "first_seen_at": "2026-09-03T07:00:14.737163+00:00",
+      "guid": "inspace-announcement-f242ad00ea6717b4d6127d2a3df3de84f2186007a00b7b77ba70299c8206b0e9",
+      "metadata": {},
+      "published_at": null,
+      "source_id": "inspace",
+      "title": "Results : Engagement of Young Professionals",
+      "url": "https://www.inspace.gov.in/inspace?id=results_engagement_professionals"
+    },
+    {
+      "category": "Announcement",
+      "description": null,
+      "first_seen_at": "2026-09-03T07:00:14.737163+00:00",
+      "guid": "inspace-announcement-ddad6320523ac786ec77c86fb923a51a340814e349abfb232c276ddf696aacbf",
+      "metadata": {},
+      "published_at": null,
+      "source_id": "inspace",
+      "title": "AI INSPIRED : Last Date to Apply Extended",
+      "url": "https://www.inspace.gov.in/inspace?id=ao_ai"
+    },
+    {
+      "category": "Announcement",
+      "description": null,
+      "first_seen_at": "2026-09-03T07:00:14.737163+00:00",
+      "guid": "inspace-announcement-attachment-fd25f252f94b0b10741268b90194e727",
+      "metadata": {},
+      "published_at": null,
+      "source_id": "inspace",
+      "title": "Engagement of Resident Experts in IN-SPACe 2026",
+      "url": "https://www.inspace.gov.in/inspace/sys_attachment.do?sys_id=fd25f252f94b0b10741268b90194e727"
+    },
+    {
+      "category": "Announcement",
+      "description": null,
+      "first_seen_at": "2026-09-03T07:00:14.737163+00:00",
+      "guid": "inspace-announcement-attachment-f9b822edc0f687107412dd39293da411",
+      "metadata": {},
+      "published_at": null,
+      "source_id": "inspace",
+      "title": "FICCI R&D Awards - 2026",
+      "url": "https://www.inspace.gov.in/inspace/sys_attachment.do?sys_id=f9b822edc0f687107412dd39293da411"
+    },
+    {
+      "category": "Announcement",
+      "description": null,
+      "first_seen_at": "2026-09-03T07:00:14.737163+00:00",
+      "guid": "inspace-announcement-attachment-e9899ca839834710ec2e6dcd6807e44b",
+      "metadata": {},
+      "published_at": null,
+      "source_id": "inspace",
+      "title": "Interview Results to the posts of DD-IT and AD-IT on Deputation basis at IN-SPACe",
+      "url": "https://www.inspace.gov.in/inspace/sys_attachment.do?sys_id=e9899ca839834710ec2e6dcd6807e44b"
+    },
+    {
+      "category": "Announcement",
+      "description": null,
+      "first_seen_at": "2026-09-03T07:00:14.737163+00:00",
+      "guid": "inspace-announcement-attachment-9e2d9bbd2b937a10e95ef17b6e91bf1c",
+      "metadata": {},
+      "published_at": null,
+      "source_id": "inspace",
+      "title": "Engagement of Resident Experts in IN-SPACe",
+      "url": "https://www.inspace.gov.in/sys_attachment.do?sys_id=9e2d9bbd2b937a10e95ef17b6e91bf1c"
+    },
+    {
+      "category": "Announcement",
+      "description": null,
+      "first_seen_at": "2026-09-03T07:00:14.737163+00:00",
+      "guid": "inspace-announcement-attachment-7353306d3b15cb5063ff0a34c3e45a80",
+      "metadata": {},
+      "published_at": null,
+      "source_id": "inspace",
+      "title": "Extension of last date of submission of application : Filling up of posts of Deputy Director IT / Assistant Directors IT on Deputation basis",
+      "url": "https://www.inspace.gov.in/inspace/sys_attachment.do?sys_id=7353306d3b15cb5063ff0a34c3e45a80"
+    },
+    {
+      "category": "Announcement",
+      "description": null,
+      "first_seen_at": "2026-09-03T07:00:14.737163+00:00",
+      "guid": "inspace-announcement-attachment-6751b4502bb04790e95ef17b6e91bf8d",
+      "metadata": {},
+      "published_at": null,
+      "source_id": "inspace",
+      "title": "Filling up of posts of Deputy Director IT / Assistant Directors IT on Deputation basis",
+      "url": "https://www.inspace.gov.in/inspace/sys_attachment.do?sys_id=6751b4502bb04790e95ef17b6e91bf8d"
+    },
+    {
+      "category": "Announcement",
+      "description": null,
+      "first_seen_at": "2026-09-03T07:00:14.737163+00:00",
+      "guid": "inspace-announcement-attachment-0274fedef90b0b10741268b90194e794",
+      "metadata": {},
+      "published_at": null,
+      "source_id": "inspace",
+      "title": "Results : Engagement of Young Professionals 2026",
+      "url": "https://www.inspace.gov.in/inspace/sys_attachment.do?sys_id=0274fedef90b0b10741268b90194e794"
+    },
+    {
+      "category": "Announcement",
+      "description": null,
+      "first_seen_at": "2026-09-03T07:00:14.737163+00:00",
+      "guid": "inspace-announcement-aee63d0eafc73e1791d13694dd1826f78dc8fdb74674707371b99e0861774a06",
+      "metadata": {},
+      "published_at": null,
+      "source_id": "inspace",
+      "title": "Engagement of Young Professionals at IN-SPACe. Apply",
+      "url": "https://www.inspace.gov.in/inspace?id=young_professional_2026"
+    },
+    {
+      "category": "Announcement",
+      "description": null,
+      "first_seen_at": "2026-09-03T07:00:14.737163+00:00",
+      "guid": "inspace-announcement-8d36affb193f2c2f243678a13d712ad9d3fd3487bff439b371993f95fc8fa696",
+      "metadata": {},
+      "published_at": null,
+      "source_id": "inspace",
+      "title": "Results : Seed Fund - Use Case Demonstration",
+      "url": "https://www.inspace.gov.in/inspace?id=results_sbaas"
+    },
+    {
+      "category": "Announcement",
+      "description": null,
+      "first_seen_at": "2026-09-03T07:00:14.737163+00:00",
+      "guid": "inspace-announcement-8cdc7aeb8ac3f2913c1c1491a2ef592bcf92ddbc4866631b0f56e78ac2f6e897",
+      "metadata": {},
+      "published_at": null,
+      "source_id": "inspace",
+      "title": "Transfer of Technologies : IEN published in Apr 2026. Read More",
+      "url": "https://www.inspace.gov.in/inspace?id=inspace_technology_transfer_v3"
+    },
+    {
+      "category": "Announcement",
+      "description": null,
+      "first_seen_at": "2026-09-03T07:00:14.737163+00:00",
+      "guid": "inspace-announcement-8c712ebd3b0b0667b6278fc1fced5541454b74eb82d23e4651e3ac15f325a7b1",
+      "metadata": {},
+      "published_at": null,
+      "source_id": "inspace",
+      "title": "Register : India \u2013 Republic of Korea Space Day",
+      "url": "https://www.inspace.gov.in/inspace?id=india_republic_of_korea_space_day"
+    },
+    {
+      "category": "Announcement",
+      "description": null,
+      "first_seen_at": "2026-09-03T07:00:14.737163+00:00",
+      "guid": "inspace-announcement-4017276a01eff974ef2b48f5d4893967c25f370e356d1cd2c1b979e124cfa1f1",
+      "metadata": {},
+      "published_at": null,
+      "source_id": "inspace",
+      "title": "April 13, 2026 : 9:30 Hrs IST : Live Stream of Workhop on SSA & ITU Filings",
+      "url": "https://www.inspace.gov.in/inspace?id=workshop_ssa_itu"
+    },
+    {
+      "category": "Announcement",
+      "description": null,
+      "first_seen_at": "2026-09-03T07:00:14.737163+00:00",
+      "guid": "inspace-announcement-3e66244a732eb389a4b19145e046cc7a834375d7777b5f477a85af8d4b5b1b26",
+      "metadata": {},
+      "published_at": null,
+      "source_id": "inspace",
+      "title": "Course on Essentials of Space Data Products and Services rescheduled",
+      "url": "https://www.inspace.gov.in/inspace?id=space_data_product_and_services_2026"
+    },
+    {
+      "category": "Announcement",
+      "description": null,
+      "first_seen_at": "2026-09-03T07:00:14.737163+00:00",
+      "guid": "inspace-announcement-146559696af74191c5c41c845aa9c2c09fd057e4f29267c304cff74dd57637e2",
+      "metadata": {},
+      "published_at": null,
+      "source_id": "inspace",
+      "title": "Establishment of AssamSAT by Assam Government",
+      "url": "https://www.inspace.gov.in/inspace?id=tenders_for_space_sector"
+    },
+    {
+      "category": "Announcement",
+      "description": null,
+      "first_seen_at": "2026-09-03T07:00:14.737163+00:00",
+      "guid": "inspace-announcement-0e9474f086bb88e567ce296976e7b947615a7027e5bd9f001ae18de16fb35032",
+      "metadata": {},
+      "published_at": null,
+      "source_id": "inspace",
+      "title": "Nomination for ASI Excellence in Astronautics Awards: 2025",
+      "url": "https://www.inspace.gov.in/inspace?id=nominations_for_asi_award"
+    },
+    {
+      "category": "Announcement",
+      "description": null,
+      "first_seen_at": "2026-09-03T07:00:14.737163+00:00",
+      "guid": "inspace-announcement-08d26c1c9608706f874ca2081f9dcaf1d79447e722ddf42e8482e1d8a65e3fee",
+      "metadata": {},
+      "published_at": null,
+      "source_id": "inspace",
+      "title": "Register : Veneto Space Meetings-2026",
+      "url": "https://www.inspace.gov.in/inspace?id=veneto_space_meetings"
+    }
+  ],
+  "previous_visible_count": 19,
+  "schema_version": 1
+}
