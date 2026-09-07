@@ -5,6 +5,17 @@
     {
       "category": "News",
       "description": null,
+      "first_seen_at": "2026-09-07T21:34:11.542219+00:00",
+      "guid": "https://www.nsilindia.co.in/news-details/785",
+      "metadata": {},
+      "published_at": "2026-09-07T00:00:00+05:30",
+      "source_id": "nsil",
+      "title": "NSIL Signs Agreement with LatConnect60 for Telemetry and Tracking Services",
+      "url": "https://www.nsilindia.co.in/news-details/785"
+    },
+    {
+      "category": "News",
+      "description": null,
       "first_seen_at": "2026-09-02T12:51:48.947469+00:00",
       "guid": "https://www.nsilindia.co.in/news-details/771",
       "metadata": {},
