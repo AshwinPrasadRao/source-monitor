@@ -3,6 +3,25 @@
   "feed_id": "fcc-icfs-satellite-filings",
   "items": [
     {
+      "category": "Launch and Operating Authority",
+      "description": "Hubble Network Inc; Call sign/Auth ID: S00937",
+      "first_seen_at": "2026-09-11T04:47:03.605568+00:00",
+      "guid": "SAT-LOA-20260805-00327",
+      "metadata": {
+        "applicant": "Hubble Network Inc",
+        "call_sign": "S00937",
+        "file_number": "SAT-LOA-20260805-00327",
+        "filing_type": "LOA",
+        "record_id": "d8241015cfaa8f904470b6770f851c6a",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-09-11T01:39:42+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20260805-00327 \u2014 Hubble Network Inc \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20260805-00327"
+    },
+    {
       "category": "Replacement Satellite Application (no new frequency bands)",
       "description": "Sirius XM Radio LLC; Call sign/Auth ID: S00935",
       "first_seen_at": "2026-09-09T16:42:53.071506+00:00",
