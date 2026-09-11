@@ -3,6 +3,44 @@
   "feed_id": "fcc-icfs-satellite-filings",
   "items": [
     {
+      "category": "Amendment",
+      "description": "Blue Origin, LLC; Call sign/Auth ID: S00788",
+      "first_seen_at": "2026-09-11T21:01:30.542727+00:00",
+      "guid": "SAT-AMD-20260905-00360",
+      "metadata": {
+        "applicant": "Blue Origin, LLC",
+        "call_sign": "S00788",
+        "file_number": "SAT-AMD-20260905-00360",
+        "filing_type": "AMD",
+        "record_id": "e0f103833bcb8b50ccebaff764e45a6d",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-09-11T19:20:28+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-AMD-20260905-00360 \u2014 Blue Origin, LLC \u2014 Amendment",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-AMD-20260905-00360"
+    },
+    {
+      "category": "Amendment",
+      "description": "AST & Science, LLC; Call sign/Auth ID: S3065",
+      "first_seen_at": "2026-09-11T21:01:30.542727+00:00",
+      "guid": "SAT-AMD-20260909-00365",
+      "metadata": {
+        "applicant": "AST & Science, LLC",
+        "call_sign": "S3065",
+        "file_number": "SAT-AMD-20260909-00365",
+        "filing_type": "AMD",
+        "record_id": "1fdd8860cf5f4710960df56b1f851c8a",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-09-11T19:07:06+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-AMD-20260909-00365 \u2014 AST & Science, LLC \u2014 Amendment",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-AMD-20260909-00365"
+    },
+    {
       "category": "Launch and Operating Authority",
       "description": "Hubble Network Inc; Call sign/Auth ID: S00937",
       "first_seen_at": "2026-09-11T04:47:03.605568+00:00",
