@@ -6,7 +6,7 @@
       "feed_title": "IN-SPACe Announcements",
       "item_count": 20,
       "last_new_item_time": "2026-09-03T16:29:28.386618+00:00",
-      "last_successful_check": "2026-09-11T21:01:31.778664+00:00",
+      "last_successful_check": "2026-09-12T04:41:06.774698+00:00",
       "official_upstream_urls": [
         "https://www.inspace.gov.in/inspace",
         "https://www.inspace.gov.in/api/now/sp/page?id=inspace_index"
@@ -22,7 +22,7 @@
       "feed_title": "IN-SPACe Updates",
       "item_count": 9,
       "last_new_item_time": "2026-09-03T07:00:14.737163+00:00",
-      "last_successful_check": "2026-09-11T21:01:31.778664+00:00",
+      "last_successful_check": "2026-09-12T04:41:06.774698+00:00",
       "official_upstream_urls": [
         "https://www.inspace.gov.in/inspace",
         "https://www.inspace.gov.in/api/now/sp/page?id=inspace_index"
@@ -38,7 +38,7 @@
       "feed_title": "PIB \u2014 Department of Space",
       "item_count": 0,
       "last_new_item_time": null,
-      "last_successful_check": "2026-09-11T21:01:31.778664+00:00",
+      "last_successful_check": "2026-09-12T04:41:06.774698+00:00",
       "official_upstream_urls": [
         "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=1"
       ],
@@ -75,7 +75,7 @@
       "feed_title": "NSIL News",
       "item_count": 14,
       "last_new_item_time": "2026-09-10T16:28:39.132817+00:00",
-      "last_successful_check": "2026-09-11T21:01:31.778664+00:00",
+      "last_successful_check": "2026-09-12T04:41:06.774698+00:00",
       "official_upstream_urls": [
         "https://www.nsilindia.co.in/news",
         "https://www.nsilindia.co.in/tenders"
@@ -91,7 +91,7 @@
       "feed_title": "NSIL Procurement",
       "item_count": 15,
       "last_new_item_time": "2026-09-02T12:51:48.947469+00:00",
-      "last_successful_check": "2026-09-11T21:01:31.778664+00:00",
+      "last_successful_check": "2026-09-12T04:41:06.774698+00:00",
       "official_upstream_urls": [
         "https://www.nsilindia.co.in/news",
         "https://www.nsilindia.co.in/tenders"
@@ -107,7 +107,7 @@
       "feed_title": "ISRO Press Releases",
       "item_count": 4,
       "last_new_item_time": "2026-09-06T20:28:07.442990+00:00",
-      "last_successful_check": "2026-09-11T21:01:31.778664+00:00",
+      "last_successful_check": "2026-09-12T04:41:06.774698+00:00",
       "official_upstream_urls": [
         "https://www.isro.gov.in/Press.html"
       ],
@@ -122,7 +122,7 @@
       "feed_title": "iDEX Notices",
       "item_count": 5,
       "last_new_item_time": "2026-09-03T06:46:00.271880+00:00",
-      "last_successful_check": "2026-09-11T21:01:31.778664+00:00",
+      "last_successful_check": "2026-09-12T04:41:06.774698+00:00",
       "official_upstream_urls": [
         "https://idex.gov.in/notices",
         "https://www.idex.gov.in/",
@@ -139,7 +139,7 @@
       "feed_title": "iDEX News Updates",
       "item_count": 5,
       "last_new_item_time": "2026-09-03T06:46:00.271880+00:00",
-      "last_successful_check": "2026-09-11T21:01:31.778664+00:00",
+      "last_successful_check": "2026-09-12T04:41:06.774698+00:00",
       "official_upstream_urls": [
         "https://idex.gov.in/notices",
         "https://www.idex.gov.in/",
@@ -156,7 +156,7 @@
       "feed_title": "DRDO \u2014 Space Technology and Foresight",
       "item_count": 1,
       "last_new_item_time": "2026-09-03T06:46:43.446843+00:00",
-      "last_successful_check": "2026-09-11T21:01:31.778664+00:00",
+      "last_successful_check": "2026-09-12T04:41:06.774698+00:00",
       "official_upstream_urls": [
         "https://drdo.gov.in/drdo/documents/press-release",
         "https://drdo.gov.in/drdo/en/documents/press-release/archive",
@@ -173,7 +173,7 @@
       "feed_title": "Parliament Standing Committee \u2014 Department of Space",
       "item_count": 6,
       "last_new_item_time": "2026-09-03T06:46:06.841444+00:00",
-      "last_successful_check": "2026-09-11T21:01:31.778664+00:00",
+      "last_successful_check": "2026-09-12T04:41:06.774698+00:00",
       "official_upstream_urls": [
         "https://sansad.in/rs/pressRelease",
         "https://sansad.in/rs/committees/committee-meetings",
@@ -189,9 +189,9 @@
       "error": null,
       "feed_id": "fcc-icfs-satellite-filings",
       "feed_title": "FCC ICFS \u2014 Satellite Space Station Filings",
-      "item_count": 105,
-      "last_new_item_time": "2026-09-11T21:01:30.542727+00:00",
-      "last_successful_check": "2026-09-11T21:01:31.778664+00:00",
+      "item_count": 106,
+      "last_new_item_time": "2026-09-12T04:41:05.314137+00:00",
+      "last_successful_check": "2026-09-12T04:41:06.774698+00:00",
       "official_upstream_urls": [
         "https://fccprod.servicenowservices.com/icfs"
       ],
@@ -201,6 +201,6 @@
       "warnings": []
     }
   ],
-  "generated_at": "2026-09-11T21:01:31.778664+00:00",
+  "generated_at": "2026-09-12T04:41:06.774698+00:00",
   "project": "The Orrery Source Monitor"
 }

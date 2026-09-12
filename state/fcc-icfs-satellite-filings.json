@@ -3,6 +3,25 @@
   "feed_id": "fcc-icfs-satellite-filings",
   "items": [
     {
+      "category": "Launch and Operating Authority",
+      "description": "Starfish Space Inc.; Call sign/Auth ID: S00941",
+      "first_seen_at": "2026-09-12T04:41:05.314137+00:00",
+      "guid": "SAT-LOA-20260814-00341",
+      "metadata": {
+        "applicant": "Starfish Space Inc.",
+        "call_sign": "S00941",
+        "file_number": "SAT-LOA-20260814-00341",
+        "filing_type": "LOA",
+        "record_id": "2b86af0493328f906581381d48373ce6",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-09-11T22:05:32+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20260814-00341 \u2014 Starfish Space Inc. \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20260814-00341"
+    },
+    {
       "category": "Amendment",
       "description": "Blue Origin, LLC; Call sign/Auth ID: S00788",
       "first_seen_at": "2026-09-11T21:01:30.542727+00:00",
