@@ -82,7 +82,7 @@ def merge_items(
     state: FeedState,
     incoming: tuple[FeedItem, ...],
     *,
-    visible_count: int,
+    visible_count: int | None,
     feed_config_hash: str,
     retention: int,
 ) -> MergeResult:

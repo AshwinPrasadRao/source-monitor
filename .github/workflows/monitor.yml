@@ -17,6 +17,7 @@ concurrency:
 jobs:
   monitor:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -39,7 +40,11 @@ jobs:
       - name: Run all monitors
         id: monitors
         continue-on-error: true
-        run: python -m orrery_monitor.runner --all --status-json
+        run: python -m orrery_monitor.runner --all --status-json > monitor-results.json
+
+      - name: Summarize source health
+        if: ${{ !cancelled() && (steps.monitors.outcome == 'success' || steps.monitors.outcome == 'failure') }}
+        run: python -m orrery_monitor.report monitor-results.json
 
       - name: Validate all feeds
         run: python -m orrery_monitor.runner --validate-only
@@ -102,5 +107,6 @@ jobs:
       - name: Report partial monitor failure
         if: steps.monitors.outcome == 'failure'
         run: |
-          echo "One or more source adapters failed; prior feeds were preserved and status was deployed."
+          echo "Source coverage is incomplete; see the source health summary for failing URLs."
+          echo "Retained feeds, updates from reachable endpoints, and current status were deployed."
           exit 1

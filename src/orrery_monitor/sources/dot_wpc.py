@@ -3,6 +3,7 @@ from __future__ import annotations
 import re
 from urllib.parse import urlsplit, urlunsplit
 
+import httpx
 from bs4 import BeautifulSoup
 
 from orrery_monitor.models import AdapterContext, AdapterResult, FeedBatch, FeedItem
@@ -12,6 +13,7 @@ from orrery_monitor.sources.common import (
     parse_date_text,
     preceding_year,
 )
+from orrery_monitor.state import SourceSafetyError, check_observation
 
 DOT_API_URL = (
     "https://www.dot.gov.in/cms/wp-json/document/documents?"
@@ -19,37 +21,58 @@ DOT_API_URL = (
 )
 DOT_PAGE_URL = "https://www.dot.gov.in/documents/gazettes-notifications"
 ESERVICES_URLS = (
-    "https://www.eservices.dot.gov.in/",
+    # The homepage contains undated teasers, not the dated publication records
+    # this adapter reads. Fetch the actual listings directly.
     "https://eservices.dot.gov.in/circular-notifications-others",
     "https://www.eservices.dot.gov.in/satellite-license",
     "https://www.eservices.dot.gov.in/resources",
 )
 FEED_ID = "dot-wpc-space"
+# DoT's edge can reject the project URL in the default User-Agent. Keep the
+# same honest, short identification on BOTH the Gazette API and eServices.
+DOT_USER_AGENT = "OrrerySourceMonitor/0.1"
 
 
 class DotWPCAdapter:
     source_id = "dot_wpc"
 
     def fetch(self, client, context: AdapterContext) -> AdapterResult:
-        dot_response = client.get(
-            DOT_API_URL,
-            headers={
-                "Accept": "application/json",
-                "Referer": DOT_PAGE_URL,
-                "User-Agent": "OrrerySourceMonitor/0.1",
-            },
-        )
-        dot_records, dot_raw, dot_valid = parse_dot_json(dot_response.json(), context)
-        all_records = list(dot_records)
-        raw_count = dot_raw
-        valid_count = dot_valid
-        for url in ESERVICES_URLS:
-            page_records, page_raw, page_valid = parse_eservices_html(
-                client.get(url).text, url, context
-            )
+        all_records: list[FeedItem] = []
+        raw_count = valid_count = 0
+        errors: list[str] = []
+        counts = dict(context.auxiliary_state.get("endpoint_counts", {}))
+        successful = 0
+        for url in (DOT_API_URL, *ESERVICES_URLS):
+            try:
+                response = client.get(
+                    url,
+                    headers={
+                        "Accept": "application/json" if url == DOT_API_URL else "text/html",
+                        "Referer": DOT_PAGE_URL,
+                        "User-Agent": DOT_USER_AGENT,
+                    },
+                )
+                page_records, page_raw, page_valid = (
+                    parse_dot_json(response.json(), context)
+                    if url == DOT_API_URL
+                    else parse_eservices_html(response.text, url, context)
+                )
+                check_observation(
+                    current_count=page_raw,
+                    previous_count=counts.get(url),
+                    valid_count=page_valid,
+                )
+            except (httpx.HTTPError, ValueError, SourceSafetyError) as exc:
+                errors.append(f"{url}: {exc}")
+                continue
             all_records.extend(page_records)
             raw_count += page_raw
             valid_count += page_valid
+            counts[url] = page_raw
+            successful += 1
+
+        if not successful:
+            raise SourceSafetyError("All DoT endpoints failed:\n" + "\n".join(errors))
 
         unique = {item.guid: item for item in all_records}
         selected = [
@@ -63,15 +86,22 @@ class DotWPCAdapter:
             source_id=self.source_id,
             retrieval_mode="api+html",
             feeds={
-                FEED_ID: FeedBatch(FEED_ID, tuple(selected[:100]), raw_count, valid_count)
+                FEED_ID: FeedBatch(
+                    FEED_ID, tuple(selected[:100]), raw_count, valid_count,
+                    observation_complete=not errors,
+                )
             },
+            auxiliary_state={"endpoint_counts": counts},
+            errors=tuple(errors),
         )
 
 
 def parse_dot_json(
     payload: dict, context: AdapterContext
 ) -> tuple[list[FeedItem], int, int]:
-    posts = payload.get("posts", [])
+    if not isinstance(payload, dict) or not isinstance(payload.get("posts"), list):
+        raise SourceSafetyError("DoT response has no posts list")
+    posts = payload["posts"]
     items: list[FeedItem] = []
     valid_count = 0
     cutoff = preceding_year(context.now)
@@ -118,10 +148,12 @@ def parse_eservices_html(
     raw_count = 0
     valid_count = 0
     cutoff = preceding_year(context.now)
+    recognized = False
     for table in soup.select("table"):
         headers = {clean_text(th).casefold() for th in table.select("thead th")}
         if "published date" not in headers or "title" not in headers:
             continue
+        recognized = True
         body = table.find("tbody", recursive=False)
         rows = body.find_all("tr", recursive=False) if body else []
         for row in rows:
@@ -161,6 +193,7 @@ def parse_eservices_html(
         date_element = container.select_one(".policy-circular-presentation")
         if date_element is None:
             continue
+        recognized = True
         raw_count += 1
         title = clean_text(container.select_one(".psn-name"))
         published = parse_date_text(
@@ -185,6 +218,8 @@ def parse_eservices_html(
                 metadata={"service": "Satellite License", "issued_by": "WPC"},
             )
         )
+    if not recognized:
+        raise SourceSafetyError("eServices response has no recognizable publication table or list")
     return records, raw_count, valid_count
 
 

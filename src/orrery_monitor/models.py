@@ -73,6 +73,7 @@ class FeedBatch:
     items: tuple[FeedItem, ...]
     raw_count: int
     valid_count: int
+    observation_complete: bool = True
 
     def __post_init__(self) -> None:
         if self.raw_count < 0 or self.valid_count < 0:
@@ -88,6 +89,7 @@ class AdapterResult:
     feeds: dict[str, FeedBatch]
     warnings: tuple[str, ...] = ()
     auxiliary_state: dict[str, Any] | None = None
+    errors: tuple[str, ...] = ()
 
 
 @dataclass(frozen=True, slots=True)

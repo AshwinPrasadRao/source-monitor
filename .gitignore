@@ -4,6 +4,9 @@ _site/
 pytest-cache-files-*/
 .ruff_cache/
 .venv/
+.venv-repair/
+.python/
+monitor-results.json
 __pycache__/
 *.egg-info/
 build/

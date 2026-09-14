@@ -138,7 +138,9 @@ class MonitorRunner:
             prior = prior_states[feed_config.id]
             check = check_observation(
                 current_count=batch.raw_count,
-                previous_count=prior.previous_visible_count,
+                previous_count=(
+                    prior.previous_visible_count if batch.observation_complete else None
+                ),
                 valid_count=batch.valid_count,
             )
             warnings.extend(check.warnings)
@@ -148,7 +150,11 @@ class MonitorRunner:
             merged = merge_items(
                 prior,
                 batch.items,
-                visible_count=batch.raw_count,
+                visible_count=(
+                    batch.raw_count
+                    if batch.observation_complete
+                    else prior.previous_visible_count
+                ),
                 feed_config_hash=config_hash,
                 retention=feed_config.retention,
             )
@@ -198,12 +204,13 @@ class MonitorRunner:
 
         return SourceRunStatus(
             source_id=source.id,
-            status="warning" if warnings else "ok",
+            status="failed" if result.errors else "warning" if warnings else "ok",
             retrieval_mode=result.retrieval_mode,
             item_count=total_items,
             new_count=total_new,
             updated_count=total_updated,
             warnings=tuple(warnings),
+            error="\n".join(result.errors) or None,
         )
 
     def validate_existing(self, source_ids: tuple[str, ...] | None = None) -> list[str]:

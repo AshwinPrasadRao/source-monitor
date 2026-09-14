@@ -51,6 +51,12 @@ and feeds survive, other adapters continue, and the overall run reports a
 failure. No database, credentials, LLM classification, Docker image, or
 production browser dependency is used.
 
+DoT/WPC additionally isolates its publication endpoints: a blocked or malformed
+page does not discard valid updates from the other DoT listings. Coverage stays
+`failed` and the last successful check stays unchanged until all endpoints
+recover. Per-endpoint safety checks remain active, and partial observations
+cannot lower the aggregate record-count baseline.
+
 ## Local setup
 
 Python 3.12 or newer is required.
@@ -85,6 +91,10 @@ adapters, validates all twelve feeds, creates a Pages artifact, and commits
 generated state/feed/status changes as `Update monitored sources`. A broken
 adapter does not prevent the preserved feeds and failed health status from being
 deployed, but the workflow ends failed so the problem remains visible.
+The run summary lists each source's health and the failing URLs and errors;
+it is generated from that run's results. Code and configuration changes also
+run offline regression tests on pull requests and pushes to `main` through
+`.github/workflows/checks.yml`.
 
 For a repository with no item or health change, status is deployed from the
 workflow artifact without a commit. At least every 28 days, the workflow commits

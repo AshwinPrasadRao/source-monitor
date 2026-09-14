@@ -47,7 +47,7 @@ replace a satisfactory native subscription.
 
 ## DoT / WPC
 
-- **Last manually audited:** 2026-09-03.
+- **Last manually audited:** 2026-09-14.
 - **Purpose:** radio-frequency administration, satellite licensing and
   authorisation, assignments, coordination, and telecom-space convergence.
 - **Official URLs:** <https://www.dot.gov.in/documents/gazettes-notifications>,
@@ -67,10 +67,20 @@ replace a satisfactory native subscription.
 - **Known quirks:** the same document can occur on several surfaces; generic
   service-page prose is not itself a feed item. The DoT edge rejected the
   project URL in the default User-Agent during the 2026-09-03 live test, while
-  accepting the shorter identifying token `OrrerySourceMonitor/0.1`; the JSON
-  request therefore uses that token and the official page as its Referer. The
+  accepting the shorter identifying token `OrrerySourceMonitor/0.1`; all DoT
+  requests now use that token and the official Gazette page as their Referer. The
   eServices host appears with and without `www`; both forms normalize to the
   same host before GUID deduplication.
+- **September 2026 incident:** starting September 11 at 11:27 UTC, GitHub runs
+  received HTTP 403 from the eServices homepage. That request aborted the whole
+  adapter even though the homepage contributed no records to the dated-record
+  parser. The adapter now requests the three publication listings directly,
+  without a homepage prerequisite. Endpoint failures are isolated: valid results
+  from reachable endpoints merge into the feed, retained records survive, and
+  coverage remains `failed` until every endpoint recovers. Partial observations
+  do not replace the last complete aggregate count or last successful check.
+  Per-endpoint count baselines and response-shape checks detect empty/error pages
+  and layout changes, including error pages returned with HTTP 200.
 
 ## NSIL
 
