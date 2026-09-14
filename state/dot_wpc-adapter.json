@@ -1,0 +1,8 @@
+{
+  "data": {
+    "endpoint_counts": {
+      "https://www.dot.gov.in/cms/wp-json/document/documents?document_category=gazette-notifications&limit=100&page=1": 64
+    }
+  },
+  "schema_version": 1
+}
