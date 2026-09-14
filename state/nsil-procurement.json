@@ -27,7 +27,7 @@
     },
     {
       "category": "Request for Proposal (RFP)",
-      "description": "Supply and Services of New Website of NSIL\u200b Tender Reference Number in CPPP - NSIL/26-27/IT Website/01\u200b Tender ID: 2026_NSIL_284597_1\u200b CPPP Link - https://etenders.gov.in/eprocure/app | Closing date: 2026-09-14T14:30:00+05:30 | Status: Open",
+      "description": "Supply and Services of New Website of NSIL\u200b Tender Reference Number in CPPP - NSIL/26-27/IT Website/01\u200b Tender ID: 2026_NSIL_284597_1\u200b CPPP Link - https://etenders.gov.in/eprocure/app | Closing date: 2026-09-14T14:30:00+05:30 | Status: Close",
       "first_seen_at": "2026-09-02T12:51:48.947469+00:00",
       "guid": "2026_NSIL_284597_1",
       "metadata": {
@@ -40,7 +40,7 @@
         "end_date": "2026-09-14T14:30:00+05:30",
         "reference": "NSIL/26-27/IT Website/01\u200b",
         "start_date": "2026-08-12T16:00:00+05:30",
-        "status": "Open",
+        "status": "Close",
         "tender_id": "2026_NSIL_284597_1"
       },
       "published_at": "2026-08-12T16:00:00+05:30",
