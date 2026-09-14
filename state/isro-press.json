@@ -5,6 +5,17 @@
     {
       "category": "Press Release",
       "description": null,
+      "first_seen_at": "2026-09-06T20:28:07.442990+00:00",
+      "guid": "https://www.isro.gov.in/Clarification_regarding_media_reports.html",
+      "metadata": {},
+      "published_at": "2026-09-06T00:00:00+00:00",
+      "source_id": "isro",
+      "title": "Clarification regarding media reports on concerns relating to Space Sector Reforms and the role of ISRO",
+      "url": "https://www.isro.gov.in/Clarification_regarding_media_reports.html"
+    },
+    {
+      "category": "Press Release",
+      "description": null,
       "first_seen_at": "2026-09-02T12:51:48.580592+00:00",
       "guid": "https://www.isro.gov.in/3rd_National_Space_Day_2026.html",
       "metadata": {},
@@ -36,6 +47,6 @@
       "url": "https://www.isro.gov.in/Atmospheric_Re_entry_of_LVM3_M5_Upper_Stage.html"
     }
   ],
-  "previous_visible_count": 114,
+  "previous_visible_count": 115,
   "schema_version": 1
 }

@@ -4,6 +4,120 @@
   "items": [
     {
       "category": "Launch and Operating Authority",
+      "description": "Starfish Space Inc.; Call sign/Auth ID: S00941",
+      "first_seen_at": "2026-09-12T04:41:05.314137+00:00",
+      "guid": "SAT-LOA-20260814-00341",
+      "metadata": {
+        "applicant": "Starfish Space Inc.",
+        "call_sign": "S00941",
+        "file_number": "SAT-LOA-20260814-00341",
+        "filing_type": "LOA",
+        "record_id": "2b86af0493328f906581381d48373ce6",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-09-11T22:05:32+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20260814-00341 \u2014 Starfish Space Inc. \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20260814-00341"
+    },
+    {
+      "category": "Amendment",
+      "description": "Blue Origin, LLC; Call sign/Auth ID: S00788",
+      "first_seen_at": "2026-09-11T21:01:30.542727+00:00",
+      "guid": "SAT-AMD-20260905-00360",
+      "metadata": {
+        "applicant": "Blue Origin, LLC",
+        "call_sign": "S00788",
+        "file_number": "SAT-AMD-20260905-00360",
+        "filing_type": "AMD",
+        "record_id": "e0f103833bcb8b50ccebaff764e45a6d",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-09-11T19:20:28+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-AMD-20260905-00360 \u2014 Blue Origin, LLC \u2014 Amendment",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-AMD-20260905-00360"
+    },
+    {
+      "category": "Amendment",
+      "description": "AST & Science, LLC; Call sign/Auth ID: S3065",
+      "first_seen_at": "2026-09-11T21:01:30.542727+00:00",
+      "guid": "SAT-AMD-20260909-00365",
+      "metadata": {
+        "applicant": "AST & Science, LLC",
+        "call_sign": "S3065",
+        "file_number": "SAT-AMD-20260909-00365",
+        "filing_type": "AMD",
+        "record_id": "1fdd8860cf5f4710960df56b1f851c8a",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-09-11T19:07:06+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-AMD-20260909-00365 \u2014 AST & Science, LLC \u2014 Amendment",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-AMD-20260909-00365"
+    },
+    {
+      "category": "Launch and Operating Authority",
+      "description": "Hubble Network Inc; Call sign/Auth ID: S00937",
+      "first_seen_at": "2026-09-11T04:47:03.605568+00:00",
+      "guid": "SAT-LOA-20260805-00327",
+      "metadata": {
+        "applicant": "Hubble Network Inc",
+        "call_sign": "S00937",
+        "file_number": "SAT-LOA-20260805-00327",
+        "filing_type": "LOA",
+        "record_id": "d8241015cfaa8f904470b6770f851c6a",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-09-11T01:39:42+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20260805-00327 \u2014 Hubble Network Inc \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20260805-00327"
+    },
+    {
+      "category": "Replacement Satellite Application (no new frequency bands)",
+      "description": "Sirius XM Radio LLC; Call sign/Auth ID: S00935",
+      "first_seen_at": "2026-09-09T16:42:53.071506+00:00",
+      "guid": "SAT-RPL-20260727-00312",
+      "metadata": {
+        "applicant": "Sirius XM Radio LLC",
+        "call_sign": "S00935",
+        "file_number": "SAT-RPL-20260727-00312",
+        "filing_type": "RPL",
+        "record_id": "0aa2ee5acf528f1058a3fe052f851c1f",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-09-03T20:01:29+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-RPL-20260727-00312 \u2014 Sirius XM Radio LLC \u2014 Replacement Satellite Application (no new frequency bands)",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-RPL-20260727-00312"
+    },
+    {
+      "category": "Launch and Operating Authority",
+      "description": "Sirius XM Radio LLC; Call sign/Auth ID: S00935",
+      "first_seen_at": "2026-09-03T21:06:25.849282+00:00",
+      "guid": "SAT-LOA-20260727-00312",
+      "metadata": {
+        "applicant": "Sirius XM Radio LLC",
+        "call_sign": "S00935",
+        "file_number": "SAT-LOA-20260727-00312",
+        "filing_type": "LOA",
+        "record_id": "0aa2ee5acf528f1058a3fe052f851c1f",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-09-03T20:01:29+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20260727-00312 \u2014 Sirius XM Radio LLC \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20260727-00312"
+    },
+    {
+      "category": "Launch and Operating Authority",
       "description": "Turion Space Corp.; Call sign/Auth ID: S00933",
       "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
       "guid": "SAT-LOA-20260527-00216",
