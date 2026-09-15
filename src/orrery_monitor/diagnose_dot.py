@@ -72,6 +72,8 @@ def main() -> None:
         detail = describe(httpx.Response(
             int(status), text=body, request=httpx.Request("GET", resource),
         ))
+        # These headers belong to the synthetic response, not curl's server response.
+        detail.pop("headers")
     print(json.dumps({"probe": "curl", **detail}), flush=True)
 
 

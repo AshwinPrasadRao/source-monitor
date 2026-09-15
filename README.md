@@ -98,7 +98,7 @@ run offline regression tests on pull requests and pushes to `main` through
 
 For DoT access failures, manually run **Diagnose DoT access** in Actions (or
 `python -m orrery_monitor.diagnose_dot` locally). It compares the public endpoint
-responses, Referer headers, and HTTP clients on standard x64 and ARM Linux
+responses, Referer headers, and HTTP clients on standard Linux and macOS
 runners. Logs include bounded error text and response fingerprints; the probes
 do not change feeds or state. This separates request-format failures from
 runner-dependent failures before changing production retrieval.
