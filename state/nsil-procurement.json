@@ -4,6 +4,56 @@
   "items": [
     {
       "category": "Request for Proposal (RFP)",
+      "description": "Supply and Service of FortiGate Analyser Tender Reference Number in CPPP - NSIL/26-27/FortiGate Analyser/01 Tender ID: 2026_NSIL_290887_1 CPPP Link - https://etenders.gov.in/eprocure/app | Closing date: 2026-10-07T14:30:00+05:30 | Status: Open",
+      "first_seen_at": "2026-09-15T11:50:22.967318+00:00",
+      "guid": "2026_NSIL_290887_1",
+      "metadata": {
+        "attachments": [
+          {
+            "title": "NIT",
+            "url": "https://www.nsilindia.co.in/sites/default/files/NIT_2.pdf"
+          }
+        ],
+        "end_date": "2026-10-07T14:30:00+05:30",
+        "reference": "NSIL/26-27/FortiGate Analyser/01",
+        "start_date": "2026-09-15T15:45:00+05:30",
+        "status": "Open",
+        "tender_id": "2026_NSIL_290887_1"
+      },
+      "published_at": "2026-09-15T15:45:00+05:30",
+      "source_id": "nsil",
+      "title": "Request for Proposal (RFP) \u2014 Supply and Service of FortiGate Analyser",
+      "url": "https://www.nsilindia.co.in/sites/default/files/NIT_2.pdf"
+    },
+    {
+      "category": "Request for Proposal (RFP)",
+      "description": "Supply and Service of 20 Mbps ILL Tender Reference Number in CPPP - NSIL/26-27/20 Mbps Internet Lease line Bandwidth/02 Tender ID: 2026_NSIL_290686_1 CPPP Link - https://etenders.gov.in/eprocure/app | Closing date: 2026-10-05T16:00:00+05:30 | Status: Open",
+      "first_seen_at": "2026-09-15T11:50:22.967318+00:00",
+      "guid": "2026_NSIL_290686_1",
+      "metadata": {
+        "attachments": [
+          {
+            "title": "Tender DOC",
+            "url": "https://www.nsilindia.co.in/sites/default/files/Tender_DOC.pdf"
+          },
+          {
+            "title": "BOQ",
+            "url": "https://www.nsilindia.co.in/sites/default/files/BOQ_339040.xls"
+          }
+        ],
+        "end_date": "2026-10-05T16:00:00+05:30",
+        "reference": "NSIL/26-27/20 Mbps Internet Lease line Bandwidth/02",
+        "start_date": "2026-09-11T18:30:00+05:30",
+        "status": "Open",
+        "tender_id": "2026_NSIL_290686_1"
+      },
+      "published_at": "2026-09-11T18:30:00+05:30",
+      "source_id": "nsil",
+      "title": "Request for Proposal (RFP) \u2014 Supply and Service of 20 Mbps ILL",
+      "url": "https://www.nsilindia.co.in/sites/default/files/Tender_DOC.pdf"
+    },
+    {
+      "category": "Request for Proposal (RFP)",
       "description": "Request for Proposal Engagement of Internal Auditor Tender Reference Number in CPPP - NSIL/RFP/IA/2026/02\u200b Tender ID: 2026_NSIL_289625_1\u200b CPPP Link - https://etenders.gov.in/eprocure/app | Closing date: 2026-09-23T14:30:00+05:30 | Status: Open",
       "first_seen_at": "2026-09-02T12:51:48.947469+00:00",
       "guid": "2026_NSIL_289625_1",
