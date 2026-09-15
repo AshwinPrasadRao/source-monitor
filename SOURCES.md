@@ -47,7 +47,7 @@ replace a satisfactory native subscription.
 
 ## DoT / WPC
 
-- **Last manually audited:** 2026-09-14.
+- **Last manually audited:** 2026-09-15.
 - **Purpose:** radio-frequency administration, satellite licensing and
   authorisation, assignments, coordination, and telecom-space convergence.
 - **Official URLs:** <https://www.dot.gov.in/documents/gazettes-notifications>,
@@ -81,6 +81,21 @@ replace a satisfactory native subscription.
   do not replace the last complete aggregate count or last successful check.
   Per-endpoint count baselines and response-shape checks detect empty/error pages
   and layout changes, including error pages returned with HTTP 200.
+- **Verified access restriction (September 15):** the
+  [hosted diagnostic run](https://github.com/AshwinPrasadRao/source-monitor/actions/runs/34935645771)
+  returned the same 134-byte `403 Forbidden` page from all three eServices
+  listings on Linux x64, Linux ARM64, and macOS runners. The Gazette API returned
+  HTTP 200 on all three. Removing the Referer, using a same-origin Referer,
+  switching between bare and `www` hosts, and using curl instead of httpx did not
+  resolve the eServices rejection. This is consistent with an upstream access
+  restriction; the response does not identify the exact policy or prove a
+  country-specific block. Local retrieval and parsing of all four endpoints
+  succeeded on the same day: 95 observed records, two matching retained items,
+  and zero new or changed matching items. The endpoint-isolation repair does
+  **not** restore hosted eServices access. Full automatic coverage requires an
+  accepted execution network or an upstream policy change. No equivalent
+  production publication mirror has been verified; preproduction sites are not
+  used as authoritative fallbacks.
 
 ## NSIL
 

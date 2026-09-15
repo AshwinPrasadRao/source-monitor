@@ -102,6 +102,9 @@ responses, Referer headers, and HTTP clients on standard Linux and macOS
 runners. Logs include bounded error text and response fingerprints; the probes
 do not change feeds or state. This separates request-format failures from
 runner-dependent failures before changing production retrieval.
+A successful diagnostic job means its probes completed; inspect the recorded
+HTTP statuses for source availability. The production monitor independently
+continues to report incomplete coverage as a failure.
 
 For a repository with no item or health change, status is deployed from the
 workflow artifact without a commit. At least every 28 days, the workflow commits
