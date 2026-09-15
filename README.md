@@ -96,6 +96,13 @@ it is generated from that run's results. Code and configuration changes also
 run offline regression tests on pull requests and pushes to `main` through
 `.github/workflows/checks.yml`.
 
+For DoT access failures, manually run **Diagnose DoT access** in Actions (or
+`python -m orrery_monitor.diagnose_dot` locally). It compares the public endpoint
+responses, Referer headers, and HTTP clients on standard x64 and ARM Linux
+runners. Logs include bounded error text and response fingerprints; the probes
+do not change feeds or state. This separates request-format failures from
+runner-dependent failures before changing production retrieval.
+
 For a repository with no item or health change, status is deployed from the
 workflow artifact without a commit. At least every 28 days, the workflow commits
 the current status as a low-noise heartbeat; this also mitigates scheduled
