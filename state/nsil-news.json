@@ -5,6 +5,17 @@
     {
       "category": "News",
       "description": null,
+      "first_seen_at": "2026-09-16T11:42:34.919819+00:00",
+      "guid": "https://www.nsilindia.co.in/news-details/789",
+      "metadata": {},
+      "published_at": "2026-09-16T00:00:00+05:30",
+      "source_id": "nsil",
+      "title": "NSIL Successfully Provides Launch Vehicle Tracking Support for VEGA-C VV30 Mission of CNES",
+      "url": "https://www.nsilindia.co.in/news-details/789"
+    },
+    {
+      "category": "News",
+      "description": null,
       "first_seen_at": "2026-09-10T16:28:39.132817+00:00",
       "guid": "https://www.aviation-defence-universe.com/from-launchpad-to-marketplace-nsil-powers-indias-commercial-space-journey/",
       "metadata": {},
@@ -157,6 +168,6 @@
       "url": "https://www.nsilindia.co.in/launch-service-requisition"
     }
   ],
-  "previous_visible_count": 15,
+  "previous_visible_count": 30,
   "schema_version": 1
 }
