@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 12 Sep 2026 04:41:05 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 17:04:36 +0000</lastBuildDate>
+    <item>
+      <title>SAT-MOD-20260910-00367 — XM Radio LLC — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20260910-00367</link>
+      <description>XM Radio LLC; Call sign/Auth ID: S2786</description>
+      <guid isPermaLink="false">SAT-MOD-20260910-00367</guid>
+      <category>Modification</category>
+      <pubDate>Thu, 17 Sep 2026 16:30:03 +0000</pubDate>
+    </item>
     <item>
       <title>SAT-LOA-20260814-00341 — Starfish Space Inc. — Launch and Operating Authority</title>
       <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-LOA-20260814-00341</link>

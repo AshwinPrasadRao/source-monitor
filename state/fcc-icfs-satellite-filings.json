@@ -3,6 +3,25 @@
   "feed_id": "fcc-icfs-satellite-filings",
   "items": [
     {
+      "category": "Modification",
+      "description": "XM Radio LLC; Call sign/Auth ID: S2786",
+      "first_seen_at": "2026-09-17T17:04:36.919443+00:00",
+      "guid": "SAT-MOD-20260910-00367",
+      "metadata": {
+        "applicant": "XM Radio LLC",
+        "call_sign": "S2786",
+        "file_number": "SAT-MOD-20260910-00367",
+        "filing_type": "MOD",
+        "record_id": "6cfd8a743b970b10264ea2d964e45a72",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-09-17T16:30:03+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260910-00367 \u2014 XM Radio LLC \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260910-00367"
+    },
+    {
       "category": "Launch and Operating Authority",
       "description": "Starfish Space Inc.; Call sign/Auth ID: S00941",
       "first_seen_at": "2026-09-12T04:41:05.314137+00:00",
