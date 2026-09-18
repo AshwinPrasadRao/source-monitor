@@ -3,6 +3,25 @@
   "feed_id": "fcc-icfs-satellite-filings",
   "items": [
     {
+      "category": "Amendment",
+      "description": "Blue Origin, LLC; Call sign/Auth ID: S00830",
+      "first_seen_at": "2026-09-18T16:29:05.491806+00:00",
+      "guid": "SAT-AMD-20260917-00370",
+      "metadata": {
+        "applicant": "Blue Origin, LLC",
+        "call_sign": "S00830",
+        "file_number": "SAT-AMD-20260917-00370",
+        "filing_type": "AMD",
+        "record_id": "141d688bcfd70b10c070f3542f851c72",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-09-18T14:36:36+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-AMD-20260917-00370 \u2014 Blue Origin, LLC \u2014 Amendment",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-AMD-20260917-00370"
+    },
+    {
       "category": "Modification",
       "description": "XM Radio LLC; Call sign/Auth ID: S2786",
       "first_seen_at": "2026-09-17T17:04:36.919443+00:00",
