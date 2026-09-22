@@ -3,6 +3,25 @@
   "feed_id": "fcc-icfs-satellite-filings",
   "items": [
     {
+      "category": "Modification",
+      "description": "Intelsat License LLC; Call sign/Auth ID: S2750",
+      "first_seen_at": "2026-09-22T21:23:35.719803+00:00",
+      "guid": "SAT-MOD-20260903-00357",
+      "metadata": {
+        "applicant": "Intelsat License LLC",
+        "call_sign": "S2750",
+        "file_number": "SAT-MOD-20260903-00357",
+        "filing_type": "MOD",
+        "record_id": "adcad66ecf47cb10cd52f1642f851c46",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-09-22T19:40:39+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260903-00357 \u2014 Intelsat License LLC \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260903-00357"
+    },
+    {
       "category": "Amendment",
       "description": "Blue Origin, LLC; Call sign/Auth ID: S00830",
       "first_seen_at": "2026-09-18T16:29:05.491806+00:00",
