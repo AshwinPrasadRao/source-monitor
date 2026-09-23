@@ -21,7 +21,7 @@ from orrery_monitor.status import update_status_files
 
 ROOT = Path(__file__).parents[1]
 NOW = datetime(2026, 9, 14, tzinfo=UTC)
-SOURCE = load_config(ROOT / "sources.yml").source("dot_wpc")
+SOURCE = replace(load_config(ROOT / "sources.yml").source("dot_wpc"), enabled=True)
 ENDPOINTS = (DOT_API_URL, *ESERVICES_URLS)
 
 

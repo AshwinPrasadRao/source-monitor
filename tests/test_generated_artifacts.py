@@ -37,8 +37,10 @@ def test_all_generated_v1_feeds_match_persistent_state() -> None:
 def test_generated_status_covers_exactly_the_v1_feeds() -> None:
     config = load_config(ROOT / "sources.yml")
     document = json.loads((ROOT / "status.json").read_text(encoding="utf-8"))
-    expected_ids = {feed.id for source in config.sources for feed in source.feeds}
+    expected_ids = {
+        feed.id for source in config.sources if source.enabled for feed in source.feeds
+    }
 
     assert {entry["feed_id"] for entry in document["feeds"]} == expected_ids
-    assert len(document["feeds"]) == 12
+    assert len(document["feeds"]) == 11
     assert all(entry["status"] in {"ok", "warning", "failed"} for entry in document["feeds"])

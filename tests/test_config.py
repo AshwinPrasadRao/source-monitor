@@ -9,7 +9,6 @@ def test_repository_config_declares_exact_v1_outputs() -> None:
     assert config.feed_outputs == REQUIRED_FEED_OUTPUTS
     assert len(config.feed_outputs) == 12
     assert {source.id for source in config.sources if source.enabled} == {
-        "dot_wpc",
         "drdo",
         "fcc_icfs",
         "idex",

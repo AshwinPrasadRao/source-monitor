@@ -23,7 +23,6 @@ def render_summary(results: list[dict]) -> str:
         lines.append("")
     lines.append(
         "Failed sources have incomplete coverage. Older feed items are retained; "
-        "reachable DoT endpoints can still contribute updates. "
         "See the deployment step for publication status."
     )
     return "\n".join(lines) + "\n"

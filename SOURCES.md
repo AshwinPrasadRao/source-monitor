@@ -45,7 +45,11 @@ replace a satisfactory native subscription.
   this adapter sends the shorter identifying token `OrrerySourceMonitor/0.1`.
   Unavailable release pages remain unclassified and are retried.
 
-## DoT / WPC
+## DoT / WPC (retired)
+
+- **Status:** disabled on 2026-09-23 after persistent hosted HTTP 403 responses.
+  Removed from the published status and subscription lists; saved records and
+  adapter configuration are retained for historical reference.
 
 - **Last manually audited:** 2026-09-15.
 - **Purpose:** radio-frequency administration, satellite licensing and

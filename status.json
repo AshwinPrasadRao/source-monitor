@@ -50,26 +50,6 @@
       ]
     },
     {
-      "error": "https://eservices.dot.gov.in/circular-notifications-others: Client error '403 Forbidden' for url 'https://eservices.dot.gov.in/circular-notifications-others'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403\nhttps://www.eservices.dot.gov.in/satellite-license: Client error '403 Forbidden' for url 'https://www.eservices.dot.gov.in/satellite-license'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403\nhttps://www.eservices.dot.gov.in/resources: Client error '403 Forbidden' for url 'https://www.eservices.dot.gov.in/resources'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
-      "feed_id": "dot-wpc-space",
-      "feed_title": "DoT / WPC \u2014 Spectrum and Satellite Administration",
-      "item_count": 2,
-      "last_new_item_time": "2026-09-03T06:46:01.406994+00:00",
-      "last_successful_check": "2026-09-11T04:47:05.059051+00:00",
-      "official_upstream_urls": [
-        "https://www.dot.gov.in/cms/wp-json/document/documents?document_category=gazette-notifications&limit=100&page=1",
-        "https://www.dot.gov.in/documents/gazettes-notifications",
-        "https://www.eservices.dot.gov.in/",
-        "https://www.eservices.dot.gov.in/circular-notifications-others",
-        "https://www.eservices.dot.gov.in/satellite-license",
-        "https://www.eservices.dot.gov.in/resources"
-      ],
-      "retrieval_mode": "api+html",
-      "rss_url": "https://ashwinprasadrao.github.io/source-monitor/feeds/dot-wpc-space.xml",
-      "status": "failed",
-      "warnings": []
-    },
-    {
       "error": null,
       "feed_id": "nsil-news",
       "feed_title": "NSIL News",

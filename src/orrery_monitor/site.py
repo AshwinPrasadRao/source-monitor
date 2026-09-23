@@ -19,6 +19,8 @@ def build_pages(config_path: Path, output: Path) -> None:
     output_feeds = output / "feeds"
     output_feeds.mkdir(parents=True, exist_ok=True)
     for source in config.sources:
+        if not source.enabled:
+            continue
         for feed in source.feeds:
             source_path = config.root / feed.output
             if not source_path.exists():

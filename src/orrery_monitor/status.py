@@ -46,6 +46,8 @@ def build_status_document(
     status_by_source = {status.source_id: status for status in statuses}
     feeds: list[dict[str, Any]] = []
     for source in config.sources:
+        if not source.enabled:
+            continue
         run_status = status_by_source.get(source.id)
         for feed in source.feeds:
             previous = prior_feeds.get(feed.id, {})
@@ -149,7 +151,7 @@ def render_status_html(document: dict[str, Any]) -> str:
   <body>
     <h1>The Orrery Source Monitor</h1>
     <p class="note">
-      Operational status for twelve official-source RSS feeds.
+      Operational status for {len(document["feeds"])} official-source RSS feeds.
       Generated {generated}. <a href="status.json">JSON status</a>.
     </p>
     <table>

@@ -8,7 +8,9 @@ project.
 
 ## Status
 
-All v1 phases and all twelve source-level feeds are implemented. The live local
+Eleven source-level feeds are active. DoT/WPC was retired on 2026-09-23
+after persistent HTTP 403 responses from its eServices pages on GitHub runners.
+Its adapter and saved records remain available for historical reference. The live local
 audit on 2026-09-03 completed twice; the second pass created zero new or updated
 items. The official PIB RSS currently has an empty channel, so its valid output
 is empty and marked `warning` until PIB publishes upstream entries.
@@ -24,7 +26,6 @@ Once GitHub Pages is enabled for this repository, the subscriptions are:
 - `https://ashwinprasadrao.github.io/source-monitor/feeds/inspace-announcements.xml`
 - `https://ashwinprasadrao.github.io/source-monitor/feeds/inspace-updates.xml`
 - `https://ashwinprasadrao.github.io/source-monitor/feeds/pib-department-of-space.xml`
-- `https://ashwinprasadrao.github.io/source-monitor/feeds/dot-wpc-space.xml`
 - `https://ashwinprasadrao.github.io/source-monitor/feeds/nsil-news.xml`
 - `https://ashwinprasadrao.github.io/source-monitor/feeds/nsil-procurement.xml`
 - `https://ashwinprasadrao.github.io/source-monitor/feeds/isro-press.xml`
@@ -50,12 +51,6 @@ errors, and parser exceptions abort only the affected adapter. Existing state
 and feeds survive, other adapters continue, and the overall run reports a
 failure. No database, credentials, LLM classification, Docker image, or
 production browser dependency is used.
-
-DoT/WPC additionally isolates its publication endpoints: a blocked or malformed
-page does not discard valid updates from the other DoT listings. Coverage stays
-`failed` and the last successful check stays unchanged until all endpoints
-recover. Per-endpoint safety checks remain active, and partial observations
-cannot lower the aggregate record-count baseline.
 
 ## Local setup
 
@@ -87,7 +82,7 @@ preserves the previous status entries for every source not selected.
 
 `.github/workflows/monitor.yml` runs at 00:17, 06:17, 12:17, and 18:17 UTC and
 supports manual dispatch. It installs Python dependencies, runs tests and all
-adapters, validates all twelve feeds, creates a Pages artifact, and commits
+adapters, validates retained feeds, creates a Pages artifact, and commits
 generated state/feed/status changes as `Update monitored sources`. A broken
 adapter does not prevent the preserved feeds and failed health status from being
 deployed, but the workflow ends failed so the problem remains visible.
@@ -103,8 +98,7 @@ runners. Logs include bounded error text and response fingerprints; the probes
 do not change feeds or state. This separates request-format failures from
 runner-dependent failures before changing production retrieval.
 A successful diagnostic job means its probes completed; inspect the recorded
-HTTP statuses for source availability. The production monitor independently
-continues to report incomplete coverage as a failure.
+HTTP statuses for source availability. DoT/WPC is disabled in the production monitor.
 
 For a repository with no item or health change, status is deployed from the
 workflow artifact without a commit. At least every 28 days, the workflow commits
@@ -119,7 +113,7 @@ Deployment needs these one-time repository steps:
    source. The ordinary `GITHUB_TOKEN` cannot enable Pages on a repository where
    it has never been enabled.
 3. Run **Monitor official sources** manually once, confirm the Pages deployment,
-   then add each of the twelve public URLs above to Readwise Reader.
+   then add each of the eleven public URLs above to Readwise Reader.
 
 The workflow uses only public official data and repository-provided GitHub
 permissions. The detailed provenance and maintenance rationale for every source

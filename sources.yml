@@ -39,7 +39,8 @@ sources:
   - id: dot_wpc
     name: DoT / WPC Space Administration
     adapter: dot_wpc
-    enabled: true
+    # Retired after persistent GitHub-hosted HTTP 403 responses.
+    enabled: false
     retrieval_mode: api+html
     upstream_urls:
       - https://www.dot.gov.in/cms/wp-json/document/documents?document_category=gazette-notifications&limit=100&page=1
