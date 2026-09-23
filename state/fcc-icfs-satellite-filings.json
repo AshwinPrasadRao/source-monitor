@@ -3,6 +3,63 @@
   "feed_id": "fcc-icfs-satellite-filings",
   "items": [
     {
+      "category": "Modification",
+      "description": "Intelsat License LLC; Call sign/Auth ID: S2750",
+      "first_seen_at": "2026-09-22T21:23:35.719803+00:00",
+      "guid": "SAT-MOD-20260903-00357",
+      "metadata": {
+        "applicant": "Intelsat License LLC",
+        "call_sign": "S2750",
+        "file_number": "SAT-MOD-20260903-00357",
+        "filing_type": "MOD",
+        "record_id": "adcad66ecf47cb10cd52f1642f851c46",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-09-22T19:40:39+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260903-00357 \u2014 Intelsat License LLC \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260903-00357"
+    },
+    {
+      "category": "Amendment",
+      "description": "Blue Origin, LLC; Call sign/Auth ID: S00830",
+      "first_seen_at": "2026-09-18T16:29:05.491806+00:00",
+      "guid": "SAT-AMD-20260917-00370",
+      "metadata": {
+        "applicant": "Blue Origin, LLC",
+        "call_sign": "S00830",
+        "file_number": "SAT-AMD-20260917-00370",
+        "filing_type": "AMD",
+        "record_id": "141d688bcfd70b10c070f3542f851c72",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-09-18T14:36:36+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-AMD-20260917-00370 \u2014 Blue Origin, LLC \u2014 Amendment",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-AMD-20260917-00370"
+    },
+    {
+      "category": "Modification",
+      "description": "XM Radio LLC; Call sign/Auth ID: S2786",
+      "first_seen_at": "2026-09-17T17:04:36.919443+00:00",
+      "guid": "SAT-MOD-20260910-00367",
+      "metadata": {
+        "applicant": "XM Radio LLC",
+        "call_sign": "S2786",
+        "file_number": "SAT-MOD-20260910-00367",
+        "filing_type": "MOD",
+        "record_id": "6cfd8a743b970b10264ea2d964e45a72",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-09-17T16:30:03+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20260910-00367 \u2014 XM Radio LLC \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260910-00367"
+    },
+    {
       "category": "Launch and Operating Authority",
       "description": "Starfish Space Inc.; Call sign/Auth ID: S00941",
       "first_seen_at": "2026-09-12T04:41:05.314137+00:00",
