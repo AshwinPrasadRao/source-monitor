@@ -1,6 +1,87 @@
 {
   "data": {
-    "classification_cache": {}
+    "classification_cache": {
+      "PIB-2317657": {
+        "classification": "other",
+        "department": "Ministry of Education"
+      },
+      "PIB-2317660": {
+        "classification": "other",
+        "department": "Prime Minister's Office"
+      },
+      "PIB-2317663": {
+        "classification": "other",
+        "department": "Ministry of Textiles"
+      },
+      "PIB-2317668": {
+        "classification": "other",
+        "department": "Prime Minister's Office"
+      },
+      "PIB-2317670": {
+        "classification": "other",
+        "department": "Ministry of Mines"
+      },
+      "PIB-2317672": {
+        "classification": "other",
+        "department": "Ministry of Jal Shakti"
+      },
+      "PIB-2317673": {
+        "classification": "other",
+        "department": "Ministry of Information & Broadcasting"
+      },
+      "PIB-2317676": {
+        "classification": "other",
+        "department": "Prime Minister's Office"
+      },
+      "PIB-2317678": {
+        "classification": "other",
+        "department": "Ministry of Finance"
+      },
+      "PIB-2317680": {
+        "classification": "other",
+        "department": "Ministry of Mines"
+      },
+      "PIB-2317686": {
+        "classification": "other",
+        "department": "Prime Minister's Office"
+      },
+      "PIB-2317696": {
+        "classification": "other",
+        "department": "Ministry of Coal"
+      },
+      "PIB-2317700": {
+        "classification": "other",
+        "department": "Ministry of Road Transport & Highways"
+      },
+      "PIB-2317714": {
+        "classification": "other",
+        "department": "Ministry of Communications"
+      },
+      "PIB-2317715": {
+        "classification": "other",
+        "department": "Ministry of Road Transport & Highways"
+      },
+      "PIB-2317718": {
+        "classification": "other",
+        "department": "Ministry of Defence"
+      },
+      "PIB-2317730": {
+        "classification": "other",
+        "department": "Ministry of Culture"
+      },
+      "PIB-2317738": {
+        "classification": "other",
+        "department": "Ministry of Health and Family Welfare"
+      },
+      "PIB-2317741": {
+        "classification": "other",
+        "department": "Ministry of Law and Justice"
+      },
+      "PIB-2317754": {
+        "classification": "other",
+        "department": "Ministry of Communications"
+      }
+    }
   },
   "schema_version": 1
 }
