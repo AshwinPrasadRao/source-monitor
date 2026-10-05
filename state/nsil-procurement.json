@@ -73,7 +73,7 @@
     },
     {
       "category": "Request for Proposal (RFP)",
-      "description": "Supply and Service of 20 Mbps ILL Tender Reference Number in CPPP - NSIL/26-27/20 Mbps Internet Lease line Bandwidth/02 Tender ID: 2026_NSIL_290686_1 CPPP Link - https://etenders.gov.in/eprocure/app | Closing date: 2026-10-05T16:00:00+05:30 | Status: Open",
+      "description": "Supply and Service of 20 Mbps ILL Tender Reference Number in CPPP - NSIL/26-27/20 Mbps Internet Lease line Bandwidth/02 Tender ID: 2026_NSIL_290686_1 CPPP Link - https://etenders.gov.in/eprocure/app | Closing date: 2026-10-05T16:00:00+05:30 | Status: Close",
       "first_seen_at": "2026-09-15T11:50:22.967318+00:00",
       "guid": "2026_NSIL_290686_1",
       "metadata": {
@@ -90,7 +90,7 @@
         "end_date": "2026-10-05T16:00:00+05:30",
         "reference": "NSIL/26-27/20 Mbps Internet Lease line Bandwidth/02",
         "start_date": "2026-09-11T18:30:00+05:30",
-        "status": "Open",
+        "status": "Close",
         "tender_id": "2026_NSIL_290686_1"
       },
       "published_at": "2026-09-11T18:30:00+05:30",

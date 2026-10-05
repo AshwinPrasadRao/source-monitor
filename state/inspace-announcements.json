@@ -5,6 +5,17 @@
     {
       "category": "Announcement",
       "description": null,
+      "first_seen_at": "2026-10-05T14:48:48.723687+00:00",
+      "guid": "inspace-announcement-5fb960a519dd932b36d95a1c5e3c07073eb0d8da1e8f39be93f036b2ffaca722",
+      "metadata": {},
+      "published_at": null,
+      "source_id": "inspace",
+      "title": "Engagement of Consultant/Technical Assistant in IN-SPACe 2026. Apply",
+      "url": "https://www.inspace.gov.in/inspace?id=engagement_of_consultant_2026"
+    },
+    {
+      "category": "Announcement",
+      "description": null,
       "first_seen_at": "2026-09-03T16:29:28.386618+00:00",
       "guid": "inspace-announcement-attachment-3125cc26ac87c710ec2ea7fd3ad717bf",
       "metadata": {},
@@ -223,6 +234,6 @@
       "url": "https://www.inspace.gov.in/inspace?id=veneto_space_meetings"
     }
   ],
-  "previous_visible_count": 20,
+  "previous_visible_count": 21,
   "schema_version": 1
 }
