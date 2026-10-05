@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from datetime import UTC, datetime
 from pathlib import Path
+from urllib.parse import parse_qs, urlsplit
 
 import httpx
 
@@ -109,6 +110,9 @@ def test_pib_filters_by_explicit_department_and_retries_unclassified() -> None:
     batch = first.feeds["pib-department-of-space"]
 
     assert (batch.raw_count, batch.valid_count) == (3, 3)
+    rss_url = client.requests[0]
+    assert parse_qs(urlsplit(rss_url).query)["reg"] == ["1"]
+    assert CONFIG.source("pib_space").upstream_urls == (rss_url,)
     assert [item.guid for item in batch.items] == ["PIB-2295424"]
     assert batch.items[0].metadata["official_department"] == "Department of Space"
     assert any("will be retried" in warning for warning in first.warnings)

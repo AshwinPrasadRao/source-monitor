@@ -11,7 +11,8 @@ from bs4 import BeautifulSoup
 from orrery_monitor.models import AdapterContext, AdapterResult, FeedBatch, FeedItem
 from orrery_monitor.sources.common import canonical_url, clean_text, stable_hash
 
-PIB_RSS_URL = "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=1"
+# Regid alone does not pin the site's region; omitting reg can redirect to an empty feed.
+PIB_RSS_URL = "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=1&reg=1"
 PIB_DIRECTORY_URL = "https://www.pib.gov.in/ViewRss.aspx?lang=1&reg=1"
 FEED_ID = "pib-department-of-space"
 TARGET_DEPARTMENT = "Department of Space"

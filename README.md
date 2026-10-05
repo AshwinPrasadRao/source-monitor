@@ -12,8 +12,9 @@ Eleven source-level feeds are active. DoT/WPC was retired on 2026-09-23
 after persistent HTTP 403 responses from its eServices pages on GitHub runners.
 Its adapter and saved records remain available for historical reference. The live local
 audit on 2026-09-03 completed twice; the second pass created zero new or updated
-items. The official PIB RSS currently has an empty channel, so its valid output
-is empty and marked `warning` until PIB publishes upstream entries.
+items. PIB requests explicitly select region 1 to avoid redirects to an empty
+regional feed. A populated PIB feed with no Department of Space releases is
+valid; an upstream feed that becomes empty after containing records remains a failure.
 
 The generated [status page](site/index.html) and `status.json` record retrieval
 mode, upstream links, last successful check, last new item time, retained count,

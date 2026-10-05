@@ -28,10 +28,10 @@ replace a satisfactory native subscription.
 
 ## PIB — Department of Space
 
-- **Last manually audited:** 2026-09-03.
+- **Last manually audited:** 2026-10-05.
 - **Purpose:** isolate Department of Space releases from the Government-wide PIB feed.
 - **Official URLs:** <https://www.pib.gov.in/ViewRss.aspx?lang=1&reg=1> and
-  <https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=1>.
+  <https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=1&reg=1>.
 - **Output:** `feeds/pib-department-of-space.xml`.
 - **Retrieval:** RSS filtering, with linked-release HTML classification only when
   the RSS lacks an explicit department field.
@@ -41,7 +41,13 @@ replace a satisfactory native subscription.
 - **Initial backfill:** whatever the upstream RSS exposes on the first successful
   run, capped at 100.
 - **Known quirks:** the upstream returned a valid but empty channel during the
-  2026-09-03 audit. Its WAF rejects a User-Agent containing the project URL, so
+  2026-09-03 audit. On 2026-10-05, the URL without an explicit `reg` parameter
+  redirected to `Lang=2&reg=48` and returned an empty channel. Adding `reg=1`
+  returned 20 releases with the monitor's User-Agent. Keep both `Regid=1` and
+  `reg=1`: the RSS selector alone does not pin the site's region. The official
+  RSS directory also appends region and language parameters to its links in
+  JavaScript. Genuine empty-feed regressions still fail the monitor.
+  Its WAF rejects a User-Agent containing the project URL, so
   this adapter sends the shorter identifying token `OrrerySourceMonitor/0.1`.
   Unavailable release pages remain unclassified and are retried.
 

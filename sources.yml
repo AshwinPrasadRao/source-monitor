@@ -28,7 +28,7 @@ sources:
     enabled: true
     retrieval_mode: rss-filter
     upstream_urls:
-      - https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=1
+      - https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=1&reg=1
     feeds:
       - id: pib-department-of-space
         title: PIB — Department of Space
