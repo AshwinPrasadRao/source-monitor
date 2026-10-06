@@ -172,6 +172,26 @@
       "PIB-2319413": {
         "classification": "other",
         "department": "Ministry of Social Justice & Empowerment"
+      },
+      "PIB-2319423": {
+        "classification": "other",
+        "department": "President's Secretariat"
+      },
+      "PIB-2319425": {
+        "classification": "other",
+        "department": "Ministry of Defence"
+      },
+      "PIB-2319426": {
+        "classification": "other",
+        "department": "Ministry of Rural Development"
+      },
+      "PIB-2319427": {
+        "classification": "other",
+        "department": "Ministry of Health and Family Welfare"
+      },
+      "PIB-2319428": {
+        "classification": "other",
+        "department": "Prime Minister's Office"
       }
     }
   },
