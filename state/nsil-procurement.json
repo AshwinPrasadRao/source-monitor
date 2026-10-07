@@ -50,7 +50,7 @@
     },
     {
       "category": "Request for Proposal (RFP)",
-      "description": "Supply and Service of FortiGate Analyser Tender Reference Number in CPPP - NSIL/26-27/FortiGate Analyser/01 Tender ID: 2026_NSIL_290887_1 CPPP Link - https://etenders.gov.in/eprocure/app | Closing date: 2026-10-07T14:30:00+05:30 | Status: Open",
+      "description": "Supply and Service of FortiGate Analyser Tender Reference Number in CPPP - NSIL/26-27/FortiGate Analyser/01 Tender ID: 2026_NSIL_290887_1 CPPP Link - https://etenders.gov.in/eprocure/app | Closing date: 2026-10-07T14:30:00+05:30 | Status: Close",
       "first_seen_at": "2026-09-15T11:50:22.967318+00:00",
       "guid": "2026_NSIL_290887_1",
       "metadata": {
@@ -63,7 +63,7 @@
         "end_date": "2026-10-07T14:30:00+05:30",
         "reference": "NSIL/26-27/FortiGate Analyser/01",
         "start_date": "2026-09-15T15:45:00+05:30",
-        "status": "Open",
+        "status": "Close",
         "tender_id": "2026_NSIL_290887_1"
       },
       "published_at": "2026-09-15T15:45:00+05:30",
