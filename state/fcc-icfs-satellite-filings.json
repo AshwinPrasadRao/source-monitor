@@ -4,6 +4,25 @@
   "items": [
     {
       "category": "Modification",
+      "description": "Space Logistics LLC; Call sign/Auth ID: S2990",
+      "first_seen_at": "2026-10-08T23:24:54.265420+00:00",
+      "guid": "SAT-MOD-20261007-00383",
+      "metadata": {
+        "applicant": "Space Logistics LLC",
+        "call_sign": "S2990",
+        "file_number": "SAT-MOD-20261007-00383",
+        "filing_type": "MOD",
+        "record_id": "a87864a9cff747105b2cf9642f851c2f",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-10-08T17:04:29+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20261007-00383 \u2014 Space Logistics LLC \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20261007-00383"
+    },
+    {
+      "category": "Modification",
       "description": "Intelsat License LLC; Call sign/Auth ID: S2750",
       "first_seen_at": "2026-09-22T21:23:35.719803+00:00",
       "guid": "SAT-MOD-20260903-00357",
