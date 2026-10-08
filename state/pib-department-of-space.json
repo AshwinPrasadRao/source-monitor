@@ -1,7 +1,22 @@
 {
   "feed_config_hash": "32b4c1fd7e3108e68fa740fee3f6a7aa61b6cfbeca58ddf8d2a4876561dbeff8",
   "feed_id": "pib-department-of-space",
-  "items": [],
+  "items": [
+    {
+      "category": "Department of Space",
+      "description": null,
+      "first_seen_at": "2026-10-08T13:37:19.918030+00:00",
+      "guid": "PIB-2320831",
+      "metadata": {
+        "official_department": "Department of Space",
+        "release_id": "PIB-2320831"
+      },
+      "published_at": null,
+      "source_id": "pib_space",
+      "title": "Opening of Space Sector to Private Players Has Helped Reduce Brain Drain, Created New Opportunities for Young Talent: Dr Jitendra Singh",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2320831"
+    }
+  ],
   "previous_visible_count": 20,
   "schema_version": 1
 }

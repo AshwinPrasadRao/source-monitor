@@ -432,6 +432,86 @@
       "PIB-2320446": {
         "classification": "other",
         "department": "Prime Minister's Office"
+      },
+      "PIB-2320739": {
+        "classification": "other",
+        "department": "National Human Rights Commission"
+      },
+      "PIB-2320746": {
+        "classification": "other",
+        "department": "National Human Rights Commission"
+      },
+      "PIB-2320751": {
+        "classification": "other",
+        "department": "Ministry of Information & Broadcasting"
+      },
+      "PIB-2320756": {
+        "classification": "other",
+        "department": "Ministry of Earth Sciences"
+      },
+      "PIB-2320759": {
+        "classification": "other",
+        "department": "Ministry of Defence"
+      },
+      "PIB-2320760": {
+        "classification": "other",
+        "department": "Ministry of Statistics & Programme Implementation"
+      },
+      "PIB-2320761": {
+        "classification": "other",
+        "department": "Ministry of Statistics & Programme Implementation"
+      },
+      "PIB-2320783": {
+        "classification": "other",
+        "department": "Prime Minister's Office"
+      },
+      "PIB-2320798": {
+        "classification": "other",
+        "department": "Ministry of Communications"
+      },
+      "PIB-2320802": {
+        "classification": "other",
+        "department": "Ministry of Social Justice & Empowerment"
+      },
+      "PIB-2320831": {
+        "classification": "space",
+        "department": "Department of Space"
+      },
+      "PIB-2320835": {
+        "classification": "other",
+        "department": "Ministry of Textiles"
+      },
+      "PIB-2320855": {
+        "classification": "other",
+        "department": "Ministry of Communications"
+      },
+      "PIB-2320862": {
+        "classification": "other",
+        "department": "Ministry of Defence"
+      },
+      "PIB-2320866": {
+        "classification": "other",
+        "department": "Ministry of Social Justice & Empowerment"
+      },
+      "PIB-2320876": {
+        "classification": "other",
+        "department": "Ministry of Defence"
+      },
+      "PIB-2320883": {
+        "classification": "other",
+        "department": "Ministry of Electronics & IT"
+      },
+      "PIB-2320896": {
+        "classification": "other",
+        "department": "Ministry of Road Transport & Highways"
+      },
+      "PIB-2320905": {
+        "classification": "other",
+        "department": "Ministry of Culture"
+      },
+      "PIB-2320916": {
+        "classification": "other",
+        "department": "Department of Atomic Energy"
       }
     }
   },
