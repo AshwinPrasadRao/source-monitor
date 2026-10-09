@@ -4,6 +4,29 @@
   "items": [
     {
       "category": "Request for Proposal (RFP)",
+      "description": "RFP for Procurement of \"Annual Subscription of Satellite Based Surveillance System based on Maritime Domin Awareness (MDA) Solution Tender Reference Number in CPPP - NSIL/26-27/RFP/EO-MDA/01\u200b Tender ID: 2026_NSIL_293958_1\u200b CPPP Link - https://etenders.gov.in/eprocure/app | Closing date: 2026-10-14T14:00:00+05:30 | Status: Open",
+      "first_seen_at": "2026-10-09T13:28:20.261033+00:00",
+      "guid": "2026_NSIL_293958_1",
+      "metadata": {
+        "attachments": [
+          {
+            "title": "EOMDA Tender Document",
+            "url": "https://www.nsilindia.co.in/sites/default/files/EOMDATenderDocument.pdf"
+          }
+        ],
+        "end_date": "2026-10-14T14:00:00+05:30",
+        "reference": "NSIL/26-27/RFP/EO-MDA/01\u200b",
+        "start_date": "2026-10-09T13:15:00+05:30",
+        "status": "Open",
+        "tender_id": "2026_NSIL_293958_1"
+      },
+      "published_at": "2026-10-09T13:15:00+05:30",
+      "source_id": "nsil",
+      "title": "Request for Proposal (RFP) \u2014 RFP for Procurement of \"Annual Subscription of Satellite Based Surveillance System based on Maritime Domin Awareness (MDA) Solution",
+      "url": "https://www.nsilindia.co.in/sites/default/files/EOMDATenderDocument.pdf"
+    },
+    {
+      "category": "Request for Proposal (RFP)",
       "description": "Supply, Installation and commissioning of Ku-band Gateways for GEO satellites Tender Reference Number in CPPP - NSIL/GS/LMA/2026-02 Tender ID: 2026_NSIL_291754_1 CPPP Link - https://etenders.gov.in/eprocure/app Pre-Bid Meeting October 1 , 2026 | 16:00 Hrs to 17:00 Hrs IST | Closing date: 2026-10-13T16:30:00+05:30 | Status: Open",
       "first_seen_at": "2026-09-22T11:44:57.262364+00:00",
       "guid": "2026_NSIL_291754_1",
@@ -472,6 +495,6 @@
       "url": "https://www.nsilindia.co.in/sites/default/files/ExecutiveSummary_0.pdf"
     }
   ],
-  "previous_visible_count": 20,
+  "previous_visible_count": 30,
   "schema_version": 1
 }
