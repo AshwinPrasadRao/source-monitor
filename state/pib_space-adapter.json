@@ -669,9 +669,85 @@
         "classification": "other",
         "department": "Prime Minister's Office"
       },
+      "PIB-2321457": {
+        "classification": "other",
+        "department": "Ministry of Food Processing Industries"
+      },
+      "PIB-2321466": {
+        "classification": "other",
+        "department": "AYUSH"
+      },
+      "PIB-2321480": {
+        "classification": "other",
+        "department": "Ministry of Communications"
+      },
       "PIB-2321496": {
         "classification": "other",
         "department": "Ministry of Ports, Shipping and Waterways"
+      },
+      "PIB-2321498": {
+        "classification": "other",
+        "department": "Ministry of Finance"
+      },
+      "PIB-2321499": {
+        "classification": "other",
+        "department": "Ministry of Social Justice & Empowerment"
+      },
+      "PIB-2321508": {
+        "classification": "other",
+        "department": "Ministry of Culture"
+      },
+      "PIB-2321510": {
+        "classification": "other",
+        "department": "Ministry of Communications"
+      },
+      "PIB-2321511": {
+        "classification": "other",
+        "department": "Ministry of Communications"
+      },
+      "PIB-2321512": {
+        "classification": "other",
+        "department": "Ministry of Communications"
+      },
+      "PIB-2321513": {
+        "classification": "other",
+        "department": "Ministry of Earth Sciences"
+      },
+      "PIB-2321516": {
+        "classification": "other",
+        "department": "Ministry of Defence"
+      },
+      "PIB-2321517": {
+        "classification": "other",
+        "department": "Ministry of Social Justice & Empowerment"
+      },
+      "PIB-2321518": {
+        "classification": "other",
+        "department": "Ministry of Social Justice & Empowerment"
+      },
+      "PIB-2321522": {
+        "classification": "other",
+        "department": "Ministry of Health and Family Welfare"
+      },
+      "PIB-2321523": {
+        "classification": "other",
+        "department": "Ministry of Defence"
+      },
+      "PIB-2321533": {
+        "classification": "other",
+        "department": "Ministry of Communications"
+      },
+      "PIB-2321535": {
+        "classification": "other",
+        "department": "Prime Minister's Office"
+      },
+      "PIB-2321604": {
+        "classification": "other",
+        "department": "Ministry of Communications"
+      },
+      "PIB-2321606": {
+        "classification": "other",
+        "department": "Ministry of Social Justice & Empowerment"
       }
     }
   },
