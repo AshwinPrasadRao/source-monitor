@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Oct 2026 23:24:54 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 05:58:48 +0000</lastBuildDate>
+    <item>
+      <title>SAT-AMD-20261002-00382 — ICEYE US, Inc. — Amendment</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-AMD-20261002-00382</link>
+      <description>ICEYE US, Inc.; Call sign/Auth ID: S00894</description>
+      <guid isPermaLink="false">SAT-AMD-20261002-00382</guid>
+      <category>Amendment</category>
+      <pubDate>Fri, 09 Oct 2026 22:47:40 +0000</pubDate>
+    </item>
     <item>
       <title>SAT-MOD-20261007-00383 — Space Logistics LLC — Modification</title>
       <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20261007-00383</link>

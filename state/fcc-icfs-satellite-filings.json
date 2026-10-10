@@ -3,6 +3,25 @@
   "feed_id": "fcc-icfs-satellite-filings",
   "items": [
     {
+      "category": "Amendment",
+      "description": "ICEYE US, Inc.; Call sign/Auth ID: S00894",
+      "first_seen_at": "2026-10-10T05:58:48.018245+00:00",
+      "guid": "SAT-AMD-20261002-00382",
+      "metadata": {
+        "applicant": "ICEYE US, Inc.",
+        "call_sign": "S00894",
+        "file_number": "SAT-AMD-20261002-00382",
+        "filing_type": "AMD",
+        "record_id": "51729bfbcfab4310905afe152f851c66",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-10-09T22:47:40+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-AMD-20261002-00382 \u2014 ICEYE US, Inc. \u2014 Amendment",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-AMD-20261002-00382"
+    },
+    {
       "category": "Modification",
       "description": "Space Logistics LLC; Call sign/Auth ID: S2990",
       "first_seen_at": "2026-10-08T23:24:54.265420+00:00",
