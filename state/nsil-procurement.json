@@ -123,7 +123,7 @@
     },
     {
       "category": "Request for Proposal (RFP)",
-      "description": "Request for Proposal Engagement of Internal Auditor Tender Reference Number in CPPP - NSIL/RFP/IA/2026/02\u200b Tender ID: 2026_NSIL_289625_1\u200b CPPP Link - https://etenders.gov.in/eprocure/app | Closing date: 2026-10-10T14:30:00+05:30 | Status: Open",
+      "description": "Request for Proposal Engagement of Internal Auditor Tender Reference Number in CPPP - NSIL/RFP/IA/2026/02\u200b Tender ID: 2026_NSIL_289625_1\u200b CPPP Link - https://etenders.gov.in/eprocure/app | Closing date: 2026-10-10T14:30:00+05:30 | Status: Close",
       "first_seen_at": "2026-09-02T12:51:48.947469+00:00",
       "guid": "2026_NSIL_289625_1",
       "metadata": {
@@ -136,7 +136,7 @@
         "end_date": "2026-10-10T14:30:00+05:30",
         "reference": "NSIL/RFP/IA/2026/02\u200b",
         "start_date": "2026-09-02T15:35:00+05:30",
-        "status": "Open",
+        "status": "Close",
         "tender_id": "2026_NSIL_289625_1"
       },
       "published_at": "2026-09-02T15:35:00+05:30",
