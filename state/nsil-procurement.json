@@ -50,7 +50,7 @@
     },
     {
       "category": "Request for Proposal (RFP)",
-      "description": "Supply, installation and commissioning of Ka-band Gateways for GEO satellites Tender Reference Number in CPPP - NSIL/GS/LMA/2026-01 Tender ID: 2026_NSIL_291567_1 CPPP Link - https://etenders.gov.in/eprocure/app Pre-Bid Meeting October 1 , 2026 | 15:00 Hrs to 16:00 Hrs IST | Closing date: 2026-10-12T16:00:00+05:30 | Status: Open",
+      "description": "Supply, installation and commissioning of Ka-band Gateways for GEO satellites Tender Reference Number in CPPP - NSIL/GS/LMA/2026-01 Tender ID: 2026_NSIL_291567_1 CPPP Link - https://etenders.gov.in/eprocure/app Pre-Bid Meeting October 1 , 2026 | 15:00 Hrs to 16:00 Hrs IST | Closing date: 2026-10-12T16:00:00+05:30 | Status: Close",
       "first_seen_at": "2026-09-21T12:55:12.952463+00:00",
       "guid": "2026_NSIL_291567_1",
       "metadata": {
@@ -63,7 +63,7 @@
         "end_date": "2026-10-12T16:00:00+05:30",
         "reference": "NSIL/GS/LMA/2026-01",
         "start_date": "2026-09-21T16:30:00+05:30",
-        "status": "Open",
+        "status": "Close",
         "tender_id": "2026_NSIL_291567_1"
       },
       "published_at": "2026-09-21T16:30:00+05:30",
