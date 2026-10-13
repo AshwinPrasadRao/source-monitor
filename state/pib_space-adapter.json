@@ -1036,6 +1036,22 @@
       "PIB-2322501": {
         "classification": "other",
         "department": "Ministry of Communications"
+      },
+      "PIB-2322510": {
+        "classification": "other",
+        "department": "Ministry of Development of North-East Region"
+      },
+      "PIB-2322561": {
+        "classification": "other",
+        "department": "Ministry of Fisheries, Animal Husbandry & Dairying"
+      },
+      "PIB-2322562": {
+        "classification": "other",
+        "department": "Ministry of Earth Sciences"
+      },
+      "PIB-2322563": {
+        "classification": "other",
+        "department": "Ministry of Rural Development"
       }
     }
   },
