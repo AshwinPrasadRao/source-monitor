@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 10 Oct 2026 05:58:48 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 14:18:53 +0000</lastBuildDate>
     <item>
       <title>SAT-AMD-20261002-00382 — ICEYE US, Inc. — Amendment</title>
       <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-AMD-20261002-00382</link>
@@ -794,9 +794,9 @@
       <pubDate>Tue, 17 Mar 2026 01:12:01 +0000</pubDate>
     </item>
     <item>
-      <title>SAT-MOD-20260304-00115 — DISH Operating L.L.C. — Modification</title>
+      <title>SAT-MOD-20260304-00115 — DISH Operating L.L.C., Debtor-in-Possession — Modification</title>
       <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20260304-00115</link>
-      <description>DISH Operating L.L.C.; Call sign/Auth ID: S2694</description>
+      <description>DISH Operating L.L.C., Debtor-in-Possession; Call sign/Auth ID: S2694</description>
       <guid isPermaLink="false">SAT-MOD-20260304-00115</guid>
       <category>Modification</category>
       <pubDate>Thu, 05 Mar 2026 20:08:19 +0000</pubDate>

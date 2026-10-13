@@ -1866,11 +1866,11 @@
     },
     {
       "category": "Modification",
-      "description": "DISH Operating L.L.C.; Call sign/Auth ID: S2694",
+      "description": "DISH Operating L.L.C., Debtor-in-Possession; Call sign/Auth ID: S2694",
       "first_seen_at": "2026-09-03T06:57:10.826337+00:00",
       "guid": "SAT-MOD-20260304-00115",
       "metadata": {
-        "applicant": "DISH Operating L.L.C.",
+        "applicant": "DISH Operating L.L.C., Debtor-in-Possession",
         "call_sign": "S2694",
         "file_number": "SAT-MOD-20260304-00115",
         "filing_type": "MOD",
@@ -1880,7 +1880,7 @@
       },
       "published_at": "2026-03-05T20:08:19+00:00",
       "source_id": "fcc_icfs",
-      "title": "SAT-MOD-20260304-00115 \u2014 DISH Operating L.L.C. \u2014 Modification",
+      "title": "SAT-MOD-20260304-00115 \u2014 DISH Operating L.L.C., Debtor-in-Possession \u2014 Modification",
       "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20260304-00115"
     },
     {
