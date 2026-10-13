@@ -3,6 +3,25 @@
   "feed_id": "fcc-icfs-satellite-filings",
   "items": [
     {
+      "category": "Assignment",
+      "description": "DISH Operating L.L.C., Debtor-in-Possession",
+      "first_seen_at": "2026-10-13T22:50:22.972088+00:00",
+      "guid": "SAT-ASG-20261013-00388",
+      "metadata": {
+        "applicant": "DISH Operating L.L.C., Debtor-in-Possession",
+        "call_sign": null,
+        "file_number": "SAT-ASG-20261013-00388",
+        "filing_type": "ASG",
+        "record_id": "ad40931bcf7fc310772f35941f851cd5",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-10-13T19:28:34+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-ASG-20261013-00388 \u2014 DISH Operating L.L.C., Debtor-in-Possession \u2014 Assignment",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-ASG-20261013-00388"
+    },
+    {
       "category": "Amendment",
       "description": "ICEYE US, Inc.; Call sign/Auth ID: S00894",
       "first_seen_at": "2026-10-10T05:58:48.018245+00:00",
