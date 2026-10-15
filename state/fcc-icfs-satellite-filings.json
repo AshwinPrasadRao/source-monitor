@@ -3,6 +3,25 @@
   "feed_id": "fcc-icfs-satellite-filings",
   "items": [
     {
+      "category": "Amendment",
+      "description": "SES Americom, Inc.; Call sign/Auth ID: S2826",
+      "first_seen_at": "2026-10-15T21:28:00.792472+00:00",
+      "guid": "SAT-AMD-20261015-00394",
+      "metadata": {
+        "applicant": "SES Americom, Inc.",
+        "call_sign": "S2826",
+        "file_number": "SAT-AMD-20261015-00394",
+        "filing_type": "AMD",
+        "record_id": "cdda994c3b0cd7107e089b0864e45a42",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-10-15T19:23:07+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-AMD-20261015-00394 \u2014 SES Americom, Inc. \u2014 Amendment",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-AMD-20261015-00394"
+    },
+    {
       "category": "Modification",
       "description": "The Tomorrow Companies, Inc.; Call sign/Auth ID: S3156",
       "first_seen_at": "2026-10-15T17:09:28.011837+00:00",
