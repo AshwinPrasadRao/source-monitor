@@ -3,6 +3,25 @@
   "feed_id": "fcc-icfs-satellite-filings",
   "items": [
     {
+      "category": "Launch and Operating Authority",
+      "description": "Axiom Space; Call sign/Auth ID: S03240",
+      "first_seen_at": "2026-10-16T21:16:06.277673+00:00",
+      "guid": "SAT-LOA-20261015-00395",
+      "metadata": {
+        "applicant": "Axiom Space",
+        "call_sign": "S03240",
+        "file_number": "SAT-LOA-20261015-00395",
+        "filing_type": "LOA",
+        "record_id": "9470f1c0cf8c1b10fff6f2670f851cd6",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-10-16T19:52:33+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20261015-00395 \u2014 Axiom Space \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20261015-00395"
+    },
+    {
       "category": "Amendment",
       "description": "SES Americom, Inc.; Call sign/Auth ID: S2826",
       "first_seen_at": "2026-10-15T21:28:00.792472+00:00",
