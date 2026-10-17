@@ -1648,6 +1648,26 @@
       "PIB-2324601": {
         "classification": "other",
         "department": "AYUSH"
+      },
+      "PIB-2324612": {
+        "classification": "other",
+        "department": "Ministry of Finance"
+      },
+      "PIB-2324616": {
+        "classification": "other",
+        "department": "Prime Minister's Office"
+      },
+      "PIB-2324629": {
+        "classification": "other",
+        "department": "PIB Backgrounder"
+      },
+      "PIB-2324637": {
+        "classification": "other",
+        "department": "Ministry of Health and Family Welfare"
+      },
+      "PIB-2324638": {
+        "classification": "other",
+        "department": "Ministry of Environment, Forest and Climate Change"
       }
     }
   },
