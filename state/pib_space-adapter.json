@@ -1740,6 +1740,22 @@
       "PIB-2324759": {
         "classification": "other",
         "department": "Ministry of Finance"
+      },
+      "PIB-2324800": {
+        "classification": "other",
+        "department": "Ministry of Defence"
+      },
+      "PIB-2324801": {
+        "classification": "other",
+        "department": "AYUSH"
+      },
+      "PIB-2324808": {
+        "classification": "other",
+        "department": "AYUSH"
+      },
+      "PIB-2324810": {
+        "classification": "other",
+        "department": "Prime Minister's Office"
       }
     }
   },
