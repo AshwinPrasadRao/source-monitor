@@ -5,6 +5,20 @@
     {
       "category": "Department of Space",
       "description": null,
+      "first_seen_at": "2026-10-17T15:39:45.286405+00:00",
+      "guid": "PIB-2324662",
+      "metadata": {
+        "official_department": "Department of Space",
+        "release_id": "PIB-2324662"
+      },
+      "published_at": null,
+      "source_id": "pib_space",
+      "title": "India\u2019s Space Economy to Reach USD 40-45 Billion in 7\u20138 Years; Dr Jitendra Singh underlines increasing Private Investments following Space Unlocking by PM Modi",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2324662"
+    },
+    {
+      "category": "Department of Space",
+      "description": null,
       "first_seen_at": "2026-10-08T13:37:19.918030+00:00",
       "guid": "PIB-2320831",
       "metadata": {

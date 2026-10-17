@@ -1668,6 +1668,78 @@
       "PIB-2324638": {
         "classification": "other",
         "department": "Ministry of Environment, Forest and Climate Change"
+      },
+      "PIB-2324655": {
+        "classification": "other",
+        "department": "Ministry of Defence"
+      },
+      "PIB-2324656": {
+        "classification": "other",
+        "department": "Ministry of Health and Family Welfare"
+      },
+      "PIB-2324658": {
+        "classification": "other",
+        "department": "Vice President's Secretariat"
+      },
+      "PIB-2324660": {
+        "classification": "other",
+        "department": "Ministry of Earth Sciences"
+      },
+      "PIB-2324662": {
+        "classification": "space",
+        "department": "Department of Space"
+      },
+      "PIB-2324663": {
+        "classification": "other",
+        "department": "Ministry of Social Justice & Empowerment"
+      },
+      "PIB-2324672": {
+        "classification": "other",
+        "department": "Ministry of Social Justice & Empowerment"
+      },
+      "PIB-2324685": {
+        "classification": "other",
+        "department": "Ministry of Mines"
+      },
+      "PIB-2324691": {
+        "classification": "other",
+        "department": "Ministry of Home Affairs"
+      },
+      "PIB-2324699": {
+        "classification": "other",
+        "department": "Ministry of Youth Affairs and Sports"
+      },
+      "PIB-2324707": {
+        "classification": "other",
+        "department": "Ministry of Environment, Forest and Climate Change"
+      },
+      "PIB-2324710": {
+        "classification": "other",
+        "department": "AYUSH"
+      },
+      "PIB-2324727": {
+        "classification": "other",
+        "department": "Ministry of Commerce & Industry"
+      },
+      "PIB-2324739": {
+        "classification": "other",
+        "department": "Ministry of Defence"
+      },
+      "PIB-2324751": {
+        "classification": "other",
+        "department": "Ministry of Social Justice & Empowerment"
+      },
+      "PIB-2324755": {
+        "classification": "other",
+        "department": "Ministry of Environment, Forest and Climate Change"
+      },
+      "PIB-2324757": {
+        "classification": "other",
+        "department": "Ministry of Environment, Forest and Climate Change"
+      },
+      "PIB-2324759": {
+        "classification": "other",
+        "department": "Ministry of Finance"
       }
     }
   },
