@@ -20,6 +20,9 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
-      - run: python -m pip install -e .
+          cache-dependency-path: |
+            pyproject.toml
+            requirements.lock
+      - run: python -m pip install -c requirements.lock -e .
       - name: Inspect public endpoint responses without changing monitor state
         run: python -m orrery_monitor.diagnose_dot

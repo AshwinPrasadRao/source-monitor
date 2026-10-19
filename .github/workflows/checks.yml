@@ -8,6 +8,7 @@ on:
       - ".github/workflows/**"
       - "pyproject.toml"
       - "requirements.txt"
+      - "requirements.lock"
       - "sources.yml"
   push:
     branches: [main]
@@ -17,6 +18,7 @@ on:
       - ".github/workflows/**"
       - "pyproject.toml"
       - "requirements.txt"
+      - "requirements.lock"
       - "sources.yml"
   workflow_dispatch:
 
@@ -33,7 +35,11 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
-      - run: python -m pip install -e '.[test]'
+          cache-dependency-path: |
+            pyproject.toml
+            requirements.txt
+            requirements.lock
+      - run: python -m pip install -r requirements.txt
       - run: ruff check src tests
       - run: pytest -p no:cacheprovider
       - run: python -m orrery_monitor.runner --validate-only

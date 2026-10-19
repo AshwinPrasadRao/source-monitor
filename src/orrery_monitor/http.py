@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import json
+import logging
+import ssl
 import time
 from collections.abc import Callable
 from datetime import UTC, datetime
@@ -8,7 +10,9 @@ from email.utils import parsedate_to_datetime
 from typing import Any
 
 import httpx
+import truststore
 
+LOG = logging.getLogger("orrery_monitor")
 DEFAULT_USER_AGENT = "OrrerySourceMonitor/0.1 (+https://ashwinprasadrao.github.io/source-monitor/)"
 RETRYABLE_STATUS_CODES = {429, 500, 502, 503, 504}
 
@@ -33,6 +37,9 @@ class HttpClient:
         self._sleep = sleep
         self._cache: dict[str, httpx.Response] = {}
         self._client = httpx.Client(
+            # Use the host's maintained CA policy, independent of certifi releases.
+            # PROTOCOL_TLS_CLIENT keeps certificate and hostname verification enabled.
+            verify=truststore.SSLContext(ssl.PROTOCOL_TLS_CLIENT),
             timeout=timeout,
             follow_redirects=True,
             headers={"User-Agent": user_agent, "Accept": "*/*"},
@@ -75,11 +82,26 @@ class HttpClient:
                     request=response.request,
                     response=response,
                 )
-            except (httpx.TimeoutException, httpx.NetworkError) as exc:
+            except (httpx.TimeoutException, httpx.NetworkError, httpx.RemoteProtocolError) as exc:
+                # A deterministic trust failure cannot be repaired by retrying it.
+                cause: BaseException | None = exc
+                while cause is not None:
+                    if isinstance(cause, ssl.SSLCertVerificationError):
+                        raise
+                    cause = cause.__cause__ or cause.__context__
                 last_error = exc
 
             if attempt < self.max_attempts:
                 delay = self._retry_delay(response, attempt)
+                LOG.warning(
+                    "%s %s: %s; retrying in %.1fs (attempt %d/%d)",
+                    method,
+                    url,
+                    last_error,
+                    delay,
+                    attempt + 1,
+                    self.max_attempts,
+                )
                 self._sleep(delay)
 
         assert last_error is not None

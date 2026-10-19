@@ -9,6 +9,8 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
+import httpx
+
 from orrery_monitor.config import FeedConfig, MonitorConfig, SourceConfig, load_config
 from orrery_monitor.http import HttpClient
 from orrery_monitor.models import AdapterContext, SourceAdapter, SourceRunStatus
@@ -80,7 +82,7 @@ class MonitorRunner:
                             source_id=source.id,
                             status="failed",
                             retrieval_mode=source.retrieval_mode,
-                            error=str(exc),
+                            error=_source_error(exc),
                         )
                     )
         if not dry_run:
@@ -236,6 +238,16 @@ class MonitorRunner:
         if found == 0:
             LOG.warning("No generated feeds exist yet")
         return errors
+
+
+def _source_error(exc: Exception) -> str:
+    if isinstance(exc, httpx.RequestError):
+        try:
+            request = exc.request
+        except RuntimeError:  # manually raised transport errors may have no request
+            return f"{type(exc).__name__}: {exc}"
+        return f"{request.method} {request.url}: {type(exc).__name__}: {exc}"
+    return str(exc)
 
 
 def build_parser() -> argparse.ArgumentParser:

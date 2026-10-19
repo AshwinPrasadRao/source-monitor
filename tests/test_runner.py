@@ -1,5 +1,8 @@
 from datetime import UTC, datetime
 
+import httpx
+import pytest
+
 from orrery_monitor.config import FeedConfig, MonitorConfig, SourceConfig
 from orrery_monitor.models import AdapterResult, FeedBatch, FeedItem
 from orrery_monitor.rss import generate_rss
@@ -211,3 +214,37 @@ def test_auxiliary_adapter_state_is_saved_only_after_safe_feed_update(tmp_path) 
 
     assert failed[0].status == "failed"
     assert auxiliary_path.read_bytes() == before
+
+
+@pytest.mark.parametrize("has_request", [True, False])
+def test_network_failure_reports_source_url_and_preserves_feed(tmp_path, has_request) -> None:
+    source = make_source("example", "example-feed")
+    config = MonitorConfig(tmp_path, "https://owner.github.io/source-monitor", 300, (source,))
+    item = make_item("example", "one")
+    runner = MonitorRunner(
+        config,
+        {"example": StaticAdapter("example", FeedBatch("example-feed", (item,), 1, 1))},
+        client_factory=DummyClient,
+        clock=lambda: NOW,
+    )
+    runner.run()
+    feed_path = tmp_path / "feeds/example-feed.xml"
+    before = feed_path.read_bytes()
+
+    class DisconnectedAdapter:
+        def fetch(self, client, context):
+            raise httpx.RemoteProtocolError(
+                "Server disconnected without sending a response",
+                request=(
+                    httpx.Request("GET", "https://example.gov/reports") if has_request else None
+                ),
+            )
+
+    runner.adapters["example"] = DisconnectedAdapter()
+    status = runner.run()[0]
+    assert status.status == "failed"
+    if has_request:
+        assert "GET https://example.gov/reports: RemoteProtocolError" in status.error
+    else:
+        assert status.error.startswith("RemoteProtocolError:")
+    assert feed_path.read_bytes() == before

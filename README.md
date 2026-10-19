@@ -65,6 +65,22 @@ ruff check src tests
 pytest -p no:cacheprovider
 ```
 
+`requirements.txt` applies the reviewed runtime/test versions in
+`requirements.lock`; all Actions workflows use those constraints too. To refresh
+them, install `-e '.[test]'` in a clean Python 3.12 environment, capture
+`python -m pip freeze --exclude orrery-source-monitor`, and review the changes to
+`requirements.lock`. Run the offline suite and a live `--all --dry-run` before
+adopting an update. The lock covers Python runtime/test packages; the runner OS
+and its CA updates remain managed by GitHub.
+
+HTTPS uses the operating system's certificate store through `truststore`, with
+certificate and hostname verification required. Linux needs its standard
+`ca-certificates` package (provided by GitHub's Ubuntu runners). Connection/read
+timeouts, server disconnects, rate limiting, and selected server errors receive
+up to three attempts. Retry logs include the URL and delay; exhausted network
+errors include the URL in the source health report. Certificate verification
+failures are reported immediately.
+
 Run and validate the monitor with:
 
 ```sh
@@ -91,6 +107,13 @@ The run summary lists each source's health and the failing URLs and errors;
 it is generated from that run's results. Code and configuration changes also
 run offline regression tests on pull requests and pushes to `main` through
 `.github/workflows/checks.yml`.
+
+The 2026-10-19 repair addresses two observed causes: the Parliament API's CA was
+[removed from certifi on 2026-10-18](https://github.com/certifi/python-certifi/pull/437),
+and DRDO disconnected with a protocol error outside the former retry handler.
+The client now follows native OS trust policy, and retries interrupted HTTP
+responses. Existing feed retention and failure reporting still apply to real
+upstream outages, including the iDEX connection timeouts observed on 2026-10-15.
 
 For DoT access failures, manually run **Diagnose DoT access** in Actions (or
 `python -m orrery_monitor.diagnose_dot` locally). It compares the public endpoint

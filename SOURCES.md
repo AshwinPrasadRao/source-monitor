@@ -168,7 +168,7 @@ replace a satisfactory native subscription.
 
 ## Parliament Standing Committee — Department of Space
 
-- **Last manually audited:** 2026-09-03.
+- **Last manually audited:** 2026-10-19.
 - **Purpose:** Demands for Grants, Action Taken, implementation, and other reports
   explicitly pertaining to the Department of Space.
 - **Official URLs:** <https://sansad.in/rs/pressRelease>,
@@ -187,6 +187,13 @@ replace a satisfactory native subscription.
   contain multiply encoded HTML entities. The press endpoint is broad even when
   given `mstCommId=19`, so the adapter still enforces the returned committee ID;
   the query form was materially more responsive during the 2026-09-03 audit.
+- **TLS and endpoint audit (2026-10-19):** certifi 2026.10.18 removed emSign
+  roots and broke this API's certificate chain in Actions. Native OS certificate
+  verification through `truststore` retrieves both current endpoints successfully.
+  The public page still uses `integration.rajyasabha.digital`. The older
+  `sansad.in/api_rs/committee/committee-reports` endpoint stops at report 411,
+  while the current API includes report 415, so it is not an equivalent fallback.
+  Keep the current endpoints and stable report/press IDs.
 
 ## FCC ICFS — satellite filings
 
