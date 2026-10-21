@@ -3,6 +3,25 @@
   "feed_id": "fcc-icfs-satellite-filings",
   "items": [
     {
+      "category": "Modification",
+      "description": "SES Americom, Inc.; Call sign/Auth ID: S2347",
+      "first_seen_at": "2026-10-21T21:48:25.997715+00:00",
+      "guid": "SAT-MOD-20261021-00404",
+      "metadata": {
+        "applicant": "SES Americom, Inc.",
+        "call_sign": "S2347",
+        "file_number": "SAT-MOD-20261021-00404",
+        "filing_type": "MOD",
+        "record_id": "ecdc0dc2930857102591081d48373c13",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-10-21T20:22:47+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20261021-00404 \u2014 SES Americom, Inc. \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20261021-00404"
+    },
+    {
       "category": "Petition for Declaratory Ruling",
       "description": "Viasat, Inc.; Call sign/Auth ID: S03241",
       "first_seen_at": "2026-10-21T04:57:52.125677+00:00",
