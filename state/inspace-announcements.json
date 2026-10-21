@@ -5,6 +5,17 @@
     {
       "category": "Announcement",
       "description": null,
+      "first_seen_at": "2026-10-21T11:57:08.501987+00:00",
+      "guid": "inspace-announcement-5551367af7065ee2cee8d65ee5fc0d22d016ae121640af9d416e2fac88cd63d7",
+      "metadata": {},
+      "published_at": null,
+      "source_id": "inspace",
+      "title": "Result of IN-SPACe Seed Fund Scheme : AI INSPIRED Opportunities in Space Sector",
+      "url": "https://www.inspace.gov.in/inspace?id=announcement_of_ai_inspired_result_2026"
+    },
+    {
+      "category": "Announcement",
+      "description": null,
       "first_seen_at": "2026-10-05T14:48:48.723687+00:00",
       "guid": "inspace-announcement-5fb960a519dd932b36d95a1c5e3c07073eb0d8da1e8f39be93f036b2ffaca722",
       "metadata": {},
@@ -234,6 +245,6 @@
       "url": "https://www.inspace.gov.in/inspace?id=veneto_space_meetings"
     }
   ],
-  "previous_visible_count": 21,
+  "previous_visible_count": 22,
   "schema_version": 1
 }
