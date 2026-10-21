@@ -3,6 +3,25 @@
   "feed_id": "fcc-icfs-satellite-filings",
   "items": [
     {
+      "category": "Petition for Declaratory Ruling",
+      "description": "Viasat, Inc.; Call sign/Auth ID: S03241",
+      "first_seen_at": "2026-10-21T04:57:52.125677+00:00",
+      "guid": "SAT-PDR-20260314-00125",
+      "metadata": {
+        "applicant": "Viasat, Inc.",
+        "call_sign": "S03241",
+        "file_number": "SAT-PDR-20260314-00125",
+        "filing_type": "PDR",
+        "record_id": "353ffbea1b633210df7954e2604bcbe7",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-10-20T22:57:57+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-PDR-20260314-00125 \u2014 Viasat, Inc. \u2014 Petition for Declaratory Ruling",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-PDR-20260314-00125"
+    },
+    {
       "category": "Launch and Operating Authority",
       "description": "Axiom Space; Call sign/Auth ID: S03240",
       "first_seen_at": "2026-10-16T21:16:06.277673+00:00",
