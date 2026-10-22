@@ -47,8 +47,13 @@ jobs:
         run: python -m orrery_monitor.runner --all --status-json > monitor-results.json
 
       - name: Summarize source health
+        id: health
         if: ${{ !cancelled() && (steps.monitors.outcome == 'success' || steps.monitors.outcome == 'failure') }}
-        run: python -m orrery_monitor.report monitor-results.json
+        env:
+          MONITOR_OUTCOME: ${{ steps.monitors.outcome }}
+        run: >-
+          python -m orrery_monitor.report monitor-results.json
+          --alert-state state/alerts.json --monitor-outcome "$MONITOR_OUTCOME"
 
       - name: Validate all feeds
         run: python -m orrery_monitor.runner --validate-only
@@ -108,9 +113,9 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-      - name: Report partial monitor failure
-        if: steps.monitors.outcome == 'failure'
+      - name: Report new failure or daily outage reminder
+        if: steps.health.outputs.alert == 'true'
         run: |
-          echo "Source coverage is incomplete; see the source health summary for failing URLs."
+          echo "New monitor failure or daily outage reminder; see the source health summary."
           echo "Retained feeds, updates from reachable endpoints, and current status were deployed."
           exit 1

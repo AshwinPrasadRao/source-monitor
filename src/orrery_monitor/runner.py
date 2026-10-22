@@ -83,6 +83,16 @@ class MonitorRunner:
                             status="failed",
                             retrieval_mode=source.retrieval_mode,
                             error=_source_error(exc),
+                            error_kind=(
+                                "upstream"
+                                if isinstance(exc, (
+                                    httpx.TimeoutException,
+                                    httpx.NetworkError,
+                                    httpx.RemoteProtocolError,
+                                    httpx.HTTPStatusError,
+                                ))
+                                else "internal"
+                            ),
                         )
                     )
         if not dry_run:
@@ -213,6 +223,7 @@ class MonitorRunner:
             updated_count=total_updated,
             warnings=tuple(warnings),
             error="\n".join(result.errors) or None,
+            error_kind="internal" if result.errors else None,
         )
 
     def validate_existing(self, source_ids: tuple[str, ...] | None = None) -> list[str]:

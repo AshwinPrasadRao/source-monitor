@@ -165,6 +165,12 @@ replace a satisfactory native subscription.
 - **Initial backfill:** preceding 12 months, capped at 100 matching records.
 - **Known quirks:** DRDO offers generic updates, but they are too broad to replace
   the required selective feed. RF/EW and quantum terms require space/PNT context.
+- **Availability audit (2026-10-22):** six consecutive scheduled runs starting
+  on 2026-10-20 at 21:40 UTC exhausted all three connection attempts. Both
+  bare-host and `www` current/archive URLs also timed out in local probes.
+  Monitoring stays enabled and retained records remain published; the failed
+  health status and last successful check remain visible during the outage.
+  Notification history limits repeat alerts to once per 24 hours per source.
 
 ## Parliament Standing Committee — Department of Space
 

@@ -1,8 +1,11 @@
-from datetime import UTC, datetime
+import json
+from dataclasses import asdict
+from datetime import UTC, datetime, timedelta
 
 import httpx
 import pytest
 
+from orrery_monitor.alerts import plan_alerts
 from orrery_monitor.config import FeedConfig, MonitorConfig, SourceConfig
 from orrery_monitor.models import AdapterResult, FeedBatch, FeedItem
 from orrery_monitor.rss import generate_rss
@@ -113,6 +116,7 @@ def test_parser_failure_preserves_existing_state_and_feed(tmp_path) -> None:
     ).run()
 
     assert statuses[0].status == "failed"
+    assert statuses[0].error_kind == "internal"
     assert state_path.read_bytes() == before_state
     assert feed_path.read_bytes() == before_feed
 
@@ -148,6 +152,7 @@ def test_broken_source_does_not_prevent_another_source_completing(tmp_path) -> N
     ).run()
 
     assert [status.status for status in statuses] == ["failed", "ok"]
+    assert statuses[0].error_kind == "internal"
     assert (tmp_path / "state/healthy-feed.json").exists()
     assert (tmp_path / "feeds/healthy-feed.xml").exists()
 
@@ -243,8 +248,69 @@ def test_network_failure_reports_source_url_and_preserves_feed(tmp_path, has_req
     runner.adapters["example"] = DisconnectedAdapter()
     status = runner.run()[0]
     assert status.status == "failed"
+    assert status.error_kind == "upstream"
     if has_request:
         assert "GET https://example.gov/reports: RemoteProtocolError" in status.error
     else:
         assert status.error.startswith("RemoteProtocolError:")
     assert feed_path.read_bytes() == before
+
+
+@pytest.mark.parametrize("error,expected_kind", [
+    (httpx.ConnectTimeout("timed out"), "upstream"),
+    (httpx.RemoteProtocolError("disconnected"), "upstream"),
+    (httpx.HTTPStatusError(
+        "unavailable", request=httpx.Request("GET", "https://example.gov"),
+        response=httpx.Response(503),
+    ), "upstream"),
+    (httpx.LocalProtocolError("invalid header"), "internal"),
+    (httpx.UnsupportedProtocol("invalid scheme"), "internal"),
+    (ValueError("unexpected page structure"), "internal"),
+])
+def test_only_remote_failures_qualify_for_outage_notification_policy(
+    tmp_path, error, expected_kind,
+):
+    source = make_source("example", "example-feed")
+    config = MonitorConfig(tmp_path, "https://owner.github.io/project", 300, (source,))
+
+    class FailingAdapter:
+        def fetch(self, client, context):
+            raise error
+
+    runner = MonitorRunner(
+        config, {"example": FailingAdapter()}, client_factory=DummyClient, clock=lambda: NOW,
+    )
+    assert runner.run()[0].error_kind == expected_kind
+
+
+def test_quiet_repeat_outage_keeps_failed_public_status_and_saved_feed(tmp_path):
+    source = make_source("example", "example-feed")
+    config = MonitorConfig(tmp_path, "https://owner.github.io/project", 300, (source,))
+    item = make_item("example", "one")
+    runner = MonitorRunner(
+        config,
+        {"example": StaticAdapter("example", FeedBatch("example-feed", (item,), 1, 1))},
+        client_factory=DummyClient, clock=lambda: NOW,
+    )
+    runner.run()
+    feed_path = tmp_path / "feeds/example-feed.xml"
+    saved_feed = feed_path.read_bytes()
+
+    class TimeoutAdapter:
+        def fetch(self, client, context):
+            raise httpx.ConnectTimeout("timed out")
+
+    runner.adapters["example"] = TimeoutAdapter()
+    prior_alerts = None
+    for hours in (1, 2):
+        checked_at = NOW + timedelta(hours=hours)
+        runner.clock = lambda checked_at=checked_at: checked_at
+        statuses = runner.run()
+        results = json.loads(json.dumps([asdict(s) for s in statuses]))
+        decision = plan_alerts(results, prior_alerts, checked_at)
+        assert bool(decision.notify) is (hours == 1)
+        prior_alerts = decision.state
+        feed_status = json.loads((tmp_path / "status.json").read_text())["feeds"][0]
+        assert feed_status["status"] == "failed"
+        assert feed_status["last_successful_check"] == NOW.isoformat()
+        assert feed_path.read_bytes() == saved_feed

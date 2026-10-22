@@ -49,8 +49,9 @@ items; initial source backfills are documented in [SOURCES.md](SOURCES.md).
 State and RSS writes are atomic. Zero results after a populated observation,
 large count collapses or explosions, excessive missing fields, retrieval
 errors, and parser exceptions abort only the affected adapter. Existing state
-and feeds survive, other adapters continue, and the overall run reports a
-failure. No database, credentials, LLM classification, Docker image, or
+and feeds survive, other adapters continue, and the runner exits with a
+failure. Actions applies the notification policy below. No database, credentials,
+LLM classification, Docker image, or
 production browser dependency is used.
 
 ## Local setup
@@ -102,7 +103,26 @@ supports manual dispatch. It installs Python dependencies, runs tests and all
 adapters, validates retained feeds, creates a Pages artifact, and commits
 generated state/feed/status changes as `Update monitored sources`. A broken
 adapter does not prevent the preserved feeds and failed health status from being
-deployed, but the workflow ends failed so the problem remains visible.
+deployed. The first upstream failure for a source fails the workflow, triggering
+the existing GitHub failure notification. Continuing outages generate at most
+one reminder per source every 24 hours, on the first run after the reminder is
+due. Recovery clears that source's outage, so a later failure alerts immediately.
+Parser, safety-check, unclassified, test, validation, and deployment failures
+always fail the workflow.
+
+Between reminders, a successful workflow means publication completed without a
+new alert; it does not mean every source is healthy. Failed sources retain their
+failed status and previous successful-check timestamp on the public status page,
+and appear as warnings in Actions. Every scheduled run still attempts every
+enabled source with the normal bounded retries.
+
+Notification history is committed in `state/alerts.json`. It changes only when
+an outage begins, a reminder is due, or a source recovers/is disabled. The report
+step checks that every enabled source has exactly one result and that those
+results agree with the runner's exit status. Missing results or corrupt alert
+state fail the workflow rather than suppressing notifications. The standalone
+runner remains strict and exits nonzero whenever any source fails.
+
 The run summary lists each source's health and the failing URLs and errors;
 it is generated from that run's results. Code and configuration changes also
 run offline regression tests on pull requests and pushes to `main` through
@@ -114,6 +134,15 @@ and DRDO disconnected with a protocol error outside the former retry handler.
 The client now follows native OS trust policy, and retries interrupted HTTP
 responses. Existing feed retention and failure reporting still apply to real
 upstream outages, including the iDEX connection timeouts observed on 2026-10-15.
+
+On 2026-10-22, six consecutive runs showed DRDO connection timeouts after all
+three retries. Current and archive endpoints on both bare and `www` hosts also
+timed out in independent local probes. The notification policy above avoids
+repeated mail for a continuing outage while preserving its failed health status.
+Initial notification history records the first failed run
+[39502292562](https://github.com/AshwinPrasadRao/source-monitor/actions/runs/39502292562)
+and the latest already-issued alert from
+[39725102853](https://github.com/AshwinPrasadRao/source-monitor/actions/runs/39725102853).
 
 For DoT access failures, manually run **Diagnose DoT access** in Actions (or
 `python -m orrery_monitor.diagnose_dot` locally). It compares the public endpoint

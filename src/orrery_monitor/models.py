@@ -116,3 +116,4 @@ class SourceRunStatus:
     updated_count: int = 0
     warnings: tuple[str, ...] = ()
     error: str | None = None
+    error_kind: str | None = None
