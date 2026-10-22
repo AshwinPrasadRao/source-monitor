@@ -3,6 +3,10 @@
     "drdo": {
       "last_alerted_at": "2026-10-22T04:58:00Z",
       "started_at": "2026-10-20T21:40:44Z"
+    },
+    "idex": {
+      "last_alerted_at": "2026-10-22T17:16:26.702106+00:00",
+      "started_at": "2026-10-22T17:16:26.702106+00:00"
     }
   },
   "schema_version": 1
