@@ -2637,6 +2637,30 @@
         "classification": "other",
         "department": "Ministry of Finance"
       },
+      "PIB-2327649": {
+        "classification": "other",
+        "department": "Ministry of New and Renewable Energy"
+      },
+      "PIB-2327658": {
+        "classification": "other",
+        "department": "Ministry of Railways"
+      },
+      "PIB-2327660": {
+        "classification": "other",
+        "department": "Ministry of Tribal Affairs"
+      },
+      "PIB-2327664": {
+        "classification": "other",
+        "department": "Ministry of Ports, Shipping and Waterways"
+      },
+      "PIB-2327670": {
+        "classification": "other",
+        "department": "Ministry of Home Affairs"
+      },
+      "PIB-2327710": {
+        "classification": "other",
+        "department": "Ministry of Science & Technology"
+      },
       "PIB-2327720": {
         "classification": "other",
         "department": "Ministry of Communications"
@@ -2644,6 +2668,46 @@
       "PIB-2327721": {
         "classification": "other",
         "department": "Ministry of Information & Broadcasting"
+      },
+      "PIB-2327727": {
+        "classification": "other",
+        "department": "Prime Minister's Office"
+      },
+      "PIB-2327729": {
+        "classification": "other",
+        "department": "Prime Minister's Office"
+      },
+      "PIB-2327730": {
+        "classification": "other",
+        "department": "Prime Minister's Office"
+      },
+      "PIB-2327733": {
+        "classification": "other",
+        "department": "Prime Minister's Office"
+      },
+      "PIB-2327735": {
+        "classification": "other",
+        "department": "Prime Minister's Office"
+      },
+      "PIB-2327736": {
+        "classification": "other",
+        "department": "Prime Minister's Office"
+      },
+      "PIB-2327738": {
+        "classification": "other",
+        "department": "Prime Minister's Office"
+      },
+      "PIB-2327739": {
+        "classification": "other",
+        "department": "Prime Minister's Office"
+      },
+      "PIB-2327740": {
+        "classification": "other",
+        "department": "Prime Minister's Office"
+      },
+      "PIB-2327741": {
+        "classification": "other",
+        "department": "Prime Minister's Office"
       }
     }
   },
