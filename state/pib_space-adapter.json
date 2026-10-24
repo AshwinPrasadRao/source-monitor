@@ -2708,6 +2708,38 @@
       "PIB-2327741": {
         "classification": "other",
         "department": "Prime Minister's Office"
+      },
+      "PIB-2327771": {
+        "classification": "other",
+        "department": "Prime Minister's Office"
+      },
+      "PIB-2327812": {
+        "classification": "other",
+        "department": "Ministry of Railways"
+      },
+      "PIB-2327842": {
+        "classification": "other",
+        "department": "Ministry of Commerce & Industry"
+      },
+      "PIB-2327845": {
+        "classification": "other",
+        "department": "PIB Backgrounder"
+      },
+      "PIB-2327851": {
+        "classification": "other",
+        "department": "Ministry of Home Affairs"
+      },
+      "PIB-2327861": {
+        "classification": "other",
+        "department": "Prime Minister's Office"
+      },
+      "PIB-2327905": {
+        "classification": "other",
+        "department": "Ministry of Agriculture & Farmers Welfare"
+      },
+      "PIB-2327906": {
+        "classification": "other",
+        "department": "Ministry of Labour & Employment"
       }
     }
   },
