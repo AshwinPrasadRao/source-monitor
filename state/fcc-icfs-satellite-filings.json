@@ -4,6 +4,25 @@
   "items": [
     {
       "category": "Modification",
+      "description": "AST & Science, LLC; Call sign/Auth ID: S3065",
+      "first_seen_at": "2026-10-24T04:46:24.519499+00:00",
+      "guid": "SAT-MOD-20261014-00392",
+      "metadata": {
+        "applicant": "AST & Science, LLC",
+        "call_sign": "S3065",
+        "file_number": "SAT-MOD-20261014-00392",
+        "filing_type": "MOD",
+        "record_id": "a45e1c7bcfbb4710c070f3542f851c30",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-10-24T00:47:15+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20261014-00392 \u2014 AST & Science, LLC \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20261014-00392"
+    },
+    {
+      "category": "Modification",
       "description": "SES Americom, Inc.; Call sign/Auth ID: S2347",
       "first_seen_at": "2026-10-21T21:48:25.997715+00:00",
       "guid": "SAT-MOD-20261021-00404",
