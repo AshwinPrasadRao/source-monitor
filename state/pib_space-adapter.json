@@ -2788,6 +2788,54 @@
       "PIB-2328089": {
         "classification": "other",
         "department": "Ministry of Defence"
+      },
+      "PIB-2328126": {
+        "classification": "other",
+        "department": "Prime Minister's Office"
+      },
+      "PIB-2328132": {
+        "classification": "other",
+        "department": "PIB Backgrounder"
+      },
+      "PIB-2328141": {
+        "classification": "other",
+        "department": "Ministry of New and Renewable Energy"
+      },
+      "PIB-2328142": {
+        "classification": "other",
+        "department": "Prime Minister's Office"
+      },
+      "PIB-2328149": {
+        "classification": "other",
+        "department": "Ministry of Coal"
+      },
+      "PIB-2328168": {
+        "classification": "other",
+        "department": "NITI Aayog"
+      },
+      "PIB-2328180": {
+        "classification": "other",
+        "department": "Ministry of Education"
+      },
+      "PIB-2328181": {
+        "classification": "other",
+        "department": "Ministry of Home Affairs"
+      },
+      "PIB-2328185": {
+        "classification": "other",
+        "department": "Ministry of Housing & Urban Affairs"
+      },
+      "PIB-2328196": {
+        "classification": "other",
+        "department": "Lok Sabha Secretariat"
+      },
+      "PIB-2328200": {
+        "classification": "other",
+        "department": "Ministry of Consumer Affairs, Food & Public Distribution"
+      },
+      "PIB-2328201": {
+        "classification": "other",
+        "department": "Vice President's Secretariat"
       }
     }
   },
