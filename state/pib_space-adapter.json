@@ -2836,6 +2836,30 @@
       "PIB-2328201": {
         "classification": "other",
         "department": "Vice President's Secretariat"
+      },
+      "PIB-2328234": {
+        "classification": "other",
+        "department": "Prime Minister's Office"
+      },
+      "PIB-2328248": {
+        "classification": "other",
+        "department": "Ministry of Social Justice & Empowerment"
+      },
+      "PIB-2328250": {
+        "classification": "other",
+        "department": "Prime Minister's Office"
+      },
+      "PIB-2328253": {
+        "classification": "other",
+        "department": "Ministry of Food Processing Industries"
+      },
+      "PIB-2328254": {
+        "classification": "other",
+        "department": "Ministry of Commerce & Industry"
+      },
+      "PIB-2328265": {
+        "classification": "other",
+        "department": "Ministry of Ports, Shipping and Waterways"
       }
     }
   },
