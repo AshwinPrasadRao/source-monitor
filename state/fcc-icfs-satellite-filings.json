@@ -4,6 +4,82 @@
   "items": [
     {
       "category": "Modification",
+      "description": "Intelsat License LLC; Call sign/Auth ID: S2817",
+      "first_seen_at": "2026-10-27T22:23:40.815012+00:00",
+      "guid": "SAT-MOD-20261027-00416",
+      "metadata": {
+        "applicant": "Intelsat License LLC",
+        "call_sign": "S2817",
+        "file_number": "SAT-MOD-20261027-00416",
+        "filing_type": "MOD",
+        "record_id": "8eab7bbb3b0097507491fcc964e45a36",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-10-27T20:00:04+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20261027-00416 \u2014 Intelsat License LLC \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20261027-00416"
+    },
+    {
+      "category": "Modification",
+      "description": "Muon Space Inc.; Call sign/Auth ID: S00763",
+      "first_seen_at": "2026-10-27T22:23:40.815012+00:00",
+      "guid": "SAT-MOD-20261022-00408",
+      "metadata": {
+        "applicant": "Muon Space Inc.",
+        "call_sign": "S00763",
+        "file_number": "SAT-MOD-20261022-00408",
+        "filing_type": "MOD",
+        "record_id": "42b2191a3b04d7101c9b37ac24e45a42",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-10-27T19:47:22+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20261022-00408 \u2014 Muon Space Inc. \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20261022-00408"
+    },
+    {
+      "category": "Modification",
+      "description": "Blue Origin, LLC; Call sign/Auth ID: S3206",
+      "first_seen_at": "2026-10-27T22:23:40.815012+00:00",
+      "guid": "SAT-MOD-20261027-00413",
+      "metadata": {
+        "applicant": "Blue Origin, LLC",
+        "call_sign": "S3206",
+        "file_number": "SAT-MOD-20261027-00413",
+        "filing_type": "MOD",
+        "record_id": "9315ffffcf04d350960df56b1f851c99",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-10-27T19:03:31+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20261027-00413 \u2014 Blue Origin, LLC \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20261027-00413"
+    },
+    {
+      "category": "Modification",
+      "description": "Space Exploration Holdings, LLC; Call sign/Auth ID: S00735",
+      "first_seen_at": "2026-10-27T22:23:40.815012+00:00",
+      "guid": "SAT-MOD-20261021-00406",
+      "metadata": {
+        "applicant": "Space Exploration Holdings, LLC",
+        "call_sign": "S00735",
+        "file_number": "SAT-MOD-20261021-00406",
+        "filing_type": "MOD",
+        "record_id": "15645d46cf085710cd85b0113d851cf6",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-10-27T15:13:24+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20261021-00406 \u2014 Space Exploration Holdings, LLC \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20261021-00406"
+    },
+    {
+      "category": "Modification",
       "description": "AST & Science, LLC; Call sign/Auth ID: S3065",
       "first_seen_at": "2026-10-24T04:46:24.519499+00:00",
       "guid": "SAT-MOD-20261014-00392",
