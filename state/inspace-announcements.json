@@ -5,6 +5,17 @@
     {
       "category": "Announcement",
       "description": null,
+      "first_seen_at": "2026-10-28T13:02:58.166809+00:00",
+      "guid": "inspace-announcement-attachment-d8aa1bc4a95c9750299657aba2acc610",
+      "metadata": {},
+      "published_at": null,
+      "source_id": "inspace",
+      "title": "CALL FOR APPLICATIONS Participation in the \"Hall of Inspiration\" Pavilion | IITF 2026",
+      "url": "https://www.inspace.gov.in/inspace/sys_attachment.do?sys_id=d8aa1bc4a95c9750299657aba2acc610"
+    },
+    {
+      "category": "Announcement",
+      "description": null,
       "first_seen_at": "2026-10-21T11:57:08.501987+00:00",
       "guid": "inspace-announcement-5551367af7065ee2cee8d65ee5fc0d22d016ae121640af9d416e2fac88cd63d7",
       "metadata": {},
@@ -245,6 +256,6 @@
       "url": "https://www.inspace.gov.in/inspace?id=veneto_space_meetings"
     }
   ],
-  "previous_visible_count": 22,
+  "previous_visible_count": 23,
   "schema_version": 1
 }
