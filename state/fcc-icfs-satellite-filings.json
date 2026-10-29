@@ -3,6 +3,44 @@
   "feed_id": "fcc-icfs-satellite-filings",
   "items": [
     {
+      "category": "Amendment",
+      "description": "ASTRA (GB) Limited; Call sign/Auth ID: S2935",
+      "first_seen_at": "2026-10-29T22:50:58.482581+00:00",
+      "guid": "SAT-AMD-20261023-00410",
+      "metadata": {
+        "applicant": "ASTRA (GB) Limited",
+        "call_sign": "S2935",
+        "file_number": "SAT-AMD-20261023-00410",
+        "filing_type": "AMD",
+        "record_id": "e45b65ee93c89b102591081d48373cbe",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-10-29T20:25:12+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-AMD-20261023-00410 \u2014 ASTRA (GB) Limited \u2014 Amendment",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-AMD-20261023-00410"
+    },
+    {
+      "category": "Amendment",
+      "description": "Intelsat License LLC; Call sign/Auth ID: S2750",
+      "first_seen_at": "2026-10-29T22:50:58.482581+00:00",
+      "guid": "SAT-AMD-20261016-00400",
+      "metadata": {
+        "applicant": "Intelsat License LLC",
+        "call_sign": "S2750",
+        "file_number": "SAT-AMD-20261016-00400",
+        "filing_type": "AMD",
+        "record_id": "272c9618cf845b10c070f3542f851c9a",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-10-29T18:12:07+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-AMD-20261016-00400 \u2014 Intelsat License LLC \u2014 Amendment",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-AMD-20261016-00400"
+    },
+    {
       "category": "Modification",
       "description": "Intelsat License LLC; Call sign/Auth ID: S2817",
       "first_seen_at": "2026-10-27T22:23:40.815012+00:00",

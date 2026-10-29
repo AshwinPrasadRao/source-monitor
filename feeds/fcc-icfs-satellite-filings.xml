@@ -8,7 +8,23 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Oct 2026 22:23:40 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 22:50:58 +0000</lastBuildDate>
+    <item>
+      <title>SAT-AMD-20261023-00410 — ASTRA (GB) Limited — Amendment</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-AMD-20261023-00410</link>
+      <description>ASTRA (GB) Limited; Call sign/Auth ID: S2935</description>
+      <guid isPermaLink="false">SAT-AMD-20261023-00410</guid>
+      <category>Amendment</category>
+      <pubDate>Thu, 29 Oct 2026 20:25:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-AMD-20261016-00400 — Intelsat License LLC — Amendment</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-AMD-20261016-00400</link>
+      <description>Intelsat License LLC; Call sign/Auth ID: S2750</description>
+      <guid isPermaLink="false">SAT-AMD-20261016-00400</guid>
+      <category>Amendment</category>
+      <pubDate>Thu, 29 Oct 2026 18:12:07 +0000</pubDate>
+    </item>
     <item>
       <title>SAT-MOD-20261027-00416 — Intelsat License LLC — Modification</title>
       <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20261027-00416</link>
