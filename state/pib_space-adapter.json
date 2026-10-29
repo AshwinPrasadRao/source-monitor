@@ -3336,6 +3336,86 @@
       "PIB-2329830": {
         "classification": "other",
         "department": "Ministry of Defence"
+      },
+      "PIB-2329999": {
+        "classification": "other",
+        "department": "Prime Minister's Office"
+      },
+      "PIB-2330002": {
+        "classification": "other",
+        "department": "Ministry of Housing & Urban Affairs"
+      },
+      "PIB-2330009": {
+        "classification": "other",
+        "department": "Ministry of Health and Family Welfare"
+      },
+      "PIB-2330016": {
+        "classification": "other",
+        "department": "Ministry of Electronics & IT"
+      },
+      "PIB-2330031": {
+        "classification": "other",
+        "department": "National Human Rights Commission"
+      },
+      "PIB-2330034": {
+        "classification": "other",
+        "department": "Ministry of Commerce & Industry"
+      },
+      "PIB-2330036": {
+        "classification": "other",
+        "department": "Ministry of Statistics & Programme Implementation"
+      },
+      "PIB-2330042": {
+        "classification": "other",
+        "department": "Ministry of Defence"
+      },
+      "PIB-2330060": {
+        "classification": "other",
+        "department": "Ministry of Communications"
+      },
+      "PIB-2330064": {
+        "classification": "other",
+        "department": "Ministry of Information & Broadcasting"
+      },
+      "PIB-2330070": {
+        "classification": "other",
+        "department": "Ministry of Defence"
+      },
+      "PIB-2330087": {
+        "classification": "other",
+        "department": "Ministry of Skill Development and Entrepreneurship"
+      },
+      "PIB-2330111": {
+        "classification": "other",
+        "department": "Ministry of Railways"
+      },
+      "PIB-2330119": {
+        "classification": "other",
+        "department": "Ministry of Textiles"
+      },
+      "PIB-2330122": {
+        "classification": "other",
+        "department": "Ministry of Cooperation"
+      },
+      "PIB-2330124": {
+        "classification": "other",
+        "department": "Ministry of Skill Development and Entrepreneurship"
+      },
+      "PIB-2330125": {
+        "classification": "other",
+        "department": "Ministry of Communications"
+      },
+      "PIB-2330127": {
+        "classification": "other",
+        "department": "Ministry of Jal Shakti"
+      },
+      "PIB-2330131": {
+        "classification": "other",
+        "department": "Ministry of Environment, Forest and Climate Change"
+      },
+      "PIB-2330136": {
+        "classification": "other",
+        "department": "Ministry of Health and Family Welfare"
       }
     }
   },
