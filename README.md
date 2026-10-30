@@ -104,20 +104,21 @@ adapters, validates retained feeds, creates a Pages artifact, and commits
 generated state/feed/status changes as `Update monitored sources`. A broken
 adapter does not prevent the preserved feeds and failed health status from being
 deployed. The first upstream failure for a source fails the workflow, triggering
-the existing GitHub failure notification. Continuing outages generate at most
-one reminder per source every 24 hours, on the first run after the reminder is
-due. Recovery clears that source's outage, so a later failure alerts immediately.
+the existing GitHub failure notification. Continuing upstream outages do not
+generate repeat notifications, regardless of duration. Recovery clears that
+source's outage, so a later failure alerts immediately.
 Parser, safety-check, unclassified, test, validation, and deployment failures
 always fail the workflow.
 
-Between reminders, a successful workflow means publication completed without a
+During a continuing outage, a successful workflow means publication completed without a
 new alert; it does not mean every source is healthy. Failed sources retain their
 failed status and previous successful-check timestamp on the public status page,
 and appear as warnings in Actions. Every scheduled run still attempts every
 enabled source with the normal bounded retries.
 
 Notification history is committed in `state/alerts.json`. It changes only when
-an outage begins, a reminder is due, or a source recovers/is disabled. The report
+an outage begins or a source recovers/is disabled. Existing notification history
+is preserved, so changing the policy does not re-alert for an ongoing outage. The report
 step checks that every enabled source has exactly one result and that those
 results agree with the runner's exit status. Missing results or corrupt alert
 state fail the workflow rather than suppressing notifications. The standalone
@@ -143,6 +144,15 @@ Initial notification history records the first failed run
 [39502292562](https://github.com/AshwinPrasadRao/source-monitor/actions/runs/39502292562)
 and the latest already-issued alert from
 [39725102853](https://github.com/AshwinPrasadRao/source-monitor/actions/runs/39725102853).
+
+On 2026-10-30, the latest runs still showed DRDO connection timeouts and iDEX
+connection refusals (ongoing since 2026-10-22). Tests and Pages deployment passed;
+the failed workflows were the daily reminders for these two sources. Local
+probes of the official bare and `www` hosts also failed. These observations do
+not establish whether the sites are unavailable globally or filtering traffic.
+The earlier TLS/retry repairs did not restore these upstream connections.
+Daily reminders are now disabled by request; outage-start notifications, ongoing
+retrieval attempts, failed health status, and immediate monitor-error alerts remain.
 
 For DoT access failures, manually run **Diagnose DoT access** in Actions (or
 `python -m orrery_monitor.diagnose_dot` locally). It compares the public endpoint

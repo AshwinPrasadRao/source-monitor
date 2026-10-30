@@ -74,18 +74,22 @@ def test_report_persists_outage_then_emits_warning_without_mutating_source_healt
     assert state_path.stat().st_mtime_ns == initial_mtime
     assert results_path.read_bytes() == before_results
     assert "drdo: failed" in summary.read_text()
-    assert "outage continues; already alerted" in summary.read_text()
+    assert "outage continues since" in summary.read_text()
+    assert "already alerted. Daily reminders are disabled." in summary.read_text()
 
-    # A due reminder must change state, so the workflow commits the new alert time.
+    # History from the daily-reminder policy remains quiet even after 24 hours.
     state = json.loads(initial_state)
     yesterday = (datetime.now(UTC) - timedelta(hours=25)).isoformat()
     state["outages"]["drdo"] = {"started_at": yesterday, "last_alerted_at": yesterday}
-    state_path.write_text(json.dumps(state))
+    state_path.write_text(json.dumps(state, indent=2, sort_keys=True) + "\n")
+    old_state = state_path.read_bytes()
+    old_mtime = state_path.stat().st_mtime_ns
     output.write_text("")
     assert main(args) == 0
-    assert output.read_text() == "alert=true\n"
-    assert "daily outage reminder" in summary.read_text()
-    assert json.loads(state_path.read_text())["outages"]["drdo"]["last_alerted_at"] != yesterday
+    assert output.read_text() == "alert=false\n"
+    assert "::warning::drdo:" in capsys.readouterr().out
+    assert state_path.read_bytes() == old_state
+    assert state_path.stat().st_mtime_ns == old_mtime
 
 
 @pytest.mark.parametrize("problem", ["missing_source", "wrong_outcome", "corrupt_state"])

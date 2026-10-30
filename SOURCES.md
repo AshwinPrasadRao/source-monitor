@@ -148,6 +148,11 @@ replace a satisfactory native subscription.
 - **Initial backfill:** preceding 12 months, capped at 100 per feed.
 - **Known quirks:** the site advertises a broad newsletter, but it does not
   provide a verifiable complete, granular substitute for notices and challenge records.
+- **Availability audit (2026-10-30):** GitHub runs since 2026-10-22 at 17:16 UTC
+  show connection refusals on the notices endpoint after all three attempts.
+  Local probes of bare/`www` notices, the homepage, and the bulletin endpoint
+  also failed. Both feeds retain their saved records and failed health status;
+  monitoring stays enabled. No working replacement endpoint was verified.
 
 ## DRDO
 
@@ -170,7 +175,10 @@ replace a satisfactory native subscription.
   bare-host and `www` current/archive URLs also timed out in local probes.
   Monitoring stays enabled and retained records remain published; the failed
   health status and last successful check remain visible during the outage.
-  Notification history limits repeat alerts to once per 24 hours per source.
+- **Availability audit (2026-10-30):** the latest GitHub run and local probes
+  still time out before receiving a page. A site-wide outage versus network
+  filtering has not been established. Notification history now suppresses all
+  repeat alerts for the same upstream outage; recovery resets it.
 
 ## Parliament Standing Committee — Department of Space
 

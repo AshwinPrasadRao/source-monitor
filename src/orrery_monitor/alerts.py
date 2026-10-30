@@ -1,19 +1,17 @@
-"""Notify once per upstream outage, then at most once per 24 hours per source."""
+"""Notify when an upstream outage starts, then stay quiet until recovery."""
 
 from __future__ import annotations
 
 from dataclasses import dataclass
-from datetime import datetime, timedelta
+from datetime import datetime
 from typing import Any
-
-REMINDER_INTERVAL = timedelta(hours=24)
 
 
 @dataclass(frozen=True)
 class AlertDecision:
     state: dict[str, Any]
     notify: dict[str, str]
-    next_reminders: dict[str, str]
+    continuing_outages: dict[str, str]
 
 
 def validate_results(results: Any, expected_sources: set[str] | None = None) -> None:
@@ -73,7 +71,7 @@ def plan_alerts(
 
     outages: dict[str, dict] = {}
     notify: dict[str, str] = {}
-    next_reminders: dict[str, str] = {}
+    continuing_outages: dict[str, str] = {}
     for result in results:
         source = result["source_id"]
         if result["status"] != "failed":
@@ -87,13 +85,8 @@ def plan_alerts(
         if outage is None:
             notify[source] = "new upstream outage"
             outage = {"started_at": now.isoformat(), "last_alerted_at": now.isoformat()}
-        elif now - _timestamp(outage["last_alerted_at"]) >= REMINDER_INTERVAL:
-            notify[source] = "daily outage reminder"
-            outage = {**outage, "last_alerted_at": now.isoformat()}
         else:
-            next_reminders[source] = (
-                _timestamp(outage["last_alerted_at"]) + REMINDER_INTERVAL
-            ).isoformat()
+            continuing_outages[source] = outage["started_at"]
         outages[source] = dict(outage)
 
-    return AlertDecision({"schema_version": 1, "outages": outages}, notify, next_reminders)
+    return AlertDecision({"schema_version": 1, "outages": outages}, notify, continuing_outages)

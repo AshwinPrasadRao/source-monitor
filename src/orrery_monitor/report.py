@@ -65,12 +65,12 @@ def main(argv: list[str] | None = None) -> int:
             summary += "\n### Notifications\n\n"
             for source, reason in decision.notify.items():
                 summary += f"- {html.escape(source)}: {reason}.\n"
-            for source, due in decision.next_reminders.items():
+            for source, since in decision.continuing_outages.items():
                 summary += (
-                    f"- {html.escape(source)}: outage continues; already alerted. "
-                    f"Next reminder on the first run at or after {due}.\n"
+                    f"- {html.escape(source)}: outage continues since {html.escape(since)}; "
+                    "already alerted. Daily reminders are disabled.\n"
                 )
-            if decision.next_reminders:
+            if decision.continuing_outages:
                 summary += (
                     "\nA successful workflow means publication completed without a new alert. "
                     "Failed sources above still have incomplete coverage.\n"

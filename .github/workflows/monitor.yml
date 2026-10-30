@@ -113,9 +113,9 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-      - name: Report new failure or daily outage reminder
+      - name: Report new outage or monitor failure
         if: steps.health.outputs.alert == 'true'
         run: |
-          echo "New monitor failure or daily outage reminder; see the source health summary."
+          echo "New source outage or monitor failure; see the source health summary."
           echo "Retained feeds, updates from reachable endpoints, and current status were deployed."
           exit 1

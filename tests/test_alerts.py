@@ -12,30 +12,34 @@ def result(source="drdo", status="failed", kind="upstream"):
     return {"source_id": source, "status": status, "error_kind": kind}
 
 
-def test_first_outage_alerts_then_repeats_are_quiet_until_24_hours():
+def test_first_outage_alerts_then_repeats_stay_quiet_regardless_of_duration():
     first = plan_alerts([result()], None, NOW)
     assert first.notify == {"drdo": "new upstream outage"}
     initial = deepcopy(first.state)
 
-    for hours in (6, 12, 18, 23.99):
+    for hours in (6, 12, 18, 24, 25, 53, 24 * 30, 24 * 365):
         repeat = plan_alerts([result()], first.state, NOW + timedelta(hours=hours))
         assert not repeat.notify
         assert repeat.state == initial  # no extra commits for repeat failures
-        assert repeat.next_reminders == {"drdo": (NOW + timedelta(days=1)).isoformat()}
+        assert repeat.continuing_outages == {"drdo": NOW.isoformat()}
 
-    daily = plan_alerts([result()], first.state, NOW + timedelta(days=1))
-    assert daily.notify == {"drdo": "daily outage reminder"}
-    assert daily.state["outages"]["drdo"]["started_at"] == NOW.isoformat()
     assert first.state == initial  # evaluating a run must not mutate prior state
-    later = plan_alerts([result()], daily.state, NOW + timedelta(hours=30))
+
+
+def test_existing_daily_reminder_history_is_preserved_without_realerting():
+    prior = {"schema_version": 1, "outages": {
+        "drdo": {"started_at": NOW.isoformat(), "last_alerted_at": NOW.isoformat()},
+        "idex": {
+            "started_at": (NOW + timedelta(hours=6)).isoformat(),
+            "last_alerted_at": (NOW + timedelta(hours=30)).isoformat(),
+        },
+    }}
+    initial = deepcopy(prior)
+    later = plan_alerts([result(), result("idex")], prior, NOW + timedelta(days=10))
     assert not later.notify
-
-
-def test_delayed_schedule_sends_one_reminder_then_starts_a_new_24_hour_window():
-    first = plan_alerts([result()], None, NOW)
-    later = plan_alerts([result()], first.state, NOW + timedelta(hours=53))
-    assert later.notify == {"drdo": "daily outage reminder"}
-    assert not plan_alerts([result()], later.state, NOW + timedelta(hours=54)).notify
+    assert later.state == initial
+    assert prior == initial
+    assert set(later.continuing_outages) == {"drdo", "idex"}
 
 
 @pytest.mark.parametrize("recovered_status", ["ok", "warning"])
@@ -59,7 +63,7 @@ def test_another_source_failing_alerts_even_during_an_existing_outage():
         [result(), result("isro")], first.state, NOW + timedelta(hours=1)
     )
     assert second.notify == {"isro": "new upstream outage"}
-    assert set(second.next_reminders) == {"drdo"}
+    assert set(second.continuing_outages) == {"drdo"}
 
 
 @pytest.mark.parametrize("kind", ["internal", None, "unknown"])
