@@ -5,6 +5,17 @@
     {
       "category": "Announcement",
       "description": null,
+      "first_seen_at": "2026-10-31T12:40:36.197867+00:00",
+      "guid": "inspace-announcement-f6928a48684bbd4a14e86f78f77272e4e71d63ff14245667c9369c8bf4106bc4",
+      "metadata": {},
+      "published_at": null,
+      "source_id": "inspace",
+      "title": "IN-SPACe selects four more Indian Space Companies under Technology Adoption Fund",
+      "url": "https://www.inspace.gov.in/inspace?id=taf_indigenous_space_technologies_2026"
+    },
+    {
+      "category": "Announcement",
+      "description": null,
       "first_seen_at": "2026-10-28T13:02:58.166809+00:00",
       "guid": "inspace-announcement-attachment-d8aa1bc4a95c9750299657aba2acc610",
       "metadata": {},
@@ -256,6 +267,6 @@
       "url": "https://www.inspace.gov.in/inspace?id=veneto_space_meetings"
     }
   ],
-  "previous_visible_count": 23,
+  "previous_visible_count": 24,
   "schema_version": 1
 }
