@@ -3644,6 +3644,34 @@
       "PIB-2330689": {
         "classification": "other",
         "department": "Ministry of Communications"
+      },
+      "PIB-2330725": {
+        "classification": "other",
+        "department": "Ministry of Rural Development"
+      },
+      "PIB-2330727": {
+        "classification": "other",
+        "department": "PIB Backgrounder"
+      },
+      "PIB-2330728": {
+        "classification": "other",
+        "department": "Ministry of Home Affairs"
+      },
+      "PIB-2330735": {
+        "classification": "other",
+        "department": "Prime Minister's Office"
+      },
+      "PIB-2330737": {
+        "classification": "other",
+        "department": "Ministry of Textiles"
+      },
+      "PIB-2330739": {
+        "classification": "other",
+        "department": "Prime Minister's Office"
+      },
+      "PIB-2330746": {
+        "classification": "other",
+        "department": "Ministry of Heavy Industries"
       }
     }
   },
