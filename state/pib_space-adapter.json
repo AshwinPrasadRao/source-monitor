@@ -3885,11 +3885,63 @@
         "classification": "other",
         "department": "Ministry of Civil Aviation"
       },
+      "PIB-2331212": {
+        "classification": "other",
+        "department": "Ministry of Defence"
+      },
+      "PIB-2331222": {
+        "classification": "other",
+        "department": "Prime Minister's Office"
+      },
+      "PIB-2331224": {
+        "classification": "other",
+        "department": "Ministry of Minority Affairs"
+      },
+      "PIB-2331227": {
+        "classification": "other",
+        "department": "President's Secretariat"
+      },
+      "PIB-2331230": {
+        "classification": "other",
+        "department": "Ministry of Coal"
+      },
       "PIB-2331235": {
         "classification": "other",
         "department": "Ministry of Road Transport & Highways"
       },
+      "PIB-2331238": {
+        "classification": "other",
+        "department": "President's Secretariat"
+      },
       "PIB-2331246": {
+        "classification": "other",
+        "department": "Ministry of Home Affairs"
+      },
+      "PIB-2331258": {
+        "classification": "other",
+        "department": "Prime Minister's Office"
+      },
+      "PIB-2331268": {
+        "classification": "other",
+        "department": "Ministry of Defence"
+      },
+      "PIB-2331287": {
+        "classification": "other",
+        "department": "Ministry of Environment, Forest and Climate Change"
+      },
+      "PIB-2331297": {
+        "classification": "other",
+        "department": "Ministry of Railways"
+      },
+      "PIB-2331298": {
+        "classification": "other",
+        "department": "Ministry of Finance"
+      },
+      "PIB-2331312": {
+        "classification": "other",
+        "department": "Ministry of Home Affairs"
+      },
+      "PIB-2331362": {
         "classification": "other",
         "department": "Ministry of Home Affairs"
       }
