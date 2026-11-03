@@ -4,6 +4,25 @@
   "items": [
     {
       "category": "Modification",
+      "description": "Loft Orbital Solutions Inc.; Call sign/Auth ID: S3181",
+      "first_seen_at": "2026-11-03T23:29:40.449284+00:00",
+      "guid": "SAT-MOD-20261103-00429",
+      "metadata": {
+        "applicant": "Loft Orbital Solutions Inc.",
+        "call_sign": "S3181",
+        "file_number": "SAT-MOD-20261103-00429",
+        "filing_type": "MOD",
+        "record_id": "52a8170acf5053107cd9f9c41f851c1c",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-11-03T21:35:44+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20261103-00429 \u2014 Loft Orbital Solutions Inc. \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20261103-00429"
+    },
+    {
+      "category": "Modification",
       "description": "Viasat, Inc.; Call sign/Auth ID: S2747",
       "first_seen_at": "2026-11-03T01:03:57.367318+00:00",
       "guid": "SAT-MOD-20261014-00390",
@@ -39,6 +58,25 @@
       "source_id": "fcc_icfs",
       "title": "SAT-MOD-20261030-00421 \u2014 Planet Labs PBC \u2014 Modification",
       "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20261030-00421"
+    },
+    {
+      "category": "Amendment to PDR/PPL",
+      "description": "ASTRA (GB) Limited; Call sign/Auth ID: S2935",
+      "first_seen_at": "2026-11-03T23:29:40.449284+00:00",
+      "guid": "SAT-APL-20261023-00410",
+      "metadata": {
+        "applicant": "ASTRA (GB) Limited",
+        "call_sign": "S2935",
+        "file_number": "SAT-APL-20261023-00410",
+        "filing_type": "APL",
+        "record_id": "e45b65ee93c89b102591081d48373cbe",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-10-29T20:25:12+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-APL-20261023-00410 \u2014 ASTRA (GB) Limited \u2014 Amendment to PDR/PPL",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-APL-20261023-00410"
     },
     {
       "category": "Amendment",

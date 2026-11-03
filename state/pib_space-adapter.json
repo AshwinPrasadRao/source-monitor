@@ -4105,6 +4105,50 @@
         "classification": "other",
         "department": "NITI Aayog"
       },
+      "PIB-2332148": {
+        "classification": "other",
+        "department": "Ministry of Defence"
+      },
+      "PIB-2332151": {
+        "classification": "other",
+        "department": "Ministry of Micro,Small & Medium Enterprises"
+      },
+      "PIB-2332152": {
+        "classification": "other",
+        "department": "NITI Aayog"
+      },
+      "PIB-2332168": {
+        "classification": "other",
+        "department": "Ministry of Youth Affairs and Sports"
+      },
+      "PIB-2332169": {
+        "classification": "other",
+        "department": "Ministry of Defence"
+      },
+      "PIB-2332174": {
+        "classification": "other",
+        "department": "Ministry of Fisheries, Animal Husbandry & Dairying"
+      },
+      "PIB-2332175": {
+        "classification": "other",
+        "department": "Ministry of Defence"
+      },
+      "PIB-2332176": {
+        "classification": "other",
+        "department": "Ministry of Health and Family Welfare"
+      },
+      "PIB-2332184": {
+        "classification": "other",
+        "department": "Ministry of Defence"
+      },
+      "PIB-2332192": {
+        "classification": "other",
+        "department": "Ministry of Health and Family Welfare"
+      },
+      "PIB-2332200": {
+        "classification": "other",
+        "department": "Ministry of Social Justice & Empowerment"
+      },
       "PIB-2332205": {
         "classification": "other",
         "department": "Ministry of Information & Broadcasting"
@@ -4112,6 +4156,34 @@
       "PIB-2332220": {
         "classification": "other",
         "department": "Ministry of Science & Technology"
+      },
+      "PIB-2332241": {
+        "classification": "other",
+        "department": "Ministry of Labour & Employment"
+      },
+      "PIB-2332247": {
+        "classification": "other",
+        "department": "Ministry of Fisheries, Animal Husbandry & Dairying"
+      },
+      "PIB-2332256": {
+        "classification": "other",
+        "department": "Ministry of Social Justice & Empowerment"
+      },
+      "PIB-2332260": {
+        "classification": "other",
+        "department": "Ministry of Ports, Shipping and Waterways"
+      },
+      "PIB-2332276": {
+        "classification": "other",
+        "department": "Ministry of Youth Affairs and Sports"
+      },
+      "PIB-2332277": {
+        "classification": "other",
+        "department": "Ministry of Home Affairs"
+      },
+      "PIB-2332293": {
+        "classification": "other",
+        "department": "Ministry of New and Renewable Energy"
       }
     }
   },
