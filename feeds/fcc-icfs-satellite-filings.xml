@@ -8,7 +8,23 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Oct 2026 22:50:58 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 01:03:57 +0000</lastBuildDate>
+    <item>
+      <title>SAT-MOD-20261014-00390 — Viasat, Inc. — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20261014-00390</link>
+      <description>Viasat, Inc.; Call sign/Auth ID: S2747</description>
+      <guid isPermaLink="false">SAT-MOD-20261014-00390</guid>
+      <category>Modification</category>
+      <pubDate>Mon, 02 Nov 2026 23:06:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20261030-00421 — Planet Labs PBC — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20261030-00421</link>
+      <description>Planet Labs PBC; Call sign/Auth ID: S3152</description>
+      <guid isPermaLink="false">SAT-MOD-20261030-00421</guid>
+      <category>Modification</category>
+      <pubDate>Mon, 02 Nov 2026 22:28:09 +0000</pubDate>
+    </item>
     <item>
       <title>SAT-AMD-20261023-00410 — ASTRA (GB) Limited — Amendment</title>
       <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-AMD-20261023-00410</link>

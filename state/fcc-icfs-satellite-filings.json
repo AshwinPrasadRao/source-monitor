@@ -3,6 +3,44 @@
   "feed_id": "fcc-icfs-satellite-filings",
   "items": [
     {
+      "category": "Modification",
+      "description": "Viasat, Inc.; Call sign/Auth ID: S2747",
+      "first_seen_at": "2026-11-03T01:03:57.367318+00:00",
+      "guid": "SAT-MOD-20261014-00390",
+      "metadata": {
+        "applicant": "Viasat, Inc.",
+        "call_sign": "S2747",
+        "file_number": "SAT-MOD-20261014-00390",
+        "filing_type": "MOD",
+        "record_id": "f891ffefcfff47104470b6770f851ce8",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-11-02T23:06:06+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20261014-00390 \u2014 Viasat, Inc. \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20261014-00390"
+    },
+    {
+      "category": "Modification",
+      "description": "Planet Labs PBC; Call sign/Auth ID: S3152",
+      "first_seen_at": "2026-11-03T01:03:57.367318+00:00",
+      "guid": "SAT-MOD-20261030-00421",
+      "metadata": {
+        "applicant": "Planet Labs PBC",
+        "call_sign": "S3152",
+        "file_number": "SAT-MOD-20261030-00421",
+        "filing_type": "MOD",
+        "record_id": "447027f8cf905b10a015fb642f851c4e",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-11-02T22:28:09+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20261030-00421 \u2014 Planet Labs PBC \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20261030-00421"
+    },
+    {
       "category": "Amendment",
       "description": "ASTRA (GB) Limited; Call sign/Auth ID: S2935",
       "first_seen_at": "2026-10-29T22:50:58.482581+00:00",
