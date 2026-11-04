@@ -3,6 +3,34 @@
   "feed_id": "drdo-space-tech",
   "items": [
     {
+      "category": "PIB official release",
+      "description": null,
+      "first_seen_at": "2026-11-04T13:27:29.526123+00:00",
+      "guid": "PIB-2330447",
+      "metadata": {
+        "coverage": "partial",
+        "publisher": "Press Information Bureau"
+      },
+      "published_at": "2026-10-30T00:00:00+00:00",
+      "source_id": "drdo",
+      "title": "DRDO leads thematic session on \u2018Semiconductors & Next-Generation Chips\u2019 and showcases advanced technologies at ESTIC 2026",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2330447&lang=1&reg=3"
+    },
+    {
+      "category": "PIB official release",
+      "description": null,
+      "first_seen_at": "2026-11-04T13:27:29.526123+00:00",
+      "guid": "PIB-2310384",
+      "metadata": {
+        "coverage": "partial",
+        "publisher": "Press Information Bureau"
+      },
+      "published_at": "2026-09-15T00:00:00+00:00",
+      "source_id": "drdo",
+      "title": "\u2018VIMARSH\u2019 DRDO-Industry Synergy Meet: Raksha Mantri unveils key policy initiatives to empower MSMEs & start-ups and launches framework to share software source codes with licensee industries",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2310384&lang=1&reg=3"
+    },
+    {
       "category": "Press Release",
       "description": null,
       "first_seen_at": "2026-09-03T06:46:43.446843+00:00",
@@ -12,6 +40,34 @@
       "source_id": "drdo",
       "title": "Seven CSIR Technologies Licensed to Industry; Bharatiya Nirdeshak Dravyas Released and Quantum Sensing Components Delivered to DRDO",
       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2273706&reg=48&lang=1"
+    },
+    {
+      "category": "PIB official release",
+      "description": null,
+      "first_seen_at": "2026-11-04T13:27:29.526123+00:00",
+      "guid": "PIB-2251608",
+      "metadata": {
+        "coverage": "partial",
+        "publisher": "Press Information Bureau"
+      },
+      "published_at": "2026-04-13T00:00:00+00:00",
+      "source_id": "drdo",
+      "title": "DRDO to showcase cutting edge tech & Aatmanirbhar Bharat initiatives during mega exhibition at Motihari, Bihar",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2251608&lang=1&reg=3"
+    },
+    {
+      "category": "PIB official release",
+      "description": null,
+      "first_seen_at": "2026-11-04T13:27:29.526123+00:00",
+      "guid": "PIB-2210663",
+      "metadata": {
+        "coverage": "partial",
+        "publisher": "Press Information Bureau"
+      },
+      "published_at": "2026-01-01T00:00:00+00:00",
+      "source_id": "drdo",
+      "title": "DRDO celebrates 68th Foundation Day",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2210663&lang=1&reg=3"
     }
   ],
   "previous_visible_count": 20,

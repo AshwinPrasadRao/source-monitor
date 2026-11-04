@@ -1,13 +1,4 @@
 {
-  "outages": {
-    "drdo": {
-      "last_alerted_at": "2026-10-29T22:50:59.855965+00:00",
-      "started_at": "2026-10-20T21:40:44Z"
-    },
-    "nsil": {
-      "last_alerted_at": "2026-10-31T21:42:45.076085+00:00",
-      "started_at": "2026-10-31T21:42:45.076085+00:00"
-    }
-  },
+  "outages": {},
   "schema_version": 1
 }

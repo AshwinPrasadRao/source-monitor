@@ -3,6 +3,86 @@
   "feed_id": "nsil-procurement",
   "items": [
     {
+      "category": "Active tender",
+      "description": "Tender ID: 2026_NSIL_296767_1. Closing: 2026-11-25T14:30:00+05:30. Open NewSpace India Limited in the official directory to view the tender.",
+      "first_seen_at": "2026-11-04T13:25:59.018787+00:00",
+      "guid": "2026_NSIL_296767_1",
+      "metadata": {
+        "coverage": "active tenders only",
+        "end_date": "2026-11-25T14:30:00+05:30",
+        "publisher": "Government eProcurement System",
+        "tender_id": "2026_NSIL_296767_1"
+      },
+      "published_at": "2026-11-03T17:00:00+05:30",
+      "source_id": "nsil",
+      "title": "Assembly and Testing of ISRO Ball Lock Satellite Separation system (IBL 298)",
+      "url": "https://etenders.gov.in/eprocure/app?page=FrontEndTendersByOrganisation&service=page"
+    },
+    {
+      "category": "Active tender",
+      "description": "Tender ID: 2026_NSIL_296717_1. Closing: 2026-11-18T14:30:00+05:30. Open NewSpace India Limited in the official directory to view the tender.",
+      "first_seen_at": "2026-11-04T13:25:59.018787+00:00",
+      "guid": "2026_NSIL_296717_1",
+      "metadata": {
+        "coverage": "active tenders only",
+        "end_date": "2026-11-18T14:30:00+05:30",
+        "publisher": "Government eProcurement System",
+        "tender_id": "2026_NSIL_296717_1"
+      },
+      "published_at": "2026-11-03T12:45:00+05:30",
+      "source_id": "nsil",
+      "title": "Manufacture and supply of Wedge Block for SDLA",
+      "url": "https://etenders.gov.in/eprocure/app?page=FrontEndTendersByOrganisation&service=page"
+    },
+    {
+      "category": "Active tender",
+      "description": "Tender ID: 2026_NSIL_296225_1. Closing: 2026-11-16T14:30:00+05:30. Open NewSpace India Limited in the official directory to view the tender.",
+      "first_seen_at": "2026-11-04T13:25:59.018787+00:00",
+      "guid": "2026_NSIL_296225_1",
+      "metadata": {
+        "coverage": "active tenders only",
+        "end_date": "2026-11-16T14:30:00+05:30",
+        "publisher": "Government eProcurement System",
+        "tender_id": "2026_NSIL_296225_1"
+      },
+      "published_at": "2026-10-29T16:25:00+05:30",
+      "source_id": "nsil",
+      "title": "Realization and supply of components and sub assembly for SSLV Propulsion Bay Ring",
+      "url": "https://etenders.gov.in/eprocure/app?page=FrontEndTendersByOrganisation&service=page"
+    },
+    {
+      "category": "Active tender",
+      "description": "Tender ID: 2026_NSIL_295382_1. Closing: 2026-11-09T14:30:00+05:30. Open NewSpace India Limited in the official directory to view the tender.",
+      "first_seen_at": "2026-11-04T13:25:59.018787+00:00",
+      "guid": "2026_NSIL_295382_1",
+      "metadata": {
+        "coverage": "active tenders only",
+        "end_date": "2026-11-09T14:30:00+05:30",
+        "publisher": "Government eProcurement System",
+        "tender_id": "2026_NSIL_295382_1"
+      },
+      "published_at": "2026-10-22T17:45:00+05:30",
+      "source_id": "nsil",
+      "title": "Supply of Phenyl Beta Napthyl Amine (PBNA)",
+      "url": "https://etenders.gov.in/eprocure/app?page=FrontEndTendersByOrganisation&service=page"
+    },
+    {
+      "category": "Active tender",
+      "description": "Tender ID: 2026_NSIL_295300_1. Closing: 2026-11-09T14:30:00+05:30. Open NewSpace India Limited in the official directory to view the tender.",
+      "first_seen_at": "2026-11-04T13:25:59.018787+00:00",
+      "guid": "2026_NSIL_295300_1",
+      "metadata": {
+        "coverage": "active tenders only",
+        "end_date": "2026-11-09T14:30:00+05:30",
+        "publisher": "Government eProcurement System",
+        "tender_id": "2026_NSIL_295300_1"
+      },
+      "published_at": "2026-10-22T15:40:00+05:30",
+      "source_id": "nsil",
+      "title": "Supply of Tri Methylol Propane (TMP)",
+      "url": "https://etenders.gov.in/eprocure/app?page=FrontEndTendersByOrganisation&service=page"
+    },
+    {
       "category": "Request for Proposal (RFP)",
       "description": "RFP for Procurement of \"Annual Subscription of Satellite Based Surveillance System based on Maritime Domin Awareness (MDA) Solution Tender Reference Number in CPPP - NSIL/26-27/RFP/EO-MDA/01\u200b Tender ID: 2026_NSIL_293958_1\u200b CPPP Link - https://etenders.gov.in/eprocure/app | Closing date: 2026-10-14T14:00:00+05:30 | Status: Close",
       "first_seen_at": "2026-10-09T13:28:20.261033+00:00",
@@ -49,27 +129,20 @@
       "url": "https://www.nsilindia.co.in/sites/default/files/NIT%20%281%29.pdf"
     },
     {
-      "category": "Request for Proposal (RFP)",
-      "description": "Supply, installation and commissioning of Ka-band Gateways for GEO satellites Tender Reference Number in CPPP - NSIL/GS/LMA/2026-01 Tender ID: 2026_NSIL_291567_1 CPPP Link - https://etenders.gov.in/eprocure/app Pre-Bid Meeting October 1 , 2026 | 15:00 Hrs to 16:00 Hrs IST | Closing date: 2026-10-12T16:00:00+05:30 | Status: Close",
+      "category": "Active tender",
+      "description": "Tender ID: 2026_NSIL_291567_1. Closing: 2026-11-05T17:00:00+05:30. Open NewSpace India Limited in the official directory to view the tender.",
       "first_seen_at": "2026-09-21T12:55:12.952463+00:00",
       "guid": "2026_NSIL_291567_1",
       "metadata": {
-        "attachments": [
-          {
-            "title": "NIT",
-            "url": "https://www.nsilindia.co.in/sites/default/files/NIT_3.pdf"
-          }
-        ],
-        "end_date": "2026-10-12T16:00:00+05:30",
-        "reference": "NSIL/GS/LMA/2026-01",
-        "start_date": "2026-09-21T16:30:00+05:30",
-        "status": "Close",
+        "coverage": "active tenders only",
+        "end_date": "2026-11-05T17:00:00+05:30",
+        "publisher": "Government eProcurement System",
         "tender_id": "2026_NSIL_291567_1"
       },
       "published_at": "2026-09-21T16:30:00+05:30",
       "source_id": "nsil",
-      "title": "Request for Proposal (RFP) \u2014 Supply, installation and commissioning of Ka-band Gateways for GEO satellites",
-      "url": "https://www.nsilindia.co.in/sites/default/files/NIT_3.pdf"
+      "title": "Supply, Installation and commissioning of Ka-band Gateways for GEO satellites",
+      "url": "https://etenders.gov.in/eprocure/app?page=FrontEndTendersByOrganisation&service=page"
     },
     {
       "category": "Request for Proposal (RFP)",

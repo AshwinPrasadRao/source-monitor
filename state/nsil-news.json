@@ -58,6 +58,48 @@
       "url": "https://www.nsilindia.co.in/news-details/785"
     },
     {
+      "category": "PIB official release",
+      "description": null,
+      "first_seen_at": "2026-11-04T13:25:59.018787+00:00",
+      "guid": "PIB-2298178",
+      "metadata": {
+        "coverage": "partial",
+        "publisher": "Press Information Bureau"
+      },
+      "published_at": "2026-08-12T00:00:00+00:00",
+      "source_id": "nsil",
+      "title": "PARLIAMENT QUESTION: SPACE STARTUPS",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2298178&lang=1&reg=3"
+    },
+    {
+      "category": "PIB official release",
+      "description": null,
+      "first_seen_at": "2026-11-04T13:25:59.018787+00:00",
+      "guid": "PIB-2291825",
+      "metadata": {
+        "coverage": "partial",
+        "publisher": "Press Information Bureau"
+      },
+      "published_at": "2026-07-30T00:00:00+00:00",
+      "source_id": "nsil",
+      "title": "PARLIAMENT QUESTION: GLOBAL COMPETITIVENESS OF INDIA\u2019S SPACE PROGRAMME",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2291825&lang=1&reg=3"
+    },
+    {
+      "category": "PIB official release",
+      "description": null,
+      "first_seen_at": "2026-11-04T13:25:59.018787+00:00",
+      "guid": "PIB-2288300",
+      "metadata": {
+        "coverage": "partial",
+        "publisher": "Press Information Bureau"
+      },
+      "published_at": "2026-07-23T00:00:00+00:00",
+      "source_id": "nsil",
+      "title": "PARLIAMENT QUESTION: INDIA\u2019S SPACE LAUNCH PROGRAMME",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2288300&lang=1&reg=3"
+    },
+    {
       "category": "News",
       "description": null,
       "first_seen_at": "2026-09-02T12:51:48.947469+00:00",
@@ -78,6 +120,34 @@
       "source_id": "nsil",
       "title": "Technology Transfer of ISRO Navigation Sensors to Industry",
       "url": "https://www.nsilindia.co.in/news-details/769"
+    },
+    {
+      "category": "PIB official release",
+      "description": null,
+      "first_seen_at": "2026-11-04T13:25:59.018787+00:00",
+      "guid": "PIB-2248423",
+      "metadata": {
+        "coverage": "partial",
+        "publisher": "Press Information Bureau"
+      },
+      "published_at": "2026-04-02T00:00:00+00:00",
+      "source_id": "nsil",
+      "title": "PARLIAMENT QUESTION: PRIVATE SECTOR IN SPACE RESEARCH",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2248423&lang=1&reg=3"
+    },
+    {
+      "category": "PIB official release",
+      "description": null,
+      "first_seen_at": "2026-11-04T13:25:59.018787+00:00",
+      "guid": "PIB-2247712",
+      "metadata": {
+        "coverage": "partial",
+        "publisher": "Press Information Bureau"
+      },
+      "published_at": "2026-04-01T00:00:00+00:00",
+      "source_id": "nsil",
+      "title": "PARLIAMENT QUESTION: PSLV AND SSLV PROGRAMMES",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2247712&lang=1&reg=3"
     },
     {
       "category": "News",
@@ -113,6 +183,20 @@
       "url": "https://www.nsilindia.co.in/news-details/763"
     },
     {
+      "category": "PIB official release",
+      "description": null,
+      "first_seen_at": "2026-11-04T13:25:59.018787+00:00",
+      "guid": "PIB-2227023",
+      "metadata": {
+        "coverage": "partial",
+        "publisher": "Press Information Bureau"
+      },
+      "published_at": "2026-02-12T00:00:00+00:00",
+      "source_id": "nsil",
+      "title": "PARLIAMENT QUESTION: EXPANDING SATELLITE LAUNCH SERVICES",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227023&lang=1&reg=3"
+    },
+    {
       "category": "News",
       "description": null,
       "first_seen_at": "2026-09-02T12:51:48.947469+00:00",
@@ -146,6 +230,20 @@
       "url": "https://www.nsilindia.co.in/news-details/757"
     },
     {
+      "category": "PIB official release",
+      "description": null,
+      "first_seen_at": "2026-11-04T13:25:59.018787+00:00",
+      "guid": "PIB-2223136",
+      "metadata": {
+        "coverage": "partial",
+        "publisher": "Press Information Bureau"
+      },
+      "published_at": "2026-02-04T00:00:00+00:00",
+      "source_id": "nsil",
+      "title": "STRENGTHENING NATIONAL SPACE INFRASTRUCTURE",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2223136&lang=1&reg=3"
+    },
+    {
       "category": "News",
       "description": null,
       "first_seen_at": "2026-09-02T12:51:48.947469+00:00",
@@ -177,6 +275,104 @@
       "source_id": "nsil",
       "title": "Launch of BlueBird Block-2 ccommunication satellite of AST Space Mobile, USA on-board ISRO\u2019s LVM3 launcher",
       "url": "https://www.nsilindia.co.in/news-details/751"
+    },
+    {
+      "category": "PIB official release",
+      "description": null,
+      "first_seen_at": "2026-11-04T13:25:59.018787+00:00",
+      "guid": "PIB-2208090",
+      "metadata": {
+        "coverage": "partial",
+        "publisher": "Press Information Bureau"
+      },
+      "published_at": "2025-12-24T00:00:00+00:00",
+      "source_id": "nsil",
+      "title": "LVM3 Demonstrates World-Class Reliability with Successful Deployment of Heaviest Payload: Dr Jitendra Singh",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2208090&lang=1&reg=3"
+    },
+    {
+      "category": "PIB official release",
+      "description": null,
+      "first_seen_at": "2026-11-04T13:25:59.018787+00:00",
+      "guid": "PIB-2205840",
+      "metadata": {
+        "coverage": "partial",
+        "publisher": "Press Information Bureau"
+      },
+      "published_at": "2025-12-18T00:00:00+00:00",
+      "source_id": "nsil",
+      "title": "PARLIAMENT QUESTION: INDIAN SPACE PROGRAMME\u2019S VISION AND CHALLENGES",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2205840&lang=1&reg=3"
+    },
+    {
+      "category": "PIB official release",
+      "description": null,
+      "first_seen_at": "2026-11-04T13:25:59.018787+00:00",
+      "guid": "PIB-2205387",
+      "metadata": {
+        "coverage": "partial",
+        "publisher": "Press Information Bureau"
+      },
+      "published_at": "2025-12-17T00:00:00+00:00",
+      "source_id": "nsil",
+      "title": "Department of Space - Year End Review 2025",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2205387&lang=1&reg=3"
+    },
+    {
+      "category": "PIB official release",
+      "description": null,
+      "first_seen_at": "2026-11-04T13:25:59.018787+00:00",
+      "guid": "PIB-2202458",
+      "metadata": {
+        "coverage": "partial",
+        "publisher": "Press Information Bureau"
+      },
+      "published_at": "2025-12-11T00:00:00+00:00",
+      "source_id": "nsil",
+      "title": "PARLIAMENT QUESTION: TECHNOLOGY TRANSFER TO INDUSTRY",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2202458&lang=1&reg=3"
+    },
+    {
+      "category": "PIB official release",
+      "description": null,
+      "first_seen_at": "2026-11-04T13:25:59.018787+00:00",
+      "guid": "PIB-2201529",
+      "metadata": {
+        "coverage": "partial",
+        "publisher": "Press Information Bureau"
+      },
+      "published_at": "2025-12-10T00:00:00+00:00",
+      "source_id": "nsil",
+      "title": "PARLIAMENT QUESTION: TECHNOLOGY TRANSFERRED AGREEMENT",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2201529&lang=1&reg=3"
+    },
+    {
+      "category": "PIB official release",
+      "description": null,
+      "first_seen_at": "2026-11-04T13:25:59.018787+00:00",
+      "guid": "PIB-2198759",
+      "metadata": {
+        "coverage": "partial",
+        "publisher": "Press Information Bureau"
+      },
+      "published_at": "2025-12-04T00:00:00+00:00",
+      "source_id": "nsil",
+      "title": "PARLIAMENT QUESTION: LAUNCH OF FOREIGN AND DOMESTIC SATELLITES",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2198759&lang=1&reg=3"
+    },
+    {
+      "category": "PIB official release",
+      "description": null,
+      "first_seen_at": "2026-11-04T13:25:59.018787+00:00",
+      "guid": "PIB-2198757",
+      "metadata": {
+        "coverage": "partial",
+        "publisher": "Press Information Bureau"
+      },
+      "published_at": "2025-12-04T00:00:00+00:00",
+      "source_id": "nsil",
+      "title": "PARLIAMENT QUESTION: ISRO\u2019s UPCOMING MISSIONS AND GAGANYAAN PROGRAMME",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2198757&lang=1&reg=3"
     },
     {
       "category": "News",

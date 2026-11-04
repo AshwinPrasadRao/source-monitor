@@ -6,7 +6,8 @@
       "feed_title": "IN-SPACe Announcements",
       "item_count": 24,
       "last_new_item_time": "2026-10-31T12:40:36.197867+00:00",
-      "last_successful_check": "2026-11-04T02:03:26.617087+00:00",
+      "last_partial_check": null,
+      "last_successful_check": "2026-11-04T13:29:53.504534+00:00",
       "official_upstream_urls": [
         "https://www.inspace.gov.in/inspace",
         "https://www.inspace.gov.in/api/now/sp/page?id=inspace_index"
@@ -22,7 +23,8 @@
       "feed_title": "IN-SPACe Updates",
       "item_count": 9,
       "last_new_item_time": "2026-09-03T07:00:14.737163+00:00",
-      "last_successful_check": "2026-11-04T02:03:26.617087+00:00",
+      "last_partial_check": null,
+      "last_successful_check": "2026-11-04T13:29:53.504534+00:00",
       "official_upstream_urls": [
         "https://www.inspace.gov.in/inspace",
         "https://www.inspace.gov.in/api/now/sp/page?id=inspace_index"
@@ -38,7 +40,8 @@
       "feed_title": "PIB \u2014 Department of Space",
       "item_count": 2,
       "last_new_item_time": "2026-10-17T15:39:45.286405+00:00",
-      "last_successful_check": "2026-11-04T02:03:26.617087+00:00",
+      "last_partial_check": null,
+      "last_successful_check": "2026-11-04T13:29:53.504534+00:00",
       "official_upstream_urls": [
         "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=1&reg=1"
       ],
@@ -48,36 +51,48 @@
       "warnings": []
     },
     {
-      "error": "Client error '404 Not Found' for url 'https://www.nsilindia.co.in/news'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+      "error": null,
       "feed_id": "nsil-news",
       "feed_title": "NSIL News",
-      "item_count": 17,
-      "last_new_item_time": "2026-10-19T13:27:14.018125+00:00",
+      "item_count": 31,
+      "last_new_item_time": "2026-11-04T13:25:59.018787+00:00",
+      "last_partial_check": "2026-11-04T13:29:53.504534+00:00",
       "last_successful_check": "2026-10-31T12:43:11.391635+00:00",
       "official_upstream_urls": [
         "https://www.nsilindia.co.in/news",
-        "https://www.nsilindia.co.in/tenders"
+        "https://www.nsilindia.co.in/tenders",
+        "https://www.pib.gov.in/allRel.aspx?lang=1&reg=3",
+        "https://etenders.gov.in/eprocure/app?page=FrontEndTendersByOrganisation&service=page"
       ],
-      "retrieval_mode": "html",
+      "retrieval_mode": "pib+etenders-partial",
       "rss_url": "https://ashwinprasadrao.github.io/source-monitor/feeds/nsil-news.xml",
-      "status": "failed",
-      "warnings": []
+      "status": "warning",
+      "warnings": [
+        "NSIL primary unavailable: Client error '404 Not Found' for url 'https://www.nsilindia.co.in/news'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+        "Partial coverage: PIB Department of Space releases mentioning NSIL; government eTender active NSIL tenders only. Corporate news, closed tenders and other procurement notices may be missing."
+      ]
     },
     {
-      "error": "Client error '404 Not Found' for url 'https://www.nsilindia.co.in/news'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+      "error": null,
       "feed_id": "nsil-procurement",
       "feed_title": "NSIL Procurement",
-      "item_count": 20,
-      "last_new_item_time": "2026-10-09T13:28:20.261033+00:00",
+      "item_count": 25,
+      "last_new_item_time": "2026-11-04T13:25:59.018787+00:00",
+      "last_partial_check": "2026-11-04T13:29:53.504534+00:00",
       "last_successful_check": "2026-10-31T12:43:11.391635+00:00",
       "official_upstream_urls": [
         "https://www.nsilindia.co.in/news",
-        "https://www.nsilindia.co.in/tenders"
+        "https://www.nsilindia.co.in/tenders",
+        "https://www.pib.gov.in/allRel.aspx?lang=1&reg=3",
+        "https://etenders.gov.in/eprocure/app?page=FrontEndTendersByOrganisation&service=page"
       ],
-      "retrieval_mode": "html",
+      "retrieval_mode": "pib+etenders-partial",
       "rss_url": "https://ashwinprasadrao.github.io/source-monitor/feeds/nsil-procurement.xml",
-      "status": "failed",
-      "warnings": []
+      "status": "warning",
+      "warnings": [
+        "NSIL primary unavailable: Client error '404 Not Found' for url 'https://www.nsilindia.co.in/news'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+        "Partial coverage: PIB Department of Space releases mentioning NSIL; government eTender active NSIL tenders only. Corporate news, closed tenders and other procurement notices may be missing."
+      ]
     },
     {
       "error": null,
@@ -85,7 +100,8 @@
       "feed_title": "ISRO Press Releases",
       "item_count": 4,
       "last_new_item_time": "2026-09-06T20:28:07.442990+00:00",
-      "last_successful_check": "2026-11-04T02:03:26.617087+00:00",
+      "last_partial_check": null,
+      "last_successful_check": "2026-11-04T13:29:53.504534+00:00",
       "official_upstream_urls": [
         "https://www.isro.gov.in/Press.html"
       ],
@@ -100,7 +116,8 @@
       "feed_title": "iDEX Notices",
       "item_count": 5,
       "last_new_item_time": "2026-09-03T06:46:00.271880+00:00",
-      "last_successful_check": "2026-11-04T02:03:26.617087+00:00",
+      "last_partial_check": null,
+      "last_successful_check": "2026-11-04T13:29:53.504534+00:00",
       "official_upstream_urls": [
         "https://idex.gov.in/notices",
         "https://www.idex.gov.in/",
@@ -117,7 +134,8 @@
       "feed_title": "iDEX News Updates",
       "item_count": 5,
       "last_new_item_time": "2026-09-03T06:46:00.271880+00:00",
-      "last_successful_check": "2026-11-04T02:03:26.617087+00:00",
+      "last_partial_check": null,
+      "last_successful_check": "2026-11-04T13:29:53.504534+00:00",
       "official_upstream_urls": [
         "https://idex.gov.in/notices",
         "https://www.idex.gov.in/",
@@ -129,21 +147,26 @@
       "warnings": []
     },
     {
-      "error": "GET https://drdo.gov.in/drdo/documents/press-release: ConnectTimeout: timed out",
+      "error": null,
       "feed_id": "drdo-space-tech",
       "feed_title": "DRDO \u2014 Space Technology and Foresight",
-      "item_count": 1,
-      "last_new_item_time": "2026-09-03T06:46:43.446843+00:00",
+      "item_count": 5,
+      "last_new_item_time": "2026-11-04T13:27:29.526123+00:00",
+      "last_partial_check": "2026-11-04T13:29:53.504534+00:00",
       "last_successful_check": "2026-10-20T17:15:28.862690+00:00",
       "official_upstream_urls": [
         "https://drdo.gov.in/drdo/documents/press-release",
         "https://drdo.gov.in/drdo/en/documents/press-release/archive",
-        "https://drdo.gov.in/drdo/en/archive"
+        "https://drdo.gov.in/drdo/en/archive",
+        "https://www.pib.gov.in/allRel.aspx?lang=1&reg=3"
       ],
-      "retrieval_mode": "html",
+      "retrieval_mode": "pib-partial",
       "rss_url": "https://ashwinprasadrao.github.io/source-monitor/feeds/drdo-space-tech.xml",
-      "status": "failed",
-      "warnings": []
+      "status": "warning",
+      "warnings": [
+        "DRDO primary unavailable: timed out",
+        "Partial coverage: PIB Ministry of Defence releases naming DRDO and matching the space filter; not the complete DRDO archive."
+      ]
     },
     {
       "error": null,
@@ -151,7 +174,8 @@
       "feed_title": "Parliament Standing Committee \u2014 Department of Space",
       "item_count": 6,
       "last_new_item_time": "2026-09-03T06:46:06.841444+00:00",
-      "last_successful_check": "2026-11-04T02:03:26.617087+00:00",
+      "last_partial_check": null,
+      "last_successful_check": "2026-11-04T13:29:53.504534+00:00",
       "official_upstream_urls": [
         "https://sansad.in/rs/pressRelease",
         "https://sansad.in/rs/committees/committee-meetings",
@@ -169,7 +193,8 @@
       "feed_title": "FCC ICFS \u2014 Satellite Space Station Filings",
       "item_count": 129,
       "last_new_item_time": "2026-11-03T23:29:40.449284+00:00",
-      "last_successful_check": "2026-11-04T02:03:26.617087+00:00",
+      "last_partial_check": null,
+      "last_successful_check": "2026-11-04T13:29:53.504534+00:00",
       "official_upstream_urls": [
         "https://fccprod.servicenowservices.com/icfs"
       ],
@@ -179,6 +204,6 @@
       "warnings": []
     }
   ],
-  "generated_at": "2026-11-04T02:03:26.617087+00:00",
+  "generated_at": "2026-11-04T13:29:53.504534+00:00",
   "project": "The Orrery Source Monitor"
 }
