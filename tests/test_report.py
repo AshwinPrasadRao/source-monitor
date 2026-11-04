@@ -47,14 +47,17 @@ def outage_results():
     return results
 
 
+@pytest.mark.parametrize("kind", ["upstream", "content"])
 def test_report_persists_outage_then_emits_warning_without_mutating_source_health(
-    tmp_path, monkeypatch, capsys,
+    tmp_path, monkeypatch, capsys, kind,
 ):
     results_path = tmp_path / "results.json"
     state_path = tmp_path / "alerts.json"
     output = tmp_path / "output.txt"
     summary = tmp_path / "summary.md"
-    results_path.write_text(json.dumps(outage_results()))
+    results = outage_results()
+    next(r for r in results if r["source_id"] == "drdo")["error_kind"] = kind
+    results_path.write_text(json.dumps(results))
     before_results = results_path.read_bytes()
     monkeypatch.setenv("GITHUB_OUTPUT", str(output))
     monkeypatch.setenv("GITHUB_STEP_SUMMARY", str(summary))
@@ -80,7 +83,7 @@ def test_report_persists_outage_then_emits_warning_without_mutating_source_healt
     # History from the daily-reminder policy remains quiet even after 24 hours.
     state = json.loads(initial_state)
     yesterday = (datetime.now(UTC) - timedelta(hours=25)).isoformat()
-    state["outages"]["drdo"] = {"started_at": yesterday, "last_alerted_at": yesterday}
+    state["outages"]["drdo"].update(started_at=yesterday, last_alerted_at=yesterday)
     state_path.write_text(json.dumps(state, indent=2, sort_keys=True) + "\n")
     old_state = state_path.read_bytes()
     old_mtime = state_path.stat().st_mtime_ns

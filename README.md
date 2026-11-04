@@ -104,11 +104,14 @@ adapters, validates retained feeds, creates a Pages artifact, and commits
 generated state/feed/status changes as `Update monitored sources`. A broken
 adapter does not prevent the preserved feeds and failed health status from being
 deployed. The first upstream failure for a source fails the workflow, triggering
-the existing GitHub failure notification. Continuing upstream outages do not
-generate repeat notifications, regardless of duration. Recovery clears that
-source's outage, so a later failure alerts immediately.
-Parser, safety-check, unclassified, test, validation, and deployment failures
-always fail the workflow.
+the existing GitHub failure notification. Content rejected by a source safety
+check (such as an unrecognized listing or a collapsed record count) also alerts
+on its first occurrence. Repeating the same content error or continuing a
+connection outage does not generate more notifications, regardless of duration.
+A changed content error, a transition between connection and content failures,
+or a failure after recovery alerts immediately. Unexpected programming errors,
+unclassified errors, test, feed-validation, and deployment failures always fail
+the workflow.
 
 During a continuing outage, a successful workflow means publication completed without a
 new alert; it does not mean every source is healthy. Failed sources retain their
@@ -117,7 +120,7 @@ and appear as warnings in Actions. Every scheduled run still attempts every
 enabled source with the normal bounded retries.
 
 Notification history is committed in `state/alerts.json`. It changes only when
-an outage begins or a source recovers/is disabled. Existing notification history
+an outage begins, a content failure changes, or a source recovers/is disabled. Existing history
 is preserved, so changing the policy does not re-alert for an ongoing outage. The report
 step checks that every enabled source has exactly one result and that those
 results agree with the runner's exit status. Missing results or corrupt alert
@@ -153,6 +156,16 @@ not establish whether the sites are unavailable globally or filtering traffic.
 The earlier TLS/retry repairs did not restore these upstream connections.
 Daily reminders are now disabled by request; outage-start notifications, ongoing
 retrieval attempts, failed health status, and immediate monitor-error alerts remain.
+
+On 2026-11-04, iDEX was reachable again but its notices had moved from cards to
+tables. Its parser now recognizes the tables by their column labels, including
+the archive, and retains the existing attachment identifiers. Fixtures extracted
+from the live listings cover the redesign, changed column order, malformed
+attachments, and feed retention. Repeated content-safety failures are now tracked
+as incidents; their failed health status and data protection remain in force.
+NSIL's news and tender endpoints currently return 404 and its homepage contains
+placeholder links. No complete replacement listing was verified. NSIL and DRDO
+remain enabled and are retried; neither is reported healthy without usable data.
 
 For DoT access failures, manually run **Diagnose DoT access** in Actions (or
 `python -m orrery_monitor.diagnose_dot` locally). It compares the public endpoint

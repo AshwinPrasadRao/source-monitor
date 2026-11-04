@@ -66,6 +66,40 @@ def test_another_source_failing_alerts_even_during_an_existing_outage():
     assert set(second.continuing_outages) == {"drdo"}
 
 
+def test_content_failure_alerts_once_and_alerts_again_when_cause_changes():
+    failed = {**result("idex", kind="content"), "error": "notices: parsed zero records"}
+    first = plan_alerts([failed], None, NOW)
+    assert first.notify == {"idex": "new source content failure"}
+    for hours in (1, 24, 24 * 365):
+        repeat = plan_alerts([failed], first.state, NOW + timedelta(hours=hours))
+        assert not repeat.notify
+        assert repeat.state == first.state
+
+    changed = {**failed, "error": "news: missing required publication dates"}
+    next_failure = plan_alerts([changed], first.state, NOW + timedelta(hours=1))
+    assert next_failure.notify == {"idex": "source failure changed"}
+    assert not plan_alerts([changed], next_failure.state, NOW + timedelta(hours=2)).notify
+    recovered = plan_alerts([result("idex", "ok")], next_failure.state, NOW + timedelta(hours=3))
+    assert recovered.state["outages"] == {}
+    assert plan_alerts([changed], recovered.state, NOW + timedelta(hours=4)).notify
+
+
+def test_content_failure_is_a_new_cause_during_an_existing_connection_outage():
+    connection = plan_alerts([result("idex")], None, NOW)
+    failed = {**result("idex", kind="content"), "error": "notice listing not recognized"}
+    content = plan_alerts([failed], connection.state, NOW + timedelta(hours=1))
+    assert content.notify == {"idex": "source failure changed"}
+    assert not plan_alerts([failed], content.state, NOW + timedelta(hours=2)).notify
+    connection_again = plan_alerts([result("idex")], content.state, NOW + timedelta(hours=3))
+    assert connection_again.notify == {"idex": "source failure changed"}
+
+
+def test_content_failure_without_diagnostic_details_cannot_silence_alerts():
+    first = plan_alerts([result("idex", kind="content")], None, NOW)
+    assert first.notify == {"idex": "monitor error"}
+    assert first.state["outages"] == {}
+
+
 @pytest.mark.parametrize("kind", ["internal", None, "unknown"])
 def test_programming_and_unclassified_failures_always_alert(kind):
     previous = plan_alerts([result()], None, NOW)
@@ -93,6 +127,14 @@ def test_retired_source_does_not_leave_an_active_outage():
     {"schema_version": 1, "outages": {"drdo": {
         "started_at": NOW.isoformat(),
         "last_alerted_at": (NOW + timedelta(days=1)).isoformat(),
+    }}},
+    {"schema_version": 1, "outages": {"idex": {
+        "started_at": NOW.isoformat(), "last_alerted_at": NOW.isoformat(),
+        "error_kind": "content",
+    }}},
+    {"schema_version": 1, "outages": {"idex": {
+        "started_at": NOW.isoformat(), "last_alerted_at": NOW.isoformat(),
+        "error_kind": "internal",
     }}},
 ])
 def test_bad_saved_state_cannot_silence_alerts(prior):

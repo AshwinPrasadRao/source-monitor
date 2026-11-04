@@ -1,4 +1,4 @@
-"""Notify when an upstream outage starts, then stay quiet until recovery."""
+"""Track source outages and content failures; alert on new incidents or causes."""
 
 from __future__ import annotations
 
@@ -68,6 +68,14 @@ def plan_alerts(
         alerted = _timestamp(outage.get("last_alerted_at"))
         if not started <= alerted <= now:
             raise ValueError(f"invalid outage timestamp order for {source}")
+        # Entries written before content tracking are connection outages.
+        kind = outage.get("error_kind", "upstream")
+        if kind not in {"upstream", "content"}:
+            raise ValueError(f"invalid saved failure kind for {source}")
+        if kind == "content" and (
+            not isinstance(outage.get("error"), str) or not outage["error"]
+        ):
+            raise ValueError(f"missing saved content error for {source}")
 
     outages: dict[str, dict] = {}
     notify: dict[str, str] = {}
@@ -76,15 +84,26 @@ def plan_alerts(
         source = result["source_id"]
         if result["status"] != "failed":
             continue  # recovery resets the notification window
-        if result.get("error_kind") != "upstream":
-            # Unknown failures, parser regressions, and safety checks always alert.
+        kind = result.get("error_kind")
+        error = result.get("error")
+        if kind not in {"upstream", "content"} or (kind == "content" and not error):
+            # Programming errors and unclassified failures always alert.
             notify[source] = "monitor error"
             continue
 
         outage = previous.get(source)
-        if outage is None:
-            notify[source] = "new upstream outage"
+        same_failure = outage is not None and outage.get("error_kind", "upstream") == kind
+        if kind == "content" and same_failure:
+            same_failure = outage["error"] == error
+        if not same_failure:
+            notify[source] = (
+                "source failure changed" if outage is not None
+                else "new source content failure" if kind == "content"
+                else "new upstream outage"
+            )
             outage = {"started_at": now.isoformat(), "last_alerted_at": now.isoformat()}
+            if kind == "content":
+                outage.update(error_kind=kind, error=error)
         else:
             continuing_outages[source] = outage["started_at"]
         outages[source] = dict(outage)

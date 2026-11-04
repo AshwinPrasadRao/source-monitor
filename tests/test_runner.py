@@ -116,7 +116,8 @@ def test_parser_failure_preserves_existing_state_and_feed(tmp_path) -> None:
     ).run()
 
     assert statuses[0].status == "failed"
-    assert statuses[0].error_kind == "internal"
+    assert statuses[0].error_kind == "content"
+    assert statuses[0].error.startswith("example-feed: parsed zero records")
     assert state_path.read_bytes() == before_state
     assert feed_path.read_bytes() == before_feed
 
@@ -283,7 +284,8 @@ def test_only_remote_failures_qualify_for_outage_notification_policy(
     assert runner.run()[0].error_kind == expected_kind
 
 
-def test_quiet_repeat_outage_keeps_failed_public_status_and_saved_feed(tmp_path):
+@pytest.mark.parametrize("failure", ["network", "content"])
+def test_quiet_repeat_outage_keeps_failed_public_status_and_saved_feed(tmp_path, failure):
     source = make_source("example", "example-feed")
     config = MonitorConfig(tmp_path, "https://owner.github.io/project", 300, (source,))
     item = make_item("example", "one")
@@ -300,7 +302,10 @@ def test_quiet_repeat_outage_keeps_failed_public_status_and_saved_feed(tmp_path)
         def fetch(self, client, context):
             raise httpx.ConnectTimeout("timed out")
 
-    runner.adapters["example"] = TimeoutAdapter()
+    runner.adapters["example"] = (
+        TimeoutAdapter() if failure == "network"
+        else StaticAdapter("example", FeedBatch("example-feed", (), 0, 0))
+    )
     prior_alerts = None
     for hours in (1, 2):
         checked_at = NOW + timedelta(hours=hours)

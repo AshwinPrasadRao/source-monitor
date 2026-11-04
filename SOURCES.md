@@ -109,7 +109,7 @@ replace a satisfactory native subscription.
 
 ## NSIL
 
-- **Last manually audited:** 2026-09-03.
+- **Last manually audited:** 2026-11-04.
 - **Purpose:** keep commercial news analytically separate from procurement signals.
 - **Official URLs:** <https://www.nsilindia.co.in/news> and
   <https://www.nsilindia.co.in/tenders>.
@@ -120,6 +120,11 @@ replace a satisfactory native subscription.
 - **Initial backfill:** preceding 12 months, capped at 100 per feed.
 - **Known quirks:** tender descriptions embed CPPP IDs and may expose multiple
   documents, corrigenda, start/end dates, and status text in one row.
+- **Availability audit (2026-11-04):** `/news` and `/tenders` return HTTP 404.
+  The homepage has placeholder `#` links for news and tenders; the old `?q=`
+  routes return that same homepage rather than listings. Bare-host and `.html`
+  variants did not restore the listings. No complete substitute was verified;
+  both feeds retain their records, remain failed, and are retried each run.
 
 ## ISRO institutional press releases
 
@@ -137,12 +142,13 @@ replace a satisfactory native subscription.
 
 ## iDEX / Defence Innovation Organisation
 
-- **Last manually audited:** 2026-09-03.
+- **Last manually audited:** 2026-11-04.
 - **Purpose:** challenge launches, problem statements, results, awards, notices,
   and test/evaluation or procurement signals.
 - **Official URLs:** <https://idex.gov.in/notices> and <https://www.idex.gov.in/>.
 - **Outputs:** `feeds/idex-notices.xml`, `feeds/idex-news.xml`.
-- **Retrieval:** server-rendered notices/archive and homepage news records.
+- **Retrieval:** server-rendered notice tables (with legacy card support) and
+  news records at <https://www.idex.gov.in/bulletin/details>.
 - **Stable IDs:** official PDF/detail/bulletin identifier, otherwise date/title hash.
 - **Filtering:** no aggressive exclusions in v1.
 - **Initial backfill:** preceding 12 months, capped at 100 per feed.
@@ -153,6 +159,12 @@ replace a satisfactory native subscription.
   Local probes of bare/`www` notices, the homepage, and the bulletin endpoint
   also failed. Both feeds retain their saved records and failed health status;
   monitoring stays enabled. No working replacement endpoint was verified.
+- **Redesign audit (2026-11-04):** the site is reachable again. Notices moved
+  to two tables containing 26 valid current/archive records; news still has
+  23 valid bulletin records. The parser recognizes notice columns by their
+  labels, preserving attachment URLs as identifiers. Live retrieval succeeds
+  with five retained items per feed and no new duplicate records. Extracted
+  fixtures cover both current listings, and unknown layouts fail explicitly.
 
 ## DRDO
 

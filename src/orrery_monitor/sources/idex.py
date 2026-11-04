@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from urllib.parse import urlsplit
+
 from bs4 import BeautifulSoup
 
 from orrery_monitor.models import AdapterContext, AdapterResult, FeedBatch, FeedItem
@@ -10,6 +12,7 @@ from orrery_monitor.sources.common import (
     preceding_year,
     stable_hash,
 )
+from orrery_monitor.state import SourceSafetyError
 
 NOTICES_URL = "https://idex.gov.in/notices"
 NEWS_URL = "https://www.idex.gov.in/bulletin/details"
@@ -42,21 +45,51 @@ def parse_notices(
 ) -> tuple[tuple[FeedItem, ...], int, int]:
     soup = BeautifulSoup(html, "lxml")
     blocks = soup.select(".noticeArea")
+    records = []
+    for block in blocks:
+        date_parts = [clean_text(part) for part in block.select(".eventDateArea li")]
+        records.append((
+            clean_text(block.select_one("h4")),
+            clean_text(block.select_one("h2")) or "Notice",
+            " ".join(date_parts),
+            block.select_one("a[href]"),
+        ))
+
+    # The redesigned listing uses tables for both current and archived notices.
+    # Match column labels rather than presentation classes or fixed positions.
+    tables = 0
+    for table in soup.select("table"):
+        headers = [clean_text(th).casefold() for th in table.select("thead th")]
+        if not {"title", "attachment", "publish date"}.issubset(headers):
+            continue
+        tables += 1
+        for row in table.select("tbody > tr"):
+            cells = row.find_all("td", recursive=False)
+            fields = dict(zip(headers, cells, strict=False))
+            attachment = fields.get("attachment")
+            records.append((
+                clean_text(fields.get("title")),
+                "Notice",
+                clean_text(fields.get("publish date")),
+                attachment.select_one("a[href]") if attachment else None,
+            ))
+    if not blocks and not tables:
+        raise SourceSafetyError(f"{NOTICES_URL}: notice listing not recognized")
+
     items: list[FeedItem] = []
     valid_count = 0
     cutoff = preceding_year(context.now)
-    for block in blocks:
-        date_parts = [clean_text(part) for part in block.select(".eventDateArea li")]
-        published = parse_date_text(" ".join(date_parts), ("%d %b %Y", "%d %B %Y"))
-        title = clean_text(block.select_one("h4"))
-        notice_type = clean_text(block.select_one("h2")) or "Notice"
-        link = block.select_one("a[href]")
+    for title, notice_type, date_text, link in records:
+        published = parse_date_text(date_text, ("%d %b %Y", "%d %B %Y"))
         if not title or published is None or not link:
+            continue
+        href = str(link["href"]).strip()
+        url = canonical_url(NOTICES_URL, href)
+        if not href or href.startswith("#") or urlsplit(url).scheme not in {"http", "https"}:
             continue
         valid_count += 1
         if published < cutoff:
             continue
-        url = canonical_url(NOTICES_URL, str(link["href"]))
         items.append(
             FeedItem(
                 source_id="idex",
@@ -68,7 +101,7 @@ def parse_notices(
                 category=notice_type,
             )
         )
-    return _latest(items), len(blocks), valid_count
+    return _latest(items), len(records), valid_count
 
 
 def parse_news(
@@ -76,6 +109,8 @@ def parse_news(
 ) -> tuple[tuple[FeedItem, ...], int, int]:
     soup = BeautifulSoup(html, "lxml")
     blocks = soup.select(".bullContBox .NewCon")
+    if not blocks:
+        raise SourceSafetyError(f"{NEWS_URL}: news listing not recognized")
     items: list[FeedItem] = []
     valid_count = 0
     cutoff = preceding_year(context.now)

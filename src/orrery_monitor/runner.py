@@ -18,6 +18,7 @@ from orrery_monitor.rss import FeedValidationError, generate_rss, validate_rss, 
 from orrery_monitor.sources import load_adapters
 from orrery_monitor.state import (
     FeedState,
+    SourceSafetyError,
     atomic_write_if_changed,
     check_observation,
     load_auxiliary_state,
@@ -91,6 +92,7 @@ class MonitorRunner:
                                     httpx.RemoteProtocolError,
                                     httpx.HTTPStatusError,
                                 ))
+                                else "content" if isinstance(exc, SourceSafetyError)
                                 else "internal"
                             ),
                         )
@@ -148,13 +150,16 @@ class MonitorRunner:
             state_path = self.config.root / "state" / f"{feed_config.id}.json"
             feed_path = self.config.root / feed_config.output
             prior = prior_states[feed_config.id]
-            check = check_observation(
-                current_count=batch.raw_count,
-                previous_count=(
-                    prior.previous_visible_count if batch.observation_complete else None
-                ),
-                valid_count=batch.valid_count,
-            )
+            try:
+                check = check_observation(
+                    current_count=batch.raw_count,
+                    previous_count=(
+                        prior.previous_visible_count if batch.observation_complete else None
+                    ),
+                    valid_count=batch.valid_count,
+                )
+            except SourceSafetyError as exc:
+                raise SourceSafetyError(f"{feed_config.id}: {exc}") from exc
             warnings.extend(check.warnings)
 
             self_url = f"{self.config.site_base_url}/{feed_config.output}"
