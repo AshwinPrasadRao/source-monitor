@@ -3,6 +3,7 @@ from __future__ import annotations
 import re
 from urllib.parse import urljoin
 
+import httpx
 from bs4 import BeautifulSoup
 
 from orrery_monitor.models import AdapterContext, AdapterResult, FeedBatch, FeedItem
@@ -13,6 +14,8 @@ from orrery_monitor.sources.common import (
     preceding_year,
     stable_hash,
 )
+from orrery_monitor.sources.official_fallbacks import NSIL, nsil_tenders, pib_releases
+from orrery_monitor.state import SourceSafetyError
 
 NEWS_URL = "https://www.nsilindia.co.in/news"
 TENDERS_URL = "https://www.nsilindia.co.in/tenders"
@@ -30,6 +33,29 @@ class NSILAdapter:
     source_id = "nsil"
 
     def fetch(self, client, context: AdapterContext) -> AdapterResult:
+        try:
+            return self._primary(client, context)
+        except (httpx.HTTPError, SourceSafetyError) as exc:
+            news, raw, valid = pib_releases(
+                client, context, ministry=14, select=lambda title: bool(NSIL.search(title)),
+            )
+            tenders, tender_raw, tender_valid = nsil_tenders(client, context)
+            return AdapterResult(
+                source_id=self.source_id, retrieval_mode="pib+etenders-partial",
+                feeds={
+                    NEWS_FEED_ID: FeedBatch(NEWS_FEED_ID, news, raw, valid, False),
+                    PROCUREMENT_FEED_ID: FeedBatch(
+                        PROCUREMENT_FEED_ID, tenders, tender_raw, tender_valid, False,
+                    ),
+                },
+                warnings=(f"NSIL primary unavailable: {exc}",
+                          "Partial coverage: PIB Department of Space releases mentioning NSIL; "
+                          "government eTender active NSIL tenders only. Corporate news, closed "
+                          "tenders and other procurement notices may be missing."),
+                auxiliary_state={**context.auxiliary_state, 'pib_backfill_complete': True},
+            )
+
+    def _primary(self, client, context: AdapterContext) -> AdapterResult:
         news, news_raw, news_valid = _collect_paginated(
             client, NEWS_URL, context, parse_news_page
         )

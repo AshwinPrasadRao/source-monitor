@@ -4,6 +4,7 @@ import logging
 import re
 from urllib.parse import urljoin
 
+import httpx
 from bs4 import BeautifulSoup
 
 from orrery_monitor.models import AdapterContext, AdapterResult, FeedBatch, FeedItem
@@ -13,6 +14,8 @@ from orrery_monitor.sources.common import (
     parse_iso_datetime,
     preceding_year,
 )
+from orrery_monitor.sources.official_fallbacks import DRDO, pib_releases
+from orrery_monitor.state import SourceSafetyError
 
 LOG = logging.getLogger("orrery_monitor")
 CURRENT_URL = "https://drdo.gov.in/drdo/documents/press-release"
@@ -24,6 +27,31 @@ class DRDOAdapter:
     source_id = "drdo"
 
     def fetch(self, client, context: AdapterContext) -> AdapterResult:
+        try:
+            return self._primary(client, context)
+        except (httpx.HTTPError, SourceSafetyError) as exc:
+            items, raw, valid = pib_releases(
+                client, context, ministry=33,
+                candidate=lambda title: bool(DRDO.search(title)),
+                select=lambda title: bool(DRDO.search(title))
+                and matches_filter(title, {
+                    **context.source_config.filters,
+                    # Body text uses "space" for office/storage space too.
+                    "primary_terms": [term for term in
+                                      context.source_config.filters.get("primary_terms", [])
+                                      if term.casefold() != "space"],
+                }),
+            )
+            return AdapterResult(
+                source_id=self.source_id, retrieval_mode="pib-partial",
+                feeds={FEED_ID: FeedBatch(FEED_ID, items, raw, valid, False)},
+                warnings=(f"DRDO primary unavailable: {exc}",
+                          "Partial coverage: PIB Ministry of Defence releases naming DRDO "
+                          "and matching the space filter; not the complete DRDO archive."),
+                auxiliary_state={**context.auxiliary_state, 'pib_backfill_complete': True},
+            )
+
+    def _primary(self, client, context: AdapterContext) -> AdapterResult:
         observed: list[FeedItem] = []
         raw_count = 0
         valid_count = 0

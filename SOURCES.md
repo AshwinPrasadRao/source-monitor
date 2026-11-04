@@ -242,3 +242,18 @@ replace a satisfactory native subscription.
   fall out of view without relying on fragile relative-date syntax.
 - **Known quirks:** this is the post-2025 cloud ICFS, not legacy IBFS; no private
   API, authentication bypass, CAPTCHA handling, or anti-bot evasion is permitted.
+
+## Official fallback audit — 2026-11-04
+
+- PIB archive: `https://www.pib.gov.in/allRel.aspx?lang=1&reg=3`.
+  The public form identifies Department of Space as ministry 14 and Ministry of
+  Defence as ministry 33. Submitted month/year/ministry filters are checked in
+  the response. Release bodies use the English page with explicit language and
+  region parameters. Dates and PRIDs come from the official archive.
+- NSIL procurement: `https://etenders.gov.in/eprocure/app?page=FrontEndTendersByOrganisation&service=page`.
+  The exact NewSpace India Limited organisation row leads to six active tenders
+  at audit time, including five not present in the retained feed. IDs preserve
+  identity across the original site and eTender. Publication and closing times
+  use Asia/Kolkata. No CAPTCHA or authentication is bypassed.
+- Fallback results are partial, not evidence of restored access to the original
+  DRDO or NSIL sites. See README for selection and retention semantics.

@@ -194,3 +194,23 @@ Deployment needs these one-time repository steps:
 The workflow uses only public official data and repository-provided GitHub
 permissions. The detailed provenance and maintenance rationale for every source
 is in [SOURCES.md](SOURCES.md).
+
+### Partial official-source fallbacks
+
+When DRDO retrieval fails, the monitor queries PIB's English Ministry of Defence
+archive. It selects releases whose titles identify DRDO and whose body matches
+the configured space/technology terms (excluding the ambiguous word “space” by
+itself). NSIL falls back to Department of Space PIB releases mentioning NSIL and
+the government's eTender organisation listing for active NSIL tenders.
+
+The initial PIB scan covers twelve calendar months; later scans revisit the
+current and previous month. These are partial replacements: corporate news,
+publications absent from PIB, closed tenders, and procurement outside eTender
+may be missing. Existing records and original observation counts are retained.
+Tender IDs remain stable; tender links open the public organisation directory
+because individual session links expire. The description identifies the tender
+for lookup. Original endpoints are attempted again on every run.
+
+Successful fallback retrieval produces a warning with explicit coverage limits,
+a separate `last_partial_check`, and the unchanged `last_successful_check` for
+the primary source. These warnings are shown on the public status page.

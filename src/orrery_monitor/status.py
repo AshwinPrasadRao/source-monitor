@@ -72,6 +72,7 @@ def build_status_document(
                 last_success = (
                     generated_at.isoformat()
                     if run_status.status in {"ok", "warning"}
+                    and "partial" not in retrieval_mode
                     else previous.get("last_successful_check")
                 )
             feeds.append(
@@ -82,6 +83,12 @@ def build_status_document(
                     "official_upstream_urls": list(source.upstream_urls),
                     "retrieval_mode": retrieval_mode,
                     "last_successful_check": last_success,
+                    "last_partial_check": (
+                        generated_at.isoformat()
+                        if run_status is not None and run_status.status == "warning"
+                        and "partial" in retrieval_mode
+                        else previous.get("last_partial_check")
+                    ),
                     "last_new_item_time": (
                         last_new_item.isoformat() if last_new_item else None
                     ),
@@ -108,6 +115,12 @@ def render_status_html(document: dict[str, Any]) -> str:
         status_text = html.escape(str(feed["status"]))
         if feed.get("error"):
             status_text += f"<br><small>{html.escape(str(feed['error']))}</small>"
+        for warning in feed.get("warnings", []):
+            status_text += f"<br><small>{html.escape(str(warning))}</small>"
+        if "partial" in feed["retrieval_mode"] and feed.get("last_partial_check"):
+            status_text += (
+                f"<br><small>Last partial check: {_display(feed['last_partial_check'])}</small>"
+            )
         rows.append(
             "<tr>"
             f'<td><a href="{html.escape(feed["rss_url"], quote=True)}">'

@@ -85,6 +85,8 @@ sources:
     upstream_urls:
       - https://www.nsilindia.co.in/news
       - https://www.nsilindia.co.in/tenders
+      - https://www.pib.gov.in/allRel.aspx?lang=1&reg=3
+      - https://etenders.gov.in/eprocure/app?page=FrontEndTendersByOrganisation&service=page
     feeds:
       - id: nsil-news
         title: NSIL News
@@ -141,6 +143,7 @@ sources:
       - https://drdo.gov.in/drdo/documents/press-release
       - https://drdo.gov.in/drdo/en/documents/press-release/archive
       - https://drdo.gov.in/drdo/en/archive
+      - https://www.pib.gov.in/allRel.aspx?lang=1&reg=3
     filters:
       primary_terms:
         - space
