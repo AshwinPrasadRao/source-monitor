@@ -3,6 +3,20 @@
   "feed_id": "nsil-news",
   "items": [
     {
+      "category": "PIB official release",
+      "description": null,
+      "first_seen_at": "2026-11-05T20:01:18.905810+00:00",
+      "guid": "PIB-2333047",
+      "metadata": {
+        "coverage": "partial",
+        "publisher": "Press Information Bureau"
+      },
+      "published_at": "2026-11-05T00:00:00+00:00",
+      "source_id": "nsil",
+      "title": "India Pioneers Space Debris Removal; Union Minister Dr. Jitendra Singh Announces Vision of Debris-Free Space by 2030",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2333047&lang=1&reg=3"
+    },
+    {
       "category": "News",
       "description": null,
       "first_seen_at": "2026-10-19T13:27:14.018125+00:00",
