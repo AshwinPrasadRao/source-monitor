@@ -4,6 +4,22 @@
   "items": [
     {
       "category": "Active tender",
+      "description": "Tender ID: 2026_NSIL_297123_1. Closing: 2026-11-23T14:30:00+05:30. Open NewSpace India Limited in the official directory to view the tender.",
+      "first_seen_at": "2026-11-06T06:55:03.932183+00:00",
+      "guid": "2026_NSIL_297123_1",
+      "metadata": {
+        "coverage": "active tenders only",
+        "end_date": "2026-11-23T14:30:00+05:30",
+        "publisher": "Government eProcurement System",
+        "tender_id": "2026_NSIL_297123_1"
+      },
+      "published_at": "2026-11-06T11:45:00+05:30",
+      "source_id": "nsil",
+      "title": "Manufacture and supply of Aerospace quality 1250 MPa class 35NCD16 fasteners with pre-load",
+      "url": "https://etenders.gov.in/eprocure/app?page=FrontEndTendersByOrganisation&service=page"
+    },
+    {
+      "category": "Active tender",
       "description": "Tender ID: 2026_NSIL_296983_1. Closing: 2026-11-20T14:30:00+05:30. Open NewSpace India Limited in the official directory to view the tender.",
       "first_seen_at": "2026-11-05T06:55:12.873875+00:00",
       "guid": "2026_NSIL_296983_1",
