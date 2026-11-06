@@ -4,6 +4,54 @@
   "items": [
     {
       "category": "Active tender",
+      "description": "Tender ID: 2026_NSIL_297175_1. Closing: 2026-11-23T14:30:00+05:30. Open NewSpace India Limited in the official directory to view the tender.",
+      "first_seen_at": "2026-11-06T19:29:10.964694+00:00",
+      "guid": "2026_NSIL_297175_1",
+      "metadata": {
+        "coverage": "active tenders only",
+        "end_date": "2026-11-23T14:30:00+05:30",
+        "publisher": "Government eProcurement System",
+        "tender_id": "2026_NSIL_297175_1"
+      },
+      "published_at": "2026-11-06T16:30:00+05:30",
+      "source_id": "nsil",
+      "title": "Realization and Supply of SS1 Destruct System",
+      "url": "https://etenders.gov.in/eprocure/app?page=FrontEndTendersByOrganisation&service=page"
+    },
+    {
+      "category": "Active tender",
+      "description": "Tender ID: 2026_NSIL_297158_1. Closing: 2026-11-23T14:30:00+05:30. Open NewSpace India Limited in the official directory to view the tender.",
+      "first_seen_at": "2026-11-06T19:29:10.964694+00:00",
+      "guid": "2026_NSIL_297158_1",
+      "metadata": {
+        "coverage": "active tenders only",
+        "end_date": "2026-11-23T14:30:00+05:30",
+        "publisher": "Government eProcurement System",
+        "tender_id": "2026_NSIL_297158_1"
+      },
+      "published_at": "2026-11-06T15:25:00+05:30",
+      "source_id": "nsil",
+      "title": "Fabrication and Supply of SS1 Mandrel Handling Tackle",
+      "url": "https://etenders.gov.in/eprocure/app?page=FrontEndTendersByOrganisation&service=page"
+    },
+    {
+      "category": "Active tender",
+      "description": "Tender ID: 2026_NSIL_297133_1. Closing: 2026-11-23T14:30:00+05:30. Open NewSpace India Limited in the official directory to view the tender.",
+      "first_seen_at": "2026-11-06T19:29:10.964694+00:00",
+      "guid": "2026_NSIL_297133_1",
+      "metadata": {
+        "coverage": "active tenders only",
+        "end_date": "2026-11-23T14:30:00+05:30",
+        "publisher": "Government eProcurement System",
+        "tender_id": "2026_NSIL_297133_1"
+      },
+      "published_at": "2026-11-06T13:00:00+05:30",
+      "source_id": "nsil",
+      "title": "Manufacture and Supply of AA2014-T651/652 and AA7075-T7351/52 Rings",
+      "url": "https://etenders.gov.in/eprocure/app?page=FrontEndTendersByOrganisation&service=page"
+    },
+    {
+      "category": "Active tender",
       "description": "Tender ID: 2026_NSIL_297123_1. Closing: 2026-11-23T14:30:00+05:30. Open NewSpace India Limited in the official directory to view the tender.",
       "first_seen_at": "2026-11-06T06:55:03.932183+00:00",
       "guid": "2026_NSIL_297123_1",
