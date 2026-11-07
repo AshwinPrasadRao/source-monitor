@@ -4604,6 +4604,38 @@
       "PIB-2333987": {
         "classification": "other",
         "department": "Lok Sabha Secretariat"
+      },
+      "PIB-2333992": {
+        "classification": "other",
+        "department": "President's Secretariat"
+      },
+      "PIB-2334006": {
+        "classification": "other",
+        "department": "Ministry of Power"
+      },
+      "PIB-2334009": {
+        "classification": "other",
+        "department": "Ministry of Finance"
+      },
+      "PIB-2334016": {
+        "classification": "other",
+        "department": "Ministry of Home Affairs"
+      },
+      "PIB-2334029": {
+        "classification": "other",
+        "department": "Ministry of Defence"
+      },
+      "PIB-2334030": {
+        "classification": "other",
+        "department": "Ministry of Labour & Employment"
+      },
+      "PIB-2334033": {
+        "classification": "other",
+        "department": "Ministry of Defence"
+      },
+      "PIB-2334045": {
+        "classification": "other",
+        "department": "Vice President's Secretariat"
       }
     }
   },
