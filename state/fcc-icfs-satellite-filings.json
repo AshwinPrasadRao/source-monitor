@@ -4,6 +4,25 @@
   "items": [
     {
       "category": "Modification",
+      "description": "HawkEye 360, Inc.; Call sign/Auth ID: S3042",
+      "first_seen_at": "2026-11-09T22:27:22.473046+00:00",
+      "guid": "SAT-MOD-20261028-00418",
+      "metadata": {
+        "applicant": "HawkEye 360, Inc.",
+        "call_sign": "S3042",
+        "file_number": "SAT-MOD-20261028-00418",
+        "filing_type": "MOD",
+        "record_id": "764b455ccf585b507cd9f9c41f851c42",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-11-09T19:50:21+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20261028-00418 \u2014 HawkEye 360, Inc. \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20261028-00418"
+    },
+    {
+      "category": "Modification",
       "description": "Loft Orbital Solutions Inc.; Call sign/Auth ID: S3181",
       "first_seen_at": "2026-11-03T23:29:40.449284+00:00",
       "guid": "SAT-MOD-20261103-00429",
