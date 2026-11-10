@@ -4,6 +4,44 @@
   "items": [
     {
       "category": "Modification",
+      "description": "Intelsat License LLC; Call sign/Auth ID: S2948",
+      "first_seen_at": "2026-11-10T07:25:54.840542+00:00",
+      "guid": "SAT-MOD-20261105-00433",
+      "metadata": {
+        "applicant": "Intelsat License LLC",
+        "call_sign": "S2948",
+        "file_number": "SAT-MOD-20261105-00433",
+        "filing_type": "MOD",
+        "record_id": "2f0d99b63b501710264ea2d964e45a19",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-11-10T01:28:16+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20261105-00433 \u2014 Intelsat License LLC \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20261105-00433"
+    },
+    {
+      "category": "Amendment",
+      "description": "Oligo Space; Call sign/Auth ID: S00926",
+      "first_seen_at": "2026-11-10T07:25:54.840542+00:00",
+      "guid": "SAT-AMD-20261109-00436",
+      "metadata": {
+        "applicant": "Oligo Space",
+        "call_sign": "S00926",
+        "file_number": "SAT-AMD-20261109-00436",
+        "filing_type": "AMD",
+        "record_id": "84cdcf043ba05710f9a3b2ac24e45a59",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-11-10T01:27:03+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-AMD-20261109-00436 \u2014 Oligo Space \u2014 Amendment",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-AMD-20261109-00436"
+    },
+    {
+      "category": "Modification",
       "description": "HawkEye 360, Inc.; Call sign/Auth ID: S3042",
       "first_seen_at": "2026-11-09T22:27:22.473046+00:00",
       "guid": "SAT-MOD-20261028-00418",
