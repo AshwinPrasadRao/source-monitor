@@ -7,7 +7,7 @@
       "item_count": 24,
       "last_new_item_time": "2026-10-31T12:40:36.197867+00:00",
       "last_partial_check": null,
-      "last_successful_check": "2026-11-12T07:18:33.692653+00:00",
+      "last_successful_check": "2026-11-12T20:00:53.736254+00:00",
       "official_upstream_urls": [
         "https://www.inspace.gov.in/inspace",
         "https://www.inspace.gov.in/api/now/sp/page?id=inspace_index"
@@ -24,7 +24,7 @@
       "item_count": 9,
       "last_new_item_time": "2026-09-03T07:00:14.737163+00:00",
       "last_partial_check": null,
-      "last_successful_check": "2026-11-12T07:18:33.692653+00:00",
+      "last_successful_check": "2026-11-12T20:00:53.736254+00:00",
       "official_upstream_urls": [
         "https://www.inspace.gov.in/inspace",
         "https://www.inspace.gov.in/api/now/sp/page?id=inspace_index"
@@ -41,7 +41,7 @@
       "item_count": 2,
       "last_new_item_time": "2026-10-17T15:39:45.286405+00:00",
       "last_partial_check": null,
-      "last_successful_check": "2026-11-12T07:18:33.692653+00:00",
+      "last_successful_check": "2026-11-12T20:00:53.736254+00:00",
       "official_upstream_urls": [
         "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=1&reg=1"
       ],
@@ -56,7 +56,7 @@
       "feed_title": "NSIL News",
       "item_count": 32,
       "last_new_item_time": "2026-11-05T20:01:18.905810+00:00",
-      "last_partial_check": "2026-11-12T07:18:33.692653+00:00",
+      "last_partial_check": "2026-11-12T20:00:53.736254+00:00",
       "last_successful_check": "2026-10-31T12:43:11.391635+00:00",
       "official_upstream_urls": [
         "https://www.nsilindia.co.in/news",
@@ -78,7 +78,7 @@
       "feed_title": "NSIL Procurement",
       "item_count": 30,
       "last_new_item_time": "2026-11-06T19:29:10.964694+00:00",
-      "last_partial_check": "2026-11-12T07:18:33.692653+00:00",
+      "last_partial_check": "2026-11-12T20:00:53.736254+00:00",
       "last_successful_check": "2026-10-31T12:43:11.391635+00:00",
       "official_upstream_urls": [
         "https://www.nsilindia.co.in/news",
@@ -101,7 +101,7 @@
       "item_count": 4,
       "last_new_item_time": "2026-09-06T20:28:07.442990+00:00",
       "last_partial_check": null,
-      "last_successful_check": "2026-11-12T07:18:33.692653+00:00",
+      "last_successful_check": "2026-11-12T20:00:53.736254+00:00",
       "official_upstream_urls": [
         "https://www.isro.gov.in/Press.html"
       ],
@@ -117,7 +117,7 @@
       "item_count": 5,
       "last_new_item_time": "2026-09-03T06:46:00.271880+00:00",
       "last_partial_check": null,
-      "last_successful_check": "2026-11-12T07:18:33.692653+00:00",
+      "last_successful_check": "2026-11-12T20:00:53.736254+00:00",
       "official_upstream_urls": [
         "https://idex.gov.in/notices",
         "https://www.idex.gov.in/",
@@ -135,7 +135,7 @@
       "item_count": 5,
       "last_new_item_time": "2026-09-03T06:46:00.271880+00:00",
       "last_partial_check": null,
-      "last_successful_check": "2026-11-12T07:18:33.692653+00:00",
+      "last_successful_check": "2026-11-12T20:00:53.736254+00:00",
       "official_upstream_urls": [
         "https://idex.gov.in/notices",
         "https://www.idex.gov.in/",
@@ -152,7 +152,7 @@
       "feed_title": "DRDO \u2014 Space Technology and Foresight",
       "item_count": 5,
       "last_new_item_time": "2026-11-04T13:27:29.526123+00:00",
-      "last_partial_check": "2026-11-12T07:18:33.692653+00:00",
+      "last_partial_check": "2026-11-12T20:00:53.736254+00:00",
       "last_successful_check": "2026-10-20T17:15:28.862690+00:00",
       "official_upstream_urls": [
         "https://drdo.gov.in/drdo/documents/press-release",
@@ -175,7 +175,7 @@
       "item_count": 6,
       "last_new_item_time": "2026-09-03T06:46:06.841444+00:00",
       "last_partial_check": null,
-      "last_successful_check": "2026-11-12T07:18:33.692653+00:00",
+      "last_successful_check": "2026-11-12T20:00:53.736254+00:00",
       "official_upstream_urls": [
         "https://sansad.in/rs/pressRelease",
         "https://sansad.in/rs/committees/committee-meetings",
@@ -194,7 +194,7 @@
       "item_count": 133,
       "last_new_item_time": "2026-11-12T07:18:32.152720+00:00",
       "last_partial_check": null,
-      "last_successful_check": "2026-11-12T07:18:33.692653+00:00",
+      "last_successful_check": "2026-11-12T20:00:53.736254+00:00",
       "official_upstream_urls": [
         "https://fccprod.servicenowservices.com/icfs"
       ],
@@ -204,6 +204,6 @@
       "warnings": []
     }
   ],
-  "generated_at": "2026-11-12T07:18:33.692653+00:00",
+  "generated_at": "2026-11-12T20:00:53.736254+00:00",
   "project": "The Orrery Source Monitor"
 }
