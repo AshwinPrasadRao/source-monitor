@@ -3,6 +3,25 @@
   "feed_id": "fcc-icfs-satellite-filings",
   "items": [
     {
+      "category": "Launch and Operating Authority",
+      "description": "Umbra Lab Inc; Call sign/Auth ID: S03243",
+      "first_seen_at": "2026-11-12T07:18:32.152720+00:00",
+      "guid": "SAT-LOA-20261109-00438",
+      "metadata": {
+        "applicant": "Umbra Lab Inc",
+        "call_sign": "S03243",
+        "file_number": "SAT-LOA-20261109-00438",
+        "filing_type": "LOA",
+        "record_id": "c62b9c902f6c9310c7a543ca6fa4e34e",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-11-12T01:17:13+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20261109-00438 \u2014 Umbra Lab Inc \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20261109-00438"
+    },
+    {
       "category": "Modification",
       "description": "Intelsat License LLC; Call sign/Auth ID: S2948",
       "first_seen_at": "2026-11-10T07:25:54.840542+00:00",
