@@ -5,6 +5,17 @@
     {
       "category": "Update",
       "description": null,
+      "first_seen_at": "2026-11-13T06:51:45.344906+00:00",
+      "guid": "inspace-update-a293a4f5e131082833fdc41e3542623d7f9c41ef24c4dc9269540640b67a6bc4",
+      "metadata": {},
+      "published_at": "2026-11-12T00:00:00+00:00",
+      "source_id": "inspace",
+      "title": "Apply for National Startup Awards 6.0",
+      "url": "https://www.startupindia.gov.in/content/sih/en/nsa2026.html"
+    },
+    {
+      "category": "Update",
+      "description": null,
       "first_seen_at": "2026-09-03T07:00:14.737163+00:00",
       "guid": "inspace-update-attachment-3cacdaff3b650b1063ff0a34c3e45a96",
       "metadata": {},
