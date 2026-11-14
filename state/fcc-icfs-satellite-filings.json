@@ -3,6 +3,44 @@
   "feed_id": "fcc-icfs-satellite-filings",
   "items": [
     {
+      "category": "Modification",
+      "description": "DISH Operating L.L.C., Debtor-in-Possession; Call sign/Auth ID: S2738",
+      "first_seen_at": "2026-11-14T06:33:53.136539+00:00",
+      "guid": "SAT-MOD-20261113-00447",
+      "metadata": {
+        "applicant": "DISH Operating L.L.C., Debtor-in-Possession",
+        "call_sign": "S2738",
+        "file_number": "SAT-MOD-20261113-00447",
+        "filing_type": "MOD",
+        "record_id": "75187b5dcf601f109d5eb42b1f851c73",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-11-14T04:16:02+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20261113-00447 \u2014 DISH Operating L.L.C., Debtor-in-Possession \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20261113-00447"
+    },
+    {
+      "category": "Launch and Operating Authority",
+      "description": "Quantum Space LLC; Call sign/Auth ID: S03244",
+      "first_seen_at": "2026-11-14T06:33:53.136539+00:00",
+      "guid": "SAT-LOA-20250827-00231",
+      "metadata": {
+        "applicant": "Quantum Space LLC",
+        "call_sign": "S03244",
+        "file_number": "SAT-LOA-20250827-00231",
+        "filing_type": "LOA",
+        "record_id": "3b5501fa976b261039deff2ad053af26",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-11-13T23:45:05+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20250827-00231 \u2014 Quantum Space LLC \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20250827-00231"
+    },
+    {
       "category": "Launch and Operating Authority",
       "description": "Umbra Lab Inc; Call sign/Auth ID: S03243",
       "first_seen_at": "2026-11-12T07:18:32.152720+00:00",
