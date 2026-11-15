@@ -5208,6 +5208,34 @@
       "PIB-2336357": {
         "classification": "other",
         "department": "Prime Minister's Office"
+      },
+      "PIB-2336418": {
+        "classification": "other",
+        "department": "Ministry of Culture"
+      },
+      "PIB-2336423": {
+        "classification": "other",
+        "department": "Ministry of Commerce & Industry"
+      },
+      "PIB-2336424": {
+        "classification": "other",
+        "department": "PIB Backgrounder"
+      },
+      "PIB-2336426": {
+        "classification": "other",
+        "department": "PIB Backgrounder"
+      },
+      "PIB-2336427": {
+        "classification": "other",
+        "department": "Ministry of Defence"
+      },
+      "PIB-2336430": {
+        "classification": "other",
+        "department": "PIB Backgrounder"
+      },
+      "PIB-2336431": {
+        "classification": "other",
+        "department": "Ministry of Electronics & IT"
       }
     }
   },
