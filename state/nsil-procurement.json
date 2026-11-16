@@ -4,6 +4,22 @@
   "items": [
     {
       "category": "Active tender",
+      "description": "Tender ID: 2026_NSIL_297674_1. Closing: 2026-12-16T14:30:00+05:30. Open NewSpace India Limited in the official directory to view the tender.",
+      "first_seen_at": "2026-11-16T22:12:52.643958+00:00",
+      "guid": "2026_NSIL_297674_1",
+      "metadata": {
+        "coverage": "active tenders only",
+        "end_date": "2026-12-16T14:30:00+05:30",
+        "publisher": "Government eProcurement System",
+        "tender_id": "2026_NSIL_297674_1"
+      },
+      "published_at": "2026-11-16T14:40:00+05:30",
+      "source_id": "nsil",
+      "title": "RFP for Data Processing and Other IT Infrastructure",
+      "url": "https://etenders.gov.in/eprocure/app?page=FrontEndTendersByOrganisation&service=page"
+    },
+    {
+      "category": "Active tender",
       "description": "Tender ID: 2026_NSIL_297175_1. Closing: 2026-11-23T14:30:00+05:30. Open NewSpace India Limited in the official directory to view the tender.",
       "first_seen_at": "2026-11-06T19:29:10.964694+00:00",
       "guid": "2026_NSIL_297175_1",
@@ -116,12 +132,12 @@
     },
     {
       "category": "Active tender",
-      "description": "Tender ID: 2026_NSIL_296225_1. Closing: 2026-11-16T14:30:00+05:30. Open NewSpace India Limited in the official directory to view the tender.",
+      "description": "Tender ID: 2026_NSIL_296225_1. Closing: 2026-11-17T18:30:00+05:30. Open NewSpace India Limited in the official directory to view the tender.",
       "first_seen_at": "2026-11-04T13:25:59.018787+00:00",
       "guid": "2026_NSIL_296225_1",
       "metadata": {
         "coverage": "active tenders only",
-        "end_date": "2026-11-16T14:30:00+05:30",
+        "end_date": "2026-11-17T18:30:00+05:30",
         "publisher": "Government eProcurement System",
         "tender_id": "2026_NSIL_296225_1"
       },
