@@ -4,6 +4,25 @@
   "items": [
     {
       "category": "Modification",
+      "description": "Muon Space Inc.; Call sign/Auth ID: S3173",
+      "first_seen_at": "2026-11-18T20:38:49.830390+00:00",
+      "guid": "SAT-MOD-20261106-00434",
+      "metadata": {
+        "applicant": "Muon Space Inc.",
+        "call_sign": "S3173",
+        "file_number": "SAT-MOD-20261106-00434",
+        "filing_type": "MOD",
+        "record_id": "d14a320b3bd0d7107491fcc964e45a1c",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-11-18T17:48:43+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20261106-00434 \u2014 Muon Space Inc. \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20261106-00434"
+    },
+    {
+      "category": "Modification",
       "description": "DISH Operating L.L.C., Debtor-in-Possession; Call sign/Auth ID: S2738",
       "first_seen_at": "2026-11-14T06:33:53.136539+00:00",
       "guid": "SAT-MOD-20261113-00447",
