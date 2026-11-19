@@ -5688,6 +5688,42 @@
       "PIB-2338169": {
         "classification": "other",
         "department": "Prime Minister's Office"
+      },
+      "PIB-2338236": {
+        "classification": "other",
+        "department": "Ministry of Road Transport & Highways"
+      },
+      "PIB-2338242": {
+        "classification": "other",
+        "department": "Ministry of Health and Family Welfare"
+      },
+      "PIB-2338243": {
+        "classification": "other",
+        "department": "Ministry of Health and Family Welfare"
+      },
+      "PIB-2338250": {
+        "classification": "other",
+        "department": "Ministry of Housing & Urban Affairs"
+      },
+      "PIB-2338251": {
+        "classification": "other",
+        "department": "Ministry of Science & Technology"
+      },
+      "PIB-2338253": {
+        "classification": "other",
+        "department": "Ministry of Science & Technology"
+      },
+      "PIB-2338272": {
+        "classification": "other",
+        "department": "Ministry of Labour & Employment"
+      },
+      "PIB-2338273": {
+        "classification": "other",
+        "department": "Ministry of Information & Broadcasting"
+      },
+      "PIB-2338281": {
+        "classification": "other",
+        "department": "Ministry of Electronics & IT"
       }
     }
   },
