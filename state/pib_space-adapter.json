@@ -5804,6 +5804,38 @@
       "PIB-2338802": {
         "classification": "other",
         "department": "Ministry of Ports, Shipping and Waterways"
+      },
+      "PIB-2338841": {
+        "classification": "other",
+        "department": "Ministry of Social Justice & Empowerment"
+      },
+      "PIB-2338851": {
+        "classification": "other",
+        "department": "Ministry of Jal Shakti"
+      },
+      "PIB-2338858": {
+        "classification": "other",
+        "department": "Ministry of Finance"
+      },
+      "PIB-2338864": {
+        "classification": "other",
+        "department": "Ministry of Electronics & IT"
+      },
+      "PIB-2338867": {
+        "classification": "other",
+        "department": "Ministry of Environment, Forest and Climate Change"
+      },
+      "PIB-2338875": {
+        "classification": "other",
+        "department": "Ministry of Steel"
+      },
+      "PIB-2338882": {
+        "classification": "other",
+        "department": "Ministry of Tribal Affairs"
+      },
+      "PIB-2338898": {
+        "classification": "other",
+        "department": "Ministry of Information & Broadcasting"
       }
     }
   },
