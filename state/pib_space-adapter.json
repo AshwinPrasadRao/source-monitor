@@ -6088,6 +6088,30 @@
       "PIB-2340059": {
         "classification": "other",
         "department": "Ministry of Health and Family Welfare"
+      },
+      "PIB-2340112": {
+        "classification": "other",
+        "department": "Ministry of Environment, Forest and Climate Change"
+      },
+      "PIB-2340116": {
+        "classification": "other",
+        "department": "Ministry of Commerce & Industry"
+      },
+      "PIB-2340136": {
+        "classification": "other",
+        "department": "Lok Sabha Secretariat"
+      },
+      "PIB-2340145": {
+        "classification": "other",
+        "department": "Prime Minister's Office"
+      },
+      "PIB-2340195": {
+        "classification": "other",
+        "department": "Ministry of Rural Development"
+      },
+      "PIB-2340242": {
+        "classification": "other",
+        "department": "AYUSH"
       }
     }
   },
