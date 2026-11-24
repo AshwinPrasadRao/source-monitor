@@ -3,6 +3,25 @@
   "feed_id": "fcc-icfs-satellite-filings",
   "items": [
     {
+      "category": "Launch and Operating Authority",
+      "description": "Momentus Space LLC; Call sign/Auth ID: S03246",
+      "first_seen_at": "2026-11-24T00:00:54.191534+00:00",
+      "guid": "SAT-LOA-20261117-00452",
+      "metadata": {
+        "applicant": "Momentus Space LLC",
+        "call_sign": "S03246",
+        "file_number": "SAT-LOA-20261117-00452",
+        "filing_type": "LOA",
+        "record_id": "dbfbff6ecf601710ab02f1842f851c43",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-11-23T13:06:48+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-LOA-20261117-00452 \u2014 Momentus Space LLC \u2014 Launch and Operating Authority",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-LOA-20261117-00452"
+    },
+    {
       "category": "Modification",
       "description": "Muon Space Inc.; Call sign/Auth ID: S3173",
       "first_seen_at": "2026-11-18T20:38:49.830390+00:00",
