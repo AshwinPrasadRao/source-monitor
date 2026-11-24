@@ -5,6 +5,20 @@
     {
       "category": "Department of Space",
       "description": null,
+      "first_seen_at": "2026-11-24T22:31:13.861776+00:00",
+      "guid": "PIB-2340845",
+      "metadata": {
+        "official_department": "Department of Space",
+        "release_id": "PIB-2340845"
+      },
+      "published_at": null,
+      "source_id": "pib_space",
+      "title": "India\u2019s Space Economy Set for a Massive Leap to USD 40\u201345 billion as Private Sector Rewrites Growth Story: Dr. Jitendra Singh",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2340845"
+    },
+    {
+      "category": "Department of Space",
+      "description": null,
       "first_seen_at": "2026-10-17T15:39:45.286405+00:00",
       "guid": "PIB-2324662",
       "metadata": {

@@ -5,6 +5,20 @@
     {
       "category": "PIB official release",
       "description": null,
+      "first_seen_at": "2026-11-24T22:32:00.328037+00:00",
+      "guid": "PIB-2340845",
+      "metadata": {
+        "coverage": "partial",
+        "publisher": "Press Information Bureau"
+      },
+      "published_at": "2026-11-24T00:00:00+00:00",
+      "source_id": "nsil",
+      "title": "India\u2019s Space Economy Set for a Massive Leap to USD 40\u201345 billion as Private Sector Rewrites Growth Story: Dr. Jitendra Singh",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2340845&lang=1&reg=3"
+    },
+    {
+      "category": "PIB official release",
+      "description": null,
       "first_seen_at": "2026-11-05T20:01:18.905810+00:00",
       "guid": "PIB-2333047",
       "metadata": {
