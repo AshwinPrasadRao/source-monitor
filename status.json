@@ -7,7 +7,7 @@
       "item_count": 24,
       "last_new_item_time": "2026-10-31T12:40:36.197867+00:00",
       "last_partial_check": null,
-      "last_successful_check": "2026-11-24T22:33:59.362533+00:00",
+      "last_successful_check": "2026-11-25T08:45:48.106157+00:00",
       "official_upstream_urls": [
         "https://www.inspace.gov.in/inspace",
         "https://www.inspace.gov.in/api/now/sp/page?id=inspace_index"
@@ -24,7 +24,7 @@
       "item_count": 10,
       "last_new_item_time": "2026-11-13T06:51:45.344906+00:00",
       "last_partial_check": null,
-      "last_successful_check": "2026-11-24T22:33:59.362533+00:00",
+      "last_successful_check": "2026-11-25T08:45:48.106157+00:00",
       "official_upstream_urls": [
         "https://www.inspace.gov.in/inspace",
         "https://www.inspace.gov.in/api/now/sp/page?id=inspace_index"
@@ -41,7 +41,7 @@
       "item_count": 3,
       "last_new_item_time": "2026-11-24T22:31:13.861776+00:00",
       "last_partial_check": null,
-      "last_successful_check": "2026-11-24T22:33:59.362533+00:00",
+      "last_successful_check": "2026-11-25T08:45:48.106157+00:00",
       "official_upstream_urls": [
         "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=1&reg=1"
       ],
@@ -51,7 +51,7 @@
       "warnings": []
     },
     {
-      "error": null,
+      "error": "GET https://etenders.gov.in/eprocure/app?page=FrontEndTendersByOrganisation&service=page: ConnectError: [Errno 104] Connection reset by peer",
       "feed_id": "nsil-news",
       "feed_title": "NSIL News",
       "item_count": 33,
@@ -64,16 +64,13 @@
         "https://www.pib.gov.in/allRel.aspx?lang=1&reg=3",
         "https://etenders.gov.in/eprocure/app?page=FrontEndTendersByOrganisation&service=page"
       ],
-      "retrieval_mode": "pib+etenders-partial",
+      "retrieval_mode": "html",
       "rss_url": "https://ashwinprasadrao.github.io/source-monitor/feeds/nsil-news.xml",
-      "status": "warning",
-      "warnings": [
-        "NSIL primary unavailable: Client error '404 Not Found' for url 'https://www.nsilindia.co.in/news'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
-        "Partial coverage: PIB Department of Space releases mentioning NSIL; government eTender active NSIL tenders only. Corporate news, closed tenders and other procurement notices may be missing."
-      ]
+      "status": "failed",
+      "warnings": []
     },
     {
-      "error": null,
+      "error": "GET https://etenders.gov.in/eprocure/app?page=FrontEndTendersByOrganisation&service=page: ConnectError: [Errno 104] Connection reset by peer",
       "feed_id": "nsil-procurement",
       "feed_title": "NSIL Procurement",
       "item_count": 31,
@@ -86,13 +83,10 @@
         "https://www.pib.gov.in/allRel.aspx?lang=1&reg=3",
         "https://etenders.gov.in/eprocure/app?page=FrontEndTendersByOrganisation&service=page"
       ],
-      "retrieval_mode": "pib+etenders-partial",
+      "retrieval_mode": "html",
       "rss_url": "https://ashwinprasadrao.github.io/source-monitor/feeds/nsil-procurement.xml",
-      "status": "warning",
-      "warnings": [
-        "NSIL primary unavailable: Client error '404 Not Found' for url 'https://www.nsilindia.co.in/news'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
-        "Partial coverage: PIB Department of Space releases mentioning NSIL; government eTender active NSIL tenders only. Corporate news, closed tenders and other procurement notices may be missing."
-      ]
+      "status": "failed",
+      "warnings": []
     },
     {
       "error": null,
@@ -101,7 +95,7 @@
       "item_count": 4,
       "last_new_item_time": "2026-09-06T20:28:07.442990+00:00",
       "last_partial_check": null,
-      "last_successful_check": "2026-11-24T22:33:59.362533+00:00",
+      "last_successful_check": "2026-11-25T08:45:48.106157+00:00",
       "official_upstream_urls": [
         "https://www.isro.gov.in/Press.html"
       ],
@@ -152,7 +146,7 @@
       "feed_title": "DRDO \u2014 Space Technology and Foresight",
       "item_count": 5,
       "last_new_item_time": "2026-11-04T13:27:29.526123+00:00",
-      "last_partial_check": "2026-11-24T22:33:59.362533+00:00",
+      "last_partial_check": "2026-11-25T08:45:48.106157+00:00",
       "last_successful_check": "2026-10-20T17:15:28.862690+00:00",
       "official_upstream_urls": [
         "https://drdo.gov.in/drdo/documents/press-release",
@@ -175,7 +169,7 @@
       "item_count": 6,
       "last_new_item_time": "2026-09-03T06:46:06.841444+00:00",
       "last_partial_check": null,
-      "last_successful_check": "2026-11-24T22:33:59.362533+00:00",
+      "last_successful_check": "2026-11-25T08:45:48.106157+00:00",
       "official_upstream_urls": [
         "https://sansad.in/rs/pressRelease",
         "https://sansad.in/rs/committees/committee-meetings",
@@ -194,7 +188,7 @@
       "item_count": 137,
       "last_new_item_time": "2026-11-24T00:00:54.191534+00:00",
       "last_partial_check": null,
-      "last_successful_check": "2026-11-24T22:33:59.362533+00:00",
+      "last_successful_check": "2026-11-25T08:45:48.106157+00:00",
       "official_upstream_urls": [
         "https://fccprod.servicenowservices.com/icfs"
       ],
@@ -204,6 +198,6 @@
       "warnings": []
     }
   ],
-  "generated_at": "2026-11-24T22:33:59.362533+00:00",
+  "generated_at": "2026-11-25T08:45:48.106157+00:00",
   "project": "The Orrery Source Monitor"
 }

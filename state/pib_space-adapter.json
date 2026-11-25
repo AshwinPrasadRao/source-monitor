@@ -6312,6 +6312,18 @@
       "PIB-2340969": {
         "classification": "other",
         "department": "Ministry of Information & Broadcasting"
+      },
+      "PIB-2341039": {
+        "classification": "other",
+        "department": "Prime Minister's Office"
+      },
+      "PIB-2341040": {
+        "classification": "other",
+        "department": "PIB Backgrounder"
+      },
+      "PIB-2341119": {
+        "classification": "other",
+        "department": "Ministry of Information & Broadcasting"
       }
     }
   },
