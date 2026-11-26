@@ -8,7 +8,31 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Nov 2026 00:00:54 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 08:30:53 +0000</lastBuildDate>
+    <item>
+      <title>SAT-MOD-20261117-00453 — SES Americom, Inc. — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20261117-00453</link>
+      <description>SES Americom, Inc.; Call sign/Auth ID: S2964</description>
+      <guid isPermaLink="false">SAT-MOD-20261117-00453</guid>
+      <category>Modification</category>
+      <pubDate>Thu, 26 Nov 2026 03:38:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20261113-00441 — Intelsat License LLC — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20261113-00441</link>
+      <description>Intelsat License LLC; Call sign/Auth ID: S3148</description>
+      <guid isPermaLink="false">SAT-MOD-20261113-00441</guid>
+      <category>Modification</category>
+      <pubDate>Thu, 26 Nov 2026 03:20:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAT-MOD-20261112-00440 — SES Americom, Inc. — Modification</title>
+      <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-MOD-20261112-00440</link>
+      <description>SES Americom, Inc.; Call sign/Auth ID: S2180</description>
+      <guid isPermaLink="false">SAT-MOD-20261112-00440</guid>
+      <category>Modification</category>
+      <pubDate>Thu, 26 Nov 2026 03:00:05 +0000</pubDate>
+    </item>
     <item>
       <title>SAT-LOA-20261117-00452 — Momentus Space LLC — Launch and Operating Authority</title>
       <link>https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&amp;number=SAT-LOA-20261117-00452</link>

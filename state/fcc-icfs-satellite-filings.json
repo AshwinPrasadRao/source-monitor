@@ -3,6 +3,63 @@
   "feed_id": "fcc-icfs-satellite-filings",
   "items": [
     {
+      "category": "Modification",
+      "description": "SES Americom, Inc.; Call sign/Auth ID: S2964",
+      "first_seen_at": "2026-11-26T08:30:53.087336+00:00",
+      "guid": "SAT-MOD-20261117-00453",
+      "metadata": {
+        "applicant": "SES Americom, Inc.",
+        "call_sign": "S2964",
+        "file_number": "SAT-MOD-20261117-00453",
+        "filing_type": "MOD",
+        "record_id": "8e23e036cfecd7104470b6770f851c5f",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-11-26T03:38:29+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20261117-00453 \u2014 SES Americom, Inc. \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20261117-00453"
+    },
+    {
+      "category": "Modification",
+      "description": "Intelsat License LLC; Call sign/Auth ID: S3148",
+      "first_seen_at": "2026-11-26T08:30:53.087336+00:00",
+      "guid": "SAT-MOD-20261113-00441",
+      "metadata": {
+        "applicant": "Intelsat License LLC",
+        "call_sign": "S3148",
+        "file_number": "SAT-MOD-20261113-00441",
+        "filing_type": "MOD",
+        "record_id": "d03e2fd1cf601710cd85b0113d851c99",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-11-26T03:20:14+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20261113-00441 \u2014 Intelsat License LLC \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20261113-00441"
+    },
+    {
+      "category": "Modification",
+      "description": "SES Americom, Inc.; Call sign/Auth ID: S2180",
+      "first_seen_at": "2026-11-26T08:30:53.087336+00:00",
+      "guid": "SAT-MOD-20261112-00440",
+      "metadata": {
+        "applicant": "SES Americom, Inc.",
+        "call_sign": "S2180",
+        "file_number": "SAT-MOD-20261112-00440",
+        "filing_type": "MOD",
+        "record_id": "c0feea413be05f10ccebaff764e45a09",
+        "subsystem": "SAT",
+        "target_table": "x_fmc_ibfs_form_312"
+      },
+      "published_at": "2026-11-26T03:00:05+00:00",
+      "source_id": "fcc_icfs",
+      "title": "SAT-MOD-20261112-00440 \u2014 SES Americom, Inc. \u2014 Modification",
+      "url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SAT-MOD-20261112-00440"
+    },
+    {
       "category": "Launch and Operating Authority",
       "description": "Momentus Space LLC; Call sign/Auth ID: S03246",
       "first_seen_at": "2026-11-24T00:00:54.191534+00:00",
