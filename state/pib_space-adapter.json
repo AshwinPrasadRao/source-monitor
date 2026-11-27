@@ -6532,6 +6532,34 @@
       "PIB-2342239": {
         "classification": "other",
         "department": "Ministry of Fisheries, Animal Husbandry & Dairying"
+      },
+      "PIB-2342382": {
+        "classification": "other",
+        "department": "Prime Minister's Office"
+      },
+      "PIB-2342386": {
+        "classification": "other",
+        "department": "Ministry of Electronics & IT"
+      },
+      "PIB-2342417": {
+        "classification": "other",
+        "department": "Ministry of Skill Development and Entrepreneurship"
+      },
+      "PIB-2342421": {
+        "classification": "other",
+        "department": "Ministry of Commerce & Industry"
+      },
+      "PIB-2342431": {
+        "classification": "other",
+        "department": "Ministry of Power"
+      },
+      "PIB-2342467": {
+        "classification": "other",
+        "department": "Ministry of Information & Broadcasting"
+      },
+      "PIB-2342471": {
+        "classification": "other",
+        "department": "AYUSH"
       }
     }
   },
